@@ -1,7 +1,5 @@
 'use client'
 
-import React from 'react'
-
 export function Spotlight({ className, fill = 'white' }: { className?: string; fill?: string }) {
   return (
     <div className={`absolute pointer-events-none ${className || ''}`}>

@@ -1,4 +1,3 @@
-import React from 'react'
 import { motion } from 'framer-motion'
 import { Code2, Smartphone, ShoppingCart, Zap, Wrench, BarChart3, CheckCircle } from 'lucide-react'
 

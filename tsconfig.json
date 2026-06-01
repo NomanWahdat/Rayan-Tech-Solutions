@@ -6,6 +6,10 @@
     "types": ["vite/client"],
     "jsx": "react-jsx",
     "skipLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    },
 
     /* Bundler mode */
     "moduleResolution": "bundler",

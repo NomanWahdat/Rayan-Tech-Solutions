@@ -1,4 +1,3 @@
-import React from 'react'
 import { Link } from 'react-router-dom'
 import { Facebook, Linkedin, Instagram, Github, Mail, Phone, MapPin } from 'lucide-react'
 import { motion } from 'framer-motion'

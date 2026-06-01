@@ -1,4 +1,5 @@
-import React, { useState } from 'react'
+import type { ChangeEvent, FormEvent } from 'react'
+import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { Mail, Phone, MapPin, Send, Facebook, Linkedin, Instagram, Github } from 'lucide-react'
 import { COMPANY_EMAIL, COMPANY_PHONE, COMPANY_ADDRESS, SOCIAL_LINKS } from '../config/company'
@@ -12,14 +13,14 @@ export default function Contact() {
     message: '',
   })
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+  const handleChange = (e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setFormData({
       ...formData,
       [e.target.name]: e.target.value,
     })
   }
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = (e: FormEvent) => {
     e.preventDefault()
     console.log('Form submitted:', formData)
     // Here you would typically send the form data to your backend

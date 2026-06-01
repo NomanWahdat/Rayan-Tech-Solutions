@@ -1,6 +1,5 @@
 'use client'
 
-import React from 'react'
 import { SplineScene } from './ui/splite'
 import { Card } from './ui/card'
 import { Spotlight } from './ui/spotlight'

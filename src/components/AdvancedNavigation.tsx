@@ -1,6 +1,7 @@
 'use client'
 
-import React from 'react'
+import type { ComponentProps, ComponentType } from 'react'
+import { useCallback, useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { createPortal } from 'react-dom'
 import { cn } from '@/lib/utils'
@@ -27,16 +28,16 @@ import {
 type LinkItem = {
   title: string
   href: string
-  icon: React.ComponentType<{ className?: string }>
+  icon: ComponentType<{ className?: string }>
   description?: string
 }
 
 export function AdvancedNavigation() {
-  const [open, setOpen] = React.useState(false)
-  const [activeDropdown, setActiveDropdown] = React.useState<string | null>(null)
+  const [open, setOpen] = useState(false)
+  const [activeDropdown, setActiveDropdown] = useState<string | null>(null)
   const scrolled = useScroll(10)
 
-  React.useEffect(() => {
+  useEffect(() => {
     if (open) {
       document.body.style.overflow = 'hidden'
     } else {
@@ -192,7 +193,7 @@ export function AdvancedNavigation() {
   )
 }
 
-type MobileMenuProps = React.ComponentProps<'div'> & {
+type MobileMenuProps = ComponentProps<'div'> & {
   open: boolean
 }
 
@@ -321,18 +322,18 @@ const companyLinks2 = [
 ]
 
 function useScroll(threshold: number) {
-  const [scrolled, setScrolled] = React.useState(false)
+  const [scrolled, setScrolled] = useState(false)
 
-  const onScroll = React.useCallback(() => {
+  const onScroll = useCallback(() => {
     setScrolled(window.scrollY > threshold)
   }, [threshold])
 
-  React.useEffect(() => {
+  useEffect(() => {
     window.addEventListener('scroll', onScroll)
     return () => window.removeEventListener('scroll', onScroll)
   }, [onScroll])
 
-  React.useEffect(() => {
+  useEffect(() => {
     onScroll()
   }, [onScroll])
 
