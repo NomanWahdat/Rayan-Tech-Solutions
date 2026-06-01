@@ -1,0 +1,49 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1200" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07131D"/>
+      <stop offset="0.58" stop-color="#0B1E30"/>
+      <stop offset="1" stop-color="#1A1838"/>
+    </linearGradient>
+    <linearGradient id="line2" x1="280" y1="230" x2="920" y2="650" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#34D399"/>
+      <stop offset="0.5" stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="900" rx="48" fill="url(#bg2)"/>
+
+  <g opacity="0.22">
+    <circle cx="250" cy="210" r="145" fill="#22D3EE"/>
+    <circle cx="980" cy="700" r="170" fill="#8B5CF6"/>
+  </g>
+
+  <g transform="translate(280 200)">
+    <rect x="0" y="0" width="640" height="430" rx="34" fill="#0A1726" stroke="#2A3B58" stroke-width="2"/>
+    <rect x="34" y="34" width="212" height="72" rx="16" fill="#10243A"/>
+    <text x="52" y="80" fill="#DDEAFF" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">AI Screening</text>
+
+    <rect x="34" y="130" width="574" height="58" rx="12" fill="#0F2136"/>
+    <rect x="34" y="204" width="574" height="58" rx="12" fill="#0F2136"/>
+    <rect x="34" y="278" width="574" height="58" rx="12" fill="#0F2136"/>
+
+    <circle cx="82" cy="159" r="16" fill="#34D399"/>
+    <circle cx="82" cy="233" r="16" fill="#60A5FA"/>
+    <circle cx="82" cy="307" r="16" fill="#A78BFA"/>
+
+    <rect x="116" y="146" width="220" height="11" rx="5.5" fill="#7FDDB8"/>
+    <rect x="116" y="220" width="280" height="11" rx="5.5" fill="#8BC2FF"/>
+    <rect x="116" y="294" width="250" height="11" rx="5.5" fill="#C0B1FF"/>
+
+    <rect x="450" y="146" width="130" height="24" rx="12" fill="#143757"/>
+    <rect x="450" y="220" width="130" height="24" rx="12" fill="#183B62"/>
+    <rect x="450" y="294" width="130" height="24" rx="12" fill="#2E2A5A"/>
+
+    <path d="M556 430C586.928 430 612 404.928 612 374C612 343.072 586.928 318 556 318C525.072 318 500 343.072 500 374C500 404.928 525.072 430 556 430Z" fill="#0F2E48" stroke="url(#line2)" stroke-width="4"/>
+    <path d="M540 371L551 382L575 358" stroke="#9FF3D0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <text x="600" y="706" text-anchor="middle" fill="#EAF2FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="64" font-weight="800" letter-spacing="1.4">AI Recruitment Screening System</text>
+  <text x="600" y="754" text-anchor="middle" fill="#B9C8E5" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="26" font-weight="500" letter-spacing="3">CV ANALYSIS • JOB MATCHING • AGENT AUTOMATION</text>
+</svg>

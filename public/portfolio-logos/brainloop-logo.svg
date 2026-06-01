@@ -1,0 +1,45 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#060816"/>
+      <stop offset="0.55" stop-color="#0B1230"/>
+      <stop offset="1" stop-color="#140A28"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="260" y1="210" x2="940" y2="690" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#60A5FA"/>
+      <stop offset="0.5" stop-color="#A855F7"/>
+      <stop offset="1" stop-color="#F9A8D4"/>
+    </linearGradient>
+    <filter id="blur" x="120" y="70" width="960" height="760" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="52"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="900" rx="48" fill="url(#bg)"/>
+  <circle cx="360" cy="280" r="180" fill="#7C3AED" fill-opacity="0.18" filter="url(#blur)"/>
+  <circle cx="840" cy="620" r="210" fill="#38BDF8" fill-opacity="0.14" filter="url(#blur)"/>
+
+  <g transform="translate(600 425)">
+    <g transform="translate(-175 -175)">
+      <rect x="0" y="0" width="350" height="350" rx="96" fill="#0B1024" stroke="url(#accent)" stroke-opacity="0.45" stroke-width="5"/>
+      <path d="M106 158C106 125.072 132.072 99 165 99H185C199.36 99 212.748 104.736 222.647 114.636C232.547 124.535 238.283 137.923 238.283 152.283V157.717C238.283 172.077 232.547 185.465 222.647 195.364C212.748 205.264 199.36 211 185 211H165C132.072 211 106 184.928 106 152V158Z" stroke="url(#accent)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M111 210C111 244.242 138.758 272 173 272H187C211.301 272 231 252.301 231 228C231 214.745 226.079 202.661 218 193.457" stroke="url(#accent)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M165 99C165 132.137 191.863 159 225 159H235C257.091 159 275 176.909 275 199C275 221.091 257.091 239 235 239H230" stroke="url(#accent)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+
+      <circle cx="103" cy="156" r="10" fill="#93C5FD"/>
+      <circle cx="239" cy="152" r="10" fill="#C084FC"/>
+      <circle cx="113" cy="210" r="10" fill="#F9A8D4"/>
+      <circle cx="230" cy="228" r="10" fill="#60A5FA"/>
+      <circle cx="173" cy="272" r="10" fill="#A855F7"/>
+
+      <path d="M103 156H165" stroke="url(#accent)" stroke-width="8" stroke-linecap="round"/>
+      <path d="M239 152H225" stroke="url(#accent)" stroke-width="8" stroke-linecap="round"/>
+      <path d="M113 210H168" stroke="url(#accent)" stroke-width="8" stroke-linecap="round"/>
+      <path d="M230 228H198" stroke="url(#accent)" stroke-width="8" stroke-linecap="round"/>
+      <path d="M173 272H195" stroke="url(#accent)" stroke-width="8" stroke-linecap="round"/>
+    </g>
+  </g>
+
+  <text x="600" y="702" text-anchor="middle" fill="#E9EAFB" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="76" font-weight="800" letter-spacing="2">BrainLoop</text>
+  <text x="600" y="756" text-anchor="middle" fill="#B9BDE5" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="28" font-weight="500" letter-spacing="4">AI AGENTS • AUTOMATION • LEARNING</text>
+</svg>
