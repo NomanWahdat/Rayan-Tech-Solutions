@@ -50,10 +50,10 @@ export function AdvancedNavigation() {
 
   return (
     <header
-      className={cn('sticky top-0 z-50 w-full border-b border-transparent', {
-        'bg-black/70 supports-[backdrop-filter]:bg-black/40 border-white/10 backdrop-blur-lg':
-          scrolled,
-      })}
+      className={cn(
+        'sticky top-0 z-50 w-full border-b border-transparent',
+        scrolled && 'bg-black/70 supports-[backdrop-filter]:bg-black/40 border-white/10 backdrop-blur-lg'
+      )}
     >
       <nav className="mx-auto flex h-16 w-full max-w-6xl items-center justify-between px-4">
         <div className="flex items-center gap-5">

@@ -13,6 +13,9 @@
     "lint": "eslint . --ext .ts,.tsx",
     "type-check": "tsc --noEmit"
   },
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "dependencies": {
     "@splinetool/react-spline": "^4.1.0",
     "axios": "^1.7.7",
