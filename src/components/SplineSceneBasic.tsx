@@ -7,7 +7,7 @@ import { Spotlight } from './ui/spotlight'
 export function SplineSceneBasic() {
   return (
     <div>
-      <Card className="w-full h-[480px] md:h-[520px] relative overflow-hidden !border-0 !rounded-2xl">
+      <Card className="w-full h-[700px] md:h-[520px] relative overflow-hidden !border-0 !rounded-2xl">
         {/* soft blended glow behind the hero to mix page colors without a hard border */}
         <div className="absolute inset-0 pointer-events-none">
           <div className="absolute inset-0 bg-gradient-to-br from-blue-700/10 via-purple-600/8 to-indigo-900/6 filter blur-2xl opacity-60"></div>
@@ -19,9 +19,9 @@ export function SplineSceneBasic() {
           fill="white"
         />
 
-       <div className="flex flex-col md:flex-row h-full">
+       <div className="flex flex-col-reverse md:flex-row h-full">
         {/* Left hero content (requested copy inside the hero) */}
-        <div className="w-full md:flex-1 p-2 md:p-10 relative z-10 flex flex-col justify-start md:justify-center">
+        <div className="w-full md:flex-1 px-2 py-2 md:p-10 relative z-10 flex flex-col justify-start md:justify-center flex-shrink-0 md:flex-shrink">
           
 
           <h1 className="text-lg md:text-4xl lg:text-5xl font-extrabold leading-tight mb-1 md:mb-2">
@@ -55,7 +55,7 @@ export function SplineSceneBasic() {
         </div>
 
         {/* Right content - Spline scene */}
-        <div className="w-full md:flex-1 relative flex">
+        <div className="w-full md:flex-1 relative flex flex-1">
           <SplineScene
             scene="https://prod.spline.design/kZDDjO5HuC9GJUM2/scene.splinecode"
             className="w-full h-full"
