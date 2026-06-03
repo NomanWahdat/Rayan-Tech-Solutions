@@ -7,7 +7,7 @@ import { Spotlight } from './ui/spotlight'
 export function SplineSceneBasic() {
   return (
     <div>
-      <Card className="w-full h-[520px] relative overflow-hidden !border-0 !rounded-2xl">
+      <Card className="w-full h-[350px] md:h-[520px] relative overflow-hidden !border-0 !rounded-2xl">
         {/* soft blended glow behind the hero to mix page colors without a hard border */}
         <div className="absolute inset-0 pointer-events-none">
           <div className="absolute inset-0 bg-gradient-to-br from-blue-700/10 via-purple-600/8 to-indigo-900/6 filter blur-2xl opacity-60"></div>
@@ -19,17 +19,17 @@ export function SplineSceneBasic() {
           fill="white"
         />
 
-       <div className="flex h-full">
+       <div className="flex flex-col md:flex-row h-full">
         {/* Left hero content (requested copy inside the hero) */}
-        <div className="flex-1 p-10 relative z-10 flex flex-col justify-center">
+        <div className="flex-1 p-4 md:p-10 relative z-10 flex flex-col justify-center">
           
 
-          <h1 className="text-4xl md:text-5xl font-extrabold leading-tight mb-2">
+          <h1 className="text-2xl md:text-4xl lg:text-5xl font-extrabold leading-tight mb-2">
             <span className="bg-gradient-to-r from-blue-400 to-cyan-300 bg-clip-text text-transparent block">Rayan Tech Solutions</span>
-            <span className="text-white block text-3xl md:text-4xl">Software House for Visionary Teams</span>
+            <span className="text-white block text-xl md:text-3xl lg:text-4xl">Software House for Visionary Teams</span>
           </h1>
 
-          <p className="text-lg text-gray-300 max-w-xl mt-4">
+          <p className="text-sm md:text-base lg:text-lg text-gray-300 max-w-xl mt-4">
             We build conversion-ready platforms, AI systems, and digital products for businesses across Afghanistan and beyond. Strategy, design, and engineering ship together.
           </p>
 
@@ -46,16 +46,16 @@ export function SplineSceneBasic() {
             </div>
           </div>
 
-          <div className="mt-6 flex gap-4">
-            <a href="#portfolio" className="px-6 py-3 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full text-white font-semibold">View Our Work</a>
-            <a href="#contact" className="px-6 py-3 bg-white/10 rounded-full text-white font-semibold border border-white/20">Start a Project</a>
+          <div className="mt-6 flex flex-col md:flex-row gap-3">
+            <a href="#portfolio" className="px-6 py-2 md:py-3 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full text-white font-semibold text-sm md:text-base text-center">View Our Work</a>
+            <a href="#contact" className="px-6 py-2 md:py-3 bg-white/10 rounded-full text-white font-semibold border border-white/20 text-sm md:text-base text-center">Start a Project</a>
           </div>
 
           
         </div>
 
         {/* Right content - Spline scene */}
-        <div className="flex-1 relative">
+        <div className="hidden md:flex flex-1 relative">
           <SplineScene
             scene="https://prod.spline.design/kZDDjO5HuC9GJUM2/scene.splinecode"
             className="w-full h-full"

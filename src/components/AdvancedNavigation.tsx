@@ -55,10 +55,10 @@ export function AdvancedNavigation() {
         scrolled && 'bg-black/70 supports-[backdrop-filter]:bg-black/40 border-white/10 backdrop-blur-lg'
       )}
     >
-      <nav className="mx-auto flex h-16 w-full max-w-6xl items-center justify-between px-4">
-        <div className="flex items-center gap-5">
-          <Link to="/" className="rounded-full px-3 py-2 transition-all duration-300 hover:-translate-y-0.5 hover:bg-white/5 hover:shadow-lg hover:shadow-blue-500/10">
-            <span className="text-white font-semibold tracking-wide">Rayan Tech</span>
+      <nav className="mx-auto flex h-14 md:h-16 w-full max-w-6xl items-center justify-between px-3 md:px-4">
+        <div className="flex items-center gap-2 md:gap-5">
+          <Link to="/" className="rounded-full px-2 md:px-3 py-2 transition-all duration-300 hover:-translate-y-0.5 hover:bg-white/5 hover:shadow-lg hover:shadow-blue-500/10">
+            <span className="text-white font-semibold tracking-wide text-sm md:text-base">Rayan Tech</span>
           </Link>
           <div className="hidden md:flex items-center gap-1">
             <div
