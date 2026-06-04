@@ -238,14 +238,15 @@ export default function About() {
                 initial={{ opacity: 0, scale: 0.95 }}
                 whileInView={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.5, delay: idx * 0.1 }}
-                className="group rounded-2xl border border-white/10 bg-gradient-to-br from-white/5 to-transparent overflow-hidden hover:border-blue-400/70 hover:shadow-xl hover:shadow-blue-500/10 transition-all"
+                className="group rounded-2xl border border-white/10 bg-gradient-to-br from-white/5 to-transparent overflow-hidden hover:border-blue-400/70 hover:shadow-xl hover:shadow-blue-500/10 transition-all flex flex-col"
               >
                 {/* Image - Top of Card */}
-                <div className="w-full h-40 sm:h-48 md:h-56 overflow-hidden bg-gradient-to-br from-blue-500/20 to-purple-500/20">
+                <div className="w-full aspect-square overflow-hidden bg-gradient-to-br from-blue-500/20 to-purple-500/20 flex-shrink-0">
                   <img 
                     src={member.image} 
                     alt={member.name}
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-cover object-center"
+                    loading="lazy"
                     onError={(e) => {
                       (e.target as HTMLImageElement).src = 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300"%3E%3Crect fill="%23374151" width="300" height="300"/%3E%3C/svg%3E'
                     }}
@@ -253,10 +254,12 @@ export default function About() {
                 </div>
 
                 {/* Info - Bottom of Card */}
-                <div className="p-4 sm:p-6">
-                  <h3 className="text-base sm:text-lg font-semibold text-white">{member.name}</h3>
-                  <p className="text-blue-300 text-xs sm:text-sm font-medium mt-1">{member.role}</p>
-                  <p className="text-gray-400 text-xs leading-relaxed mt-2 sm:mt-3">{member.specialty}</p>
+                <div className="p-4 sm:p-5 flex-grow flex flex-col justify-between">
+                  <div>
+                    <h3 className="text-base sm:text-lg font-semibold text-white line-clamp-2">{member.name}</h3>
+                    <p className="text-blue-300 text-xs sm:text-sm font-medium mt-2">{member.role}</p>
+                  </div>
+                  <p className="text-gray-400 text-xs leading-relaxed mt-3">{member.specialty}</p>
                 </div>
               </motion.div>
             ))}
