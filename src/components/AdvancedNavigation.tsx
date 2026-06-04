@@ -5,6 +5,8 @@ import { useCallback, useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { createPortal } from 'react-dom'
 import { cn } from '@/lib/utils'
+import { LanguageSwitcher } from './LanguageSwitcher'
+import { COMPANY_LOGO } from '../config/company'
 import {
   BarChart,
   Code,
@@ -57,8 +59,15 @@ export function AdvancedNavigation() {
     >
       <nav className="mx-auto flex h-14 md:h-16 w-full max-w-6xl items-center justify-between px-3 md:px-4">
         <div className="flex items-center gap-2 md:gap-5">
-          <Link to="/" className="rounded-full px-2 md:px-3 py-2 transition-all duration-300 hover:-translate-y-0.5 hover:bg-white/5 hover:shadow-lg hover:shadow-blue-500/10">
-            <span className="text-white font-semibold tracking-wide text-sm md:text-base">Rayan Tech</span>
+          <Link to="/" className="rounded-lg px-2.5 md:px-3 py-1.5 transition-all duration-300 hover:shadow-lg hover:shadow-blue-500/20 flex-shrink-0 bg-gradient-to-br from-slate-900 to-gray-950 border border-gray-700/60 hover:border-blue-400/40">
+            <img 
+              src={COMPANY_LOGO} 
+              alt="Rayan Tech Solutions"
+              className="h-8 md:h-10 w-auto object-contain"
+              onError={(e) => {
+                (e.target as HTMLImageElement).style.display = 'none'
+              }}
+            />
           </Link>
           <div className="hidden md:flex items-center gap-1">
             <div
@@ -147,6 +156,7 @@ export function AdvancedNavigation() {
           >
             Get Started
           </Link>
+          <LanguageSwitcher />
         </div>
         <button
           onClick={() => setOpen(!open)}
@@ -171,6 +181,12 @@ export function AdvancedNavigation() {
           {companyLinks2.map((link) => (
             <ListItem key={link.title} {...link} onClick={() => setOpen(false)} />
           ))}
+          <div className="border-t border-gray-700 my-2 pt-2">
+            <span className="text-xs text-gray-400">Language</span>
+            <div className="mt-2">
+              <LanguageSwitcher />
+            </div>
+          </div>
         </div>
         <div className="flex flex-col gap-2">
           <Link

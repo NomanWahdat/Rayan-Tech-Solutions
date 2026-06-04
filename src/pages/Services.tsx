@@ -1,92 +1,65 @@
 import { motion } from 'framer-motion'
 import { Code2, Smartphone, ShoppingCart, Zap, Wrench, BarChart3, CheckCircle } from 'lucide-react'
+import { useTranslation } from 'react-i18next'
 
 export default function Services() {
+  const { t } = useTranslation(['services', 'common'])
   const packages = [
     {
       icon: Code2,
-      title: 'Basic Website Package',
-      price: 'Custom Quote',
-      duration: '1-2 weeks',
-      features: [
-        '5 pages',
-        'Responsive design',
-        'Contact form',
-        'Basic SEO',
-        'Mobile friendly',
-      ],
-      description: 'Perfect for small businesses starting their online presence',
+      title: t('services:packages.basic.title'),
+      price: t('services:packages.basic.price'),
+      duration: t('services:packages.basic.duration'),
+      features: t('services:packages.basic.features', { returnObjects: true }),
+      description: t('services:packages.basic.description'),
     },
     {
       icon: Zap,
-      title: 'Business Website Package',
-      price: 'Custom Quote',
-      duration: '2-4 weeks',
-      features: [
-        '10 pages',
-        'Admin panel',
-        'Blog/news section',
-        'SEO setup',
-        'Analytics integration',
-        'Email campaigns',
-      ],
-      description: 'Ideal for growing businesses with advanced features',
+      title: t('services:packages.business.title'),
+      price: t('services:packages.business.price'),
+      duration: t('services:packages.business.duration'),
+      features: t('services:packages.business.features', { returnObjects: true }),
+      description: t('services:packages.business.description'),
       featured: true,
     },
     {
       icon: ShoppingCart,
-      title: 'E-Commerce Package',
-      price: 'Custom Quote',
-      duration: '3-8 weeks',
-      features: [
-        'Product catalog',
-        'Shopping cart',
-        'Secure checkout',
-        'Admin dashboard',
-        'Order management',
-        'Payment integration',
-        'Inventory system',
-      ],
-      description: 'Complete online store solution with full management tools',
+      title: t('services:packages.ecommerce.title'),
+      price: t('services:packages.ecommerce.price'),
+      duration: t('services:packages.ecommerce.duration'),
+      features: t('services:packages.ecommerce.features', { returnObjects: true }),
+      description: t('services:packages.ecommerce.description'),
     },
     {
       icon: Code2,
-      title: 'Custom Software Package',
-      price: 'Custom Quote',
-      duration: 'Variable',
-      features: [
-        'Requirements analysis',
-        'UI/UX design',
-        'Backend development',
-        'Frontend development',
-        'Database design',
-        'Deployment',
-        'Support & maintenance',
-      ],
-      description: 'Tailored solutions for unique business needs',
+      title: t('services:packages.custom.title'),
+      price: t('services:packages.custom.price'),
+      duration: t('services:packages.custom.duration'),
+      features: t('services:packages.custom.features', { returnObjects: true }),
+      description: t('services:packages.custom.description'),
     },
   ]
 
   const addOns = [
     {
       icon: BarChart3,
-      title: 'SEO Optimization',
-      description: 'Boost your search engine rankings and organic traffic',
+      title: t('services:addOns.items.0.title'),
+      description: t('services:addOns.items.0.description'),
     },
     {
       icon: Smartphone,
-      title: 'Mobile App Development',
-      description: 'Native iOS and Android applications',
+      title: t('services:addOns.items.1.title'),
+      description: t('services:addOns.items.1.description'),
     },
     {
       icon: Wrench,
-      title: 'Maintenance & Support',
-      description: 'Ongoing support, bug fixes, and feature updates',
+      title: t('services:addOns.items.2.title'),
+      description: t('services:addOns.items.2.description'),
     },
     {
       icon: Zap,
-      title: 'Performance Optimization',
-      description: 'Speed up your website and improve user experience',
+      title: t('services:addOns.items.3.title'),
+      description: t('services:addOns.items.3.description'),
     },
   ]
 
@@ -109,7 +82,7 @@ export default function Services() {
       </section>
 
       {/* Service Packages */}
-      <section className="py-20 bg-black">
+      <section className="py-12 bg-black">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 12 }}
@@ -119,10 +92,10 @@ export default function Services() {
           >
             <h2 className="text-4xl md:text-5xl font-extrabold mb-2">
               <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-                Our Services
+                {t('services:title')}
               </span>
             </h2>
-            <p className="text-gray-400 text-base max-w-2xl mx-auto">Choose the perfect package for your needs</p>
+            <p className="text-gray-400 text-base max-w-2xl mx-auto">{t('services:subtitle')}</p>
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -141,7 +114,7 @@ export default function Services() {
               >
                 {pkg.featured && (
                   <div className="mb-4 inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full text-white text-xs font-semibold uppercase tracking-[0.2em]">
-                    Most Popular
+                    {t('services:packages.business.popular')}
                   </div>
                 )}
                 <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-purple-600 rounded-2xl flex items-center justify-center mb-4 group-hover:scale-105 transition-transform">
@@ -151,7 +124,7 @@ export default function Services() {
                 <p className="text-gray-300 text-sm mb-4 leading-relaxed">{pkg.description}</p>
                 <div className="mb-6 pb-6 border-b border-white/10">
                   <p className="text-2xl font-bold text-blue-400">{pkg.price}</p>
-                  <p className="text-gray-400 text-sm">Delivery: {pkg.duration}</p>
+                  <p className="text-gray-400 text-sm">{t('services:delivery')}: {pkg.duration}</p>
                 </div>
                 <ul className="space-y-3 mb-8">
                   {pkg.features.map((feature, fidx) => (
@@ -168,7 +141,7 @@ export default function Services() {
                       : 'border border-white/20 text-white hover:border-white hover:bg-white/5'
                   }`}
                 >
-                  Get Started
+                  {t('services:getStarted')}
                 </button>
               </motion.div>
             ))}
@@ -177,7 +150,7 @@ export default function Services() {
       </section>
 
       {/* Add-ons Section */}
-      <section className="py-20 bg-gradient-to-b from-gray-900 to-black">
+      <section className="py-12 bg-gradient-to-b from-gray-900 to-black">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -185,8 +158,8 @@ export default function Services() {
             transition={{ duration: 0.5 }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">Additional Services</h2>
-            <p className="text-gray-400 text-lg">Enhance your package with add-ons</p>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{t('services:addOns.title')}</h2>
+            <p className="text-gray-400 text-lg">{t('services:addOns.subtitle')}</p>
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -210,7 +183,7 @@ export default function Services() {
       </section>
 
       {/* Process Section */}
-      <section className="py-20 bg-black">
+      <section className="py-12 bg-black">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -218,15 +191,15 @@ export default function Services() {
             transition={{ duration: 0.5 }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">Our Process</h2>
-            <p className="text-gray-400 text-lg">How we deliver excellence</p>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{t('services:process.title')}</h2>
+            <p className="text-gray-400 text-lg">{t('services:process.subtitle')}</p>
           </motion.div>
 
           <div className="relative">
             <div className="absolute left-4 top-0 bottom-0 w-px bg-white/10 md:hidden"></div>
             <div className="hidden md:block absolute left-0 right-0 top-1/2 h-px bg-white/10"></div>
             <div className="grid grid-cols-1 md:grid-cols-5 gap-6">
-              {['Discovery', 'Design', 'Development', 'Testing', 'Launch'].map((step, idx) => (
+              {t('services:process.steps', { returnObjects: true }).map((step, idx) => (
                 <motion.div
                   key={idx}
                   initial={{ opacity: 0, y: 20 }}

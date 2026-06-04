@@ -12,7 +12,7 @@ import './App.css'
 function App() {
   return (
     <Router future={{ v7_relativeSplatPath: true }}>
-      <div className="min-h-screen bg-[#05070f] text-white relative overflow-x-hidden dark">
+      <div className="min-h-screen bg-black text-white relative overflow-x-hidden dark">
         <AdvancedNavigation />
         <ScrollToHash />
         <main className="relative z-10">

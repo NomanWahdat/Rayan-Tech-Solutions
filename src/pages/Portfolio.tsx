@@ -1,8 +1,10 @@
 import { useMemo, useState } from 'react'
 import { motion } from 'framer-motion'
+import { useTranslation } from 'react-i18next'
 import { PortfolioSchemaCard } from '../components/PortfolioSchemaCard'
 
 export default function Portfolio() {
+  const { t } = useTranslation(['common'])
   const [selectedCategory, setSelectedCategory] = useState('all')
 
   const projects = [
@@ -167,7 +169,7 @@ export default function Portfolio() {
           >
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-extrabold mb-4 leading-tight">
               <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-                Our Portfolio
+                {t('common:portfolio')}
               </span>
             </h1>
             <p className="text-lg md:text-xl text-gray-400 max-w-3xl mx-auto">

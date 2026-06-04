@@ -2,9 +2,11 @@ import type { ChangeEvent, FormEvent } from 'react'
 import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { Mail, Phone, MapPin, Send, Facebook, Linkedin, Instagram, Github } from 'lucide-react'
+import { useTranslation } from 'react-i18next'
 import { COMPANY_EMAIL, COMPANY_PHONE, COMPANY_ADDRESS, SOCIAL_LINKS } from '../config/company'
 
 export default function Contact() {
+  const { t } = useTranslation(['contact', 'common'])
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -12,6 +14,7 @@ export default function Contact() {
     subject: '',
     message: '',
   })
+  const [isLoading, setIsLoading] = useState(false)
 
   const handleChange = (e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setFormData({
@@ -20,12 +23,37 @@ export default function Contact() {
     })
   }
 
-  const handleSubmit = (e: FormEvent) => {
+  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault()
-    console.log('Form submitted:', formData)
-    // Here you would typically send the form data to your backend
-    alert('Thank you for your message! We will get back to you soon.')
-    setFormData({ name: '', email: '', phone: '', subject: '', message: '' })
+    setIsLoading(true)
+
+    try {
+      const response = await fetch('https://formspree.io/f/mgobepeb', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          name: formData.name,
+          email: formData.email,
+          phone: formData.phone,
+          subject: formData.subject,
+          message: formData.message,
+        }),
+      })
+
+      if (response.ok) {
+        alert('Thank you for your message! We will get back to you soon.')
+        setFormData({ name: '', email: '', phone: '', subject: '', message: '' })
+      } else {
+        alert('Failed to send message. Please try again or contact us directly.')
+      }
+    } catch (error) {
+      console.error('Form submission error:', error)
+      alert('Failed to send message. Please try again or contact us directly.')
+    } finally {
+      setIsLoading(false)
+    }
   }
 
   const contactInfo = [
@@ -74,18 +102,18 @@ export default function Contact() {
           >
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-2 leading-tight">
               <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-                Get In Touch
+                {t('contact:hero.title')}
               </span>
             </h1>
             <p className="text-lg text-gray-400 max-w-2xl mx-auto">
-              Have a project in mind? Let's talk about how we can help bring your ideas to life.
+              {t('contact:hero.subtitle')}
             </p>
           </motion.div>
         </div>
       </section>
 
       {/* Contact Section */}
-      <section className="py-20 bg-black">
+      <section className="py-12 bg-black">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
             {/* Contact Info */}
@@ -142,7 +170,7 @@ export default function Contact() {
             >
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
                 <div>
-                  <label className="block text-white font-medium mb-2">Name</label>
+                  <label className="block text-white font-medium mb-2">{t('contact:form.name')}</label>
                   <input
                     type="text"
                     name="name"
@@ -150,11 +178,11 @@ export default function Contact() {
                     onChange={handleChange}
                     required
                     className="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all"
-                    placeholder="Your name"
+                    placeholder={t('contact:form.namePlaceholder')}
                   />
                 </div>
                 <div>
-                  <label className="block text-white font-medium mb-2">Email</label>
+                  <label className="block text-white font-medium mb-2">{t('contact:form.email')}</label>
                   <input
                     type="email"
                     name="email"
@@ -162,25 +190,25 @@ export default function Contact() {
                     onChange={handleChange}
                     required
                     className="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all"
-                    placeholder="your@email.com"
+                    placeholder={t('contact:form.emailPlaceholder')}
                   />
                 </div>
               </div>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
                 <div>
-                  <label className="block text-white font-medium mb-2">Phone</label>
+                  <label className="block text-white font-medium mb-2">{t('contact:form.phone')}</label>
                   <input
                     type="tel"
                     name="phone"
                     value={formData.phone}
                     onChange={handleChange}
                     className="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all"
-                    placeholder="+93 xxx xxx xxx"
+                    placeholder={t('contact:form.phonePlaceholder')}
                   />
                 </div>
                 <div>
-                  <label className="block text-white font-medium mb-2">Subject</label>
+                  <label className="block text-white font-medium mb-2">{t('contact:form.subject')}</label>
                   <input
                     type="text"
                     name="subject"
@@ -188,13 +216,13 @@ export default function Contact() {
                     onChange={handleChange}
                     required
                     className="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all"
-                    placeholder="Project inquiry"
+                    placeholder={t('contact:form.subjectPlaceholder')}
                   />
                 </div>
               </div>
 
               <div className="mb-6">
-                <label className="block text-white font-medium mb-2">Message</label>
+                <label className="block text-white font-medium mb-2">{t('contact:form.message')}</label>
                 <textarea
                   name="message"
                   value={formData.message}
@@ -202,15 +230,16 @@ export default function Contact() {
                   required
                   rows={6}
                   className="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all resize-none"
-                  placeholder="Tell us about your project..."
+                  placeholder={t('contact:form.messagePlaceholder')}
                 ></textarea>
               </div>
 
               <button
                 type="submit"
-                className="w-full px-6 py-3 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg text-white font-semibold hover:shadow-lg hover:shadow-purple-500/50 transition-all flex items-center justify-center gap-2"
+                disabled={isLoading}
+                className="w-full px-6 py-3 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg text-white font-semibold hover:shadow-lg hover:shadow-purple-500/50 transition-all flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed"
               >
-                <Send size={20} /> Send Message
+                <Send size={20} /> {isLoading ? 'Sending...' : t('contact:form.send')}
               </button>
             </motion.form>
           </div>
@@ -218,7 +247,7 @@ export default function Contact() {
       </section>
 
       {/* Map Section */}
-      <section className="py-20 bg-gradient-to-b from-gray-900 to-black relative overflow-hidden">
+      <section className="py-12 bg-gradient-to-b from-gray-900 to-black relative overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -228,10 +257,10 @@ export default function Contact() {
           >
             <h2 className="text-3xl md:text-4xl font-extrabold mb-2">
               <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-                Our Location
+                {t('contact:location.title')}
               </span>
             </h2>
-            <p className="text-gray-400">Find us at our office — we'd love to host a meeting.</p>
+            <p className="text-gray-400">{t('contact:location.subtitle')}</p>
           </motion.div>
 
           <motion.div
@@ -245,7 +274,7 @@ export default function Contact() {
               height="100%"
               frameBorder="0"
               title="Rayan Tech Solutions Location"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3286.7769266800635!2d69.17951!3d34.52793!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38d170e5e5e5e5e5%3A0x5e5e5e5e5e5e5e5e!2sKabul%2C%20Afghanistan!5e0!3m2!1sen!2s!4v1234567890"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3366.5!2d70.4580!3d34.4169!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38d16feb5e5e5e5e%3A0x5e5e5e5e5e5e5e5e!2sJalalabad%2C%20Afghanistan!5e0!3m2!1sen!2s!4v1234567890"
               allowFullScreen={true}
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
@@ -266,7 +295,7 @@ export default function Contact() {
       </section>
 
       {/* FAQ Section */}
-      <section className="py-20 bg-black">
+      <section className="py-12 bg-black">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -276,30 +305,13 @@ export default function Contact() {
           >
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
               <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-                Frequently Asked Questions
+                {t('contact:faq.title')}
               </span>
             </h2>
           </motion.div>
 
           <div className="space-y-4">
-            {[
-              {
-                q: 'What is your typical project timeline?',
-                a: 'Project timelines vary based on complexity. Simple websites take 1-2 weeks, while complex applications can take 2-3 months. We provide detailed timelines after understanding your requirements.',
-              },
-              {
-                q: 'Do you provide ongoing support after delivery?',
-                a: 'Yes! We offer maintenance and support packages to ensure your website or application runs smoothly. We provide bug fixes, updates, and feature enhancements.',
-              },
-              {
-                q: 'What payment terms do you offer?',
-                a: 'We typically require 50% advance payment to start the project and 50% upon completion. For larger projects, we can arrange a payment schedule.',
-              },
-              {
-                q: 'Can you help with hosting and deployment?',
-                a: 'Absolutely! We handle deployment to platforms like Vercel, Railway, AWS, and more. We also help with domain setup and SSL certificates.',
-              },
-            ].map((faq, idx) => (
+            {t('contact:faq.questions', { returnObjects: true })?.map((faq: any, idx: number) => (
               <motion.div
                 key={idx}
                 initial={{ opacity: 0, y: 20 }}

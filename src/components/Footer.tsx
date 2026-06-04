@@ -1,10 +1,12 @@
 import { Link } from 'react-router-dom'
 import { Facebook, Linkedin, Instagram, Github, Mail, Phone, MapPin } from 'lucide-react'
 import { motion } from 'framer-motion'
+import { useTranslation } from 'react-i18next'
 import { COMPANY_NAME, COMPANY_EMAIL, COMPANY_PHONE, COMPANY_ADDRESS, SOCIAL_LINKS } from '../config/company'
 import { DottedSurface } from './DottedSurface'
 
 export default function Footer() {
+  const { t } = useTranslation('common')
   const currentYear = new Date().getFullYear()
 
   const socialIcons = [
@@ -15,11 +17,11 @@ export default function Footer() {
   ]
 
   const footerLinks = [
-    { label: 'Home', href: '/' },
-    { label: 'About', href: '/about' },
-    { label: 'Services', href: '/services' },
-    { label: 'Portfolio', href: '/portfolio' },
-    { label: 'Contact', href: '/contact' },
+    { label: t('common.home'), href: '/' },
+    { label: t('common.about'), href: '/about' },
+    { label: t('common.services'), href: '/services' },
+    { label: t('common.portfolio'), href: '/portfolio' },
+    { label: t('common.contact'), href: '/contact' },
   ]
 
   return (
@@ -37,7 +39,7 @@ export default function Footer() {
               {COMPANY_NAME}
             </h3>
             <p className="text-gray-400 text-sm mb-4">
-              Building innovative software solutions for businesses across Afghanistan and beyond.
+              {t('footer.description')}
             </p>
             <div className="flex gap-4">
               {socialIcons.map((social) => (
@@ -61,7 +63,7 @@ export default function Footer() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.1 }}
           >
-            <h4 className="text-lg font-semibold text-white mb-4">Quick Links</h4>
+            <h4 className="text-lg font-semibold text-white mb-4">{t('footer.quickLinks')}</h4>
             <ul className="space-y-2">
               {footerLinks.map((link) => (
                 <li key={link.href}>
@@ -82,7 +84,7 @@ export default function Footer() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
           >
-            <h4 className="text-lg font-semibold text-white mb-4">Services</h4>
+            <h4 className="text-lg font-semibold text-white mb-4">{t('footer.services')}</h4>
             <ul className="space-y-2">
               {[
                 'Web Development',
@@ -104,7 +106,7 @@ export default function Footer() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.3 }}
           >
-            <h4 className="text-lg font-semibold text-white mb-4">Contact</h4>
+            <h4 className="text-lg font-semibold text-white mb-4">{t('footer.email')}</h4>
             <ul className="space-y-3">
               <li className="flex items-start gap-3">
                 <Mail size={18} className="text-blue-400 mt-0.5 flex-shrink-0" />
@@ -126,20 +128,20 @@ export default function Footer() {
         <div className="border-t border-gray-800 pt-8">
           <div className="flex flex-col md:flex-row items-center justify-between">
             <p className="text-gray-500 text-sm text-center md:text-left">
-              © {currentYear} {COMPANY_NAME}. All rights reserved.
+              © {currentYear} {COMPANY_NAME}. {t('footer.copyright')}
             </p>
             <div className="flex gap-6 mt-4 md:mt-0">
               <a
                 href="#"
                 className="text-gray-500 hover:text-white hover:bg-white/5 rounded-md px-2 py-1 -mx-2 text-sm transition-all duration-300 hover:-translate-y-0.5 no-underline"
               >
-                Privacy Policy
+                {t('footer.privacyPolicy')}
               </a>
               <a
                 href="#"
                 className="text-gray-500 hover:text-white hover:bg-white/5 rounded-md px-2 py-1 -mx-2 text-sm transition-all duration-300 hover:-translate-y-0.5 no-underline"
               >
-                Terms of Service
+                {t('footer.termsOfService')}
               </a>
             </div>
           </div>

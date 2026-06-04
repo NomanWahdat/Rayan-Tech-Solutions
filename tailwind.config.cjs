@@ -42,5 +42,8 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [require('tailwindcss-rtl')],
+  corePlugins: {
+    direction: true,
+  },
 };

@@ -1,0 +1,21 @@
+{
+  "hero": {
+    "badge": "Advanced AI & Digital Solutions",
+    "title": "Rayan Tech Solutions",
+    "subtitle": "Software House for Visionary Teams",
+    "description": "We specialize in:",
+    "specialization": ["Web Platforms", "AI Systems", "Mobile Apps", "Digital Products"],
+    "description2": "We build conversion-ready platforms, AI systems, and digital products for businesses across Afghanistan and beyond.",
+    "viewWork": "View Our Work",
+    "startProject": "Start a Project"
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "subtitle": "Our Work Speaks for Itself",
+    "filterAll": "All",
+    "filterFeatured": "Featured",
+    "filterAi": "AI Projects",
+    "filterEcommerce": "E-Commerce",
+    "filterEducation": "Education"
+  }
+}

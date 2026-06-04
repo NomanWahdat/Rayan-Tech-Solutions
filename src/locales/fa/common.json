@@ -1,0 +1,41 @@
+{
+  "nav": {
+    "services": "خدمات",
+    "company": "شرکت",
+    "caseStudies": "مطالعات موردی",
+    "contact": "تماس با ما",
+    "getStarted": "شروع کنید",
+    "languages": "زبان ها",
+    "webDevelopment": "توسعه وب",
+    "mobileApps": "برنامه های موبایل",
+    "teamCollab": "همکاری تیمی",
+    "analytics": "تجزیه و تحلیل",
+    "integrations": "یکپارچگی",
+    "customSoftware": "نرم افزار سفارشی",
+    "aboutUs": "درباره ما",
+    "blog": "وبلاگ",
+    "careers": "مشاغل",
+    "help": "مرکز کمک",
+    "scheduleCall": "زمان بندی تماس"
+  },
+  "footer": {
+    "description": "ارائه راه حل نرم افزاری نوآورانه برای کسب و کارهای سراسر افغانستان و فراتر از آن.",
+    "quickLinks": "پیوندهای سریع",
+    "services": "خدمات",
+    "email": "ایمیل",
+    "phone": "تلفن",
+    "address": "آدرس",
+    "ourOffice": "دفتر ما",
+    "call": "تماس بگیرید",
+    "copyright": "تمام حقوق محفوظ است",
+    "privacyPolicy": "سیاست حفاظت از حریم خصوصی",
+    "termsOfService": "شرایط خدمات"
+  },
+  "common": {
+    "home": "خانه",
+    "about": "درباره ما",
+    "services": "خدمات",
+    "portfolio": "نمونه کار",
+    "contact": "تماس با ما"
+  }
+}

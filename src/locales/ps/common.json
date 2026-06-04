@@ -1,0 +1,41 @@
+{
+  "nav": {
+    "services": "خدمات",
+    "company": "شرکت",
+    "caseStudies": "مثالونه",
+    "contact": "اړیکې",
+    "getStarted": "شروع کنید",
+    "languages": "ژبې",
+    "webDevelopment": "وب پرمختیا",
+    "mobileApps": "موبائل تطبیقات",
+    "teamCollab": "ټیم همکاری",
+    "analytics": "تجزیہ",
+    "integrations": "یکجوړتیاونه",
+    "customSoftware": "خصوصی سافتویر",
+    "aboutUs": "زموږ په اړه",
+    "blog": "بلاگ",
+    "careers": "کیریر",
+    "help": "د مرستې مرکز",
+    "scheduleCall": "وقت مقرر کنید"
+  },
+  "footer": {
+    "description": "د افغانستان او نور هیوادونو د تجارتونو لپاره نوښت حل کمپیوټر خدمات.",
+    "quickLinks": "بیرته ړنګ",
+    "services": "خدمات",
+    "email": "ای میل",
+    "phone": "فون",
+    "address": "آدرس",
+    "ourOffice": "زموږ دفتر",
+    "call": "تماس ونیسئ",
+    "copyright": "ټول حقوق محفوظ دي",
+    "privacyPolicy": "د محرمانې سیاست",
+    "termsOfService": "د خدمات شرایط"
+  },
+  "common": {
+    "home": "کور",
+    "about": "په اړه",
+    "services": "خدمات",
+    "portfolio": "نمونې",
+    "contact": "اړیکې"
+  }
+}

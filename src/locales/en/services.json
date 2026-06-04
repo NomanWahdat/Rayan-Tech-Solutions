@@ -1,0 +1,94 @@
+{
+  "title": "Our Services",
+  "subtitle": "Choose the perfect package for your needs",
+  "packages": {
+    "basic": {
+      "title": "Basic Website Package",
+      "description": "Perfect for small businesses starting their online presence",
+      "price": "Custom Quote",
+      "duration": "1-2 weeks",
+      "features": [
+        "5 pages",
+        "Responsive design",
+        "Contact form",
+        "Basic SEO",
+        "Mobile friendly"
+      ]
+    },
+    "business": {
+      "title": "Business Website Package",
+      "description": "Ideal for growing businesses with advanced features",
+      "price": "Custom Quote",
+      "duration": "2-4 weeks",
+      "features": [
+        "10 pages",
+        "Admin panel",
+        "Blog/news section",
+        "SEO setup",
+        "Analytics integration",
+        "Email campaigns"
+      ],
+      "popular": "Most Popular"
+    },
+    "ecommerce": {
+      "title": "E-Commerce Package",
+      "description": "Complete online store solution with full management tools",
+      "price": "Custom Quote",
+      "duration": "3-8 weeks",
+      "features": [
+        "Product catalog",
+        "Shopping cart",
+        "Secure checkout",
+        "Admin dashboard",
+        "Order management",
+        "Payment integration",
+        "Inventory system"
+      ]
+    },
+    "custom": {
+      "title": "Custom Software Package",
+      "description": "Tailored solutions for unique business needs",
+      "price": "Custom Quote",
+      "duration": "Variable",
+      "features": [
+        "Requirements analysis",
+        "UI/UX design",
+        "Backend development",
+        "Frontend development",
+        "Database design",
+        "Deployment",
+        "Support & maintenance"
+      ]
+    }
+  },
+  "addOns": {
+    "title": "Additional Services",
+    "subtitle": "Enhance your package with add-ons",
+    "items": [
+      {
+        "title": "SEO Optimization",
+        "description": "Boost your search engine rankings and organic traffic"
+      },
+      {
+        "title": "Mobile App Development",
+        "description": "Native iOS and Android applications"
+      },
+      {
+        "title": "Maintenance & Support",
+        "description": "Ongoing support, bug fixes, and feature updates"
+      },
+      {
+        "title": "Performance Optimization",
+        "description": "Speed up your website and improve user experience"
+      }
+    ]
+  },
+  "process": {
+    "title": "Our Process",
+    "subtitle": "How we deliver excellence",
+    "steps": ["Discovery", "Design", "Development", "Testing", "Launch"],
+    "description": "Aligned milestones with clear delivery checkpoints."
+  },
+  "getStarted": "Get Started",
+  "delivery": "Delivery"
+}

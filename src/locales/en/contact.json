@@ -1,0 +1,48 @@
+{
+  "hero": {
+    "title": "Get In Touch",
+    "subtitle": "Have a project in mind? Let's talk about how we can help bring your ideas to life."
+  },
+  "contactInfo": {
+    "title": "Contact Information",
+    "followUs": "Follow Us"
+  },
+  "form": {
+    "name": "Name",
+    "namePlaceholder": "Your name",
+    "email": "Email",
+    "emailPlaceholder": "your@email.com",
+    "phone": "Phone",
+    "phonePlaceholder": "+93 xxx xxx xxx",
+    "subject": "Subject",
+    "subjectPlaceholder": "Project inquiry",
+    "message": "Message",
+    "messagePlaceholder": "Tell us about your project...",
+    "send": "Send Message"
+  },
+  "location": {
+    "title": "Our Location",
+    "subtitle": "Find us at our office — we'd love to host a meeting."
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "questions": [
+      {
+        "q": "What is your typical project timeline?",
+        "a": "Project timelines vary based on complexity. Simple websites take 1-2 weeks, while complex applications can take 2-3 months. We provide detailed timelines after understanding your requirements."
+      },
+      {
+        "q": "Do you provide ongoing support after delivery?",
+        "a": "Yes! We offer maintenance and support packages to ensure your website or application runs smoothly. We provide bug fixes, updates, and feature enhancements."
+      },
+      {
+        "q": "What payment terms do you offer?",
+        "a": "We typically require 50% advance payment to start the project and 50% upon completion. For larger projects, we can arrange a payment schedule."
+      },
+      {
+        "q": "Can you help with hosting and deployment?",
+        "a": "Absolutely! We handle deployment to platforms like Vercel, Railway, AWS, and more. We also help with domain setup and SSL certificates."
+      }
+    ]
+  }
+}

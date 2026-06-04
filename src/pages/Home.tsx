@@ -6,7 +6,7 @@ import Contact from './Contact'
 
 export default function Home() {
   return (
-    <div className="w-full">
+    <div className="w-full bg-black">
       {/* Hero Section with Spline */}
       <section id="home" className="relative pt-0">
         <div className="max-w-6xl mx-auto px-4">

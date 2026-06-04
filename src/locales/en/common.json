@@ -1,0 +1,41 @@
+{
+  "nav": {
+    "services": "Services",
+    "company": "Company",
+    "caseStudies": "Case Studies",
+    "contact": "Contact",
+    "getStarted": "Get Started",
+    "languages": "Languages",
+    "webDevelopment": "Website Development",
+    "mobileApps": "Mobile Apps",
+    "teamCollab": "Team Collaboration",
+    "analytics": "Analytics",
+    "integrations": "Integrations",
+    "customSoftware": "Custom Software",
+    "aboutUs": "About Us",
+    "blog": "Blog",
+    "careers": "Careers",
+    "help": "Help Center",
+    "scheduleCall": "Schedule a call"
+  },
+  "footer": {
+    "description": "Building innovative software solutions for businesses across Afghanistan and beyond.",
+    "quickLinks": "Quick Links",
+    "services": "Services",
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Address",
+    "ourOffice": "Our Office",
+    "call": "Call",
+    "copyright": "All rights reserved",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service"
+  },
+  "common": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "contact": "Contact"
+  }
+}
