@@ -10,7 +10,7 @@ export default function Services() {
       title: t('services:packages.basic.title'),
       price: t('services:packages.basic.price'),
       duration: t('services:packages.basic.duration'),
-      features: t('services:packages.basic.features', { returnObjects: true }),
+      features: t('services:packages.basic.features', { returnObjects: true }) as any[],
       description: t('services:packages.basic.description'),
     },
     {
@@ -18,7 +18,7 @@ export default function Services() {
       title: t('services:packages.business.title'),
       price: t('services:packages.business.price'),
       duration: t('services:packages.business.duration'),
-      features: t('services:packages.business.features', { returnObjects: true }),
+      features: t('services:packages.business.features', { returnObjects: true }) as any[],
       description: t('services:packages.business.description'),
       featured: true,
     },
@@ -27,7 +27,7 @@ export default function Services() {
       title: t('services:packages.ecommerce.title'),
       price: t('services:packages.ecommerce.price'),
       duration: t('services:packages.ecommerce.duration'),
-      features: t('services:packages.ecommerce.features', { returnObjects: true }),
+      features: t('services:packages.ecommerce.features', { returnObjects: true }) as any[],
       description: t('services:packages.ecommerce.description'),
     },
     {
@@ -35,7 +35,7 @@ export default function Services() {
       title: t('services:packages.custom.title'),
       price: t('services:packages.custom.price'),
       duration: t('services:packages.custom.duration'),
-      features: t('services:packages.custom.features', { returnObjects: true }),
+      features: t('services:packages.custom.features', { returnObjects: true }) as any[],
       description: t('services:packages.custom.description'),
     },
   ]
@@ -199,7 +199,7 @@ export default function Services() {
             <div className="absolute left-4 top-0 bottom-0 w-px bg-white/10 md:hidden"></div>
             <div className="hidden md:block absolute left-0 right-0 top-1/2 h-px bg-white/10"></div>
             <div className="grid grid-cols-1 md:grid-cols-5 gap-6">
-              {t('services:process.steps', { returnObjects: true }).map((step, idx) => (
+              {(t('services:process.steps', { returnObjects: true }) as any[]).map((step, idx) => (
                 <motion.div
                   key={idx}
                   initial={{ opacity: 0, y: 20 }}

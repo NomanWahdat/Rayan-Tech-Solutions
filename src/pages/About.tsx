@@ -127,7 +127,7 @@ export default function About() {
                 {t('about:mission.description')}
               </p>
               <ul className="space-y-3">
-                {t('about:mission.items', { returnObjects: true }).map((item, idx) => (
+                {(t('about:mission.items', { returnObjects: true }) as any[]).map((item, idx) => (
                   <li key={idx} className="flex items-center gap-3">
                     <CheckCircle className="text-blue-400 flex-shrink-0" />
                     <span className="text-gray-200">{item}</span>
@@ -151,7 +151,7 @@ export default function About() {
                 {t('about:vision.description')}
               </p>
               <ul className="space-y-3">
-                {t('about:vision.items', { returnObjects: true }).map((item, idx) => (
+                {(t('about:vision.items', { returnObjects: true }) as any[]).map((item, idx) => (
                   <li key={idx} className="flex items-center gap-3">
                     <CheckCircle className="text-purple-400 flex-shrink-0" />
                     <span className="text-gray-200">{item}</span>

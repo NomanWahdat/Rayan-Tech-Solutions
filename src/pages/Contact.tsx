@@ -311,7 +311,7 @@ export default function Contact() {
           </motion.div>
 
           <div className="space-y-4">
-            {t('contact:faq.questions', { returnObjects: true })?.map((faq: any, idx: number) => (
+            {(t('contact:faq.questions', { returnObjects: true }) as any[])?.map((faq: any, idx: number) => (
               <motion.div
                 key={idx}
                 initial={{ opacity: 0, y: 20 }}

@@ -17,7 +17,7 @@ export function SplineSceneBasic() {
   const [wordIndex, setWordIndex] = useState(0)
   const [charIndex, setCharIndex] = useState(0)
 
-  const words = t('home:hero.specialization', { returnObjects: true }) || ['Web Platforms', 'AI Systems', 'Mobile Apps', 'Digital Products']
+  const words = (t('home:hero.specialization', { returnObjects: true }) as any[]) || ['Web Platforms', 'AI Systems', 'Mobile Apps', 'Digital Products']
 
   // Particle animation setup
   useEffect(() => {
