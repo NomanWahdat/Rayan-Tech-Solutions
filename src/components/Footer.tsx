@@ -5,6 +5,8 @@ import { useTranslation } from 'react-i18next'
 import { COMPANY_NAME, COMPANY_EMAIL, COMPANY_PHONE, COMPANY_ADDRESS, SOCIAL_LINKS } from '../config/company'
 import { DottedSurface } from './DottedSurface'
 
+const FOOTER_LOGO = '/Footer Logo.png'
+
 export default function Footer() {
   const { t } = useTranslation('common')
   const currentYear = new Date().getFullYear()
@@ -35,6 +37,14 @@ export default function Footer() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
           >
+            <img 
+              src={FOOTER_LOGO}
+              alt="Rayan Tech Solutions"
+              className="h-16 w-auto object-contain mb-4"
+              onError={(e) => {
+                (e.target as HTMLImageElement).style.display = 'none'
+              }}
+            />
             <h3 className="text-xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent mb-4">
               {COMPANY_NAME}
             </h3>

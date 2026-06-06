@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rayan Tech Solutions – Company Profile 2026</title>
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+    :root {
+      --navy:   #0A0F2C;
+      --blue:   #1F6FEB;
+      --sky:    #3B9EFF;
+      --gold:   #F5A623;
+      --amber:  #FBBF24;
+      --white:  #FFFFFF;
+      --off:    #F7F9FC;
+      --slate:  #64748B;
+      --border: #E2E8F0;
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Liberation Sans', 'DejaVu Sans', Arial, Helvetica, sans-serif;
+      background: #CBD5E0;
+      color: var(--navy);
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+
+    /* ── PAGE SEPARATOR (screen only) ── */
+    .page-sep {
+      width: 210mm;
+      height: 12px;
+      background: #CBD5E0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+    }
+    .page-sep::before {
+      content: '';
+      position: absolute;
+      left: 0; right: 0; top: 50%;
+      height: 1px;
+      background: #94A3B8;
+    }
+    .page-sep-label {
+      background: #CBD5E0;
+      padding: 0 10px;
+      font-size: 9px;
+      font-weight: 600;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: #94A3B8;
+      position: relative;
+      z-index: 1;
+    }
+
+    /* ── PAGE WRAPPER ── */
+    .page {
+      width: 210mm;
+      height: 297mm;
+      position: relative;
+      overflow: hidden;
+      box-shadow: 0 2px 16px rgba(0,0,0,0.18);
+      display: flex;
+      flex-direction: column;
+    }
+
+    @page {
+      size: A4 portrait;
+      margin: 0mm;
+    }
+
+    @media print {
+      html, body {
+        margin: 0;
+        padding: 0;
+        background: white;
+        width: 210mm;
+      }
+      .page-sep { display: none; }
+      .page {
+        box-shadow: none;
+        page-break-after: always;
+        page-break-inside: avoid;
+        break-after: page;
+        break-inside: avoid;
+        width: 210mm;
+        height: 297mm;
+        overflow: hidden;
+      }
+      .page:last-child {
+        page-break-after: avoid;
+        break-after: avoid;
+      }
+    }
+
+    /* ══════════════════════════════════════════
+       PAGE 1 – COVER
+    ══════════════════════════════════════════ */
+    .cover {
+      background: var(--navy);
+    }
+
+    .cover-stripe {
+      height: 5px;
+      background: linear-gradient(90deg, var(--blue) 0%, var(--sky) 50%, var(--gold) 100%);
+      flex-shrink: 0;
+    }
+
+    .cover-deco { position: absolute; border-radius: 50%; opacity: 0.07; }
+    .cover-deco-1 { width: 420px; height: 420px; background: var(--blue); top: -80px; right: -120px; }
+    .cover-deco-2 { width: 280px; height: 280px; background: var(--gold); bottom: 80px; left: -80px; }
+    .cover-deco-3 { width: 160px; height: 160px; background: var(--sky); bottom: 200px; right: 40px; opacity: 0.05; }
+
+    .cover-grid {
+      position: absolute; inset: 0;
+      background-image:
+        linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
+      background-size: 32px 32px;
+    }
+
+    .cover-inner {
+      position: relative; z-index: 2;
+      display: flex; flex-direction: column;
+      align-items: flex-start; justify-content: center;
+      flex: 1; padding: 0 54px;
+    }
+
+    /* Cover logo — wide horizontal pill shape */
+    .cover-logo-wrap {
+      margin-bottom: 30px;
+      height: 72px;
+      width: 240px;
+      border-radius: 12px;
+      background: rgba(255,255,255,0.06);
+      border: 1px solid rgba(255,255,255,0.12);
+      display: flex; align-items: center; justify-content: flex-start;
+      overflow: hidden;
+      padding: 10px 18px;
+      gap: 14px;
+    }
+    .cover-logo-wrap img {
+      height: 100%; width: auto;
+      object-fit: contain; display: block;
+      flex-shrink: 0;
+    }
+    .cover-logo-text {
+      display: flex; flex-direction: column;
+      gap: 1px;
+    }
+    .cover-logo-name {
+      font-size: 13px; font-weight: 700;
+      color: var(--white); letter-spacing: 0.2px; line-height: 1.2;
+    }
+    .cover-logo-sub {
+      font-size: 8.5px; font-weight: 500;
+      color: rgba(255,255,255,0.4);
+      letter-spacing: 1.5px; text-transform: uppercase;
+    }
+
+    .cover-badge {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: rgba(31,111,235,0.18);
+      border: 1px solid rgba(59,158,255,0.35);
+      color: var(--sky);
+      font-size: 10px; font-weight: 600; letter-spacing: 2px;
+      text-transform: uppercase; padding: 6px 14px;
+      border-radius: 100px; margin-bottom: 22px;
+    }
+    .cover-badge::before {
+      content: ''; display: inline-block;
+      width: 6px; height: 6px; border-radius: 50%; background: var(--sky);
+    }
+
+    .cover-company {
+      font-family: 'DejaVu Serif', 'Liberation Serif', Georgia, serif;
+      font-size: 52px; font-weight: 900; line-height: 1.05;
+      color: var(--white); letter-spacing: -1px; margin-bottom: 6px;
+    }
+    .cover-company span { color: var(--gold); }
+
+    .cover-tagline {
+      font-size: 15px; font-weight: 300;
+      color: rgba(255,255,255,0.55); margin-bottom: 32px; letter-spacing: 0.3px;
+    }
+
+    .cover-divider {
+      width: 56px; height: 3px;
+      background: linear-gradient(90deg, var(--blue), var(--gold));
+      border-radius: 2px; margin-bottom: 32px;
+    }
+
+    .cover-stats { display: flex; gap: 16px; flex-wrap: wrap; }
+    .stat-pill {
+      background: rgba(255,255,255,0.06);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 10px; padding: 14px 20px; min-width: 110px;
+    }
+    .stat-pill-num {
+      font-family: 'DejaVu Serif', 'Liberation Serif', Georgia, serif;
+      font-size: 26px; font-weight: 700;
+      color: var(--white); line-height: 1; margin-bottom: 4px;
+    }
+    .stat-pill-num span { color: var(--gold); }
+    .stat-pill-label {
+      font-size: 10px; font-weight: 500;
+      color: rgba(255,255,255,0.4);
+      text-transform: uppercase; letter-spacing: 1.2px;
+    }
+
+    .cover-footer {
+      position: relative; z-index: 2;
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 18px 54px;
+      border-top: 1px solid rgba(255,255,255,0.08);
+      flex-shrink: 0;
+    }
+    .cover-footer-col { display: flex; flex-direction: column; gap: 2px; }
+    .cover-footer-label {
+      font-size: 9px; font-weight: 600; letter-spacing: 2px;
+      text-transform: uppercase; color: rgba(255,255,255,0.3);
+    }
+    .cover-footer-value { font-size: 12px; font-weight: 500; color: rgba(255,255,255,0.7); }
+    .cover-footer-year {
+      font-family: 'DejaVu Serif', 'Liberation Serif', Georgia, serif;
+      font-size: 42px; font-weight: 700;
+      color: rgba(255,255,255,0.06); letter-spacing: -2px;
+    }
+
+    /* ══════════════════════════════════════════
+       SHARED INNER PAGE
+    ══════════════════════════════════════════ */
+    .inner-page {
+      background: var(--off);
+    }
+
+    /* Topbar — horizontal logo pill */
+    .inner-topbar {
+      background: var(--navy);
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 8px 36px; flex-shrink: 0;
+    }
+    .topbar-logo-wrap {
+      height: 38px;
+      display: flex; align-items: center;
+      gap: 10px;
+      background: rgba(255,255,255,0.06);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 8px;
+      padding: 5px 14px 5px 8px;
+      overflow: hidden;
+    }
+    .topbar-logo-wrap img {
+      height: 26px; width: auto;
+      object-fit: contain; display: block;
+      flex-shrink: 0;
+    }
+    .topbar-logo-name {
+      font-size: 11px; font-weight: 700;
+      color: var(--white); letter-spacing: 0.2px;
+      white-space: nowrap;
+    }
+    .inner-topbar-label {
+      font-size: 10px; font-weight: 600; letter-spacing: 2px;
+      text-transform: uppercase; color: rgba(255,255,255,0.35);
+    }
+
+    /* Inner content — flex column, fills remaining height */
+    .inner-content {
+      flex: 1;
+      padding: 18px 36px 14px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      overflow: hidden;
+    }
+
+    /* section header */
+    .sec-header { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; }
+    .sec-header-bar {
+      width: 4px; height: 20px;
+      background: linear-gradient(180deg, var(--blue), var(--gold));
+      border-radius: 2px; flex-shrink: 0;
+    }
+    .sec-header-title {
+      font-family: 'DejaVu Serif', 'Liberation Serif', Georgia, serif;
+      font-size: 17px; font-weight: 700; color: var(--navy);
+    }
+
+    /* ─── ABOUT — two tall cards side by side ─── */
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+    .about-card {
+      background: var(--white); border-radius: 12px;
+      padding: 18px 20px; border: 1px solid var(--border);
+      position: relative; overflow: hidden;
+      display: flex; flex-direction: column;
+    }
+    .about-card::before {
+      content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px;
+      background: linear-gradient(90deg, var(--blue), var(--sky));
+    }
+    .about-card-title {
+      font-size: 10.5px; font-weight: 700; text-transform: uppercase;
+      letter-spacing: 1.2px; color: var(--blue); margin-bottom: 10px;
+    }
+    .about-card-text {
+      font-size: 11.5px; font-weight: 400; color: #4A5568; line-height: 1.75;
+      flex: 1;
+    }
+
+    .about-wide {
+      background: var(--white); border-radius: 12px;
+      padding: 16px 20px; border: 1px solid var(--border);
+      position: relative; overflow: hidden;
+    }
+    .about-wide::before {
+      content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px;
+      background: linear-gradient(90deg, var(--gold), var(--amber));
+    }
+    .values-row { display: flex; gap: 7px; flex-wrap: wrap; margin-top: 10px; }
+    .value-chip {
+      background: var(--off); border: 1px solid var(--border);
+      border-radius: 100px; padding: 5px 13px;
+      font-size: 10.5px; font-weight: 600; color: var(--navy); letter-spacing: 0.3px;
+    }
+
+    /* ─── SERVICES ─── */
+    .services-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+    .svc-card {
+      background: var(--white); border-radius: 10px;
+      padding: 13px 14px; border: 1px solid var(--border);
+      display: flex; flex-direction: column; gap: 4px;
+    }
+    .svc-icon { font-size: 16px; margin-bottom: 2px; }
+    .svc-title { font-size: 11px; font-weight: 700; color: var(--navy); }
+    .svc-desc { font-size: 10px; color: var(--slate); line-height: 1.55; }
+
+    /* ─── TEAM ─── */
+    .team-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; }
+    .team-card {
+      background: var(--white); border-radius: 10px;
+      overflow: hidden; border: 1px solid var(--border); text-align: center;
+    }
+    .team-avatar {
+      width: 100%; height: 100px;
+      overflow: hidden; display: block;
+      background: linear-gradient(135deg, #1e3a6e 0%, #1F6FEB 100%);
+    }
+    .team-avatar img {
+      width: 100%; height: 100%;
+      object-fit: cover; object-position: center top; display: block;
+    }
+    .team-avatar-mono {
+      width: 100%; height: 100px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 28px; color: rgba(255,255,255,0.85);
+      font-family: 'DejaVu Serif', 'Liberation Serif', Georgia, serif;
+      font-weight: 700;
+    }
+    .team-info { padding: 9px 8px; }
+    .team-name { font-size: 11px; font-weight: 700; color: var(--navy); margin-bottom: 2px; }
+    .team-role { font-size: 9.5px; font-weight: 500; color: var(--blue); }
+
+    /* ─── PORTFOLIO ─── */
+    .portfolio-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 9px;
+    }
+    .port-card {
+      background: var(--white); border-radius: 12px;
+      padding: 15px 16px; border: 1px solid var(--border);
+      display: grid; grid-template-columns: auto 1fr; gap: 12px; align-items: start;
+    }
+    .port-num {
+      width: 32px; height: 32px; border-radius: 8px;
+      background: linear-gradient(135deg, var(--blue), #0d4fc2);
+      color: var(--white); display: flex; align-items: center; justify-content: center;
+      font-family: 'DejaVu Serif', 'Liberation Serif', Georgia, serif;
+      font-size: 13px; font-weight: 700; flex-shrink: 0;
+    }
+    .port-title { font-size: 11.5px; font-weight: 700; color: var(--navy); margin-bottom: 5px; }
+    .port-desc { font-size: 10.5px; color: #4A5568; line-height: 1.6; margin-bottom: 7px; }
+    .port-tags { display: flex; gap: 4px; flex-wrap: wrap; }
+    .port-tag {
+      background: rgba(31,111,235,0.07); border: 1px solid rgba(31,111,235,0.2);
+      color: var(--blue); border-radius: 4px; padding: 2px 7px;
+      font-size: 9.5px; font-weight: 600;
+    }
+    .port-tag.gold {
+      background: rgba(245,166,35,0.08); border-color: rgba(245,166,35,0.3); color: #B45309;
+    }
+
+    /* ─── COMPETENCIES ─── */
+    .competencies {
+      background: var(--white); border-radius: 12px;
+      padding: 14px 16px; border: 1px solid var(--border);
+    }
+    .comp-title {
+      font-size: 10.5px; font-weight: 700; text-transform: uppercase;
+      letter-spacing: 1.2px; color: var(--slate); margin-bottom: 9px;
+    }
+    .comp-chips { display: flex; flex-wrap: wrap; gap: 6px; }
+    .comp-chip {
+      background: var(--off); border: 1px solid var(--border);
+      border-radius: 6px; padding: 4px 10px;
+      font-size: 10px; font-weight: 500; color: var(--navy);
+    }
+
+    /* ─── WHY CHOOSE US — 3 equal tall columns ─── */
+    .why-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+    }
+    .why-card {
+      background: var(--white); border-radius: 10px;
+      padding: 18px 16px; border: 1px solid var(--border);
+      position: relative; overflow: hidden;
+      display: flex; flex-direction: column;
+    }
+    .why-card::before {
+      content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px;
+      background: linear-gradient(90deg, var(--blue), var(--sky));
+    }
+    .why-card-num {
+      font-family: 'DejaVu Serif', 'Liberation Serif', Georgia, serif;
+      font-size: 28px; font-weight: 700;
+      color: rgba(31,111,235,0.1);
+      line-height: 1; margin-bottom: 10px;
+    }
+    .why-card-title {
+      font-size: 11.5px; font-weight: 700; color: var(--navy); margin-bottom: 8px;
+    }
+    .why-card-text { font-size: 10.5px; color: #4A5568; line-height: 1.7; flex: 1; }
+
+    /* ─── CONTACT — single row ─── */
+    .contact-row { display: flex; gap: 8px; }
+    .contact-card {
+      background: var(--navy); border-radius: 10px;
+      padding: 14px 15px; flex: 1;
+      display: flex; align-items: center; gap: 10px;
+    }
+    .contact-icon { font-size: 17px; flex-shrink: 0; }
+    .contact-label {
+      font-size: 8px; font-weight: 700; letter-spacing: 1.3px;
+      text-transform: uppercase; color: rgba(255,255,255,0.38); margin-bottom: 4px;
+    }
+    .contact-value { font-size: 10.5px; font-weight: 500; color: var(--white); }
+
+    /* ─── FOOTER ─── */
+    .inner-footer {
+      background: var(--navy); padding: 9px 36px;
+      display: flex; align-items: center; justify-content: space-between; flex-shrink: 0;
+    }
+    .footer-left { font-size: 10px; color: rgba(255,255,255,0.35); letter-spacing: 0.3px; }
+    .footer-left strong { color: rgba(255,255,255,0.6); }
+    .footer-right { display: flex; gap: 10px; }
+    .footer-dot { width: 7px; height: 7px; border-radius: 50%; background: rgba(255,255,255,0.15); }
+    .footer-dot.active { background: var(--gold); }
+  </style>
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════
+     PAGE 1 – COVER
+═══════════════════════════════════════ -->
+<div class="page cover">
+  <div class="cover-stripe"></div>
+  <div class="cover-deco cover-deco-1"></div>
+  <div class="cover-deco cover-deco-2"></div>
+  <div class="cover-deco cover-deco-3"></div>
+  <div class="cover-grid"></div>
+
+  <div class="cover-inner">
+    <div class="cover-logo-wrap">
+      <img src="./public/Rayan Tech Solution logo.png" alt="Rayan Tech Solutions">
+      <div class="cover-logo-text">
+        <div class="cover-logo-name">Rayan Tech Solutions</div>
+        <div class="cover-logo-sub">Software House</div>
+      </div>
+    </div>
+    <div class="cover-badge">Company Profile · 2026</div>
+    <div class="cover-company">Rayan<br><span>Tech</span> Solutions</div>
+    <div class="cover-tagline">Building Tomorrow's Digital Solutions, Today.</div>
+    <div class="cover-divider"></div>
+    <div class="cover-stats">
+      <div class="stat-pill">
+        <div class="stat-pill-num">6<span>+</span></div>
+        <div class="stat-pill-label">Services</div>
+      </div>
+      <div class="stat-pill">
+        <div class="stat-pill-num">4<span>+</span></div>
+        <div class="stat-pill-label">Live Projects</div>
+      </div>
+      <div class="stat-pill">
+        <div class="stat-pill-num">4</div>
+        <div class="stat-pill-label">Core Team</div>
+      </div>
+      <div class="stat-pill">
+        <div class="stat-pill-num">3<span>+</span></div>
+        <div class="stat-pill-label">Tech Stacks</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="cover-footer">
+    <div class="cover-footer-col">
+      <div class="cover-footer-label">Headquarters</div>
+      <div class="cover-footer-value">Jalalabad, Afghanistan</div>
+    </div>
+    <div class="cover-footer-col" style="text-align:center;">
+      <div class="cover-footer-label">Website</div>
+      <div class="cover-footer-value">rayan-tech-solution.tech</div>
+    </div>
+    <div class="cover-footer-col" style="text-align:right;">
+      <div class="cover-footer-label">Contact</div>
+      <div class="cover-footer-value">+93 780 012 147</div>
+    </div>
+    <div class="cover-footer-year">2026</div>
+  </div>
+</div>
+
+<!-- PAGE SEPARATOR -->
+<div class="page-sep"><span class="page-sep-label">Page 2 of 3</span></div>
+
+<!-- ═══════════════════════════════════════
+     PAGE 2 – ABOUT · SERVICES · TEAM
+═══════════════════════════════════════ -->
+<div class="page inner-page">
+  <div class="inner-topbar">
+    <div class="topbar-logo-wrap">
+      <img src="./public/Rayan Tech Solution logo.png" alt="Rayan Tech Solutions">
+      <span class="topbar-logo-name">Rayan Tech Solutions</span>
+    </div>
+    <div class="inner-topbar-label">About Us &amp; Services</div>
+  </div>
+
+  <div class="inner-content">
+
+    <!-- WHO WE ARE -->
+    <div>
+      <div class="sec-header">
+        <div class="sec-header-bar"></div>
+        <div class="sec-header-title">Who We Are</div>
+      </div>
+      <div class="about-grid">
+        <div class="about-card">
+          <div class="about-card-title">About Us</div>
+          <div class="about-card-text">Rayan Tech Solutions is a dynamic software house based in Jalalabad, Afghanistan. We specialize in delivering tailored digital products that help local and international businesses grow — from e-commerce platforms and custom web applications to comprehensive business management systems and cross-platform mobile apps. Our team combines technical depth with a deep understanding of the Afghan market to build solutions that are both globally competitive and locally relevant.</div>
+        </div>
+        <div class="about-card">
+          <div class="about-card-title">Our Mission</div>
+          <div class="about-card-text">To empower Afghan businesses with world-class technology solutions that were once accessible only to large corporations. We bridge the gap between ambition and execution by delivering reliable, scalable, and beautifully crafted software that generates measurable business outcomes. Every project we take on is a commitment — to quality, to deadlines, and to the long-term success of our clients. We measure our success by the growth and impact we enable for the businesses we serve.</div>
+        </div>
+      </div>
+      <div class="about-wide" style="margin-top:10px;">
+        <div class="about-card-title">Vision &amp; Core Values</div>
+        <div class="about-card-text" style="margin-bottom:10px;">To become the most trusted technology partner in Afghanistan and the wider region — recognized for innovation, accountability, and transformative impact on businesses of every scale. We build with purpose and deliver with integrity.</div>
+        <div class="values-row">
+          <span class="value-chip">✦ Quality First</span>
+          <span class="value-chip">✦ Innovation</span>
+          <span class="value-chip">✦ Reliability</span>
+          <span class="value-chip">✦ Transparency</span>
+          <span class="value-chip">✦ Client Success</span>
+          <span class="value-chip">✦ Continuous Growth</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- SERVICES -->
+    <div>
+      <div class="sec-header">
+        <div class="sec-header-bar"></div>
+        <div class="sec-header-title">What We Build</div>
+      </div>
+      <div class="services-grid">
+        <div class="svc-card">
+          <div class="svc-icon">🌐</div>
+          <div class="svc-title">Web &amp; Mobile Apps</div>
+          <div class="svc-desc">Responsive, fast, and modern applications built with React, Next.js, and React Native.</div>
+        </div>
+        <div class="svc-card">
+          <div class="svc-icon">🛒</div>
+          <div class="svc-title">E-Commerce Platforms</div>
+          <div class="svc-desc">Full-featured marketplaces with multi-vendor, payment gateways, and order management.</div>
+        </div>
+        <div class="svc-card">
+          <div class="svc-icon">⚙️</div>
+          <div class="svc-title">Custom Software</div>
+          <div class="svc-desc">ERP, CRM, inventory, and admin dashboards tailored to your exact business logic.</div>
+        </div>
+        <div class="svc-card">
+          <div class="svc-icon">🎓</div>
+          <div class="svc-title">School Management</div>
+          <div class="svc-desc">Student records, attendance, grading, and communication systems for institutions.</div>
+        </div>
+        <div class="svc-card">
+          <div class="svc-icon">💊</div>
+          <div class="svc-title">Pharmacy &amp; Healthcare</div>
+          <div class="svc-desc">Inventory, prescription tracking, and patient management for medical facilities.</div>
+        </div>
+        <div class="svc-card">
+          <div class="svc-icon">🔧</div>
+          <div class="svc-title">Maintenance &amp; Support</div>
+          <div class="svc-desc">Monthly retainer plans covering security, updates, backups, and priority support.</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TEAM -->
+    <div>
+      <div class="sec-header">
+        <div class="sec-header-bar"></div>
+        <div class="sec-header-title">Our Core Team</div>
+      </div>
+      <div class="team-grid">
+        <div class="team-card">
+          <div class="team-avatar">
+            <img src="./public/team/noman-wahdat.jpeg" alt="Noman Wahdat"
+              onerror="this.style.display='none';this.parentElement.innerHTML='<div class=\'team-avatar-mono\' style=\'background:linear-gradient(135deg,#1e3a6e,#1F6FEB)\'>NW</div>'">
+          </div>
+          <div class="team-info">
+            <div class="team-name">Noman Wahdat</div>
+            <div class="team-role">Founder &amp; CEO</div>
+          </div>
+        </div>
+        <div class="team-card">
+          <div class="team-avatar">
+            <img src="./public/team/arman-malik.jpeg" alt="Arman Malik"
+              onerror="this.style.display='none';this.parentElement.innerHTML='<div class=\'team-avatar-mono\' style=\'background:linear-gradient(135deg,#1a3a5c,#0d6ecf)\'>AM</div>'">
+          </div>
+          <div class="team-info">
+            <div class="team-name">Arman Malik</div>
+            <div class="team-role">Chief Technology Officer</div>
+          </div>
+        </div>
+        <div class="team-card">
+          <div class="team-avatar">
+            <img src="./public/team/khoshal-amin.jpeg" alt="Khoshal Amin"
+              onerror="this.style.display='none';this.parentElement.innerHTML='<div class=\'team-avatar-mono\' style=\'background:linear-gradient(135deg,#0e3d2f,#16a34a)\'>KA</div>'">
+          </div>
+          <div class="team-info">
+            <div class="team-name">Khoshal Amin</div>
+            <div class="team-role">Lead Backend Developer</div>
+          </div>
+        </div>
+        <div class="team-card">
+          <div class="team-avatar">
+            <img src="./public/team/hameedullah-gul.jpeg" alt="Hameedullah Gul"
+              onerror="this.style.display='none';this.parentElement.innerHTML='<div class=\'team-avatar-mono\' style=\'background:linear-gradient(135deg,#5c2e00,#d97706)\'>HG</div>'">
+          </div>
+          <div class="team-info">
+            <div class="team-name">Hameedullah Gul</div>
+            <div class="team-role">UI/UX Designer</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="inner-footer">
+    <div class="footer-left"><strong>Rayan Tech Solutions</strong> · Company Profile 2026</div>
+    <div class="footer-right">
+      <div class="footer-dot active"></div>
+      <div class="footer-dot active"></div>
+      <div class="footer-dot"></div>
+    </div>
+  </div>
+</div>
+
+<!-- PAGE SEPARATOR -->
+<div class="page-sep"><span class="page-sep-label">Page 3 of 3</span></div>
+
+<!-- ═══════════════════════════════════════
+     PAGE 3 – PORTFOLIO & CONTACT
+═══════════════════════════════════════ -->
+<div class="page inner-page">
+  <div class="inner-topbar">
+    <div class="topbar-logo-wrap">
+      <img src="./public/Rayan Tech Solution logo.png" alt="Rayan Tech Solutions">
+      <span class="topbar-logo-name">Rayan Tech Solutions</span>
+    </div>
+    <div class="inner-topbar-label">Portfolio &amp; Contact</div>
+  </div>
+
+  <div class="inner-content" style="gap:11px;">
+
+    <!-- PORTFOLIO — 2×2 grid -->
+    <div>
+      <div class="sec-header">
+        <div class="sec-header-bar"></div>
+        <div class="sec-header-title">Key Projects &amp; Achievements</div>
+      </div>
+      <div class="portfolio-grid">
+        <div class="port-card">
+          <div class="port-num">01</div>
+          <div class="port-body">
+            <div class="port-title">BazarAF – E-Commerce Marketplace</div>
+            <div class="port-desc">A full-scale multi-vendor marketplace built for the Afghan market. The platform includes seller onboarding, OTP-based authentication, dedicated admin and seller dashboards, complete order management, and a cash-on-delivery payment flow — deployed to production on Vercel.</div>
+            <div class="port-tags">
+              <span class="port-tag">Django</span>
+              <span class="port-tag">React</span>
+              <span class="port-tag">PostgreSQL</span>
+              <span class="port-tag">Vercel</span>
+              <span class="port-tag gold">Production Ready</span>
+            </div>
+          </div>
+        </div>
+        <div class="port-card">
+          <div class="port-num">02</div>
+          <div class="port-body">
+            <div class="port-title">Rayan Tech – Corporate Website</div>
+            <div class="port-desc">A professional multilingual website available in English, Pashto, and Dari. It features a fully animated interface, a service and portfolio showcase, and complete mobile responsiveness — built to represent Rayan Tech Solutions to both local and international audiences.</div>
+            <div class="port-tags">
+              <span class="port-tag">React</span>
+              <span class="port-tag">TypeScript</span>
+              <span class="port-tag">Tailwind CSS</span>
+              <span class="port-tag">i18next</span>
+              <span class="port-tag gold">Multilingual</span>
+            </div>
+          </div>
+        </div>
+        <div class="port-card">
+          <div class="port-num">03</div>
+          <div class="port-body">
+            <div class="port-title">School Management System</div>
+            <div class="port-desc">A comprehensive platform covering student records, daily attendance tracking, grading and report cards, and parent-teacher communication. Role-based access for administrators, teachers, and parents ensures each user sees only what is relevant to them.</div>
+            <div class="port-tags">
+              <span class="port-tag">Django</span>
+              <span class="port-tag">PostgreSQL</span>
+              <span class="port-tag">REST API</span>
+              <span class="port-tag">Admin Dashboard</span>
+              <span class="port-tag gold">Enterprise</span>
+            </div>
+          </div>
+        </div>
+        <div class="port-card">
+          <div class="port-num">04</div>
+          <div class="port-body">
+            <div class="port-title">Pharmacy &amp; Healthcare Management</div>
+            <div class="port-desc">A specialized system for pharmacies and medical facilities that handles prescription tracking, inventory management, supplier integration, and patient history. Designed for operational accuracy and compliance, with real-time data synchronization across all modules.</div>
+            <div class="port-tags">
+              <span class="port-tag">React</span>
+              <span class="port-tag">Node.js</span>
+              <span class="port-tag">MongoDB</span>
+              <span class="port-tag">Real-time Sync</span>
+              <span class="port-tag gold">Healthcare</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- COMPETENCIES -->
+    <div class="competencies">
+      <div class="comp-title">Technical Competencies</div>
+      <div class="comp-chips">
+        <span class="comp-chip">React / Next.js</span>
+        <span class="comp-chip">Python / Django</span>
+        <span class="comp-chip">Node.js</span>
+        <span class="comp-chip">PostgreSQL</span>
+        <span class="comp-chip">MongoDB</span>
+        <span class="comp-chip">REST APIs</span>
+        <span class="comp-chip">JWT / OTP Auth</span>
+        <span class="comp-chip">Git / GitHub</span>
+        <span class="comp-chip">Cloud Deployment</span>
+        <span class="comp-chip">TypeScript</span>
+        <span class="comp-chip">Tailwind CSS</span>
+        <span class="comp-chip">Figma / UI Design</span>
+        <span class="comp-chip">React Native</span>
+        <span class="comp-chip">DevOps Basics</span>
+      </div>
+    </div>
+
+    <!-- WHY CHOOSE US — 3 equal tall horizontal columns -->
+    <div style="flex:1; display:flex; flex-direction:column; min-height:0;">
+      <div class="sec-header">
+        <div class="sec-header-bar"></div>
+        <div class="sec-header-title">Why Choose Us</div>
+      </div>
+      <div class="why-grid" style="flex:1;">
+        <div class="why-card">
+          <div class="why-card-num">01</div>
+          <div class="why-card-title">Local Expertise, Global Standards</div>
+          <div class="why-card-text">We understand the Afghan business landscape deeply — the challenges, the opportunities, and the cultural nuances. At the same time, we build to the same quality benchmarks used by leading software teams worldwide. This combination gives our clients a decisive competitive edge both in the local market and when expanding regionally or internationally.</div>
+        </div>
+        <div class="why-card">
+          <div class="why-card-num">02</div>
+          <div class="why-card-title">End-to-End Delivery</div>
+          <div class="why-card-text">From initial discovery and UI/UX design through full development, cloud deployment, and ongoing maintenance — we own the complete product lifecycle. You work with a single focused team that knows your business inside out. No handoffs, no coordination overhead, and no gaps between teams. Just a reliable partner accountable for the entire outcome.</div>
+        </div>
+        <div class="why-card">
+          <div class="why-card-num">03</div>
+          <div class="why-card-title">Agile &amp; Transparent</div>
+          <div class="why-card-text">We work in short, focused sprints with regular demos and progress updates so you always know exactly where your project stands. Every decision is communicated clearly, every timeline is respected, and every change is discussed openly. No surprises — just consistent, measurable progress and a team that treats your project with the same urgency as you do.</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CONTACT — single row -->
+    <div>
+      <div class="sec-header">
+        <div class="sec-header-bar"></div>
+        <div class="sec-header-title">Get In Touch</div>
+      </div>
+      <div class="contact-row">
+        <div class="contact-card">
+          <span class="contact-icon">📧</span>
+          <div>
+            <div class="contact-label">Email Us</div>
+            <div class="contact-value">info@rayan-tech-solution.tech</div>
+          </div>
+        </div>
+        <div class="contact-card">
+          <span class="contact-icon">📱</span>
+          <div>
+            <div class="contact-label">Phone / WhatsApp</div>
+            <div class="contact-value">+93 780 012 147</div>
+          </div>
+        </div>
+        <div class="contact-card">
+          <span class="contact-icon">🌐</span>
+          <div>
+            <div class="contact-label">Website</div>
+            <div class="contact-value">rayan-tech-solution.tech</div>
+          </div>
+        </div>
+        <div class="contact-card">
+          <span class="contact-icon">📍</span>
+          <div>
+            <div class="contact-label">Location</div>
+            <div class="contact-value">Jalalabad, Afghanistan</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="inner-footer">
+    <div class="footer-left"><strong>Rayan Tech Solutions</strong> · Transforming Afghan Businesses Through Innovation</div>
+    <div class="footer-right">
+      <div class="footer-dot active"></div>
+      <div class="footer-dot active"></div>
+      <div class="footer-dot active"></div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

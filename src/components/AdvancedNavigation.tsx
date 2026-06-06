@@ -6,7 +6,9 @@ import { Link } from 'react-router-dom'
 import { createPortal } from 'react-dom'
 import { cn } from '@/lib/utils'
 import { LanguageSwitcher } from './LanguageSwitcher'
-import { COMPANY_LOGO } from '../config/company'
+// Logo imports
+const NAVBAR_LOGO = '/Navbar Logo.png'
+const MOBILE_NAVBAR_LOGO = '/Mobile Navbar.png'
 import {
   BarChart,
   Code,
@@ -59,11 +61,19 @@ export function AdvancedNavigation() {
     >
       <nav className="mx-auto flex h-14 md:h-16 w-full max-w-6xl items-center justify-between px-3 md:px-4">
         <div className="flex items-center gap-2 md:gap-5">
-          <Link to="/" className="rounded-lg px-2.5 md:px-3 py-1.5 transition-all duration-300 hover:shadow-lg hover:shadow-blue-500/20 flex-shrink-0 bg-gradient-to-br from-slate-900 to-gray-950 border border-gray-700/60 hover:border-blue-400/40">
+          <Link to="/" className="rounded-lg px-0 md:px-1 py-0 transition-all duration-300 hover:shadow-lg hover:shadow-blue-500/20 flex-shrink-0">
             <img 
-              src={COMPANY_LOGO} 
+              src={MOBILE_NAVBAR_LOGO}
               alt="Rayan Tech Solutions"
-              className="h-8 md:h-10 w-auto object-contain"
+              className="md:hidden h-14 w-auto object-contain"
+              onError={(e) => {
+                (e.target as HTMLImageElement).style.display = 'none'
+              }}
+            />
+            <img 
+              src={NAVBAR_LOGO}
+              alt="Rayan Tech Solutions"
+              className="hidden md:block h-14 w-auto object-contain"
               onError={(e) => {
                 (e.target as HTMLImageElement).style.display = 'none'
               }}

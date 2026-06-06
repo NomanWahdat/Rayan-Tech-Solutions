@@ -6,9 +6,9 @@ export const COMPANY_ADDRESS = "Jalalabad, Afghanistan"
 export const COMPANY_DESCRIPTION = "Building innovative software solutions for businesses across Afghanistan and beyond"
 
 export const SOCIAL_LINKS = {
-  facebook: "https://facebook.com",
-  linkedin: "https://linkedin.com",
+  facebook: "https://www.facebook.com/profile.php?id=61590319243947",
+  linkedin: "https://www.linkedin.com/company/rayan-tech-solution/",
   instagram: "https://instagram.com",
-  github: "https://github.com",
+  github: "https://github.com/RayanTechSolution",
   whatsapp: "https://wa.me/93780012147"
 }
