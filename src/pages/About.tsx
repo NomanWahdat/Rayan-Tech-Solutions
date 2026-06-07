@@ -13,9 +13,10 @@ export default function About() {
 
   const team = [
     { name: 'Noman Wahdat', role: 'Founder & CEO', specialty: 'Full Stack Development', image: '/team/noman-wahdat.jpeg' },
-    { name: 'Arman Malik', role: 'CTO', specialty: 'Architecture & Infrastructure', image: '/team/arman-malik.jpeg' },
-    { name: 'Khoshal Amin', role: 'Lead Developer', specialty: 'Backend Systems', image: '/team/khoshal-amin.jpeg' },
+    { name: 'Fazlullah Sardarkhil', role: 'CTO', specialty: 'Architecture & Infrastructure', image: '/team/fazl.jpg' },
+    { name: 'Khoshal Amin', role: 'Lead Backend Developer', specialty: 'Backend Systems', image: '/team/khoshal-amin.jpeg' },
     { name: 'Hameedullah Gul', role: 'UI/UX Designer', specialty: 'User Experience Design', image: '/team/hameedullah-gul.jpeg' },
+    { name: 'Akmal Stanikzai', role: 'Lead Frontend Developer', specialty: 'Frontend & UI Development', image: '/team/akmal.jpg' },
   ]
 
   return (
@@ -231,7 +232,7 @@ export default function About() {
             <p className="text-gray-400 text-lg">{t('about:team.subtitle')}</p>
           </motion.div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4 sm:gap-6">
             {team.map((member, idx) => (
               <motion.div
                 key={idx}
