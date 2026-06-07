@@ -274,7 +274,7 @@ export default function Contact() {
               height="100%"
               frameBorder="0"
               title="Rayan Tech Solutions Location"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3366.5!2d70.4580!3d34.4169!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38d16feb5e5e5e5e%3A0x5e5e5e5e5e5e5e5e!2sJalalabad%2C%20Afghanistan!5e0!3m2!1sen!2s!4v1234567890"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3367.0!2d69.2075!3d34.5553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38d16feb5e5e5e5e%3A0x5e5e5e5e5e5e5e5e!2sKabul%2C%20Afghanistan!5e0!3m2!1sen!2s!4v1234567890"
               allowFullScreen={true}
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
