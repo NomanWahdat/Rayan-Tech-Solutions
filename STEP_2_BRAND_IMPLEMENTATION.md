@@ -131,7 +131,7 @@
 - [x] **Email:** info@rayan-tech-solution.tech
 - [x] **Phone:** +93 780 012 147
 - [x] **WhatsApp:** Available at same number
-- [x] **Address:** Jalalabad, Afghanistan
+- [x] **Address:** Kabul, Afghanistan
 - [x] **Social Links:** LinkedIn, Facebook, GitHub
 
 ---
