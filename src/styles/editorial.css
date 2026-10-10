@@ -135,156 +135,6 @@
   min-width: 0;
 }
 
-/* The delivery band is a useful, keyboard-operable journey, not a ticker. */
-.delivery-journey {
-  background: #132238;
-  color: #fff;
-  position: relative;
-  border-block: 1px solid #29405d;
-}
-.delivery-layout {
-  display: grid;
-  grid-template-columns: 270px 1fr;
-  gap: 65px;
-  padding-block: 46px;
-}
-.delivery-heading {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-}
-.delivery-heading .eyebrow {
-  color: #bbcdf0;
-  font-size: 10px;
-  letter-spacing: 0.12em;
-}
-.delivery-heading h2 {
-  font-size: 30px;
-  line-height: 1.2;
-  margin-top: 14px;
-}
-.delivery-heading h2 span {
-  color: #91b8ff;
-}
-.delivery-scroll {
-  display: inline-flex;
-  align-items: center;
-  gap: 16px;
-  font-size: 12px;
-  margin-top: 24px;
-  padding-block: 4px;
-}
-.delivery-scroll svg {
-  transition: transform 0.25s;
-}
-.delivery-scroll:hover svg {
-  transform: translateY(4px);
-}
-.delivery-workspace {
-  min-width: 0;
-}
-.delivery-tabs {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 22px;
-}
-.delivery-tabs button {
-  border: 0;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  text-align: start;
-  gap: 10px;
-  background: none;
-  color: #c4d0e2;
-  font-size: 13px;
-  font-weight: 500;
-  min-height: 62px;
-  padding: 0 0 20px;
-  position: relative;
-}
-.delivery-tabs button svg {
-  flex-shrink: 0;
-  transition:
-    transform 0.3s,
-    color 0.3s;
-}
-.delivery-tabs button:hover svg,
-.delivery-tabs button:focus-visible svg {
-  transform: translateY(-3px) rotate(-6deg);
-  color: #91b8ff;
-}
-.delivery-tabs button[aria-selected='true'] {
-  color: white;
-}
-.delivery-tabs button[aria-selected='true'] svg {
-  color: #91b8ff;
-}
-.delivery-tab-track {
-  position: absolute;
-  inset-inline-start: 0;
-  inset-inline-end: 0;
-  height: 2px;
-  bottom: 0;
-  background: #3a4c65;
-}
-.delivery-tab-track:after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: #4389ff;
-  transform: scaleX(0);
-  transform-origin: left;
-  transition: transform 0.35s;
-}
-.delivery-tabs button[aria-selected='true'] .delivery-tab-track:after {
-  transform: scaleX(1);
-}
-.delivery-panel {
-  margin-top: 23px;
-  min-height: 145px;
-}
-.delivery-panel-content {
-  display: grid;
-  grid-template-columns: 70px 1fr;
-  align-items: center;
-  gap: 20px;
-  animation: editorial-text-in 0.35s ease-out;
-}
-.delivery-large-icon {
-  width: 70px;
-  height: 78px;
-  display: grid;
-  place-items: center;
-  color: #9ac1ff;
-  border: 1px solid #415878;
-  border-radius: 8px;
-  background: #1c314d;
-}
-.delivery-panel h3 {
-  font-size: 23px;
-  letter-spacing: -0.025em;
-}
-.delivery-panel p {
-  font-size: 13px;
-  line-height: 1.8;
-  color: #c4d0e2;
-  max-width: 650px;
-  margin-top: 9px;
-}
-.delivery-outcome {
-  display: inline-flex;
-  align-items: center;
-  gap: 9px;
-  font-size: 11px;
-  color: #9ec4ff;
-  margin-top: 14px;
-}
-.delivery-journey :focus-visible {
-  outline-color: #aacaff;
-}
-
 /* Distinct service, solution, industry, and technology compositions. */
 .service-jump-links {
   padding: 20px;
@@ -633,19 +483,6 @@
 }
 
 @media (max-width: 1100px) {
-  .delivery-layout {
-    grid-template-columns: 210px 1fr;
-    gap: 36px;
-  }
-  .delivery-tabs {
-    gap: 15px;
-  }
-  .delivery-tabs button {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 9px;
-    font-size: 12px;
-  }
   .technology-logo-wall > div {
     flex-direction: column;
     gap: 10px;
@@ -679,32 +516,6 @@
   }
   .editorial-visual figcaption {
     padding: 18px;
-  }
-  .delivery-layout {
-    grid-template-columns: 1fr;
-    gap: 28px;
-    padding-block: 32px;
-  }
-  .delivery-heading {
-    display: block;
-    position: relative;
-    padding-inline-end: 130px;
-  }
-  .delivery-heading h2 {
-    font-size: 26px;
-  }
-  .delivery-heading h2 br {
-    display: none;
-  }
-  .delivery-scroll {
-    position: absolute;
-    inset-inline-end: 0;
-    bottom: 4px;
-    margin: 0;
-    font-size: 11px;
-  }
-  .delivery-panel {
-    min-height: 140px;
   }
   .catalog-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -817,58 +628,6 @@
     gap: 12px;
     padding: 16px;
   }
-  .delivery-heading {
-    padding-inline-end: 0;
-  }
-  .delivery-heading h2 {
-    font-size: 27px;
-  }
-  .delivery-scroll {
-    position: static;
-    margin-top: 17px;
-  }
-  .delivery-tabs {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 18px 22px;
-  }
-  .delivery-tabs button {
-    flex-direction: row;
-    align-items: center;
-    font-size: 12px;
-    padding-bottom: 14px;
-    min-height: 42px;
-  }
-  .delivery-panel {
-    min-height: 195px;
-    margin-top: 25px;
-  }
-  .delivery-panel-content {
-    grid-template-columns: 46px minmax(0, 1fr);
-    gap: 15px;
-    align-items: start;
-  }
-  .delivery-large-icon {
-    width: 46px;
-    height: 54px;
-  }
-  .delivery-large-icon svg {
-    width: 27px;
-  }
-  .delivery-panel h3 {
-    font-size: 21px;
-  }
-  .delivery-panel p {
-    font-size: 12px;
-  }
-  .delivery-outcome {
-    align-items: flex-start;
-    line-height: 1.65;
-    font-size: 10px;
-  }
-  .delivery-outcome svg {
-    flex-shrink: 0;
-    margin-top: 2px;
-  }
   .catalog-grid,
   .industry-list,
   .technology-grid {
@@ -940,16 +699,13 @@
   .motion-arrived,
   .page-intro-copy h1,
   .page-intro-copy .lead,
-  .page-intro-copy .eyebrow-rule,
-  .delivery-panel-content {
+  .page-intro-copy .eyebrow-rule {
     animation: none;
   }
   .editorial-image-frame img,
   .card-icon svg,
   .service-symbol svg,
   .process-icon svg,
-  .delivery-tab-track:after,
-  .delivery-tabs button svg,
   .catalog-grid article,
   .catalog-grid article:before,
   .cover-icon-disc svg {

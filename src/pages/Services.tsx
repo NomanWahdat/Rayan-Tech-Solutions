@@ -4,7 +4,6 @@ import {
   ArrowDown,
   ArrowUpRight,
   Check,
-  Code2,
   Compass,
   Layers,
   LifeBuoy,
@@ -13,7 +12,7 @@ import {
 import { Link, useLocation } from 'react-router-dom'
 import { services } from '../config/catalog'
 import { CTA, Process } from '../components/Shared'
-import { serviceIcons } from '../config/design-icons'
+import ServiceEmblem from '../components/ServiceEmblem'
 import { serviceTechnologies } from '../config/technology-logos'
 import EditorialVisual from '../components/EditorialVisual'
 import RotatingHeadline from '../components/RotatingHeadline'
@@ -206,21 +205,23 @@ export default function Services() {
             services
               .filter((service) => selected.slugs.includes(service.slug))
               .map((service) => {
-                const Icon = serviceIcons[service.slug] || Code2
                 return (
                   <section
                     className="service-row"
                     id={service.slug}
                     key={service.slug}
+                    aria-labelledby={'service-title-' + service.slug}
                   >
                     <div className="service-summary">
-                      <span className="service-symbol" aria-hidden="true">
-                        <Icon size={29} strokeWidth={1.4} />
-                      </span>
-                      <span className="eyebrow">
-                        {localizeContent(service.title)}
-                      </span>
-                      <h2>{localizeContent(service.short)}</h2>
+                      <div className="service-identity">
+                        <ServiceEmblem slug={service.slug} />
+                        <h2 id={'service-title-' + service.slug}>
+                          {localizeContent(service.title)}
+                        </h2>
+                      </div>
+                      <p className="service-value-proposition">
+                        {localizeContent(service.short)}
+                      </p>
                       <p>{localizeContent(service.description)}</p>
                       {localizeContent(
                         (service.slug === 'ui-ux' ||

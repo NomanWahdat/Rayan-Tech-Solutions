@@ -59,12 +59,9 @@ for (const language of ['fa', 'ps'] as const) {
     await expect(page.locator('html')).toHaveAttribute('lang', htmlLanguage)
     await page.reload()
     await expect(page.locator('html')).toHaveAttribute('lang', htmlLanguage)
-    await expect(
-      page.locator('.delivery-tabs [role=tab]').first()
-    ).toHaveAttribute('aria-selected', 'true')
-    await page.locator('.delivery-tabs [role=tab]').first().focus()
-    await page.keyboard.press('ArrowLeft')
-    await expect(page.locator('.delivery-tabs [role=tab]').nth(1)).toBeFocused()
+    await page.locator('.home-brief-links a').first().focus()
+    await page.keyboard.press('Tab')
+    await expect(page.locator('.home-brief-links a').nth(1)).toBeFocused()
 
     await page.goto('/portfolio')
     await expect(page.locator('main')).toHaveAttribute('dir', 'rtl')

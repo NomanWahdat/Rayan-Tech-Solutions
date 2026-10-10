@@ -132,40 +132,20 @@ test('Main pages pass automated accessibility checks', async ({ page }) => {
   }
 })
 
-test('Delivery journey supports selection, keyboard navigation, and reduced motion', async ({
+test('Home connects services and featured work without the removed delivery widget', async ({
   page,
 }) => {
   await page.goto('/')
-  const design = page.getByRole('tab', { name: 'Design', exact: true })
-  await design.click()
-  await expect(design).toHaveAttribute('aria-selected', 'true')
-  await expect(page.getByRole('tabpanel')).toContainText(
-    'Make the important things intuitive.'
-  )
-  await design.press('ArrowRight')
-  await expect(
-    page.getByRole('tab', { name: 'Development', exact: true })
-  ).toBeFocused()
-  await expect(page.getByRole('tabpanel')).toContainText(
-    'Build a dependable foundation.'
-  )
-  await page.getByRole('tab', { name: 'Development', exact: true }).press('End')
-  await expect(page.getByRole('tabpanel')).toContainText(
-    'Keep the system moving forward.'
-  )
+  await expect(page.locator('.delivery-journey')).toHaveCount(0)
+  await expect(page.locator('.featured-projects .project-card')).toHaveCount(4)
+  await expect(page.locator('.capability-card')).toHaveCount(6)
+  await page.locator('.featured-projects .project-cover-link').first().click()
+  await expect(page).toHaveURL(/\/portfolio\/bazaaraf/)
+  await expect(page.locator('h1')).toBeVisible()
+  await page.goto('/')
   await page.emulateMedia({ reducedMotion: 'reduce' })
-  await page
-    .getByRole('tab', { name: 'Long-term support', exact: true })
-    .press('Home')
-  await expect(
-    page.getByRole('tab', { name: 'Strategy', exact: true })
-  ).toBeFocused()
-  expect(
-    await page
-      .locator('.delivery-panel-content')
-      .evaluate((node) => getComputedStyle(node).animationName)
-  ).toBe('none')
-  await page.goto('/services')
+  await page.locator('.home-brief-links a').first().click()
+  await expect(page).toHaveURL(/\/services#custom-software/)
   await expect(
     page.locator('.editorial-visual').first().locator('img')
   ).toBeVisible()

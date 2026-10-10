@@ -2,6 +2,19 @@
 
 Reviewed locally on October 10, 2026, against the production build in headless Google Chrome.
 
+## Homepage composition, process timeline, and team motion
+
+- The rejected delivery widget is removed, along with its component, orbit artwork, and unused CSS. Home now uses a compact service introduction, a horizontal BazarAF project feature with three supporting cards, editorial service rows with existing domain-specific emblems, refined business principles and industry links, and a blue project CTA. Homepage changes are scoped to home.css; the hero image/headline and team composition are retained. Dashboard previews remain identified separately from available real screenshots.
+- The shared development process now uses a connected timeline, clearer deliverable panels, and staggered icon drawing on scroll. Mobile uses a vertical timeline; Dari and Pashto mirror its direction.
+- Each process step and team card waits until it enters the viewport above the bottom 18% before revealing. This prevents later mobile rows from animating before they are visible. Process icons enter over 1.4 seconds and draw over 2 seconds; team portraits converge over 1.6 seconds with 240ms stagger and a 1.8-second backdrop reveal. Portrait crops, names, roles, and final arrangement are preserved. Content remains visible without JavaScript and when reduced motion is enabled before scrolling.
+- The production build and all 41 generated routes passed. Eight desktop/mobile checks passed for Home service/case-study navigation, shared navigation, team portraits, scroll reveals, and reduced motion. Four Dari/Pashto interaction tests passed, including persisted language, RTL keyboard/lightbox controls, filters, and stable inquiry fields. Twelve Home layouts across English, Dari, and Pashto at 320/390/768/1440 pixels passed without horizontal overflow or browser errors. Six WCAG A/AA checks passed; all visible section images decode. Desktop/mobile section captures were visually reviewed in ignored .qa/home-*.png files.
+
+## Services typography and icon update
+
+- Each service name is now the primary card heading (25–32px), replacing the small uppercase label. Value statements, body copy, capability lists, and detail headings have a clearer hierarchy and larger type. Service links and cards have improved spacing, borders, and focus states.
+- Eleven distinct service emblems pair domain-specific line icons with layered blue/white framing and a secondary symbol. Hover and keyboard focus animate the emblem layers; service links lift subtly and cards highlight their leading edge. Reduced-motion settings disable these transformations and transitions. Existing headline rotation, filters, inquiry links, and authentic technology logos are retained.
+- Production build, type checking, formatting, and diff checks passed. Two desktop/mobile service interaction tests passed. Twelve layouts covering English, Dari, and Pashto at 320/390/768/1440 pixels passed without overflow or browser errors. Six automated WCAG A/AA checks passed; hover and reduced-motion behavior were also verified. Card captures are in ignored `.qa/services-card-*.png` files.
+
 ## Dari and Pashto localization
 
 - Development import fix: the localization stylesheet is imported directly from `src/main.tsx` after `App.css`. This avoids the live PostCSS import resolving it under the project root. Vite's stale transform cache was cleared by triggering its config restart. Live development checks confirm English, Dari, and Pashto render with the expected direction/font and no error overlay, browser errors, or HTTP 500 responses. The production build still generates identical CSS and passes for all 41 routes.

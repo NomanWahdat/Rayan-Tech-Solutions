@@ -12,7 +12,7 @@ import {
 import { Link } from 'react-router-dom'
 import { process } from '../config/catalog'
 import { team } from '../config/company'
-import { useState } from 'react'
+import { useState, type CSSProperties } from 'react'
 import { processIcons } from '../config/design-icons'
 import EditorialVisual, { type EditorialVisualKind } from './EditorialVisual'
 
@@ -71,7 +71,7 @@ export function CTA({
 }
 export function Process() {
   return (
-    <section className="section" id="process">
+    <section className="section process-section" id="process">
       <div className="section-heading">
         <div>
           <span className="eyebrow">{localizeText('HOW WE WORK')}</span>
@@ -92,12 +92,17 @@ export function Process() {
           process.map(([name, description], index) => {
             const Icon = processIcons[index]
             return (
-              <li key={name}>
+              <li
+                key={name}
+                style={{ '--step-delay': `${index * 100}ms` } as CSSProperties}
+              >
                 <span className="process-icon" aria-hidden="true">
-                  <Icon size={22} strokeWidth={1.6} />
+                  <Icon size={27} strokeWidth={1.7} />
                 </span>
-                <h3>{localizeContent(name)}</h3>
-                <p>{localizeContent(description)}</p>
+                <div className="process-step-copy">
+                  <h3>{localizeContent(name)}</h3>
+                  <p>{localizeContent(description)}</p>
+                </div>
               </li>
             )
           })

@@ -257,18 +257,24 @@
   gap: 9px 20px;
 }
 .services-page .service-jump-links a {
-  border: 0;
-  padding: 5px 0;
+  border: 1px solid #cbd9ec;
+  border-radius: 5px;
+  padding: 10px 13px;
   display: inline-flex;
   align-items: center;
   gap: 7px;
-  font-size: 11px;
-  background: transparent;
+  font-size: 13px;
+  background: #f9fbff;
+  transition:
+    background 0.2s,
+    border-color 0.2s,
+    transform 0.2s;
 }
 .services-page .service-jump-links a:hover {
   color: #0356df;
-  text-decoration: underline;
-  text-underline-offset: 4px;
+  background: #eaf1ff;
+  border-color: #87acf0;
+  transform: translateY(-2px);
 }
 .service-expertise {
   padding-block: 70px 45px;
@@ -277,12 +283,35 @@
 .services-page .service-row {
   display: grid;
   grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr);
-  gap: 65px;
+  gap: 48px;
   padding: 42px;
   background: white;
   border: 1px solid #d0ddec;
   border-radius: 10px;
   margin-bottom: 26px;
+  position: relative;
+  box-shadow: 0 4px 18px #102e5905;
+  transition:
+    border-color 0.25s,
+    box-shadow 0.25s,
+    background 0.25s;
+}
+.services-page .service-row::before {
+  content: '';
+  position: absolute;
+  inset-inline-start: -1px;
+  inset-block: 36px;
+  width: 3px;
+  background: #035ffd;
+  border-radius: 4px;
+  transform: scaleY(0);
+  transform-origin: center;
+  transition: transform 0.3s ease;
+}
+.services-page .service-row:focus-within::before,
+.services-page .service-row:hover::before,
+.services-page .service-row:target::before {
+  transform: scaleY(1);
 }
 .services-page .service-row.motion-arrived {
   animation: service-card-enter 0.55s ease-out both;
@@ -290,49 +319,118 @@
 .services-page .service-row:nth-child(even) {
   background: #f7faff;
 }
-.services-page .service-row:hover {
+.services-page .service-row:hover,
+.services-page .service-row:focus-within,
+.services-page .service-row:target {
   border-color: #a8c3ef;
+  box-shadow: 0 12px 36px #102e590d;
 }
 .service-summary {
   min-width: 0;
 }
-.services-page .service-symbol {
+.service-identity {
+  display: flex;
+  gap: 23px;
+  align-items: center;
+  margin-bottom: 25px;
+}
+.service-emblem {
+  position: relative;
+  display: block;
+  width: 98px;
+  height: 98px;
+  flex: 0 0 98px;
+  direction: ltr;
+}
+.service-emblem-back {
+  position: absolute;
+  inset: 12px 13px 14px 9px;
+  border: 1px solid #8cb3ff;
+  border-radius: 17px;
+  background: #dceaff;
+  transform: rotate(-12deg);
+  transition: transform 0.35s ease;
+}
+.service-emblem-face {
+  position: absolute;
+  inset: 8px 14px 18px 12px;
   display: grid;
   place-items: center;
+  border: 1px solid #aec8f4;
+  border-radius: 16px;
+  background: #fff;
+  color: #035ffd;
+  box-shadow: 0 7px 14px #17395d0c;
+  transition:
+    transform 0.35s ease,
+    box-shadow 0.35s ease;
+}
+.service-emblem-accent {
+  position: absolute;
+  right: 2px;
+  bottom: 9px;
+  display: grid;
+  place-items: center;
+  width: 34px;
+  height: 34px;
   background: #035ffd;
   color: white;
-  width: 60px;
-  height: 60px;
-  border-radius: 16px;
-  margin-bottom: 23px;
+  border: 3px solid #fff;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px #035ffd20;
+  transition: transform 0.35s ease;
 }
-.services-page .service-summary > .eyebrow {
-  font-size: 10px;
-  color: #0356df;
+.service-row:hover .service-emblem-back,
+.service-row:focus-within .service-emblem-back {
+  transform: rotate(-5deg);
+}
+.service-row:hover .service-emblem-face,
+.service-row:focus-within .service-emblem-face {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px #17395d14;
+}
+.service-row:hover .service-emblem-accent,
+.service-row:focus-within .service-emblem-accent {
+  transform: rotate(8deg) translateY(-2px);
 }
 .services-page .service-row h2 {
-  font-size: 34px;
-  line-height: 1.2;
+  font-size: clamp(26px, 2.3vw, 32px);
+  line-height: 1.25;
+  letter-spacing: -0.035em;
   max-width: 470px;
+  margin: 0;
 }
 .services-page .service-row .service-summary > p {
-  font-size: 14px;
+  font-size: 15px;
   line-height: 1.8;
   max-width: 475px;
 }
+.services-page .service-row .service-summary > .service-value-proposition {
+  font-size: 21px;
+  font-weight: 550;
+  line-height: 1.5;
+  color: #344d70;
+  margin-block: 0 12px;
+}
+.services-page .service-row .text-link {
+  font-size: 14px;
+  gap: 12px;
+  margin-top: 24px;
+}
 .services-page .service-detail {
-  padding: 0 0 0 32px;
+  padding: 4px 0;
+  padding-inline-start: 32px;
   border: 0;
   border-inline-start: 1px solid #d1deee;
 }
 .services-page .service-detail h3 {
-  font-size: 14px;
+  font-size: 16px;
 }
 .services-page .service-detail .check-list {
   margin-block: 19px 24px;
 }
 .services-page .service-detail .check-list li {
-  font-size: 13px;
+  font-size: 14px;
   gap: 12px;
   line-height: 1.6;
   padding-block: 8px;
@@ -344,12 +442,12 @@
   border-radius: 0 5px 5px 0;
 }
 .service-use-case .eyebrow {
-  font-size: 9px;
+  font-size: 11px;
   color: #476286;
 }
 .services-page .service-use-case p {
   margin-top: 8px;
-  font-size: 12px;
+  font-size: 14px;
   color: #3b5270;
 }
 .service-stack {
@@ -741,7 +839,16 @@
     gap: 27px;
   }
   .services-page .service-row h2 {
-    font-size: 29px;
+    font-size: 25px;
+  }
+  .service-identity {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 13px;
+    margin-bottom: 19px;
+  }
+  .services-page .service-row .service-summary > .service-value-proposition {
+    font-size: 19px;
   }
   .service-partnership {
     padding: 29px;
@@ -795,6 +902,25 @@
   .service-principles svg,
   .service-toolkit-marks img {
     transition: none;
+  }
+  .service-emblem-back,
+  .service-emblem-face,
+  .service-emblem-accent,
+  .services-page .service-row,
+  .services-page .service-row::before,
+  .services-page .service-jump-links a {
+    transition: none;
+  }
+  .service-row:hover .service-emblem-back,
+  .service-row:focus-within .service-emblem-back {
+    transform: rotate(-12deg);
+  }
+  .service-row:hover .service-emblem-face,
+  .service-row:focus-within .service-emblem-face,
+  .service-row:hover .service-emblem-accent,
+  .service-row:focus-within .service-emblem-accent,
+  .services-page .service-jump-links a:hover {
+    transform: none;
   }
   .technology-card:hover,
   .editorial-visual:hover .sculpture-accent {

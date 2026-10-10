@@ -1,4 +1,12 @@
 # English source | Afghan Dari | Pashto
+A connected delivery process|روند یکپارچهٔ اجرای پروژه|د پروژې د پلي کولو یو تړلی بهیر
+SOFTWARE ENGINEERING / BUSINESS THINKING|مهندسی نرم‌افزار / نگاه تجارتی|د سافټویر انجینري / سوداګریز فکر
+Your workflow. Our engineering.|روند کاری شما. مهندسی ما.|ستاسو کاري بهیر. زموږ انجینري.
+Explore the business context and engineering behind our work.|با نیازهای تجارتی و مهندسی پروژه‌های ما آشنا شوید.|زموږ د پروژو سوداګریزې اړتیاوې او انجینري وپېژنئ.
+Resume delivery animation|ادامهٔ نمایش مراحل پروژه|د پروژې د پړاوونو ننداره بیا پیل کړئ
+Pause delivery animation|توقف نمایش مراحل پروژه|د پروژې د پړاوونو ننداره ودروئ
+Play|پخش|پیل
+Pause|توقف|ودرول
 Home|خانه|کور
 Services|خدمات|خدمات
 Solutions|راهکارها|حل لارې

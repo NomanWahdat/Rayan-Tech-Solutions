@@ -4,6 +4,8 @@ import App from './App'
 import './styles/fonts.css'
 import './index.css'
 import './App.css'
+import './styles/interactions.css'
+import './styles/home.css'
 import './styles/localization.css'
 
 const root = document.getElementById('root')!

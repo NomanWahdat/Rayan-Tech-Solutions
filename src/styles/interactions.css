@@ -1,0 +1,286 @@
+/* A connected timeline, with readable deliverables instead of numbered cards. */
+.process-section {
+  border-block: 1px solid #cdd9e9;
+  margin-block: 45px;
+  padding-block: 65px;
+  position: relative;
+}
+.process-section .process-grid {
+  gap: 14px;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  margin-top: 42px;
+}
+.process-section .process-grid > li {
+  display: grid;
+  grid-template-rows: 74px 1fr;
+  min-width: 0;
+}
+.process-section .process-grid > li::before {
+  top: 31px;
+  inset-inline: 0 -14px;
+  height: 2px;
+  background: #bfcfea;
+}
+.process-section .process-grid > li:last-child::before {
+  inset-inline-end: 0;
+}
+.process-section .process-icon {
+  width: 64px;
+  height: 64px;
+  display: grid;
+  place-items: center;
+  border-radius: 18px;
+  background: #f8fbff;
+  border: 1px solid #97b8f2;
+  color: #035ffd;
+  box-shadow: 0 4px 12px #035ffd0a;
+  transition:
+    transform 0.3s,
+    background 0.3s,
+    box-shadow 0.3s;
+}
+.process-section .process-step-copy {
+  border: 1px solid #ccd9ec;
+  border-radius: 8px;
+  background: #fafcff;
+  padding: 20px 15px;
+  margin-top: 12px;
+  transition:
+    border-color 0.25s,
+    box-shadow 0.25s;
+}
+.process-section .process-grid h3 {
+  font-size: 18px;
+  margin: 0;
+}
+.process-section .process-grid p {
+  font-size: 13px;
+  line-height: 1.8;
+  margin-top: 12px;
+}
+.process-section .process-grid > li:hover .process-icon {
+  transform: translateY(-4px);
+  background: #edf4ff;
+  box-shadow: 0 8px 18px #035ffd14;
+}
+.process-section .process-grid > li:hover .process-step-copy {
+  border-color: #8caff0;
+  box-shadow: 0 7px 20px #17395d0a;
+}
+.process-grid > li.motion-arrived .process-icon {
+  animation: process-icon-enter 1.4s cubic-bezier(0.2, 0.7, 0.2, 1) backwards;
+  animation-delay: var(--step-delay, 0ms);
+}
+.process-grid > li.motion-arrived .process-icon svg {
+  stroke-dasharray: 100;
+  stroke-dashoffset: 0;
+  animation: process-icon-draw 2s ease-out both;
+  animation-delay: var(--step-delay, 0ms);
+}
+.process-grid > li.motion-arrived .process-step-copy {
+  animation: process-copy-enter 1.25s ease-out both;
+  animation-delay: calc(var(--step-delay, 0ms) + 100ms);
+}
+.process-grid > li.motion-ready:not(.motion-arrived) .process-icon,
+.process-grid > li.motion-ready:not(.motion-arrived) .process-step-copy {
+  opacity: 0;
+}
+@keyframes process-icon-enter {
+  from {
+    opacity: 0;
+    transform: translateY(14px) scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+@keyframes process-icon-draw {
+  from {
+    stroke-dashoffset: 100;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes process-copy-enter {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Preserve the portraits, crops, and sculpted backdrop. Animate their containers. */
+.team-card {
+  --team-entry-x: -36px;
+  --team-delay: 0ms;
+}
+.team-card:nth-child(2) {
+  --team-entry-x: -18px;
+  --team-delay: 240ms;
+}
+.team-card:nth-child(3) {
+  --team-entry-x: 18px;
+  --team-delay: 480ms;
+}
+.team-card:nth-child(4) {
+  --team-entry-x: 36px;
+  --team-delay: 720ms;
+}
+html[dir='rtl'] .team-card {
+  --team-entry-x: 36px;
+}
+html[dir='rtl'] .team-card:nth-child(2) {
+  --team-entry-x: 18px;
+}
+html[dir='rtl'] .team-card:nth-child(3) {
+  --team-entry-x: -18px;
+}
+html[dir='rtl'] .team-card:nth-child(4) {
+  --team-entry-x: -36px;
+}
+.team-card.motion-ready:not(.motion-arrived) .portrait,
+.team-card.motion-ready:not(.motion-arrived) .team-caption,
+.team-grid.motion-ready:not(.motion-arrived)::before {
+  opacity: 0;
+}
+.team-card.motion-arrived .portrait {
+  animation: team-portrait-connect 1.6s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+  animation-delay: var(--team-delay);
+}
+.team-card.motion-arrived .team-caption {
+  animation: process-copy-enter 1.2s ease-out both;
+  animation-delay: calc(var(--team-delay) + 250ms);
+}
+.team-grid.motion-arrived::before {
+  animation: team-backdrop-connect 1.8s 0.5s ease-out both;
+}
+@keyframes team-portrait-connect {
+  from {
+    opacity: 0;
+    transform: translate(var(--team-entry-x), 28px) scale(0.97);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0, 0) scale(1);
+  }
+}
+@keyframes team-backdrop-connect {
+  from {
+    opacity: 0;
+    transform: scaleX(0.84);
+  }
+  to {
+    opacity: 1;
+    transform: scaleX(1);
+  }
+}
+.button {
+  transition:
+    transform 0.2s,
+    background 0.2s,
+    border-color 0.2s,
+    box-shadow 0.2s;
+}
+.button:hover {
+  transform: translateY(-2px);
+}
+.button:active {
+  transform: translateY(0);
+}
+
+@media (max-width: 1100px) {
+  .process-section .process-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 26px 16px;
+  }
+  .process-section .process-grid > li:nth-child(4)::before {
+    inset-inline-end: 0;
+  }
+}
+@media (max-width: 800px) {
+  .process-section .process-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 26px 16px;
+  }
+  .process-section .process-grid > li:nth-child(even)::before {
+    inset-inline-end: 0;
+  }
+}
+@media (max-width: 480px) {
+  .process-section {
+    padding-block: 40px;
+  }
+  .process-section .process-grid {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  .process-section .process-grid > li {
+    grid-template-columns: 56px minmax(0, 1fr);
+    grid-template-rows: auto;
+    gap: 19px;
+    padding-bottom: 22px;
+  }
+  .process-section .process-grid > li::before,
+  .process-section .process-grid > li:nth-child(even)::before,
+  .process-section .process-grid > li:nth-child(4)::before {
+    width: 2px;
+    height: auto;
+    inset-block: 26px 0;
+    inset-inline: 27px auto;
+  }
+  .process-section .process-grid > li:last-child::before {
+    display: none;
+  }
+  .process-section .process-icon {
+    width: 56px;
+    height: 56px;
+    border-radius: 15px;
+  }
+  .process-section .process-step-copy {
+    margin-top: 0;
+    padding: 18px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .process-grid > li.motion-ready:not(.motion-arrived) .process-icon,
+  .process-grid > li.motion-ready:not(.motion-arrived) .process-step-copy,
+  .team-card.motion-ready:not(.motion-arrived) .portrait,
+  .team-card.motion-ready:not(.motion-arrived) .team-caption,
+  .team-grid.motion-ready:not(.motion-arrived)::before {
+    opacity: 1;
+  }
+  .process-grid > li.motion-arrived .process-icon,
+  .process-grid > li.motion-arrived .process-icon svg,
+  .process-grid > li.motion-arrived .process-step-copy,
+  .team-card.motion-arrived .portrait,
+  .team-card.motion-arrived .team-caption,
+  .team-grid.motion-arrived::before {
+    animation: none;
+  }
+  .process-grid.motion-ready .process-icon,
+  .process-grid.motion-ready .process-step-copy,
+  .team-grid.motion-ready .portrait,
+  .team-grid.motion-ready .team-caption,
+  .team-grid.motion-ready::before {
+    opacity: 1;
+    transform: none;
+  }
+  .process-section .process-icon svg {
+    stroke-dashoffset: 0;
+    stroke-dasharray: none;
+  }
+  .button,
+  .process-section .process-icon,
+  .process-section .process-step-copy {
+    transition: none;
+  }
+  .button:hover,
+  .process-section .process-grid > li:hover .process-icon {
+    transform: none;
+  }
+}

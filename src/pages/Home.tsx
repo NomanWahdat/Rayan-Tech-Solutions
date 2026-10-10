@@ -15,7 +15,7 @@ import ProjectCard from '../components/ProjectCard'
 import { CTA, EngineeringVisual, Process, Team } from '../components/Shared'
 import { useTranslation } from 'react-i18next'
 import RotatingHeadline from '../components/RotatingHeadline'
-import DeliveryJourney from '../components/DeliveryJourney'
+import ServiceEmblem from '../components/ServiceEmblem'
 import EditorialVisual from '../components/EditorialVisual'
 import heroImage from '../assets/developer-collaboration.webp'
 import heroImageMobile from '../assets/developer-collaboration-mobile.webp'
@@ -112,7 +112,32 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <DeliveryJourney />
+      <section
+        className="home-brief-band"
+        aria-label={localizeText('WHAT WE DO')}
+      >
+        <div className="container home-brief-inner">
+          <div>
+            <span className="eyebrow">
+              {localizeText('SOFTWARE ENGINEERING / BUSINESS THINKING')}
+            </span>
+            <h2>{localizeText('Your workflow. Our engineering.')}</h2>
+          </div>
+          <div className="home-brief-links">
+            {['custom-software', 'business-systems', 'web-applications'].map(
+              (slug) => {
+                const [, title] = capabilities.find((item) => item[3] === slug)!
+                return (
+                  <Link key={slug} to={'/services#' + slug}>
+                    {localizeContent(title)}
+                    <ArrowUpRight size={18} aria-hidden="true" />
+                  </Link>
+                )
+              }
+            )}
+          </div>
+        </div>
+      </section>
       <div className="container">
         <section className="section selected-work" id="selected-work">
           <div className="section-heading">
@@ -129,7 +154,7 @@ export default function Home() {
             <div>
               <p>
                 {localizeText(
-                  'From marketplaces to management systems. Explore the context, scope, and thinking behind our projects. Dashboard covers introduce each product; real screenshots appear in its case study.'
+                  'Explore the business context and engineering behind our work.'
                 )}
               </p>
               <Link className="text-link" to="/portfolio">
@@ -154,6 +179,11 @@ export default function Home() {
               ))
             )}
           </div>
+          <p className="home-project-note">
+            {localizeText(
+              'Card images are designed dashboard previews. Available project screenshots and verified implementation details appear in each case study.'
+            )}
+          </p>
         </section>
         <section className="section capabilities-section" id="services">
           <div className="section-heading">
@@ -172,19 +202,22 @@ export default function Home() {
           </div>
           <div className="capabilities-grid">
             {localizeContent(
-              capabilities.map(([Icon, title, description, slug]) => (
+              capabilities.map(([, title, description, slug]) => (
                 <Link
                   className="capability-card"
                   to={'/services#' + slug}
                   key={slug}
                 >
-                  <div className="capability-top">
-                    <Icon size={27} strokeWidth={1.5} />
-                    <ArrowUpRight size={19} aria-hidden="true" />
+                  <ServiceEmblem slug={slug} />
+                  <div className="capability-copy">
+                    <h3>{localizeContent(title)}</h3>
+                    <p>{localizeContent(description)}</p>
                   </div>
-                  <h3>{localizeContent(title)}</h3>
-                  <p>{localizeContent(description)}</p>
-                  <ArrowUpRight className="capability-arrow" size={20} />
+                  <ArrowUpRight
+                    className="capability-arrow"
+                    size={20}
+                    aria-hidden="true"
+                  />
                 </Link>
               ))
             )}
