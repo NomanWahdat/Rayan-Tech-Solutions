@@ -1,0 +1,1038 @@
+[
+  {
+    "slug": "brainloop",
+    "title": "BrainLoop E-Learning Platform",
+    "images": [
+      {
+        "src": "/images/portfolio/brainloop/hero.webp",
+        "caption": "Project overview"
+      },
+      {
+        "src": "/images/portfolio/brainloop/dashboard.webp",
+        "caption": "Dashboard"
+      },
+      {
+        "src": "/images/portfolio/brainloop/courses.webp",
+        "caption": "Courses"
+      },
+      {
+        "src": "/images/portfolio/brainloop/mentoring.webp",
+        "caption": "Mentoring"
+      },
+      {
+        "src": "/images/portfolio/brainloop/ai-assistant.webp",
+        "caption": "Ai assistant"
+      },
+      {
+        "src": "/images/portfolio/brainloop/mobile.webp",
+        "caption": "Mobile"
+      }
+    ]
+  },
+  {
+    "slug": "ai-recruitment-screening",
+    "title": "AI Recruitment Screening",
+    "images": [
+      {
+        "src": "/images/portfolio/ai-recruitment-screening/hero.webp",
+        "caption": "Project overview"
+      },
+      {
+        "src": "/images/portfolio/ai-recruitment-screening/dashboard.webp",
+        "caption": "Dashboard"
+      },
+      {
+        "src": "/images/portfolio/ai-recruitment-screening/candidates.webp",
+        "caption": "Candidates"
+      },
+      {
+        "src": "/images/portfolio/ai-recruitment-screening/screening.webp",
+        "caption": "Screening"
+      },
+      {
+        "src": "/images/portfolio/ai-recruitment-screening/reports.webp",
+        "caption": "Reports"
+      },
+      {
+        "src": "/images/portfolio/ai-recruitment-screening/mobile.webp",
+        "caption": "Mobile"
+      }
+    ]
+  },
+  {
+    "slug": "ai-resume-analyzer",
+    "title": "AI Resume & Interview Assistant",
+    "images": [
+      {
+        "src": "/images/portfolio/ai-resume-analyzer/hero.webp",
+        "caption": "Resume upload — captured interface"
+      },
+      {
+        "src": "/images/portfolio/ai-resume-analyzer/dashboard.webp",
+        "caption": "Analysis history — explicitly static preview"
+      },
+      {
+        "src": "/images/portfolio/ai-resume-analyzer/resume-analysis.webp",
+        "caption": "Job-match form — no analysis performed"
+      },
+      {
+        "src": "/images/portfolio/ai-resume-analyzer/interview.webp",
+        "caption": "Interview preparation — no resume uploaded"
+      },
+      {
+        "src": "/images/portfolio/ai-resume-analyzer/mobile.webp",
+        "caption": "Mobile"
+      }
+    ]
+  },
+  {
+    "slug": "ai-email-ticket-assistant",
+    "title": "AI Email & Ticket Assistant",
+    "images": [
+      {
+        "src": "/images/portfolio/ai-email-ticket-assistant/hero.webp",
+        "caption": "Project overview"
+      },
+      {
+        "src": "/images/portfolio/ai-email-ticket-assistant/dashboard.webp",
+        "caption": "Dashboard"
+      },
+      {
+        "src": "/images/portfolio/ai-email-ticket-assistant/tickets.webp",
+        "caption": "Tickets"
+      },
+      {
+        "src": "/images/portfolio/ai-email-ticket-assistant/responses.webp",
+        "caption": "Responses"
+      },
+      {
+        "src": "/images/portfolio/ai-email-ticket-assistant/analytics.webp",
+        "caption": "Analytics"
+      },
+      {
+        "src": "/images/portfolio/ai-email-ticket-assistant/mobile.webp",
+        "caption": "Mobile"
+      }
+    ]
+  },
+  {
+    "slug": "ai-workflow-system",
+    "title": "AI Automation Workflow System",
+    "images": [
+      {
+        "src": "/images/portfolio/ai-workflow-system/hero.webp",
+        "caption": "Project overview"
+      },
+      {
+        "src": "/images/portfolio/ai-workflow-system/dashboard.webp",
+        "caption": "Dashboard"
+      },
+      {
+        "src": "/images/portfolio/ai-workflow-system/workflow-builder.webp",
+        "caption": "Workflow builder"
+      },
+      {
+        "src": "/images/portfolio/ai-workflow-system/execution-history.webp",
+        "caption": "Execution history"
+      },
+      {
+        "src": "/images/portfolio/ai-workflow-system/analytics.webp",
+        "caption": "Analytics"
+      },
+      {
+        "src": "/images/portfolio/ai-workflow-system/mobile.webp",
+        "caption": "Mobile"
+      }
+    ]
+  },
+  {
+    "slug": "secure-data-sanitization",
+    "title": "Secure Data Sanitization Tool",
+    "images": [
+      {
+        "src": "/images/portfolio/secure-data-sanitization/hero.webp",
+        "caption": "Project overview"
+      },
+      {
+        "src": "/images/portfolio/secure-data-sanitization/interface.webp",
+        "caption": "Interface"
+      },
+      {
+        "src": "/images/portfolio/secure-data-sanitization/file-selection.webp",
+        "caption": "File selection"
+      },
+      {
+        "src": "/images/portfolio/secure-data-sanitization/logs.webp",
+        "caption": "Logs"
+      }
+    ]
+  },
+  {
+    "slug": "bazaaraf",
+    "title": "BazarAF",
+    "images": [
+      {
+        "src": "/images/portfolio/bazaaraf/hero.webp",
+        "caption": "Marketplace account entry — captured interface"
+      },
+      {
+        "src": "/images/portfolio/bazaaraf/homepage.webp",
+        "caption": "Marketplace homepage — promotional figures unverified"
+      },
+      {
+        "src": "/images/portfolio/bazaaraf/products.webp",
+        "caption": "Products"
+      },
+      {
+        "src": "/images/portfolio/bazaaraf/product-details.webp",
+        "caption": "Product details"
+      },
+      {
+        "src": "/images/portfolio/bazaaraf/cart.webp",
+        "caption": "Cart"
+      },
+      {
+        "src": "/images/portfolio/bazaaraf/checkout.webp",
+        "caption": "Checkout"
+      },
+      {
+        "src": "/images/portfolio/bazaaraf/orders.webp",
+        "caption": "Orders"
+      },
+      {
+        "src": "/images/portfolio/bazaaraf/admin-dashboard.webp",
+        "caption": "Admin dashboard"
+      },
+      {
+        "src": "/images/portfolio/bazaaraf/seller-dashboard.webp",
+        "caption": "Seller dashboard"
+      },
+      {
+        "src": "/images/portfolio/bazaaraf/mobile.webp",
+        "caption": "Mobile"
+      }
+    ]
+  },
+  {
+    "slug": "school-management-system",
+    "title": "School Management System",
+    "images": [
+      {
+        "src": "/images/portfolio/school-management-system/dashboard.webp",
+        "caption": "Administrator dashboard — company-supplied screenshot"
+      },
+      {
+        "src": "/images/portfolio/school-management-system/students.webp",
+        "caption": "Student directory — company-supplied screenshot"
+      },
+      {
+        "src": "/images/portfolio/school-management-system/teachers.webp",
+        "caption": "Teacher directory — company-supplied screenshot"
+      },
+      {
+        "src": "/images/portfolio/school-management-system/attendance.webp",
+        "caption": "Class attendance — company-supplied screenshot"
+      },
+      {
+        "src": "/images/portfolio/school-management-system/timetable.webp",
+        "caption": "Timetable"
+      },
+      {
+        "src": "/images/portfolio/school-management-system/fees.webp",
+        "caption": "Fees"
+      },
+      {
+        "src": "/images/portfolio/school-management-system/reports.webp",
+        "caption": "Reports"
+      },
+      {
+        "src": "/images/portfolio/school-management-system/mobile.webp",
+        "caption": "Mobile"
+      },
+      {
+        "src": "/images/portfolio/school-management-system/classes.webp",
+        "caption": "Class management — company-supplied screenshot"
+      },
+      {
+        "src": "/images/portfolio/school-management-system/exams.webp",
+        "caption": "Examinations and results — company-supplied screenshot"
+      },
+      {
+        "src": "/images/portfolio/school-management-system/teacher-dashboard.webp",
+        "caption": "Teacher workspace — company-supplied screenshot"
+      }
+    ]
+  },
+  {
+    "slug": "hospital-management-system",
+    "title": "Hospital Management System",
+    "images": [
+      {
+        "src": "/images/portfolio/hospital-management-system/hero.webp",
+        "caption": "Hospital dashboard — public demonstration"
+      },
+      {
+        "src": "/images/portfolio/hospital-management-system/dashboard.webp",
+        "caption": "Dashboard"
+      },
+      {
+        "src": "/images/portfolio/hospital-management-system/patients.webp",
+        "caption": "Patient directory — public demonstration"
+      },
+      {
+        "src": "/images/portfolio/hospital-management-system/appointments.webp",
+        "caption": "Appointment calendar — public demonstration"
+      },
+      {
+        "src": "/images/portfolio/hospital-management-system/doctors.webp",
+        "caption": "Doctors"
+      },
+      {
+        "src": "/images/portfolio/hospital-management-system/medical-records.webp",
+        "caption": "General physician workspace — public demonstration"
+      },
+      {
+        "src": "/images/portfolio/hospital-management-system/billing.webp",
+        "caption": "Billing interface — public demonstration"
+      },
+      {
+        "src": "/images/portfolio/hospital-management-system/reports.webp",
+        "caption": "Reports"
+      },
+      {
+        "src": "/images/portfolio/hospital-management-system/mobile.webp",
+        "caption": "Mobile"
+      },
+      {
+        "src": "/images/portfolio/hospital-management-system/pharmacy-inventory.webp",
+        "caption": "Pharmacy stock — public demonstration"
+      }
+    ]
+  },
+  {
+    "slug": "pharmacy-management-system",
+    "title": "Medicine Management System",
+    "images": [
+      {
+        "src": "/images/portfolio/pharmacy-management-system/hero.webp",
+        "caption": "MediStore sign-in — captured public interface"
+      },
+      {
+        "src": "/images/portfolio/pharmacy-management-system/dashboard.webp",
+        "caption": "Dashboard"
+      },
+      {
+        "src": "/images/portfolio/pharmacy-management-system/inventory.webp",
+        "caption": "Inventory"
+      },
+      {
+        "src": "/images/portfolio/pharmacy-management-system/medicines.webp",
+        "caption": "Medicines"
+      },
+      {
+        "src": "/images/portfolio/pharmacy-management-system/sales.webp",
+        "caption": "Sales"
+      },
+      {
+        "src": "/images/portfolio/pharmacy-management-system/suppliers.webp",
+        "caption": "Suppliers"
+      },
+      {
+        "src": "/images/portfolio/pharmacy-management-system/expiry-alerts.webp",
+        "caption": "Expiry alerts"
+      },
+      {
+        "src": "/images/portfolio/pharmacy-management-system/reports.webp",
+        "caption": "Reports"
+      }
+    ]
+  },
+  {
+    "slug": "restaurant-management-system",
+    "title": "Restaurant Management System",
+    "images": [
+      {
+        "src": "/images/portfolio/restaurant-management-system/hero.webp",
+        "caption": "Project overview"
+      },
+      {
+        "src": "/images/portfolio/restaurant-management-system/dashboard.webp",
+        "caption": "Dashboard"
+      },
+      {
+        "src": "/images/portfolio/restaurant-management-system/orders.webp",
+        "caption": "Orders"
+      },
+      {
+        "src": "/images/portfolio/restaurant-management-system/menu.webp",
+        "caption": "Menu"
+      },
+      {
+        "src": "/images/portfolio/restaurant-management-system/tables.webp",
+        "caption": "Tables"
+      },
+      {
+        "src": "/images/portfolio/restaurant-management-system/kitchen.webp",
+        "caption": "Kitchen"
+      },
+      {
+        "src": "/images/portfolio/restaurant-management-system/billing.webp",
+        "caption": "Billing"
+      },
+      {
+        "src": "/images/portfolio/restaurant-management-system/reports.webp",
+        "caption": "Reports"
+      }
+    ]
+  },
+  {
+    "slug": "tailoring-management-system",
+    "title": "Tailoring Shop Management",
+    "images": [
+      {
+        "src": "/images/portfolio/tailoring-management-system/hero.webp",
+        "caption": "Tailoring order dashboard — supplied demo"
+      },
+      {
+        "src": "/images/portfolio/tailoring-management-system/dashboard.webp",
+        "caption": "Dashboard"
+      },
+      {
+        "src": "/images/portfolio/tailoring-management-system/customers.webp",
+        "caption": "Customer workspace — supplied demo"
+      },
+      {
+        "src": "/images/portfolio/tailoring-management-system/measurements.webp",
+        "caption": "Measurements"
+      },
+      {
+        "src": "/images/portfolio/tailoring-management-system/orders.webp",
+        "caption": "Order dashboard — supplied demo"
+      },
+      {
+        "src": "/images/portfolio/tailoring-management-system/delivery.webp",
+        "caption": "Delivery"
+      },
+      {
+        "src": "/images/portfolio/tailoring-management-system/payments.webp",
+        "caption": "Payments"
+      },
+      {
+        "src": "/images/portfolio/tailoring-management-system/reports.webp",
+        "caption": "Shop reports — supplied demo"
+      },
+      {
+        "src": "/images/portfolio/tailoring-management-system/fabric-inventory.webp",
+        "caption": "Fabric stock — supplied demo"
+      }
+    ]
+  },
+  {
+    "slug": "supermarket-management-system",
+    "title": "Supermarket Management System",
+    "images": [
+      {
+        "src": "/images/portfolio/supermarket-management-system/hero.webp",
+        "caption": "FreshMart sign-in — captured public interface"
+      },
+      {
+        "src": "/images/portfolio/supermarket-management-system/dashboard.webp",
+        "caption": "Dashboard"
+      },
+      {
+        "src": "/images/portfolio/supermarket-management-system/products.webp",
+        "caption": "Products"
+      },
+      {
+        "src": "/images/portfolio/supermarket-management-system/inventory.webp",
+        "caption": "Inventory"
+      },
+      {
+        "src": "/images/portfolio/supermarket-management-system/pos.webp",
+        "caption": "Pos"
+      },
+      {
+        "src": "/images/portfolio/supermarket-management-system/purchases.webp",
+        "caption": "Purchases"
+      },
+      {
+        "src": "/images/portfolio/supermarket-management-system/suppliers.webp",
+        "caption": "Suppliers"
+      },
+      {
+        "src": "/images/portfolio/supermarket-management-system/reports.webp",
+        "caption": "Reports"
+      }
+    ]
+  },
+  {
+    "slug": "ecommerce-platform",
+    "title": "E-Commerce Platform",
+    "images": [
+      {
+        "src": "/images/portfolio/ecommerce-platform/hero.webp",
+        "caption": "Project overview"
+      },
+      {
+        "src": "/images/portfolio/ecommerce-platform/homepage.webp",
+        "caption": "Homepage"
+      },
+      {
+        "src": "/images/portfolio/ecommerce-platform/products.webp",
+        "caption": "Products"
+      },
+      {
+        "src": "/images/portfolio/ecommerce-platform/product-details.webp",
+        "caption": "Product details"
+      },
+      {
+        "src": "/images/portfolio/ecommerce-platform/cart.webp",
+        "caption": "Cart"
+      },
+      {
+        "src": "/images/portfolio/ecommerce-platform/checkout.webp",
+        "caption": "Checkout"
+      },
+      {
+        "src": "/images/portfolio/ecommerce-platform/orders.webp",
+        "caption": "Orders"
+      },
+      {
+        "src": "/images/portfolio/ecommerce-platform/admin-dashboard.webp",
+        "caption": "Admin dashboard"
+      },
+      {
+        "src": "/images/portfolio/ecommerce-platform/mobile.webp",
+        "caption": "Mobile"
+      }
+    ]
+  },
+  {
+    "slug": "clinic-management-system",
+    "title": "Clinic Management System",
+    "images": [
+      {
+        "src": "/images/portfolio/clinic-management-system/hero.webp",
+        "caption": "Project overview"
+      },
+      {
+        "src": "/images/portfolio/clinic-management-system/dashboard.webp",
+        "caption": "Dashboard"
+      },
+      {
+        "src": "/images/portfolio/clinic-management-system/patients.webp",
+        "caption": "Patients"
+      },
+      {
+        "src": "/images/portfolio/clinic-management-system/appointments.webp",
+        "caption": "Appointments"
+      },
+      {
+        "src": "/images/portfolio/clinic-management-system/prescriptions.webp",
+        "caption": "Prescriptions"
+      },
+      {
+        "src": "/images/portfolio/clinic-management-system/billing.webp",
+        "caption": "Billing"
+      },
+      {
+        "src": "/images/portfolio/clinic-management-system/reports.webp",
+        "caption": "Reports"
+      }
+    ]
+  },
+  {
+    "slug": "transport-management-system",
+    "title": "Transport & Fleet Management",
+    "images": [
+      {
+        "src": "/images/portfolio/transport-management-system/hero.webp",
+        "caption": "Project overview"
+      },
+      {
+        "src": "/images/portfolio/transport-management-system/dashboard.webp",
+        "caption": "Dashboard"
+      },
+      {
+        "src": "/images/portfolio/transport-management-system/vehicles.webp",
+        "caption": "Vehicles"
+      },
+      {
+        "src": "/images/portfolio/transport-management-system/drivers.webp",
+        "caption": "Drivers"
+      },
+      {
+        "src": "/images/portfolio/transport-management-system/routes.webp",
+        "caption": "Routes"
+      },
+      {
+        "src": "/images/portfolio/transport-management-system/trips.webp",
+        "caption": "Trips"
+      },
+      {
+        "src": "/images/portfolio/transport-management-system/maintenance.webp",
+        "caption": "Maintenance"
+      },
+      {
+        "src": "/images/portfolio/transport-management-system/reports.webp",
+        "caption": "Reports"
+      }
+    ]
+  },
+  {
+    "slug": "mobile-shop-management-system",
+    "title": "Mobile Shop Management",
+    "images": [
+      {
+        "src": "/images/portfolio/mobile-shop-management-system/hero.webp",
+        "caption": "Project overview"
+      },
+      {
+        "src": "/images/portfolio/mobile-shop-management-system/dashboard.webp",
+        "caption": "Dashboard"
+      },
+      {
+        "src": "/images/portfolio/mobile-shop-management-system/products.webp",
+        "caption": "Products"
+      },
+      {
+        "src": "/images/portfolio/mobile-shop-management-system/inventory.webp",
+        "caption": "Inventory"
+      },
+      {
+        "src": "/images/portfolio/mobile-shop-management-system/sales.webp",
+        "caption": "Sales"
+      },
+      {
+        "src": "/images/portfolio/mobile-shop-management-system/customers.webp",
+        "caption": "Customers"
+      },
+      {
+        "src": "/images/portfolio/mobile-shop-management-system/warranty.webp",
+        "caption": "Warranty"
+      },
+      {
+        "src": "/images/portfolio/mobile-shop-management-system/reports.webp",
+        "caption": "Reports"
+      }
+    ]
+  },
+  {
+    "slug": "money-exchange-system",
+    "title": "Money Exchange Management",
+    "images": [
+      {
+        "src": "/images/portfolio/money-exchange-system/hero.webp",
+        "caption": "Project overview"
+      },
+      {
+        "src": "/images/portfolio/money-exchange-system/dashboard.webp",
+        "caption": "Dashboard"
+      },
+      {
+        "src": "/images/portfolio/money-exchange-system/transactions.webp",
+        "caption": "Transactions"
+      },
+      {
+        "src": "/images/portfolio/money-exchange-system/exchange-rates.webp",
+        "caption": "Exchange rates"
+      },
+      {
+        "src": "/images/portfolio/money-exchange-system/customers.webp",
+        "caption": "Customers"
+      },
+      {
+        "src": "/images/portfolio/money-exchange-system/cash-management.webp",
+        "caption": "Cash management"
+      },
+      {
+        "src": "/images/portfolio/money-exchange-system/reports.webp",
+        "caption": "Reports"
+      }
+    ]
+  },
+  {
+    "slug": "manufacturing-management-system",
+    "title": "Manufacturing Management",
+    "images": [
+      {
+        "src": "/images/portfolio/manufacturing-management-system/hero.webp",
+        "caption": "Project overview"
+      },
+      {
+        "src": "/images/portfolio/manufacturing-management-system/dashboard.webp",
+        "caption": "Dashboard"
+      },
+      {
+        "src": "/images/portfolio/manufacturing-management-system/products.webp",
+        "caption": "Products"
+      },
+      {
+        "src": "/images/portfolio/manufacturing-management-system/raw-materials.webp",
+        "caption": "Raw materials"
+      },
+      {
+        "src": "/images/portfolio/manufacturing-management-system/production.webp",
+        "caption": "Production"
+      },
+      {
+        "src": "/images/portfolio/manufacturing-management-system/inventory.webp",
+        "caption": "Inventory"
+      },
+      {
+        "src": "/images/portfolio/manufacturing-management-system/suppliers.webp",
+        "caption": "Suppliers"
+      },
+      {
+        "src": "/images/portfolio/manufacturing-management-system/reports.webp",
+        "caption": "Reports"
+      }
+    ]
+  },
+  {
+    "slug": "hotel-management-system",
+    "title": "Hotel & Hospitality Management",
+    "images": [
+      {
+        "src": "/images/portfolio/hotel-management-system/hero.webp",
+        "caption": "Project overview"
+      },
+      {
+        "src": "/images/portfolio/hotel-management-system/dashboard.webp",
+        "caption": "Dashboard"
+      },
+      {
+        "src": "/images/portfolio/hotel-management-system/rooms.webp",
+        "caption": "Rooms"
+      },
+      {
+        "src": "/images/portfolio/hotel-management-system/reservations.webp",
+        "caption": "Reservations"
+      },
+      {
+        "src": "/images/portfolio/hotel-management-system/guests.webp",
+        "caption": "Guests"
+      },
+      {
+        "src": "/images/portfolio/hotel-management-system/check-in.webp",
+        "caption": "Check in"
+      },
+      {
+        "src": "/images/portfolio/hotel-management-system/billing.webp",
+        "caption": "Billing"
+      },
+      {
+        "src": "/images/portfolio/hotel-management-system/reports.webp",
+        "caption": "Reports"
+      }
+    ]
+  },
+  {
+    "slug": "crm-system",
+    "title": "CRM & Customer Management",
+    "images": [
+      {
+        "src": "/images/portfolio/crm-system/hero.webp",
+        "caption": "Project overview"
+      },
+      {
+        "src": "/images/portfolio/crm-system/dashboard.webp",
+        "caption": "Dashboard"
+      },
+      {
+        "src": "/images/portfolio/crm-system/leads.webp",
+        "caption": "Leads"
+      },
+      {
+        "src": "/images/portfolio/crm-system/customers.webp",
+        "caption": "Customers"
+      },
+      {
+        "src": "/images/portfolio/crm-system/pipeline.webp",
+        "caption": "Pipeline"
+      },
+      {
+        "src": "/images/portfolio/crm-system/tasks.webp",
+        "caption": "Tasks"
+      },
+      {
+        "src": "/images/portfolio/crm-system/reports.webp",
+        "caption": "Reports"
+      }
+    ]
+  },
+  {
+    "slug": "ai-automation-platform",
+    "title": "AI & Business Automation",
+    "images": [
+      {
+        "src": "/images/portfolio/ai-automation-platform/hero.webp",
+        "caption": "Project overview"
+      },
+      {
+        "src": "/images/portfolio/ai-automation-platform/dashboard.webp",
+        "caption": "Dashboard"
+      },
+      {
+        "src": "/images/portfolio/ai-automation-platform/ai-assistant.webp",
+        "caption": "Ai assistant"
+      },
+      {
+        "src": "/images/portfolio/ai-automation-platform/workflows.webp",
+        "caption": "Workflows"
+      },
+      {
+        "src": "/images/portfolio/ai-automation-platform/analytics.webp",
+        "caption": "Analytics"
+      },
+      {
+        "src": "/images/portfolio/ai-automation-platform/automation.webp",
+        "caption": "Automation"
+      },
+      {
+        "src": "/images/portfolio/ai-automation-platform/reports.webp",
+        "caption": "Reports"
+      }
+    ]
+  },
+  {
+    "slug": "poultry-feed",
+    "title": "Poultry Feed Platform",
+    "images": [
+      {
+        "src": "/images/portfolio/poultry-feed/hero.webp",
+        "caption": "Feed factory dashboard — captured preview"
+      },
+      {
+        "src": "/images/portfolio/poultry-feed/dashboard.webp",
+        "caption": "Dashboard"
+      },
+      {
+        "src": "/images/portfolio/poultry-feed/feed-records.webp",
+        "caption": "Feed formulation workspace — captured preview"
+      },
+      {
+        "src": "/images/portfolio/poultry-feed/reports.webp",
+        "caption": "Factory reports — captured preview"
+      },
+      {
+        "src": "/images/portfolio/poultry-feed/mobile.webp",
+        "caption": "Mobile"
+      },
+      {
+        "src": "/images/portfolio/poultry-feed/raw-stock.webp",
+        "caption": "Raw-material stock — captured preview"
+      },
+      {
+        "src": "/images/portfolio/poultry-feed/sales.webp",
+        "caption": "Sales invoice interface — captured preview"
+      }
+    ]
+  },
+  {
+    "slug": "al-makkha-poultry",
+    "title": "Al Makkha Poultry",
+    "images": [
+      {
+        "src": "/images/portfolio/al-makkha-poultry/hero.webp",
+        "caption": "Project overview"
+      },
+      {
+        "src": "/images/portfolio/al-makkha-poultry/dashboard.webp",
+        "caption": "Dashboard"
+      },
+      {
+        "src": "/images/portfolio/al-makkha-poultry/operations.webp",
+        "caption": "Operations"
+      },
+      {
+        "src": "/images/portfolio/al-makkha-poultry/reports.webp",
+        "caption": "Reports"
+      },
+      {
+        "src": "/images/portfolio/al-makkha-poultry/mobile.webp",
+        "caption": "Mobile"
+      }
+    ]
+  },
+  {
+    "slug": "cargo-management-demo",
+    "title": "Cargo Management Demo",
+    "images": [
+      {
+        "src": "/images/portfolio/cargo-management-demo/hero.webp",
+        "caption": "Public cargo tracking interface"
+      },
+      {
+        "src": "/images/portfolio/cargo-management-demo/dashboard.webp",
+        "caption": "Dashboard"
+      },
+      {
+        "src": "/images/portfolio/cargo-management-demo/shipments.webp",
+        "caption": "Customer portal entry — captured interface"
+      },
+      {
+        "src": "/images/portfolio/cargo-management-demo/tracking.webp",
+        "caption": "Public shipment lookup"
+      },
+      {
+        "src": "/images/portfolio/cargo-management-demo/reports.webp",
+        "caption": "Reports"
+      },
+      {
+        "src": "/images/portfolio/cargo-management-demo/mobile.webp",
+        "caption": "Mobile"
+      },
+      {
+        "src": "/images/portfolio/cargo-management-demo/customer-portal.webp",
+        "caption": "Customer portal sign-in — captured interface"
+      },
+      {
+        "src": "/images/portfolio/cargo-management-demo/branch-access.webp",
+        "caption": "Branch terminal sign-in — captured interface"
+      }
+    ]
+  },
+  {
+    "slug": "rayan-cargo",
+    "title": "Rayan Cargo",
+    "images": [
+      {
+        "src": "/images/portfolio/rayan-cargo/hero.webp",
+        "caption": "Project overview"
+      },
+      {
+        "src": "/images/portfolio/rayan-cargo/dashboard.webp",
+        "caption": "Dashboard"
+      },
+      {
+        "src": "/images/portfolio/rayan-cargo/shipments.webp",
+        "caption": "Shipments"
+      },
+      {
+        "src": "/images/portfolio/rayan-cargo/customers.webp",
+        "caption": "Customers"
+      },
+      {
+        "src": "/images/portfolio/rayan-cargo/reports.webp",
+        "caption": "Reports"
+      },
+      {
+        "src": "/images/portfolio/rayan-cargo/mobile.webp",
+        "caption": "Mobile"
+      }
+    ]
+  },
+  {
+    "slug": "sahil-gps",
+    "title": "Sahil GPS",
+    "images": [
+      {
+        "src": "/images/portfolio/sahil-gps/hero.webp",
+        "caption": "Afghan Panah GPS sign-in — supplied Sahil GPS reference"
+      },
+      {
+        "src": "/images/portfolio/sahil-gps/dashboard.webp",
+        "caption": "Dashboard"
+      },
+      {
+        "src": "/images/portfolio/sahil-gps/tracking.webp",
+        "caption": "Tracking"
+      },
+      {
+        "src": "/images/portfolio/sahil-gps/vehicles.webp",
+        "caption": "Vehicles"
+      },
+      {
+        "src": "/images/portfolio/sahil-gps/mobile.webp",
+        "caption": "Mobile"
+      }
+    ]
+  },
+  {
+    "slug": "online-prescription",
+    "title": "Rayan Online Prescription",
+    "images": [
+      {
+        "src": "/images/portfolio/online-prescription/hero.webp",
+        "caption": "Project overview"
+      },
+      {
+        "src": "/images/portfolio/online-prescription/dashboard.webp",
+        "caption": "Dashboard"
+      },
+      {
+        "src": "/images/portfolio/online-prescription/prescriptions.webp",
+        "caption": "Prescriptions"
+      },
+      {
+        "src": "/images/portfolio/online-prescription/patients.webp",
+        "caption": "Patients"
+      },
+      {
+        "src": "/images/portfolio/online-prescription/mobile.webp",
+        "caption": "Mobile"
+      }
+    ]
+  },
+  {
+    "slug": "travel-agency-accounting",
+    "title": "Travel Agency Accounting",
+    "images": [
+      {
+        "src": "/images/portfolio/travel-agency-accounting/hero.webp",
+        "caption": "Travel-agency sign-in — captured public interface"
+      },
+      {
+        "src": "/images/portfolio/travel-agency-accounting/dashboard.webp",
+        "caption": "Dashboard"
+      },
+      {
+        "src": "/images/portfolio/travel-agency-accounting/transactions.webp",
+        "caption": "Transactions"
+      },
+      {
+        "src": "/images/portfolio/travel-agency-accounting/accounts.webp",
+        "caption": "Accounts"
+      },
+      {
+        "src": "/images/portfolio/travel-agency-accounting/reports.webp",
+        "caption": "Reports"
+      },
+      {
+        "src": "/images/portfolio/travel-agency-accounting/mobile.webp",
+        "caption": "Mobile"
+      }
+    ]
+  },
+  {
+    "slug": "rayan-company-website",
+    "title": "Rayan Tech Company Website",
+    "images": [
+      {
+        "src": "/images/portfolio/rayan-company-website/hero.webp",
+        "caption": "Project overview"
+      },
+      {
+        "src": "/images/portfolio/rayan-company-website/homepage.webp",
+        "caption": "Homepage"
+      },
+      {
+        "src": "/images/portfolio/rayan-company-website/portfolio.webp",
+        "caption": "Portfolio"
+      },
+      {
+        "src": "/images/portfolio/rayan-company-website/case-study.webp",
+        "caption": "Case study"
+      },
+      {
+        "src": "/images/portfolio/rayan-company-website/team.webp",
+        "caption": "Team"
+      },
+      {
+        "src": "/images/portfolio/rayan-company-website/mobile.webp",
+        "caption": "Mobile"
+      }
+    ]
+  }
+]

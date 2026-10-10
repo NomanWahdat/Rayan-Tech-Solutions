@@ -1,0 +1,803 @@
+/* Rayan's image signature: sculpted photographs, an offset backplate, and a floating caption. */
+.editorial-visual {
+  --sculpture-radius: 110px 18px 110px 18px;
+  padding: 12px 16px 22px;
+}
+.image-sculpture {
+  position: relative;
+  isolation: isolate;
+}
+.image-sculpture .editorial-image-frame {
+  aspect-ratio: 1.24;
+  border-radius: var(--sculpture-radius);
+  background: #dce5f1;
+}
+.sculpture-accent,
+.sculpture-outline {
+  position: absolute;
+  pointer-events: none;
+  border-radius: var(--sculpture-radius);
+  z-index: -1;
+}
+.sculpture-accent {
+  inset: 18px -14px -15px 18px;
+  background: #d4e2fb;
+  transition: transform 0.5s;
+}
+.sculpture-outline {
+  inset: -12px 15px 12px -12px;
+  border: 1px solid #8eb3f3;
+}
+.editorial-visual:hover .sculpture-accent {
+  transform: translate(3px, 3px);
+}
+.visual-design {
+  --sculpture-radius: 18px 120px 18px 120px;
+}
+.visual-infrastructure {
+  --sculpture-radius: 18px;
+}
+.visual-infrastructure .editorial-image-frame,
+.visual-infrastructure .sculpture-accent {
+  clip-path: polygon(0 0, 82% 0, 100% 18%, 100% 100%, 18% 100%, 0 82%);
+}
+.visual-infrastructure .sculpture-outline {
+  inset: -10px 10px 10px -10px;
+  border-radius: 18px 60px 18px 60px;
+}
+.visual-company {
+  --sculpture-radius: 130px 18px 18px 18px;
+}
+.image-sculpture .image-corner {
+  inset-inline-end: -2px;
+  top: 12px;
+  bottom: auto;
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+  border: 6px solid var(--paper);
+  background: var(--accent);
+  z-index: 2;
+}
+.editorial-visual figcaption {
+  position: relative;
+  z-index: 3;
+  margin: -36px 0 0 20px;
+  width: calc(100% - 22px);
+  border: 1px solid #d2deed;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 12px 30px #102e5910;
+}
+.editorial-caption-icon {
+  border-radius: 10px;
+}
+.visual-compact {
+  --sculpture-radius: 55px 10px 55px 10px;
+  padding: 8px 12px 16px;
+}
+.visual-compact .image-sculpture .editorial-image-frame {
+  aspect-ratio: 1.85;
+}
+.visual-compact .sculpture-accent {
+  inset: 10px -8px -8px 10px;
+}
+.visual-compact .sculpture-outline {
+  inset: -6px 8px 6px -6px;
+}
+.visual-compact figcaption {
+  margin-top: -24px;
+  padding: 13px;
+  width: calc(100% - 10px);
+  margin-inline-start: 10px;
+}
+.visual-compact .image-corner {
+  width: 46px;
+  height: 46px;
+  inset-inline-end: -4px;
+  border-width: 4px;
+}
+.visual-compact .image-corner svg {
+  width: 20px;
+}
+
+/* Real technology marks are shared by Services, the directory, and project stacks. */
+.technology-mark {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  font-size: 12px;
+  line-height: 1.4;
+  font-weight: 500;
+}
+.technology-mark img {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+.technology-mark > svg {
+  flex-shrink: 0;
+  color: #3c577e;
+}
+.stack .technology-mark {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.stack .technology-mark img,
+.stack .technology-mark > svg {
+  width: 17px;
+  height: 17px;
+}
+.services-hero {
+  display: grid;
+  grid-template-columns: 1.12fr 1fr;
+  gap: 70px;
+  align-items: center;
+  padding: 20px 0 60px;
+}
+.services-hero-copy {
+  min-width: 0;
+}
+.services-hero .eyebrow {
+  margin-bottom: 24px;
+}
+.services-hero h1 {
+  font-size: clamp(43px, 4.4vw, 65px);
+  line-height: 1.14;
+  letter-spacing: -0.055em;
+}
+.services-hero .headline-rotation {
+  margin-top: 4px;
+}
+.services-hero .rotating-words {
+  padding-bottom: 8px;
+}
+.services-hero .lead {
+  max-width: 580px;
+  margin-top: 23px;
+  font-size: 16px;
+  line-height: 1.8;
+}
+.services-hero .hero-actions {
+  align-items: center;
+  gap: 24px;
+  margin-top: 28px;
+}
+.services-hero .hero-actions > .text-link {
+  font-size: 12px;
+}
+.services-hero-note {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  font-size: 11px;
+  margin-top: 25px;
+  color: #4e6380;
+}
+.services-hero-note svg {
+  color: #0356df;
+  flex-shrink: 0;
+}
+.services-hero-copy > h1 {
+  animation: editorial-text-in 0.6s both;
+}
+.service-toolkit {
+  padding: 28px 0;
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  gap: 30px;
+  align-items: center;
+  border-block: 1px solid #cdd9e9;
+}
+.service-toolkit .eyebrow {
+  font-size: 9px;
+  color: #4f6280;
+}
+.service-toolkit .text-link {
+  font-size: 11px;
+  margin-top: 12px;
+}
+.service-toolkit-marks {
+  display: grid;
+  grid-template-columns: repeat(8, minmax(0, 1fr));
+  gap: 20px;
+}
+.service-toolkit-marks .technology-mark {
+  flex-direction: column;
+  justify-content: center;
+  font-size: 10px;
+  gap: 12px;
+}
+.service-toolkit-marks .technology-mark img {
+  width: 32px;
+  height: 32px;
+  transition: transform 0.3s;
+}
+.service-toolkit-marks .technology-mark:hover img {
+  transform: translateY(-4px);
+}
+.service-category-filters,
+.technology-category-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 0 0 25px;
+  border-bottom: 1px solid #ccd8e9;
+}
+.service-category-filters button,
+.technology-category-filters button {
+  border: 1px solid #b5c7e2;
+  border-radius: 4px;
+  background: transparent;
+  color: #304968;
+  padding: 12px 17px;
+  font-size: 12px;
+  transition:
+    background 0.2s,
+    border-color 0.2s;
+}
+.service-category-filters button:hover,
+.technology-category-filters button:hover {
+  background: #e1ebfb;
+  border-color: #6499f4;
+}
+.service-category-filters button[aria-pressed='true'],
+.technology-category-filters button[aria-pressed='true'] {
+  background: #035ffd;
+  border-color: #035ffd;
+  color: white;
+}
+.services-page .service-jump-links {
+  margin: 20px 0 35px;
+  padding: 0;
+  background: transparent;
+  border: 0;
+  gap: 9px 20px;
+}
+.services-page .service-jump-links a {
+  border: 0;
+  padding: 5px 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 11px;
+  background: transparent;
+}
+.services-page .service-jump-links a:hover {
+  color: #0356df;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.service-expertise {
+  padding-block: 70px 45px;
+  scroll-margin-top: 110px;
+}
+.services-page .service-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr);
+  gap: 65px;
+  padding: 42px;
+  background: white;
+  border: 1px solid #d0ddec;
+  border-radius: 10px;
+  margin-bottom: 26px;
+}
+.services-page .service-row.motion-arrived {
+  animation: service-card-enter 0.55s ease-out both;
+}
+.services-page .service-row:nth-child(even) {
+  background: #f7faff;
+}
+.services-page .service-row:hover {
+  border-color: #a8c3ef;
+}
+.service-summary {
+  min-width: 0;
+}
+.services-page .service-symbol {
+  display: grid;
+  place-items: center;
+  background: #035ffd;
+  color: white;
+  width: 60px;
+  height: 60px;
+  border-radius: 16px;
+  margin-bottom: 23px;
+}
+.services-page .service-summary > .eyebrow {
+  font-size: 10px;
+  color: #0356df;
+}
+.services-page .service-row h2 {
+  font-size: 34px;
+  line-height: 1.2;
+  max-width: 470px;
+}
+.services-page .service-row .service-summary > p {
+  font-size: 14px;
+  line-height: 1.8;
+  max-width: 475px;
+}
+.services-page .service-detail {
+  padding: 0 0 0 32px;
+  border: 0;
+  border-inline-start: 1px solid #d1deee;
+}
+.services-page .service-detail h3 {
+  font-size: 14px;
+}
+.services-page .service-detail .check-list {
+  margin-block: 19px 24px;
+}
+.services-page .service-detail .check-list li {
+  font-size: 13px;
+  gap: 12px;
+  line-height: 1.6;
+  padding-block: 8px;
+}
+.service-use-case {
+  padding: 18px 21px;
+  background: #edf3fd;
+  border-inline-start: 2px solid #8aaff2;
+  border-radius: 0 5px 5px 0;
+}
+.service-use-case .eyebrow {
+  font-size: 9px;
+  color: #476286;
+}
+.services-page .service-use-case p {
+  margin-top: 8px;
+  font-size: 12px;
+  color: #3b5270;
+}
+.service-stack {
+  margin-top: 23px;
+}
+.service-brand-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 16px;
+  margin-top: 16px;
+}
+.service-brand-list .technology-mark {
+  font-size: 11px;
+  padding-block: 4px;
+}
+.service-brand-list .technology-mark img {
+  width: 23px;
+  height: 23px;
+}
+.services-page .service-stack > p {
+  margin-top: 12px;
+}
+.service-partnership {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 75px;
+  padding: 55px;
+  background: #132238;
+  color: white;
+  border-radius: 10px;
+}
+.service-partnership > div {
+  min-width: 0;
+}
+.service-partnership .eyebrow {
+  color: #adcbff;
+  font-size: 10px;
+}
+.service-partnership h2 {
+  margin-top: 23px;
+  font-size: 35px;
+  line-height: 1.22;
+}
+.service-partnership .text-link {
+  margin-top: 27px;
+  font-size: 12px;
+  color: white;
+}
+.service-principles {
+  display: grid;
+  gap: 25px;
+}
+.service-principles article {
+  display: flex;
+  gap: 18px;
+}
+.service-principles svg {
+  color: #9fc1fc;
+  flex-shrink: 0;
+  transition: transform 0.3s;
+}
+.service-principles article:hover svg {
+  transform: translateX(4px);
+}
+.service-principles h3 {
+  font-size: 16px;
+}
+.service-principles p {
+  color: #c3d2e8;
+  font-size: 12px;
+  margin-top: 7px;
+  line-height: 1.7;
+}
+
+/* A brand-led technology directory, inspired by the reference's search and filtering. */
+.technology-directory {
+  border-top: 1px solid #c6d5e9;
+  padding-top: 38px;
+}
+.technology-directory-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 32px;
+}
+.technology-directory-heading h2 {
+  font-size: 35px;
+  margin-top: 14px;
+}
+.technology-directory-heading .eyebrow {
+  font-size: 10px;
+}
+.technology-search {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 0 18px;
+  width: 360px;
+  border: 1px solid #b7c9e3;
+  border-radius: 5px;
+  background: white;
+  color: #57769b;
+}
+.technology-search input {
+  border: 0;
+  outline-offset: 0;
+  min-width: 0;
+  width: 100%;
+  background: transparent;
+  color: #132238;
+  padding-block: 16px;
+  font-size: 13px;
+}
+.technology-search input::placeholder {
+  color: #52647c;
+}
+.technology-search svg {
+  flex-shrink: 0;
+}
+.technology-results {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  min-height: 72px;
+}
+.technology-results p {
+  font-size: 11px;
+}
+.technology-results .text-link {
+  font-size: 11px;
+}
+.technology-catalog {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 16px;
+}
+.technology-card {
+  position: relative;
+  padding: 30px 24px 24px;
+  border: 1px solid #d5dfed;
+  border-radius: 6px;
+  background: white;
+  transition:
+    transform 0.25s,
+    border-color 0.25s,
+    box-shadow 0.25s;
+}
+.technology-card .technology-mark {
+  width: 48px;
+  height: 48px;
+}
+.technology-card .technology-mark img {
+  width: 44px;
+  height: 44px;
+}
+.technology-card .technology-mark > svg {
+  width: 35px;
+  height: 35px;
+}
+.technology-card h3 {
+  font-size: 18px;
+  line-height: 1.35;
+  margin-top: 24px;
+  overflow-wrap: anywhere;
+}
+.technology-card-category {
+  display: block;
+  color: #52647e;
+  font-size: 10px;
+  margin-top: 8px;
+}
+.technology-card-arrow {
+  position: absolute;
+  inset-inline-end: 18px;
+  top: 20px;
+  color: #7790b2;
+  transition:
+    transform 0.25s,
+    color 0.25s;
+}
+.technology-card:hover {
+  transform: translateY(-4px);
+  border-color: #82aef9;
+  box-shadow: 0 12px 20px #23488209;
+}
+.technology-card:hover .technology-card-arrow {
+  color: #0356df;
+  transform: translate(2px, -2px);
+}
+.technology-choice {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  padding: 65px 0 10px;
+}
+.technology-choice h2 {
+  font-size: 39px;
+  margin-top: 20px;
+  line-height: 1.2;
+}
+.technology-choice p {
+  font-size: 14px;
+  line-height: 1.85;
+  margin-bottom: 18px;
+}
+.technology-choice .text-link {
+  margin-top: 8px;
+}
+@keyframes service-card-enter {
+  from {
+    opacity: 0.6;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@media (max-width: 1100px) {
+  .services-hero {
+    gap: 35px;
+  }
+  .service-toolkit {
+    grid-template-columns: 180px 1fr;
+  }
+  .service-toolkit-marks {
+    gap: 14px;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    row-gap: 23px;
+  }
+  .services-page .service-row {
+    gap: 35px;
+    padding: 32px;
+  }
+  .service-partnership {
+    gap: 40px;
+    padding: 40px;
+  }
+  .technology-catalog {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+@media (max-width: 800px) {
+  .editorial-visual {
+    --sculpture-radius: 75px 14px 75px 14px;
+  }
+  .visual-design {
+    --sculpture-radius: 14px 85px 14px 85px;
+  }
+  .visual-infrastructure {
+    --sculpture-radius: 14px;
+  }
+  .visual-company {
+    --sculpture-radius: 85px 14px 14px 14px;
+  }
+  .image-sculpture .editorial-image-frame {
+    aspect-ratio: 1.75;
+  }
+  .image-sculpture .image-corner {
+    width: 54px;
+    height: 54px;
+  }
+  .services-hero {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    padding-bottom: 38px;
+  }
+  .services-hero h1 {
+    font-size: clamp(40px, 6.8vw, 60px);
+  }
+  .service-toolkit {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+  .service-toolkit-marks {
+    grid-template-columns: repeat(8, minmax(0, 1fr));
+  }
+  .services-page .service-row {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .services-page .service-detail {
+    grid-column: auto;
+    padding: 28px 0 0;
+    border-inline-start: 0;
+    border-top: 1px solid #d1deee;
+  }
+  .service-partnership {
+    grid-template-columns: 1fr;
+  }
+  .technology-catalog {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .technology-directory-heading {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 23px;
+  }
+  .technology-search {
+    width: min(450px, 100%);
+  }
+  .technology-choice {
+    grid-template-columns: 1fr;
+    gap: 26px;
+  }
+}
+@media (max-width: 600px) {
+  .editorial-visual {
+    padding: 10px 12px 14px;
+    --sculpture-radius: 65px 12px 65px 12px;
+  }
+  .visual-design {
+    --sculpture-radius: 12px 70px 12px 70px;
+  }
+  .visual-company {
+    --sculpture-radius: 70px 12px 12px 12px;
+  }
+  .sculpture-accent {
+    inset: 12px -10px -10px 12px;
+  }
+  .sculpture-outline {
+    inset: -8px 10px 8px -8px;
+  }
+  .image-sculpture .editorial-image-frame {
+    aspect-ratio: 1.48;
+  }
+  .editorial-visual figcaption {
+    margin-top: -25px;
+    margin-inline-start: 10px;
+    width: calc(100% - 10px);
+    padding: 15px;
+    gap: 12px;
+  }
+  .editorial-visual figcaption strong {
+    font-size: 11px;
+  }
+  .editorial-caption-icon {
+    width: 34px;
+    height: 34px;
+    flex-basis: 34px;
+  }
+  .image-sculpture .image-corner {
+    inset-inline-end: -4px;
+    top: 4px;
+  }
+  .services-hero {
+    padding-top: 5px;
+  }
+  .services-hero h1 {
+    font-size: clamp(33px, 8.5vw, 49px);
+  }
+  .services-hero .lead {
+    font-size: 14px;
+  }
+  .services-hero .eyebrow {
+    font-size: 9px;
+    margin-bottom: 20px;
+  }
+  .services-hero .hero-actions {
+    gap: 18px;
+    align-items: flex-start;
+  }
+  .services-hero-note {
+    align-items: flex-start;
+    line-height: 1.6;
+  }
+  .services-hero-note svg {
+    margin-top: 2px;
+  }
+  .service-toolkit-marks {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    row-gap: 26px;
+  }
+  .service-expertise {
+    padding-top: 48px;
+  }
+  .service-category-filters,
+  .technology-category-filters {
+    gap: 8px;
+  }
+  .service-category-filters button,
+  .technology-category-filters button {
+    padding: 11px 13px;
+    font-size: 11px;
+  }
+  .services-page .service-row {
+    padding: 26px;
+    gap: 27px;
+  }
+  .services-page .service-row h2 {
+    font-size: 29px;
+  }
+  .service-partnership {
+    padding: 29px;
+    gap: 32px;
+  }
+  .service-partnership h2 {
+    font-size: 28px;
+  }
+  .service-principles h3 {
+    font-size: 15px;
+  }
+  .service-principles {
+    gap: 24px;
+  }
+  .technology-catalog {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+  }
+  .technology-card {
+    padding: 23px 18px;
+  }
+  .technology-card h3 {
+    font-size: 17px;
+    margin-top: 19px;
+  }
+  .technology-card .technology-mark img {
+    width: 38px;
+    height: 38px;
+  }
+  .technology-card-arrow {
+    inset-inline-end: 12px;
+    top: 16px;
+    width: 15px;
+  }
+  .technology-directory-heading h2 {
+    font-size: 30px;
+  }
+  .technology-choice h2 {
+    font-size: 33px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .services-hero-copy > h1,
+  .services-page .service-row,
+  .services-page .service-row.motion-arrived {
+    animation: none;
+  }
+  .sculpture-accent,
+  .technology-card,
+  .technology-card-arrow,
+  .service-principles svg,
+  .service-toolkit-marks img {
+    transition: none;
+  }
+  .technology-card:hover,
+  .editorial-visual:hover .sculpture-accent {
+    transform: none;
+  }
+}

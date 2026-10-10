@@ -1,0 +1,150 @@
+/* Native RTL flow, with independent direction for identifiers and real UI captures. */
+html[dir='rtl'] {
+  font-family: Tahoma, 'Segoe UI', Arial, sans-serif;
+}
+html[dir='rtl'] h1,
+html[dir='rtl'] h2,
+html[dir='rtl'] h3,
+html[dir='rtl'] h4,
+html[dir='rtl'] .eyebrow,
+html[dir='rtl'] .rotating-word,
+html[dir='rtl'] .button,
+html[dir='rtl'] .visual-kicker,
+html[dir='rtl'] .visual-label {
+  letter-spacing: 0;
+}
+html[dir='rtl'] h1 {
+  line-height: 1.45;
+}
+html[dir='rtl'] h2,
+html[dir='rtl'] h3 {
+  line-height: 1.55;
+}
+html[dir='rtl'] p,
+html[dir='rtl'] li,
+html[dir='rtl'] label {
+  line-height: 1.9;
+}
+html[dir='rtl'] .eyebrow {
+  line-height: 1.8;
+}
+html[dir='rtl'] .hero h1,
+html[dir='rtl'] .services-hero h1 {
+  font-size: clamp(34px, 3.6vw, 56px);
+  line-height: 1.5;
+}
+html[dir='rtl'] .headline-rotation {
+  max-width: 100%;
+}
+html[dir='rtl'] .rotating-words {
+  min-height: 1.55em;
+  line-height: 1.55;
+}
+html[dir='rtl'] .rotating-word {
+  left: auto;
+  right: 0;
+  white-space: normal;
+}
+html[dir='rtl'] .rotation-toggle {
+  margin-inline-start: 8px;
+  align-self: center;
+  flex-shrink: 0;
+}
+/* Photographs, captured dashboards, logos and technology names keep their orientation. */
+.brand,
+.technology-mark,
+.project-image img,
+.lightbox-content > img {
+  direction: ltr;
+  unicode-bidi: isolate;
+}
+html[dir='rtl'] input[type='email'],
+html[dir='rtl'] input[type='tel'] {
+  direction: ltr;
+  text-align: start;
+}
+textarea {
+  unicode-bidi: plaintext;
+}
+.inquiry-result pre {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  unicode-bidi: plaintext;
+}
+.main-nav > .language-switcher {
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  padding: 2px 5px;
+  margin: 0;
+  flex-shrink: 0;
+}
+.language-switcher select {
+  min-height: 38px;
+  font-family: Tahoma, Arial, sans-serif;
+  font-size: 12px;
+}
+.main-nav {
+  gap: 20px;
+}
+html[dir='rtl'] .main-nav {
+  gap: 15px;
+  font-size: 13px;
+}
+html[dir='rtl'] .button {
+  gap: 12px;
+}
+html[dir='rtl'] .lucide-arrow-up-right,
+html[dir='rtl'] .lucide-arrow-right,
+html[dir='rtl'] .lucide-arrow-left,
+html[dir='rtl'] .lucide-chevron-left,
+html[dir='rtl'] .lucide-chevron-right {
+  transform: scaleX(-1);
+}
+html[dir='rtl'] .hero-copy {
+  text-align: start;
+}
+html[dir='rtl'] .project-label {
+  gap: 12px;
+  flex-wrap: wrap;
+}
+html[dir='rtl'] .case-sidebar-meta strong {
+  overflow-wrap: anywhere;
+}
+html[dir='rtl'] .about-page .about-values article {
+  padding-inline: 0 36px;
+}
+html[dir='rtl'] .about-page .about-values article:nth-child(even) {
+  padding-inline: 36px 0;
+}
+html[dir='rtl'] .editorial-visual figcaption {
+  margin-inline: 20px 0;
+}
+html[dir='rtl'] .visual-compact figcaption {
+  margin-inline: 10px 0;
+}
+html[dir='rtl'] .footer-contact a {
+  overflow-wrap: anywhere;
+}
+@media (max-width: 1000px) {
+  .main-nav > .language-switcher {
+    width: fit-content;
+    margin-block: 8px;
+  }
+}
+@media (max-width: 600px) {
+  html[dir='rtl'] .hero h1,
+  html[dir='rtl'] .services-hero h1 {
+    font-size: clamp(27px, 7.4vw, 38px);
+  }
+  html[dir='rtl'] .about-page .about-values article,
+  html[dir='rtl'] .about-page .about-values article:nth-child(even) {
+    padding-inline: 0;
+  }
+  html[dir='rtl'] .case-final-details {
+    min-width: 0;
+  }
+  html[dir='rtl'] .architecture-diagram > div {
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+}

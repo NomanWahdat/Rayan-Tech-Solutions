@@ -1,0 +1,802 @@
+# Project copy preserves the English evidence and its verification limits.
+AI & Automation|هوش مصنوعی و خودکارسازی|مصنوعي ځیرکتیا او اتومات کول
+AI & Business Automation|هوش مصنوعی و خودکارسازی تجاری|مصنوعي ځیرکتیا او سوداګریز اتومات کول
+AI Automation Workflow System|سیستم خودکارسازی روند با هوش مصنوعی|د مصنوعي ځیرکتیا د کاري بهیر اتومات سیسټم
+AI Email & Ticket Assistant|دستیار هوشمند ایمیل و درخواست پشتیبانی|د برېښنالیک او ملاتړ ځیرک مرستیال
+AI Recruitment Screening|بررسی استخدام با هوش مصنوعی|د مصنوعي ځیرکتیا له لارې د ګمارنې ارزونه
+AI Resume & Interview Assistant|دستیار هوشمند سوانح و مصاحبه|د سوانحو او مرکې ځیرک مرستیال
+BrainLoop E-Learning Platform|پلتفرم آموزش آنلاین BrainLoop|د BrainLoop آنلاین زده کړې پلېټفارم
+Cargo Management Demo|نمونه سیستم مدیریت باربری|د بار د مدیریت نمایشي سیسټم
+Clinic Management System|سیستم مدیریت کلینیک|د کلینیک د مدیریت سیسټم
+CRM & Customer Management|سیستم مدیریت ارتباط با مشتریان|د پېرودونکو د اړیکو مدیریت
+E-Commerce Platform|پلتفرم تجارت الکترونیکی|د برېښنايي سوداګرۍ پلېټفارم
+Hospital Management System|سیستم مدیریت شفاخانه|د روغتون د مدیریت سیسټم
+Hotel & Hospitality Management|مدیریت هوتل و مهمان‌داری|د هوټل او مېلمه پالنې مدیریت
+Manufacturing Management|مدیریت تولید|د تولید مدیریت
+Medicine Management System|سیستم مدیریت دوا|د درملو د مدیریت سیسټم
+Mobile Shop Management|مدیریت فروشگاه موبایل|د موبایل پلورنځي مدیریت
+Money Exchange & Financial Records|صرافی و سوابق مالی|صرافي او مالي ثبتونه
+Online Prescription|نسخه آنلاین|آنلاین نسخه
+Pharmacy Management System|سیستم مدیریت دواخانه|د درملتون د مدیریت سیسټم
+Poultry Feed Platform|پلتفرم تولید خوراک مرغداری|د چرګانو د خوراک تولید پلېټفارم
+Rayan Company Website|ویب‌سایت شرکت رایان|د رایان شرکت وېبپاڼه
+Restaurant Management System|سیستم مدیریت رستورانت|د رستورانت د مدیریت سیسټم
+School Management System|سیستم مدیریت مکتب|د ښوونځي د مدیریت سیسټم
+Secure Data Wipe Utility|ابزار حذف امن داده‌ها|د معلوماتو د خوندي ړنګولو وسیله
+Supermarket Management System|سیستم مدیریت سوپرمارکیت|د سوپرمارکېټ د مدیریت سیسټم
+Tailoring Shop Management|مدیریت دکان خیاطی|د خیاطۍ دوکان مدیریت
+Transport & Fleet Management|مدیریت ترانسپورت و وسایط|د ترانسپورټ او وسایطو مدیریت
+Travel Agency Accounting|حسابداری آژانس مسافرتی|د سفر ادارې حسابداري
+Business Systems|سیستم‌های تجاری|سوداګریز سیسټمونه
+Management Systems|سیستم‌های مدیریتی|مدیریتي سیسټمونه
+Web Applications|برنامه‌های تحت وب|وېب اپلېکېشنونه
+Mobile Applications|اپلیکیشن‌های موبایل|موبایل اپلېکېشنونه
+Corporate Websites|ویب‌سایت‌های شرکتی|شرکتي وېبپاڼې
+Custom Software|سافت‌ویر اختصاصی|ځانګړی سافټویر
+Cross-industry|چندبخشی|د څو کاري برخو لپاره
+A GPS operations project with an Afghan Panah / RouteCore account entry and a customer-and-fleet product focus.|پروژه عملیات GPS با ورود حساب افغان پناه / RouteCore و تمرکز بر مشتریان و وسایط.|د GPS عملیاتي پروژه چې د افغان پناه / RouteCore حساب ته ننوتل او د پېرودونکو او وسایطو مدیریت پکې مطرح دي.
+A Supabase client is included.|کلاینت Supabase موجود است.|د Supabase کلاینټ شامل دی.
+A Supabase client is included;|کلاینت Supabase موجود است؛|د Supabase کلاینټ شامل دی؛
+A career workspace combining resume analysis, job matching, and interview preparation.|محیط کاری کاریابی با تحلیل سوانح، تطبیق وظیفه و آمادگی مصاحبه.|د کارموندنې چاپېریال چې د سوانحو شننه، د دندې برابرول او د مرکې چمتووالی یوځای کوي.
+A cargo operation needs information to follow a shipment through each handoff.|در عملیات باربری، اطلاعات باید در هر انتقال همراه محموله باشد.|د بار په عملیاتو کې معلومات باید د هر سپارلو پر مهال له بار سره مل وي.
+A cargo operations project for Rayan’s software portfolio.|پروژه عملیات باربری در مجموعه کارهای رایان.|د رایان د سافټویر په کارونو کې د بار د عملیاتو پروژه.
+A cargo tracking and access interface separating public shipment lookup, customer accounts, and branch terminals.|رابط پیگیری بار و ورود که جستجوی عمومی محموله، حساب مشتری و ترمینال شعبه را جدا می‌کند.|د بار د تعقیب او لاسرسي رابط چې د عامه بار لټون، د پېرودونکو حسابونه او د څانګو ترمینلونه جلا کوي.
+A clinic needs to connect appointment scheduling, patient history, prescriptions, and billing in a workflow that fits a compact team.|کلینیک باید نوبت‌دهی، سابقه مریض، نسخه و صورتحساب را در روندی مناسب تیم کوچک وصل کند.|کلینیک باید وختونه، د ناروغانو تاریخچه، نسخې او بلونه د کوچني ټیم له بهیر سره یوځای کړي.
+A concept brief from the requested portfolio scope.|طرح مفهومی مطابق محدوده پروژه‌های درخواستی.|د غوښتل شوو پروژو له حدودو سره سمه مفکوروي طرحه.
+A concept connecting raw materials, production records, and finished stock.|طرحی برای اتصال مواد خام، سوابق تولید و موجودی محصول نهایی.|د خامو موادو، د تولید ثبتونو او د چمتو محصول د زېرمې د نښلولو مفکوره.
+A concept connecting service, kitchen orders, and daily restaurant administration.|طرحی برای هماهنگی خدمات، سفارش آشپزخانه و مدیریت روزانه رستورانت.|د خدمت، پخلنځي سپارښتنو او ورځني رستورانت مدیریت د نښلولو مفکوره.
+A concept exploring practical assistance in repeated business workflows.|طرحی برای کمک کاربردی در روندهای تکراری تجاری.|په تکراري سوداګریزو بهیرونو کې د عملي مرستې مفکوره.
+A concept for device inventory, sales records, and warranty administration.|طرحی برای موجودی دستگاه‌ها، سوابق فروش و مدیریت ضمانت.|د وسیلو د زېرمې، پلور ثبتونو او ضمانت د مدیریت مفکوره.
+A concept for organizing the patient journey in a smaller medical practice.|طرحی برای تنظیم مسیر مریض در مرکز صحی کوچک.|په کوچني روغتیايي مرکز کې د ناروغ د بهیر د تنظیم مفکوره.
+A customer management concept for leads, follow-ups, and sales activity.|طرح مدیریت مشتریان برای سرنخ‌ها، پیگیری‌ها و فعالیت فروش.|د احتمالي پېرودونکو، تعقیب او پلور لپاره د پېرودونکو د مدیریت مفکوره.
+A dark teal sidebar anchors light content panels.|فهرست کناری سبز تیره در کنار پنل‌های روشن قرار دارد.|تیاره شین اړخیز لېست د روښانه منځپانګې ترڅنګ دی.
+A data-removal utility needs to make the selected target and progress clear.|ابزار حذف داده باید هدف انتخاب‌شده و پیشرفت را روشن نشان دهد.|د معلوماتو د ړنګولو وسیله باید ټاکل شوی هدف او پرمختګ روښانه کړي.
+A desktop utility for controlled file removal, drive sanitization, and operation logs.|ابزار دسکتاپ برای حذف کنترل‌شده فایل، پاک‌سازی درایو و ثبت عملیات.|د کنټرول شوي فایل ړنګولو، ډرایو پاکولو او د عملیاتو د ثبت د ډېسکټاپ وسیله.
+A detailed workflow review, user-role map, and requirements validation should accompany future implementation or extension.|بررسی دقیق روند، نقش کاربران و تأیید نیازها باید همراه اجرای یا توسعه آینده باشد.|د بهیر مفصله ارزونه، د کاروونکو د دندو نقشه او د اړتیاوو تایید باید له راتلونکي پلي کولو یا پراختیا سره مل وي.
+A fleet management concept for vehicles, drivers, and operational records.|طرح مدیریت وسایط، رانندگان و سوابق عملیاتی.|د وسایطو، چلوونکو او عملیاتي ثبتونو د مدیریت مفکوره.
+A focused sign-in connects the GPS product identity and customer/fleet context with a single account form.|فورم ورود کوتاه، هویت محصول GPS و زمینه مشتریان و وسایط را یکجا می‌کند.|لنډه د ننوتلو فورمه د GPS محصول پېژندنه او د پېرودونکو او وسایطو شالید سره تړي.
+A hospital administration interface connecting patient records, appointments, departmental workspaces, pharmacy stock, and billing.|رابط مدیریت شفاخانه که سوابق مریض، نوبت‌ها، بخش‌ها، موجودی دواخانه و صورتحساب را وصل می‌کند.|د روغتون مدیریتي رابط چې د ناروغانو ثبتونه، وختونه، څانګې، د درملتون زېرمه او بلونه سره تړي.
+A hospitality concept for room availability and the guest journey.|طرح هوتلداری برای اتاق‌های موجود و مسیر مهمان.|د شته خونو او د مېلمنو د بهیر لپاره د مېلمه پالنې مفکوره.
+A learning platform with a course marketplace, mentoring, and AI-assisted support.|پلتفرم آموزشی با بازار دوره‌ها، راهنمایی و پشتیبانی هوش مصنوعی.|د کورسونو بازار، لارښوونې او د مصنوعي ځیرکتیا د ملاتړ تعلیمي پلېټفارم.
+A marketplace must coordinate customers, independent sellers, and administrators without mixing their responsibilities.|بازار آنلاین باید مشتریان، فروشندگان مستقل و مدیران را بدون تداخل مسئولیت‌ها هماهنگ کند.|بازار باید پېرودونکي، خپلواک پلورونکي او مدیران د دندو له ګډولو پرته همغږي کړي.
+A missing-deployment response prevented direct feature or technology verification.|نبود استقرار مانع تأیید مستقیم قابلیت‌ها و تکنالوژی شد.|د ځای پر ځای شوې نسخې نشتون د ځانګړتیاوو او ټکنالوژۍ مستقیم تایید بند کړ.
+A multi-vendor marketplace built around the Afghan market.|بازار چندفروشنده متناسب با بازار افغانستان.|د افغانستان له بازار سره برابر د څو پلورونکو بازار.
+A persistent department sidebar keeps the executive dashboard, EHR directory, queue/calendar, outpatient units, pharmacy, and billing accessible from the same shell.|فهرست ثابت بخش‌ها، داشبورد مدیریت، سوابق صحی، صف و تقویم، واحدهای سرپایی، دواخانه و صورتحساب را در یک محیط در دسترس نگه می‌دارد.|ثابت اړخیز لېست مدیریتي ډشبورډ، روغتیايي ثبتونه، کتار او کلیزه، د بهرنیو ناروغانو برخې، درملتون او بلونه په یوه چاپېریال کې ساتي.
+A poultry business software project supplied by Rayan Tech Solutions.|پروژه سافت‌ویر مرغداری معرفی‌شده توسط رایان تک سولوشنز.|د رایان ټېک سولوشنز معرفي شوې د چرګانو د کاروبار سافټویر پروژه.
+A poultry-feed production workspace connecting raw materials, formulation, processed stock, sales, expenses, and factory reports.|محیط تولید خوراک مرغداری که مواد خام، ترکیب، محصول تولیدشده، فروش، مصارف و گزارش فابریکه را وصل می‌کند.|د چرګانو د خوراک د تولید چاپېریال چې خام مواد، ترکیب، چمتو زېرمه، پلور، لګښتونه او د فابریکې راپورونه سره تړي.
+A prescription-related digital project in the company’s portfolio.|پروژه دیجیتالی مرتبط با نسخه در مجموعه شرکت.|د شرکت په کارونو کې له نسخې سره تړلې ډیجیټلي پروژه.
+A product introduction sits beside a compact account form.|معرفی محصول در کنار فورم کوتاه حساب قرار دارد.|د محصول پېژندنه د حساب د لنډې فورمې ترڅنګ ده.
+A publicly accessible retail sign-in page communicates the product’s operational scope.|صفحه عمومی ورود پرچون، محدوده عملیاتی محصول را معرفی می‌کند.|د پرچون عامه د ننوتلو پاڼه د محصول عملیاتي حدود معرفي کوي.
+A recordkeeping concept for currency transactions and daily reconciliation.|طرح ثبت معاملات اسعار و تطبیق روزانه حساب‌ها.|د اسعارو د معاملو او ورځنیو حسابونو د برابرولو د ثبت مفکوره.
+A recruitment workspace for CV processing, screening, and candidate matching.|محیط استخدام برای پردازش سوانح، بررسی و تطبیق نامزدان.|د سوانحو د پروسس، ارزونې او د نوماندانو د برابرولو د ګمارنې چاپېریال.
+A school administration system with separate administrator and teacher workspaces.|سیستم اداره مکتب با محیط‌های جداگانه مدیر و معلم.|د ښوونځي مدیریتي سیسټم چې د مدیر او ښوونکي جلا چاپېریالونه لري.
+A shared sidebar groups raw stock, formulation, sales, suppliers, customers, expenses, and reports.|فهرست مشترک، موجودی خام، ترکیب، فروش، تأمین‌کنندگان، مشتریان، مصارف و گزارش‌ها را گروه‌بندی می‌کند.|ګډ اړخیز لېست خامه زېرمه، ترکیب، پلور، عرضه کوونکي، پېرودونکي، لګښتونه او راپورونه یوځای کوي.
+A shared storefront connects product discovery with buyer access and seller entry.|فروشگاه مشترک، کشف محصول را با دسترسی خریدار و ورود فروشنده وصل می‌کند.|ګډ پلورنځی د محصول موندل د پېرودونکي له لاسرسي او د پلورونکي له ننوتلو سره تړي.
+A storefront concept that connects product discovery to order administration.|طرح فروشگاهی که یافتن محصول را به مدیریت سفارش وصل می‌کند.|د پلورنځي مفکوره چې د محصول موندل د سپارښتنې له مدیریت سره تړي.
+A support workspace for ticket organization and AI-assisted responses.|محیط پشتیبانی برای تنظیم درخواست‌ها و پاسخ‌های با کمک هوش مصنوعی.|د ملاتړ د غوښتنو د تنظیم او د مصنوعي ځیرکتیا د ځوابونو چاپېریال.
+A tailoring and fabric-shop workspace for garment orders, customer measurements, delivery status, payments, and retail stock.|محیط خیاطی و پارچه‌فروشی برای سفارش لباس، اندازه مشتریان، وضعیت تحویل، پرداخت و موجودی پرچون.|د خیاطۍ او ټوکر پلورنځي چاپېریال چې د جامو سپارښتنې، د پېرودونکو اندازې، د سپارلو حالت، تادیات او پرچون زېرمه تنظیموي.
+A travel-agency finance project for bookings, vouchers, accounting entries, and reporting, with a dedicated agency sign-in.|پروژه مالی آژانس مسافرتی برای رزرو، سندهای مالی، ثبت حسابداری و گزارش‌دهی، با ورود اختصاصی آژانس.|د سفر ادارې مالي پروژه چې ریزرف، مالي سندونه، د حسابونو ثبت او راپورونه تنظیموي او د ادارې ځانګړی ننوتل لري.
+A visual workflow builder connecting triggers, AI-assisted steps, and execution history.|ابزار تصویری ساخت روند که محرک‌ها، مراحل هوش مصنوعی و سابقه اجرا را وصل می‌کند.|د کاري بهیر بصري جوړوونکی چې محرکونه، د مصنوعي ځیرکتیا پړاوونه او د اجرا تاریخچه سره تړي.
+AI assistant and clinical integration labels appear in the interface.|برچسب‌های دستیار هوشمند و اتصال صحی در رابط دیده می‌شوند.|په رابط کې د ځیرک مرستیال او روغتیايي نښلونو نومونه شته.
+AI customer support with intent classification|پشتیبانی هوشمند با دسته‌بندی هدف پیام|د پیغام د موخې له ډلبندۍ سره ځیرک ملاتړ
+AI processing requires reviewable inputs and predictable operational boundaries.|پردازش هوش مصنوعی به ورودی قابل بررسی و حدود عملیاتی مشخص نیاز دارد.|د مصنوعي ځیرکتیا پروسس د ارزونې وړ ورودي او روښانو عملیاتي حدودو ته اړتیا لري.
+AI response generation|تولید پاسخ با هوش مصنوعی|د مصنوعي ځیرکتیا ځواب جوړول
+AI scoring, ATS compatibility, and recommendation accuracy are not verified.|امتیازدهی هوشمند، سازگاری ATS و دقت پیشنهادها تأیید نشده‌اند.|ځیرکې نمرې، د ATS مطابقت او د سپارښتنو کره‌والی نه دي تایید شوي.
+Access|دسترسی|لاسرسی
+Access & integrations|دسترسی و اتصال‌ها|لاسرسی او نښلونې
+Access boundaries|حدود دسترسی|د لاسرسي حدود
+Accessible project inquiry form|فورم دسترس‌پذیر درخواست پروژه|د لاسرسي وړ د پروژې د غوښتنې فورمه
+Account entry|ورود حساب|حساب ته ننوتل
+Account recovery and agency registration remain visible without distracting from returning staff access.|بازیابی حساب و ثبت آژانس در دسترس‌اند، بدون ایجاد مزاحمت برای ورود کارکنان.|د حساب بېرته ترلاسه کول او د ادارې ثبت ښکاره دي، د کارکوونکو ننوتلو ته له خنډ پرته.
+Actual tracking events, branch inventory, and authenticated operations were not tested.|رویدادهای واقعی پیگیری، موجودی شعبه و عملیات داخل حساب آزمایش نشده‌اند.|د تعقیب اصلي پېښې، د څانګې زېرمه او د حساب دننه عملیات نه دي ازمویل شوي.
+Admin and seller dashboards|داشبورد مدیر و فروشنده|د مدیر او پلورونکي ډشبورډونه
+Administrator overview with quick actions and announcements|نمای مدیر با اقدامات سریع و اعلان‌ها|د مدیر عمومي لید له چټکو کړنو او اعلانونو سره
+Agency email/password sign-in|ورود آژانس با ایمیل و رمز|د ادارې ننوتل په برېښنالیک او پټنوم
+Agree on access permissions, record ownership, reporting needs, and expected workload before extending the system.|پیش از توسعه سیستم، مجوزها، مالکیت سوابق، نیاز گزارش و حجم کار را مشخص کنید.|د سیسټم له پراختیا مخکې د لاسرسي اجازې، د ثبتونو مالکیت، راپورونه او کاري بار وټاکئ.
+Analysis accuracy, employment outcomes, and persistent history behavior have not been demonstrated by this read-only review.|این بررسی فقط خواندنی، دقت تحلیل، نتایج استخدام یا ذخیره سابقه را ثابت نمی‌کند.|دا یوازې لوستونکې ارزونه د شننې کره‌والی، د ګمارنې پایلې او د تاریخچې ساتنه نه ثابتوي.
+Analytics dashboard|داشبورد تحلیل|د شننې ډشبورډ
+Any AI-assisted workflow needs clear input boundaries and human review.|هر روند با کمک هوش مصنوعی به حدود روشن ورودی و بررسی انسانی نیاز دارد.|هر ځیرک بهیر د ورودي روښانه حدودو او انساني ارزونې ته اړتیا لري.
+Application|برنامه|اپلېکېشن
+Application layer not documented|لایه برنامه مستند نیست|د اپلېکېشن پوړ نه دی ثبت شوی
+Appointment queue and weekly calendar interface|رابط صف نوبت و تقویم هفتگی|د وختونو د کتار او اوونیزې کلیزې رابط
+Appointments|نوبت‌ها|وختونه
+Appointments, patient histories, departmental activity, medicine stock, and billing refer to related work but need different views.|نوبت‌ها، سابقه مریض، فعالیت بخش، موجودی دوا و صورتحساب مرتبط‌اند اما به نماهای جدا نیاز دارند.|وختونه، د ناروغانو تاریخچه، د څانګو کار، د درملو زېرمه او بلونه تړلي دي خو جلا لیدونو ته اړتیا لري.
+Assistant and intelligent search concepts|طرح دستیار و جستجوی هوشمند|د مرستیال او ځیرک لټون مفکورې
+Attempted read-only access to the exact supplied URL.|دسترسی فقط خواندنی به آدرس ارائه‌شده امتحان شد.|ورکړل شوې پتې ته د یوازې لوستلو لاسرسی وازمویل شو.
+Attempted read-only inspection of the exact supplied URL.|آدرس دقیق ارائه‌شده به‌صورت فقط خواندنی بررسی شد.|ورکړل شوې کره پته په یوازې لوستلو وکتل شوه.
+Attempted read-only inspection of the exact supplied Rayan Cargo URL.|آدرس دقیق رایان کارگو به‌صورت فقط خواندنی بررسی شد.|د رایان کارګو ورکړل شوې کره پته په یوازې لوستلو وکتل شوه.
+Attendance has a class/date entry form and a recent-record table.|حاضری دارای فورم صنف و تاریخ و جدول سوابق اخیر است.|حاضري د ټولګي او نېټې فورمه او د وروستیو ثبتونو جدول لري.
+Authenticated behavior was reviewed through company-supplied screenshots, rather than a live signed-in session.|رفتار داخل حساب از تصاویر شرکت بررسی شد، نه از جلسه زنده داخل سیستم.|د حساب دننه چلند د شرکت له سکرین‌شاټونو ارزول شوی، نه له ژوندۍ ننوتلې ناستې.
+Authenticated feature behavior requires an authorized walkthrough.|بررسی قابلیت‌های داخل حساب به مرور با دسترسی مجاز نیاز دارد.|د حساب د ځانګړتیاوو ارزونه مجاز کتنې ته اړتیا لري.
+Authentication integration|اتصال احراز هویت|د هویت تایید نښلول
+Authentication policies and fleet data structures were not inspected.|پالیسی احراز هویت و ساختار داده وسایط بررسی نشد.|د هویت تایید تګلارې او د وسایطو د معلوماتو جوړښت نه دي کتل شوي.
+Authentication providers, authorization rules, APIs, and file storage require project-specific documentation.|ارائه‌کننده احراز هویت، قواعد مجوز، APIها و ذخیره فایل به مستندات مخصوص پروژه نیاز دارند.|د هویت خدمات، د اجازو اصول، API ګانې او د فایل زېرمه د پروژې ځانګړو اسنادو ته اړتیا لري.
+Automated suggestions must remain distinguishable from hiring decisions.|پیشنهادهای خودکار باید از تصمیم‌های استخدام جدا باشند.|اتومات وړاندیزونه باید د ګمارنې له پرېکړو جلا پاتې شي.
+Availability, integrations, and scaling requirements depend on the agreed business scope.|دسترسی، اتصال‌ها و نیاز ظرفیت به محدوده تجاری توافق‌شده بستگی دارند.|لاسرسی، نښلونې او د ظرفیت اړتیاوې پر منل شوو سوداګریزو حدودو پورې تړلي دي.
+Backend & data|بخش سرور و داده|بکېنډ او معلومات
+Backend and database details await source confirmation.|جزئیات سرور و دیتابیس نیازمند تأیید منبع هستند.|د بکېنډ او ډیټابېس جزئیات د سرچینې تایید ته منتظر دي.
+Backend and security|سرور و امنیت|بکېنډ او امنیت
+Backend integration|اتصال بخش سرور|د بکېنډ نښلول
+Backup/restore controls are separated from the report summary;|کنترل نسخه پشتیبان و بازیابی از خلاصه گزارش جدا است؛|د شاتړ او بېرته رغولو کنټرول د راپور له لنډیزه جلا دی؛
+BazarAF is the company’s Afghan-market multi-vendor marketplace project.|بازار AF پروژه بازار چندفروشنده شرکت برای بازار افغانستان است.|BazarAF د افغانستان د بازار لپاره د شرکت د څو پلورونکو بازار پروژه ده.
+Billing and inventory|صورتحساب و موجودی|بلونه او زېرمه
+Billing and reports|صورتحساب و گزارش‌ها|بلونه او راپورونه
+Billing ledger and printable invoice interface|دفتر صورتحساب و رابط فاکتور قابل چاپ|د بلونو دفتر او د چاپ وړ بل رابط
+Booking types, vouchers, P&L, trial balance, and receivables are described publicly;|انواع رزرو، اسناد مالی، سود و زیان، تراز آزمایشی و طلب‌ها در معرفی عمومی آمده‌اند؛|د ریزرف ډولونه، مالي سندونه، ګټه او زیان، ازمایښتي بېلانس او طلبونه په عامه پېژندنه کې یاد شوي؛
+Bring inventory, sales, and analytics into the stated supermarket workspace.|موجودی، فروش و تحلیل را در محیط معرفی‌شده سوپرمارکیت یکجا کنید.|زېرمه، پلور او شننه د سوپرمارکېټ په معرفي شوي چاپېریال کې یوځای کړئ.
+Bring school records, attendance, and academic administration into one workspace.|سوابق مکتب، حاضری و اداره آموزشی را در یک محیط یکجا کنید.|د ښوونځي ثبتونه، حاضري او تعلیمي اداره په یوه چاپېریال کې یوځای کړئ.
+Bulk CV upload and processing|بارگذاری و پردازش گروهی سوانح|د سوانحو ډله‌ییز پورته کول او پروسس
+Cargo coordination and recordkeeping|هماهنگی باربری و ثبت سوابق|د بار همغږي او د ثبتونو ساتنه
+Cargo staff need a separate entry for branch inventory and consignment work, while customers need their own account context for bookings and delivery information.|کارکنان باربری برای موجودی شعبه و محموله، ورود جدا نیاز دارند؛ مشتریان برای رزرو و معلومات تحویل به حساب خود نیاز دارند.|د بار کارکوونکي د څانګو زېرمې او بارونو لپاره جلا ننوتل غواړي؛ پېرودونکي د ریزرف او سپارلو معلوماتو لپاره خپل حساب ته اړتیا لري.
+Cart and checkout|سبد خرید و ثبت سفارش|د پېرود ټوکرۍ او د سپارښتنې ثبت
+Cash management and daily summaries|مدیریت نقدی و خلاصه روزانه|د نغدو مدیریت او ورځني لنډیزونه
+Cash received and outstanding customer balances|نقد دریافت‌شده و باقی حساب مشتریان|ترلاسه شوې نغدې او د پېرودونکو پاتې حسابونه
+Cash-on-delivery payment flow|روند پرداخت هنگام تحویل|د سپارلو پر مهال د نغدي تادیې بهیر
+Catalog loading was unavailable during review;|کاتالوگ هنگام بررسی بارگذاری نشد؛|کتالوګ د ارزونې پر مهال نه پورته کېده؛
+Catalog, categories, and search|کاتالوگ، دسته‌ها و جستجو|کتالوګ، برخې او لټون
+Claims are limited to the website features implemented here.|ادعاها فقط به قابلیت‌های اجراشده همین ویب‌سایت محدود است.|ادعاوې یوازې د همدې وېبپاڼې پلي شوو ځانګړتیاوو پورې محدودې دي.
+Class directory with grade, student/teacher counts, academic year, and status|فهرست صنف با پایه، شمار شاگرد و معلم، سال تعلیمی و وضعیت|د ټولګیو لړلیک له کچې، د زده کوونکو او ښوونکو شمېر، تعلیمي کال او حالت سره
+Class/date attendance form and present, absent, and late records|فورم حاضری صنف و تاریخ با سوابق حاضر، غیرحاضر و ناوقت|د ټولګي او نېټې د حاضرۍ فورمه له حاضر، غیرحاضر او ناوخته ثبتونو سره
+Clinical features|قابلیت‌های صحی|روغتیايي ځانګړتیاوې
+Communicate the customer-and-fleet context of the product.|زمینه مشتریان و وسایط محصول را معرفی کنید.|د محصول د پېرودونکو او وسایطو شالید معرفي کړئ.
+Company-supplied interface screenshots|تصاویر رابط ارائه‌شده شرکت|د شرکت ورکړل شوي د رابط سکرین‌شاټونه
+Concept scope;|محدوده مفهومی؛|مفکوروي حدود؛
+Connect daily school administration to searchable student, teacher, and class records.|اداره روزانه مکتب را به سوابق قابل جستجوی شاگرد، معلم و صنف وصل کنید.|د ښوونځي ورځنۍ اداره د زده کوونکو، ښوونکو او ټولګیو د لټون وړ ثبتونو سره وتړئ.
+Connect sales, expenses, and balances to period reporting.|فروش، مصارف و مانده حساب را به گزارش دوره‌ای وصل کنید.|پلور، لګښتونه او پاتې حسابونه د دورې له راپورونو سره وتړئ.
+Connect visible pharmacy stock and billing views to hospital administration.|نماهای موجودی دواخانه و صورتحساب را به اداره شفاخانه وصل کنید.|د درملتون د زېرمې او بلونو لیدونه د روغتون له ادارې سره وتړئ.
+Consignment-number tracking form|فورم پیگیری شماره محموله|د بار د شمېرې د تعقیب فورمه
+Currencies and exchange-rate records|سوابق اسعار و نرخ تبادله|د اسعارو او تبادلې د نرخ ثبتونه
+Customer and branch access are labeled separately and retain the cargo identity, preventing the public lookup from competing with operational staff controls.|ورود مشتری و شعبه جدا مشخص شده و هویت باربری را حفظ می‌کند؛ جستجوی عمومی با کنترل کارکنان تداخل ندارد.|د پېرودونکي او څانګې لاسرسی جلا نومول شوی او د بار پېژندنه ساتي؛ عامه لټون د کارکوونکو له کنټرول سره نه ګډېږي.
+Customer and branch sign-in fields use distinct explanatory copy.|فورم‌های ورود مشتری و شعبه توضیحات جدا دارند.|د پېرودونکي او څانګې د ننوتلو ځایونه جلا تشریح لري.
+Customer conversations and sales follow-ups can disappear into separate inboxes and notes.|گفتگوهای مشتری و پیگیری فروش ممکن است در پیام‌ها و یادداشت‌های پراکنده گم شوند.|د پېرودونکو خبرې او د پلور تعقیبونه په بېلو پیغامونو او یادښتونو کې ورکېدای شي.
+Customer directory entry point|ورود به فهرست مشتریان|د پېرودونکو لړلیک ته ننوتل
+Customers and orders|مشتریان و سفارش‌ها|پېرودونکي او سپارښتنې
+Customers and transactions|مشتریان و معاملات|پېرودونکي او معاملې
+Customers looking for a shipment update should not have to enter a staff workspace.|مشتری برای اطلاع از محموله نباید وارد محیط کارکنان شود.|پېرودونکي باید د بار د معلوماتو لپاره د کارکوونکو چاپېریال ته ننوتو ته اړ نه وي.
+Customers need to find the right product and understand checkout, while operators need to connect incoming orders to stock and fulfillment.|مشتری باید محصول مناسب و روند سفارش را بفهمد؛ مدیر باید سفارش‌ها را با موجودی و تحویل وصل کند.|پېرودونکی باید مناسب محصول او د پېرود بهیر وپېژني؛ مدیر باید سپارښتنې له زېرمې او سپارلو سره وتړي.
+Customers, staff, and reports|مشتریان، کارکنان و گزارش‌ها|پېرودونکي، کارکوونکي او راپورونه
+Daily, weekly, and monthly report controls|کنترل گزارش روزانه، هفتگی و ماهانه|د ورځنیو، اوونیزو او میاشتنیو راپورونو کنټرول
+Dari, Pashto, and English language choices|گزینه‌های دری، پشتو و انگلیسی|د دري، پښتو او انګلیسي ژبو ټاکنه
+Data / hosting|داده / میزبانی|معلومات / کوربه‌توب
+Data analysis and report assistance|تحلیل داده و کمک گزارش‌دهی|د معلوماتو شننه او د راپور مرسته
+Data boundary|حدود داده|د معلوماتو حدود
+Data-driven case studies|شرح پروژه‌های مبتنی بر داده|د معلوماتو پر بنسټ د پروژو تفصیل
+Database|دیتابیس|ډیټابېس
+Database schemas, row-level access policies, encryption implementation, and compliance claims were not audited.|ساختار دیتابیس، مجوز سطح رکورد، رمزگذاری و ادعاهای مطابقت ممیزی نشدند.|د ډیټابېس جوړښت، د ثبت لاسرسی، کوډګذاري او د مطابقت ادعاوې نه دي پلټل شوي.
+Dedicated directories organize students, teachers, and classes, while the teacher workspace brings assigned classes, timetable, homework, and result-entry navigation together.|فهرست‌های اختصاصی، شاگردان، معلمان و صنف‌ها را تنظیم می‌کنند؛ محیط معلم، صنف‌های سپرده‌شده، تقسیم اوقات، کارخانگی و ثبت نتایج را یکجا می‌کند.|ځانګړي لړلیکونه زده کوونکي، ښوونکي او ټولګي تنظیموي؛ د ښوونکي چاپېریال ټاکل شوي ټولګي، مهال‌وېش، کورنۍ دندې او د پایلو ثبت یوځای کوي.
+Delivery speed, operational volume, and tracking accuracy are not presented as measured outcomes.|سرعت تحویل، حجم عملیات و دقت پیگیری به‌عنوان نتایج اندازه‌گیری‌شده ارائه نمی‌شوند.|د سپارلو چټکتیا، عملیاتي حجم او د تعقیب کره‌والی د اندازه شوو پایلو په توګه نه وړاندې کېږي.
+Department navigation remains in place when the main workspace changes.|فهرست بخش‌ها با تغییر محیط اصلی ثابت می‌ماند.|د اصلي چاپېریال له بدلون سره د څانګو غورنۍ پر ځای پاتې کېږي.
+Deployment & testing|استقرار و آزمایش|ځای پر ځای کول او ازموینه
+Deployment configuration, security reviews, and test coverage are not supplied.|تنظیم استقرار، بررسی امنیت و پوشش آزمایش ارائه نشده‌اند.|د ځای پر ځای کولو تنظیم، امنیتي ارزونې او د ازموینو پوښښ نه دي ورکړل شوي.
+Device protocols, location refresh frequency, map provider, and tracking accuracy are unknown.|پروتوکول دستگاه، تناوب موقعیت، ارائه‌کننده نقشه و دقت پیگیری نامعلوم‌اند.|د وسیلو پروتوکولونه، د موقعیت د تازه کولو وخت، د نقشې خدمت او د تعقیب کره‌والی نامعلوم دي.
+Direct deep links returned 404 during inspection;|پیوندهای مستقیم داخلی هنگام بررسی خطای ۴۰۴ دادند؛|مستقیمو داخلي لینکونو د کتنې پر مهال ۴۰۴ تېروتنه ورکړه؛
+Displayed counts, testimonials, delivery promises, and guarantees are not verified;|شمارها، نظرها، وعده‌های تحویل و ضمانت‌های نمایش‌داده‌شده تأیید نشده‌اند؛|ښودل شوې شمېرې، نظرونه، د سپارلو ژمنې او ضمانتونه نه دي تایید شوي؛
+Displayed figures and sample records are interface content, not verified business outcomes.|ارقام و سوابق نمونه، محتوای رابط‌اند، نه نتیجه تأییدشده تجاری.|ښودل شوې شمېرې او نمونوي ثبتونه د رابط منځپانګه ده، تایید شوې سوداګریزې پایلې نه دي.
+Distinguish sample history from actual saved analysis.|سابقه نمونه را از تحلیل واقعاً ذخیره‌شده جدا کنید.|نمونوي تاریخچه له رښتینې ساتل شوې شننې جلا کړئ.
+Distinguish tailoring income from fabric retail activity.|درآمد خیاطی را از فعالیت فروش پارچه جدا کنید.|د خیاطۍ عاید د ټوکر له پرچون پلور څخه جلا کړئ.
+Django / API layer|لایه Django / API|د Django / API پوړ
+Django/PostgreSQL remain company-documented technologies.|Django و PostgreSQL تکنالوژی‌های مستند شرکت باقی می‌مانند.|Django او PostgreSQL د شرکت مستندې ټکنالوژۍ پاتې دي.
+Document processing and recommendations|پردازش اسناد و پیشنهادها|د اسنادو پروسس او وړاندیزونه
+Documented integrations|اتصال‌های مستند|مستندې نښلونې
+Drive sanitization workflows|روند پاک‌سازی درایو|د ډرایو د پاکولو بهیرونه
+Dual AI provider routing|مسیریابی میان دو ارائه‌کننده هوش مصنوعی|د دوو ځیرکو خدمتونو ترمنځ لوری ټاکل
+Each workspace presents its own search/filter controls or records while retaining the hospital context.|هر محیط، جستجو، فیلتر و سوابق خود را با حفظ زمینه شفاخانه ارائه می‌کند.|هر چاپېریال خپل لټون، چاڼ او ثبتونه د روغتون د شالید په ساتلو وړاندې کوي.
+Earlier company-documented technologies remain separate evidence.|تکنالوژی‌های قبلی شرکت، شواهد جداگانه باقی می‌مانند.|د شرکت پخوانۍ مستندې ټکنالوژۍ جلا شواهد پاتې دي.
+Email or Afghan phone sign-in labels|ورود با ایمیل یا شماره افغانستان|د برېښنالیک یا افغان شمېرې د ننوتلو نومونه
+Email/password account entry|ورود حساب با ایمیل و رمز|په برېښنالیک او پټنوم حساب ته ننوتل
+Email/password and remember-me controls are visible;|کنترل ایمیل، رمز و «مرا به خاطر بسپار» دیده می‌شود؛|د برېښنالیک، پټنوم او «ما یاد وساته» کنټرولونه ښکاره دي؛
+Email/password sign-in interface|رابط ورود با ایمیل و رمز|د برېښنالیک او پټنوم د ننوتلو رابط
+Empty states explain the resume prerequisite, and a distinct history view is clearly marked as a static preview rather than a completed persistence feature.|حالت‌های خالی، نیاز به سوانح را توضیح می‌دهند؛ نمای سابقه به‌روشنی پیش‌نمایش ثابت معرفی شده، نه ذخیره‌سازی تکمیل‌شده.|تشې بڼې د سوانحو اړتیا تشریح کوي؛ د تاریخچې لید په څرګنده ثابتې مخکتنې ته نومول شوی، نه بشپړې ساتنې ته.
+Enforcement behind those forms requires authorized review.|اجرای قواعد پشت فورم‌ها به بررسی مجاز نیاز دارد.|د فورمو تر شا د اصولو پلي کول مجاز ارزونې ته اړتیا لري.
+English, Dari, and Pashto choices|گزینه‌های انگلیسی، دری و پشتو|د انګلیسي، دري او پښتو ټاکنې
+English, Dari, and Pashto controls|کنترل زبان انگلیسی، دری و پشتو|د انګلیسي، دري او پښتو کنټرولونه
+English, Dari, and Pashto language choices|انتخاب زبان انگلیسی، دری و پشتو|د انګلیسي، دري او پښتو ژبې ټاکل
+English, Dari, and Pashto language controls|کنترل‌های زبان انگلیسی، دری و پشتو|د انګلیسي، دري او پښتو ژبو کنټرولونه
+Examination list with search, academic-year/class/type/status filters, and result progress|فهرست امتحان با جستجو، فیلتر سال، صنف، نوع، وضعیت و پیشرفت نتایج|د ازموینو لړلیک له لټون، د کال، ټولګي، ډول، حالت چاڼ او د پایلو پرمختګ سره
+Examinations have academic-year, class, type, and status filters.|امتحان‌ها فیلتر سال تعلیمی، صنف، نوع و وضعیت دارند.|ازموینې د تعلیمي کال، ټولګي، ډول او حالت چاڼونه لري.
+Execution history|سابقه اجرا|د اجرا تاریخچه
+Executive hospital dashboard|داشبورد مدیریت شفاخانه|د روغتون مدیریتي ډشبورډ
+Existing-agency sign-in, password recovery, and new-agency registration have distinct entry points.|ورود آژانس موجود، بازیابی رمز و ثبت آژانس جدید مسیرهای جدا دارند.|د موجودې ادارې ننوتل، د پټنوم رغول او د نوې ادارې ثبت جلا لارې لري.
+Expenses, customers, and reports|مصارف، مشتریان و گزارش‌ها|لګښتونه، پېرودونکي او راپورونه
+Explicitly labeled static analysis-history preview|پیش‌نمایش ثابت سابقه تحلیل با برچسب روشن|په څرګند نوم د شننې د تاریخچې ثابته مخکتنه
+External connection|اتصال بیرونی|بهرنۍ نښلونه
+Fabric inventory workspace|محیط موجودی پارچه|د ټوکر د زېرمې چاپېریال
+Factory staff also need to distinguish cash received, customer balances, supplier debt, and operating expenses without treating production weight as a sales total.|کارکنان فابریکه باید نقد دریافت‌شده، حساب مشتری، بدهی تأمین‌کننده و مصارف را جدا کنند؛ وزن تولید نباید مجموع فروش تلقی شود.|د فابریکې کارکوونکي باید نغدې، د پېرودونکو حسابونه، د عرضه کوونکو پور او لګښتونه جلا کړي؛ د تولید وزن باید د پلور مجموعه ونه ګڼل شي.
+Features and stack are documented there;|قابلیت‌ها و تکنالوژی‌ها در آنجا مستند‌اند؛|ځانګړتیاوې او ټکنالوژۍ هلته ثبت دي؛
+Feed formulation workspace|محیط ترکیب خوراک|د خوراک د ترکیب چاپېریال
+Feed manufacturing needs to relate raw material quantities and formulations to processed stock and sales.|تولید خوراک باید مقدار مواد خام و ترکیب را به موجودی تولیدشده و فروش مرتبط کند.|د خوراک تولید باید د خامو موادو مقدار او ترکیب له چمتو زېرمې او پلور سره وتړي.
+Figures on the entry screen are presentation content, not verified store performance.|ارقام صفحه ورود، محتوای معرفی‌اند، نه عملکرد تأییدشده فروشگاه.|د ننوتلو پر پرده شمېرې د معرفۍ محتوا ده، د پلورنځي تایید شوې کارکردګي نه ده.
+File and folder removal|حذف فایل و پوشه|د فایلونو او پوښیو ړنګول
+File handling|مدیریت فایل|د فایل اداره
+Filters let staff narrow the view by stage, while the navigation distinguishes tailoring work, stock, accounting, and management.|فیلترها نمای مرحله‌ای می‌دهند و فهرست، خیاطی، موجودی، حسابداری و مدیریت را جدا می‌کند.|چاڼونه کارکوونکو ته د پړاو لید ورکوي او غورنۍ خیاطي، زېرمه، حسابداري او مدیریت جلا کوي.
+Finance scope|محدوده مالی|مالي حدود
+Financial and production views|نماهای مالی و تولید|مالي او تولیدي لیدونه
+Fleet operators must coordinate vehicle availability, driver assignments, trips, fuel, and maintenance.|مسئول وسایط باید دسترسی موتر، وظایف راننده، سفر، تیل و نگهداری را هماهنگ کند.|د وسایطو اداره باید شته موټر، د چلوونکو دندې، سفرونه، تېل او ساتنه همغږي کړي.
+FreshMart introduces a supermarket command center through a split-layout entry screen.|FreshMart مرکز مدیریت سوپرمارکیت را با صفحه ورود دو‌بخشی معرفی می‌کند.|FreshMart د سوپرمارکېټ مدیریتي مرکز په دوه برخیزې د ننوتلو پردې معرفي کوي.
+FreshMart: a supermarket operations project with a multilingual sign-in and an inventory, sales, and analytics product scope.|FreshMart؛ پروژه عملیات سوپرمارکیت با ورود چندزبانه و محدوده موجودی، فروش و تحلیل.|FreshMart؛ د سوپرمارکېټ عملیاتي پروژه چې څوژبیز ننوتل، زېرمه، پلور او شننه مطرح کوي.
+Frontend & interface|بخش کاربر و رابط|فرنټېنډ او رابط
+Frontend framework|چارچوب رابط کاربر|د فرنټېنډ چوکاټ
+Further technical documentation should establish how sales, purchases, expiry tracking, and accounting relate internally.|مستندات تخنیکی بیشتر باید ارتباط داخلی فروش، خرید، تاریخ انقضا و حسابداری را مشخص کند.|نور تخنیکي اسناد باید د پلور، پېرود، پای نېټې او حسابدارۍ داخلي اړیکه څرګنده کړي.
+GPS integration|اتصال GPS|د GPS نښلول
+GPS operations need a controlled workspace for customer and fleet information.|عملیات GPS به محیط کنترل‌شده برای اطلاعات مشتری و وسایط نیاز دارد.|د GPS عملیات د پېرودونکو او وسایطو د معلوماتو کنټرول شوي چاپېریال ته اړتیا لري.
+General physician and specialist workspace navigation|فهرست محیط داکتر عمومی و متخصص|د عمومي او متخصص ډاکټر د چاپېریال غورنۍ
+Give retail staff a clear account-based entry point.|برای کارکنان پرچون، ورود حساب روشن فراهم کنید.|د پرچون کارکوونکو ته د حساب روښانه ننوتل برابر کړئ.
+Give teachers a focused overview of their classes, timetable, homework, and pending results.|برای معلم، نمای مشخص صنف‌ها، تقسیم اوقات، کارخانگی و نتایج باقی‌مانده فراهم کنید.|ښوونکو ته د ټولګیو، مهال‌وېش، کورنیو دندو او پاتې پایلو روښانه لید ورکړئ.
+Guests and check-in / check-out|مهمانان و ورود / خروج|مېلمانه او راتګ / وتل
+History is publicly labeled a static preview for upcoming integration.|سابقه در صفحه عمومی، پیش‌نمایش ثابت برای اتصال آینده معرفی شده است.|تاریخچه په عامه پاڼه کې د راتلونکې نښلونې ثابته مخکتنه نومول شوې ده.
+Hospitality staff need reservations, available rooms, arrival details, departures, and payments to agree with one another throughout a guest’s stay.|کارکنان هوتل باید رزرو، اتاق‌های موجود، ورود، خروج و پرداخت‌ها را در مدت اقامت مهمان هماهنگ نگه دارند.|د هوټل کارکوونکي باید ریزرف، شته خونې، راتګ، وتل او تادیات د مېلمه د اوسېدو په موده کې همغږي وساتي.
+Hybrid ranking engine|موتور رتبه‌بندی ترکیبی|ګډه د درجه بندۍ وسیله
+Implementation is available in this repository.|اجرا در این مخزن موجود است.|پلي شوې نسخه په دې زېرمتون کې شته.
+Infrastructure & build tools|زیربنا و ابزارهای ساخت|زیربنا او د جوړولو وسایل
+Inspected empty states, resume prerequisites, the job-description text area, interview generation controls, and the explicitly static history view.|حالت‌های خالی، نیاز سوانح، متن شرح وظیفه، کنترل تولید مصاحبه و نمای ثابت سابقه بررسی شدند.|تشې بڼې، د سوانحو اړتیا، د دندې تشریح، د مرکې جوړولو کنټرول او د تاریخچې ثابت لید وکتل شول.
+Inspected the Al-Makkah feed-production dashboard, sales invoices, and reporting workspace.|داشبورد تولید خوراک المکه، فاکتورهای فروش و گزارش‌دهی بررسی شدند.|د المکه د خوراک تولید ډشبورډ، د پلور بلونه او د راپور چاپېریال وکتل شول.
+Inspected the Rayan Solutions public travel-agency entry.|ورود عمومی آژانس مسافرتی Rayan Solutions بررسی شد.|د Rayan Solutions د سفر ادارې عامه ننوتل وکتل شول.
+Inspected the public consignment-number tracking form, customer sign-in, and branch-terminal entry.|فورم عمومی پیگیری محموله، ورود مشتری و ترمینال شعبه بررسی شدند.|د بار د شمېرې عامه تعقیب، د پېرودونکي ننوتل او د څانګې ترمینل وکتل شول.
+Inspected the public dashboard, patient directory, appointment view, general-physician workspace, billing ledger, and pharmacy inventory.|داشبورد عمومی، فهرست مریض، نوبت، محیط داکتر عمومی، دفتر صورتحساب و موجودی دواخانه بررسی شدند.|عامه ډشبورډ، د ناروغانو لړلیک، وختونه، د عمومي ډاکټر چاپېریال، د بلونو دفتر او د درملتون زېرمه وکتل شول.
+Inspected the public entry page, product scope, language controls, email/password form, and its Supabase Auth instruction.|صفحه ورود، محدوده محصول، زبان‌ها، فورم ایمیل و رمز و راهنمای Supabase Auth بررسی شدند.|د ننوتلو پاڼه، د محصول حدود، ژبې، د برېښنالیک او پټنوم فورمه او د Supabase Auth لارښوونه وکتل شول.
+Inspected the public product introduction, language selector, sign-in fields, and developer credit.|معرفی عمومی محصول، انتخاب زبان، فورم ورود و نام توسعه‌دهنده بررسی شدند.|د محصول عامه پېژندنه، د ژبې ټاکنه، د ننوتلو ځایونه او د پراختیاکوونکي نوم وکتل شول.
+Inspected the public sign-in form, remember-me control, product description, and language buttons.|فورم ورود، گزینه یادآوری، شرح محصول و دکمه‌های زبان بررسی شدند.|د ننوتلو فورمه، د یادولو کنټرول، د محصول تشریح او د ژبو تڼۍ وکتل شول.
+Inspected the supplied marketplace homepage and public login entry.|صفحه اصلی بازار و ورود عمومی ارائه‌شده بررسی شدند.|د ورکړل شوي بازار کورپاڼه او عامه ننوتل وکتل شول.
+Integration|اتصال|نښلونه
+Interface|رابط کاربر|رابط
+Internal CRM and tracking modules need an authorized walkthrough before their features or integrations can be described as verified.|بخش‌های داخلی مدیریت مشتری و پیگیری پیش از تأیید قابلیت‌ها به بررسی مجاز نیاز دارند.|د CRM او تعقیب داخلي برخې د ځانګړتیاوو یا نښلونو له تایید مخکې مجاز کتنې ته اړتیا لري.
+Internal booking, voucher, and reporting behavior remains product-described scope.|عملکرد داخلی رزرو، اسناد مالی و گزارش فقط محدوده معرفی‌شده محصول است.|د ریزرف، مالي سندونو او راپور داخلي چلند یوازې د محصول معرفي شوي حدود دي.
+Inventory and employees|موجودی و کارکنان|زېرمه او کارکوونکي
+Inventory and suppliers|موجودی و تأمین‌کنندگان|زېرمه او عرضه کوونکي
+Inventory, COD, and administration|موجودی، پرداخت هنگام تحویل و مدیریت|زېرمه، د سپارلو پر مهال تادیه او اداره
+Inventory, sales, analytics, and operational management are described publicly.|موجودی، فروش، تحلیل و مدیریت عملیات در معرفی عمومی آمده‌اند.|زېرمه، پلور، شننه او عملیاتي مدیریت په عامه پېژندنه کې بیان شوي.
+It is not presented as delivered client work.|به‌عنوان کار تحویل‌شده مشتری ارائه نمی‌شود.|د پېرودونکي د سپارل شوي کار په توګه نه وړاندې کېږي.
+It remains a company-supplied project reference.|همچنان مرجع پروژه معرفی‌شده شرکت است.|د شرکت معرفي شوې د پروژې سرچینه پاتې ده.
+It separates returning-user sign-in from agency registration and account recovery, while keeping local language selection available.|ورود کاربر قبلی از ثبت آژانس و بازیابی حساب جدا است و انتخاب زبان محلی در دسترس می‌ماند.|د پخواني کاروونکي ننوتل د ادارې له ثبت او د حساب له رغولو جلا دي او محلي ژبې شته.
+Its linked deployment currently returns 404;|نسخه پیوندشده فعلاً خطای ۴۰۴ می‌دهد؛|تړل شوې نسخه اوس ۴۰۴ تېروتنه ورکوي؛
+Its order dashboard distinguishes garment work from retail sales and brings delivery and payment status into the same order list.|داشبورد سفارش، دوخت را از فروش پرچون جدا می‌کند و وضعیت تحویل و پرداخت را در یک فهرست می‌آورد.|د سپارښتنو ډشبورډ د جامو کار له پرچون پلور جلا کوي او د سپارلو او تادیې حالت په یوه لېست کې ښيي.
+Its portfolio needed working routes and clear case studies, and inquiry handling needed to communicate its actual delivery state.|مجموعه پروژه‌ها به مسیرهای فعال و شرح روشن نیاز داشت و فورم درخواست باید وضعیت واقعی ارسال را بیان می‌کرد.|د پروژو ټولګه فعالو لارو او روښانه تفصیل ته اړتیا لرله او د غوښتنې بهیر باید د لېږلو رښتینی حالت وښيي.
+Its public URL is unavailable;|آدرس عمومی آن در دسترس نیست؛|عامه پته یې نشته؛
+Its public copy connects customer relationship management with GPS fleet operations;|معرفی عمومی آن مدیریت مشتری را به عملیات GPS وسایط وصل می‌کند؛|عامه پېژندنه یې د پېرودونکو مدیریت د وسایطو له GPS عملیاتو سره تړي؛
+Its public deployment operates in a visible local-data mode and offers reporting and database backup controls.|نسخه عمومی در حالت داده محلی کار می‌کند و گزارش و کنترل نسخه پشتیبان دیتابیس دارد.|عامه نسخه په ښکاره محلي معلوماتي حالت کې کار کوي او راپورونه او د ډیټابېس شاتړ لري.
+Its public introduction defines the product’s operational focus;|معرفی عمومی، تمرکز عملیاتی محصول را مشخص می‌کند؛|عامه پېژندنه د محصول عملیاتي تمرکز څرګندوي؛
+Its separate poultry-feed URL was inspected, but those features are not attributed to this unavailable deployment.|آدرس جداگانه خوراک مرغداری بررسی شد، اما قابلیت‌های آن به این نسخه ناموجود نسبت داده نمی‌شوند.|د چرګانو د خوراک جلا پته وکتل شوه، خو ځانګړتیاوې یې دې نشتې نسخې ته نه منسوبېږي.
+Its sign-in explicitly references a Supabase Auth account.|صفحه ورود به‌صراحت حساب Supabase Auth را ذکر می‌کند.|د ننوتلو پاڼه په څرګنده د Supabase Auth حساب یادوي.
+Its stated product scope brings sales, inventory, analytics, and administration together;|محدوده معرفی‌شده محصول، فروش، موجودی، تحلیل و مدیریت را یکجا می‌کند؛|د محصول بیان شوي حدود پلور، زېرمه، شننه او اداره یوځای کوي؛
+JSON backup/restore controls|کنترل نسخه پشتیبان و بازیابی JSON|د JSON شاتړ او رغولو کنټرول
+JWT authentication and role-based access|احراز هویت JWT و دسترسی بر اساس نقش|د JWT هویت تایید او د دندې پر بنسټ لاسرسی
+Job applicants need to understand how their resume relates to a role and prepare relevant interview questions.|متقاضیان باید ارتباط سوانح با وظیفه را بفهمند و برای پرسش‌های مرتبط مصاحبه آماده شوند.|نوماندان باید له دندې سره د سوانحو اړیکه وپېژني او د اړوندو مرکو پوښتنو ته چمتو شي.
+Job-description comparison form|فورم مقایسه شرح وظیفه|د دندې د تشریح د پرتله کولو فورمه
+Keep buyer discovery and seller onboarding easy to find.|یافتن محصول و ورود فروشنده را ساده نگه دارید.|د پېرودونکي لټون او د پلورونکي ګډون اسانه وساتئ.
+Keep customer, garment, and delivery information connected to each order.|اطلاعات مشتری، لباس و تحویل را به هر سفارش وصل نگه دارید.|د پېرودونکي، جامو او سپارلو معلومات له هرې سپارښتنې سره تړلي وساتئ.
+Keep public shipment lookup separate from staff access.|جستجوی عمومی بار را از دسترسی کارکنان جدا کنید.|د بار عامه لټون د کارکوونکو له لاسرسي جلا وساتئ.
+Keep the product’s booking and voucher scope understandable at entry.|محدوده رزرو و اسناد مالی محصول را هنگام ورود روشن کنید.|د محصول د ریزرف او مالي سندونو حدود په ننوتلو کې روښانه کړئ.
+Kitchen workflow|روند آشپزخانه|د پخلنځي کاري بهیر
+Language controls stay near the entry fields.|کنترل زبان نزدیک فورم ورود است.|د ژبې کنټرول د ننوتلو ځایونو ته نږدې دی.
+Leads, customers, and contacts|سرنخ‌ها، مشتریان و تماس‌ها|احتمالي پېرودونکي، پېرودونکي او اړیکې
+Learners, course vendors, and mentors need different workflows within the same learning platform.|شاگردان، فروشندگان دوره و راهنماها در یک پلتفرم آموزشی به روندهای متفاوت نیاز دارند.|زده کوونکي، د کورس پلورونکي او لارښودان په یوه تعلیمي پلېټفارم کې جلا بهیرونو ته اړتیا لري.
+Live logs and statistics|ثبت‌ها و آمار زنده|ژوندي ثبتونه او شمېرې
+Live tracking queries, schemas, and access policies were not tested.|پرس‌وجوی زنده پیگیری، ساختارها و مجوزها آزمایش نشدند.|د ژوندۍ څارنې پوښتنې، جوړښتونه او د لاسرسي تګلارې نه دي ازمویل شوي.
+Live tracking, location accuracy, delivery coverage, and shipment volume are not verified.|پیگیری زنده، دقت موقعیت، پوشش تحویل و حجم بار تأیید نشده‌اند.|ژوندی تعقیب، د موقعیت کره‌والی، د سپارلو پوښښ او د بار حجم نه دي تایید شوي.
+Local data|داده محلی|محلي معلومات
+Local database mode;|حالت دیتابیس محلی؛|د محلي ډیټابېس حالت؛
+Local language controls appear above the entry fields.|زبان‌های محلی بالای فورم ورود قرار دارند.|محلي ژبې د ننوتلو له ځایونو پورته دي.
+Local-storage usage is present in the frontend.|استفاده از ذخیره محلی در بخش کاربر موجود است.|په فرنټېنډ کې محلي زېرمه کارول کېږي.
+Maintenance and fuel|نگهداری و تیل|ساتنه او تېل
+Make kilos, bags, and tons understandable in production and sales records.|کیلو، بوجی و تُن را در سوابق تولید و فروش روشن نشان دهید.|کیلو، بوجۍ او ټن په تولید او پلور کې روښانه وښایئ.
+Make patient records and appointment status easy to locate.|یافتن سوابق مریض و وضعیت نوبت را آسان کنید.|د ناروغ ثبتونه او د وخت حالت اسانه ومومئ.
+Make production status and outstanding payment visible together.|وضعیت تولید و پرداخت باقی‌مانده را یکجا نشان دهید.|د تولید حالت او پاتې تادیه یوځای وښایئ.
+Make the resume-upload prerequisite clear before analysis.|نیاز بارگذاری سوانح را پیش از تحلیل روشن کنید.|له شننې مخکې د سوانحو د پورته کولو اړتیا روښانه کړئ.
+Managers also need to reconcile stock, supplier information, and expenses.|مدیران باید موجودی، اطلاعات تأمین‌کننده و مصارف را نیز تطبیق کنند.|مدیران باید زېرمه، د عرضه کوونکي معلومات او لګښتونه هم برابر کړي.
+Manufacturing work spans supplier deliveries, material use, production, and customer orders.|تولید شامل تحویل تأمین‌کننده، مصرف مواد، ساخت و سفارش مشتری است.|تولید د عرضه کوونکي سپارل، د موادو کارونه، جوړول او د پېرودونکو سپارښتنې رانغاړي.
+Medical functionality and safety are not verified.|عملکرد و ایمنی صحی تأیید نشده‌اند.|روغتیايي کار او خوندیتوب نه دي تایید شوي.
+Medical records and prescriptions|سوابق صحی و نسخه‌ها|روغتیايي ثبتونه او نسخې
+Medicine records, expiry alerts, reports, and stock transactions could not be inspected without credentials.|سوابق دوا، هشدار انقضا، گزارش و معاملات موجودی بدون حساب بررسی نشدند.|د حساب له معلوماتو پرته د درملو ثبتونه، د پای نېټې خبرتیاوې، راپورونه او د زېرمې معاملې نه دي کتل شوي.
+Mentoring with Zoom scheduling|راهنمایی با زمان‌بندی Zoom|لارښوونه د Zoom د وختونو له ټاکلو سره
+Menu and table orders|منو و سفارش میزها|مېنو او د مېزونو سپارښتنې
+Mobile retailers need to distinguish individual devices from accessories and retain the connection between device identifiers, sales, and warranty records.|فروشنده موبایل باید دستگاه را از لوازم جدا کند و شناسه دستگاه، فروش و ضمانت را مرتبط نگه دارد.|د موبایل پلورونکی باید وسیلې له لوازمو جلا کړي او د وسیلې پېژند، پلور او ضمانت سره تړلي وساتي.
+Money Exchange Management|مدیریت صرافی|د صرافۍ مدیریت
+Money-exchange operators need clear transaction history and cash summaries across currencies.|صرافان به سابقه روشن معاملات و خلاصه نقدی در اسعار مختلف نیاز دارند.|صرافان د بېلابېلو اسعارو روښانه معاملاتي تاریخچې او نغدي لنډیزونو ته اړتیا لري.
+Multi-vendor course marketplace|بازار دوره‌های چندفروشنده|د څو پلورونکو د کورسونو بازار
+Multiple AI providers|چند ارائه‌کننده هوش مصنوعی|څو ځیرک خدمتونه
+Multiple overwrite patterns|الگوهای چندگانه بازنویسی|د بیا لیکلو څو بڼې
+Navigation exposes raw stock, formulation, suppliers, customers, and expenses.|فهرست، موجودی خام، ترکیب، تأمین‌کنندگان، مشتریان و مصارف را نشان می‌دهد.|غورنۍ خامه زېرمه، ترکیب، عرضه کوونکي، پېرودونکي او لګښتونه ښيي.
+Navigation to fees, homework, announcements, and reports|دسترسی به فیس، کارخانگی، اعلان‌ها و گزارش‌ها|فیسونو، کورنیو دندو، اعلانونو او راپورونو ته غورنۍ
+New-agency registration entry point|مسیر ثبت آژانس جدید|د نوې ادارې د ثبت لاره
+Next.js is identifiable from the rendered application and its delivered frontend chunks;|Next.js از برنامه و بخش‌های رابط ارائه‌شده شناسایی می‌شود؛|Next.js له وړاندې شوي اپلېکېشن او فرنټېنډ برخو پېژندل کېږي؛
+No HIPAA compliance, encryption effectiveness, FHIR interoperability, or clinical safety is certified by this case study.|این شرح پروژه، مطابقت HIPAA، کارایی رمزگذاری، سازگاری FHIR یا ایمنی صحی را تصدیق نمی‌کند.|دا تفصیل د HIPAA مطابقت، د کوډګذارۍ اغېز، د FHIR همکاري یا روغتیايي خوندیتوب نه تصدیقوي.
+No account was created and no credentials were guessed.|حساب ساخته نشد و اطلاعات ورود حدس زده نشد.|حساب نه دی جوړ شوی او د ننوتلو معلومات نه دي اټکل شوي.
+No accounting accuracy, reporting speed, or financial impact metric is claimed.|ادعای دقت حسابداری، سرعت گزارش یا اثر مالی نمی‌شود.|د حسابدارۍ کره‌والی، د راپور چټکتیا یا مالي اغېز نه ادعا کېږي.
+No authenticated GPS workspace was accessed.|محیط GPS داخل حساب باز نشد.|د حساب دننه GPS چاپېریال ته لاسرسی نه دی شوی.
+No authorized Supabase Auth credentials were provided.|اطلاعات ورود مجاز Supabase Auth ارائه نشد.|د Supabase Auth مجاز ننوتلو معلومات نه دي ورکړل شوي.
+No automation reliability or business impact metrics are supplied.|آمار اطمینان خودکارسازی یا اثر تجاری ارائه نشده است.|د اتومات بهیر د باور او سوداګریز اغېز شمېرې نه دي ورکړل شوې.
+No business impact metrics are supplied.|آمار اثر تجاری ارائه نشده است.|د سوداګریز اغېز شمېرې نه دي ورکړل شوې.
+No business records were created, updated, or deleted.|سوابق تجاری ساخته، تغییر یا حذف نشدند.|سوداګریز ثبتونه نه دي جوړ، بدل یا ړنګ شوي.
+No buyer/seller account was created and no order or payment was submitted.|حساب خریدار یا فروشنده ساخته نشد و سفارش یا پرداخت ثبت نشد.|د پېرودونکي یا پلورونکي حساب نه دی جوړ شوی او سپارښتنه یا تادیه نه ده شوې.
+No client identity, budget, timeline, or measured results are supplied.|هویت مشتری، بودجه، زمان یا نتایج سنجیده ارائه نشده‌اند.|د پېرودونکي هویت، بودیجه، وخت او اندازه شوې پایلې نه دي ورکړل شوې.
+No client identity, delivery timeline, production status, or measured operating results are supplied.|هویت مشتری، زمان تحویل، وضعیت بهره‌برداری و نتایج عملیاتی سنجیده ارائه نشده‌اند.|د پېرودونکي هویت، د سپارلو وخت، د کارونې حالت او اندازه شوې عملیاتي پایلې نه دي ورکړل شوې.
+No consignment query was submitted and no shipment record was modified.|جستجوی محموله ارسال نشد و سابقه بار تغییر نکرد.|د بار لټون نه دی استول شوی او د بار ثبت نه دی بدل شوی.
+No customer or branch account was used.|حساب مشتری یا شعبه استفاده نشد.|د پېرودونکي یا څانګې حساب نه دی کارول شوی.
+No device or customer records were accessed.|سوابق دستگاه یا مشتری باز نشدند.|د وسیلو یا پېرودونکو ثبتونو ته لاسرسی نه دی شوی.
+No factory records, formulas, backup restores, or reset actions were changed.|سوابق فابریکه، ترکیب‌ها، بازیابی یا بازنشانی تغییر یا اجرا نشدند.|د فابریکې ثبتونه، ترکیبونه، د شاتړ رغول یا بیا تنظیم نه دي بدل یا اجرا شوي.
+No fleet reliability or location-accuracy result is claimed.|نتیجه‌ای درباره اطمینان وسایط یا دقت موقعیت ادعا نمی‌شود.|د وسایطو د باور یا د موقعیت د کره‌والي پایله نه ادعا کېږي.
+No formal shop interviews are claimed.|ادعای مصاحبه رسمی با دکان نمی‌شود.|د دوکان د رسمي مرکو ادعا نه کېږي.
+No hiring accuracy, fairness, or hiring-outcome claims are made.|ادعای دقت، انصاف یا نتیجه استخدام نمی‌شود.|د ګمارنې د کره‌والي، انصاف یا پایلې ادعا نه کېږي.
+No medical advice was requested and their behavior is not presented as validated.|مشوره صحی درخواست نشد و عملکرد آن‌ها تأییدشده معرفی نمی‌شود.|روغتیايي مشوره نه ده غوښتل شوې او چلند یې د تایید شوي په توګه نه وړاندې کېږي.
+No nutritional accuracy, feed quality, or production optimization claim is made.|ادعای دقت تغذیه، کیفیت خوراک یا بهینه‌سازی تولید نمی‌شود.|د تغذیې کره‌والی، د خوراک کیفیت یا د تولید ښه والی نه ادعا کېږي.
+No order status, payment, customer, or inventory record was changed.|وضعیت سفارش، پرداخت، مشتری یا موجودی تغییر نکرد.|د سپارښتنې حالت، تادیه، پېرودونکی یا زېرمه نه ده بدله شوې.
+No patient interviews, clinical validation, or backend security audit were performed.|مصاحبه مریض، تأیید صحی یا ممیزی امنیت سرور انجام نشد.|د ناروغانو مرکې، روغتیايي تایید یا د بکېنډ امنیتي پلټنه نه ده شوې.
+No personal CV was uploaded and no model request was triggered.|سوانح شخصی بارگذاری نشد و درخواست مدل اجرا نشد.|شخصي سوانح نه دي پورته شوي او د ماډل غوښتنه نه ده اجرا شوې.
+No prescribing workflow, clinical AI, doctor/patient feature, or technology stack is inferred from its name.|از نام، روند نسخه، هوش مصنوعی صحی، قابلیت داکتر و مریض یا تکنالوژی حدس زده نمی‌شود.|له نومه د نسخې بهیر، روغتیايي ځیرکتیا، د ډاکټر او ناروغ ځانګړتیا یا ټکنالوژۍ نه اټکل کېږي.
+No reduction in clinical workload, revenue improvement, patient outcome, or compliance result is claimed.|کاهش بار صحی، رشد درآمد، نتیجه مریض یا مطابقت ادعا نمی‌شود.|د روغتیايي کار کمښت، د عاید ښه والی، د ناروغ پایله یا مطابقت نه ادعا کېږي.
+No response quality or support performance metrics are claimed.|آمار کیفیت پاسخ یا عملکرد پشتیبانی ادعا نمی‌شود.|د ځواب کیفیت یا د ملاتړ د کارکردګۍ شمېرې نه ادعا کېږي.
+No revenue, product volume, staff count, or retail efficiency metric is verified.|آمار درآمد، حجم محصول، شمار کارکنان یا کارایی پرچون تأیید نشده است.|د عاید، محصول، کارکوونکو شمېر او پرچون کارکردګۍ شمېرې نه دي تایید شوې.
+No sales throughput, inventory accuracy, or clinical benefit is claimed from the limited public inspection.|از بررسی محدود عمومی، میزان فروش، دقت موجودی یا منفعت صحی ادعا نمی‌شود.|له محدودې عامه ارزونې د پلور کچه، د زېرمې کره‌والی یا روغتیايي ګټه نه ادعا کېږي.
+No sales were submitted and no database restore, reset, or production action was performed.|فروشی ثبت نشد و بازیابی، بازنشانی یا عمل تولید اجرا نشد.|پلور نه دی ثبت شوی او د ډیټابېس رغول، بیا تنظیم یا تولیدي کړنه نه ده اجرا شوې.
+No sanitization certification, guaranteed irrecoverability, or standards compliance is claimed.|تصدیق پاک‌سازی، ضمانت بازیابی‌ناپذیری یا مطابقت معیارها ادعا نمی‌شود.|د پاکولو تصدیق، د نه رغېدو ضمانت یا د معیارونو مطابقت نه ادعا کېږي.
+No stock, sale, or customer record was changed.|سابقه موجودی، فروش یا مشتری تغییر نکرد.|د زېرمې، پلور یا پېرودونکي ثبت نه دی بدل شوی.
+No user interviews or field research are claimed.|مصاحبه کاربر یا تحقیق ساحوی ادعا نمی‌شود.|د کاروونکو مرکو یا ساحوي څېړنو ادعا نه کېږي.
+No user interviews or formal research are claimed.|مصاحبه کاربر یا تحقیق رسمی ادعا نمی‌شود.|د کاروونکو مرکو یا رسمي څېړنو ادعا نه کېږي.
+No user interviews or model evaluation are claimed.|مصاحبه کاربر یا ارزیابی مدل ادعا نمی‌شود.|د کاروونکو مرکو یا د ماډل ارزونې ادعا نه کېږي.
+Not documented|مستند نیست|نه دی ثبت شوی
+Not supplied;|ارائه نشده؛|نه دي ورکړل شوي؛
+OTP authentication and separate admin/seller dashboards are documented.|احراز هویت یک‌بارمصرف و داشبوردهای جداگانه مدیر و فروشنده مستند هستند.|د یو ځل کوډ هویت تایید او د مدیر او پلورونکي جلا ډشبورډونه ثبت دي.
+OTP-based authentication|احراز هویت با رمز یک‌بارمصرف|په یو ځل کوډ د هویت تایید
+Observed data mode|حالت داده مشاهده‌شده|لیدل شوی معلوماتي حالت
+Observed garment descriptions, fabric choices, dates, fulfillment stages, payment states, and list sorting/filter controls.|شرح لباس، پارچه، تاریخ، مراحل تحویل، وضعیت پرداخت و کنترل مرتب‌سازی و فیلتر مشاهده شدند.|د جامو تشریح، ټوکر، نېټې، د سپارلو پړاوونه، تادیه او د لېست ترتیب او چاڼ ولیدل شول.
+Offer English, Dari, and Pashto language choices.|گزینه‌های انگلیسی، دری و پشتو فراهم کنید.|د انګلیسي، دري او پښتو ژبو ټاکنه وړاندې کړئ.
+Offer distinct customer and branch-terminal entry points.|ورود جداگانه مشتری و ترمینال شعبه فراهم کنید.|د پېرودونکي او څانګې ترمینل ته جلا ننوتل ورکړئ.
+Order management|مدیریت سفارش|د سپارښتنو مدیریت
+Order status filters and delivery-date sorting|فیلتر وضعیت سفارش و ترتیب تاریخ تحویل|د سپارښتنې د حالت چاڼ او د سپارلو د نېټې ترتیب
+Orders present garment/fabric details beside delivery and payment state;|سفارش‌ها جزئیات لباس و پارچه را کنار تحویل و پرداخت نشان می‌دهند؛|سپارښتنې د جامو او ټوکر جزئیات د سپارلو او تادیې ترڅنګ ښيي؛
+Orders, expenses, and reports|سفارش‌ها، مصارف و گزارش‌ها|سپارښتنې، لګښتونه او راپورونه
+Organize examinations and make result-entry progress visible.|امتحان‌ها را تنظیم و پیشرفت ثبت نتایج را روشن کنید.|ازموینې تنظیم کړئ او د پایلو د ثبت پرمختګ وښایئ.
+PDF upload interface|رابط بارگذاری PDF|د PDF د پورته کولو رابط
+POS, stock, and accounting are described by the public product copy;|فروشگاهی، موجودی و حسابداری در معرفی عمومی آمده‌اند؛|POS، زېرمه او حسابداري په عامه پېژندنه کې بیان شوي؛
+Password recovery entry point|مسیر بازیابی رمز|د پټنوم د رغولو لاره
+Patient and medicine records use domain-specific labels;|سوابق مریض و دوا برچسب‌های تخصصی دارند؛|د ناروغانو او درملو ثبتونه ځانګړي نومونه لري؛
+Patient directory with admission and doctor filters|فهرست مریض با فیلتر پذیرش و داکتر|د ناروغانو لړلیک د داخلېدو او ډاکټر له چاڼ سره
+Patient, appointment, stock, and billing views were inspected without creating or editing records.|نماهای مریض، نوبت، موجودی و صورتحساب بدون ساخت یا تغییر سابقه بررسی شدند.|د ناروغانو، وختونو، زېرمې او بلونو لیدونه د ثبتونو له جوړولو یا بدلولو پرته وکتل شول.
+Patients and doctors|مریضان و داکتران|ناروغان او ډاکټران
+Payment status and remaining-balance display|نمای وضعیت پرداخت و باقی حساب|د تادیې د حالت او پاتې حساب ښودل
+Payments and services|پرداخت‌ها و خدمات|تادیات او خدمات
+Performed a read-only walkthrough of the publicly available workspaces.|محیط‌های عمومی به‌صورت فقط خواندنی مرور شدند.|عامه چاپېریالونه په یوازې لوستلو وکتل شول.
+Permissions and traceable changes are essential design considerations.|مجوزها و تغییرات قابل پیگیری از نیازهای اساسی طراحی‌اند.|اجازې او د تعقیب وړ بدلونونه د ډیزاین اړین موارد دي.
+Persistent sidebar labels give each task a distinct destination.|فهرست ثابت برای هر کار مقصد جدا دارد.|ثابت اړخیز لېست هرې دندې ته جلا ځای ورکوي.
+Pharmacies need to distinguish available stock, purchasing records, sales, and expiry dates.|دواخانه باید موجودی، سوابق خرید، فروش و تاریخ انقضا را جدا کند.|درملتون باید شته زېرمه، د پېرود ثبتونه، پلور او د پای نېټې جلا کړي.
+Pharmacy inventory with batch, expiry, stock, and price columns|موجودی دواخانه با ستون دسته، انقضا، موجودی و قیمت|د درملتون زېرمه د بستې، پای نېټې، مقدار او بیې له ستنو سره
+Pharmacy workflows|روندهای دواخانه|د درملتون کاري بهیرونه
+Phones, accessories, and device identifiers|موبایل، لوازم و شناسه دستگاه|موبایلونه، لوازم او د وسیلو پېژندونه
+Poorly connected records can obscure which medicines need attention.|سوابق ناهماهنگ ممکن است دواهای نیازمند توجه را پنهان کنند.|ناتړلي ثبتونه د پاملرنې اړمن درمل پټولی شي.
+Portfolio filters|فیلتر پروژه‌ها|د پروژو چاڼونه
+Portfolio imagery identifies this as a captured sign-in screen rather than a medicine dashboard.|تصویر پروژه، صفحه واقعی ورود معرفی شده، نه داشبورد دوا.|د پروژې انځور د ننوتلو اصلي پرده نومول شوی، نه د درملو ډشبورډ.
+Poultry business operations|عملیات مرغداری|د چرګانو د کاروبار عملیات
+Poultry businesses need organized operational records and a clear view of daily work.|مرغداری به سوابق منظم و نمای روشن کار روزانه نیاز دارد.|د چرګانو کاروبار منظمو ثبتونو او د ورځني کار روښانه لید ته اړتیا لري.
+Prescription information needs clear organization and careful access handling.|اطلاعات نسخه به تنظیم روشن و کنترل دقیق دسترسی نیاز دارد.|د نسخې معلومات روښانه تنظیم او محتاط لاسرسي ته اړتیا لري.
+Prescription-related interface workflows|روندهای رابط مرتبط با نسخه|د نسخې اړوند د رابط بهیرونه
+Present cash on delivery as the documented payment workflow.|پرداخت هنگام تحویل را به‌عنوان روش مستند نشان دهید.|د سپارلو پر مهال نغدي تادیه د مستندې لارې په توګه وښایئ.
+Present local language options across the public cargo interface.|زبان‌های محلی را در رابط عمومی باربری ارائه کنید.|د بار په عامه رابط کې محلي ژبې وړاندې کړئ.
+Present raw materials and processed feed as separate stock views.|مواد خام و خوراک تولیدشده را در نماهای جدا نشان دهید.|خام مواد او چمتو خوراک په جلا زېرمه‌ییزو لیدونو وښایئ.
+Product copy describes tickets, hotels, visas, refunds, accounting vouchers, P&L, trial balance, and receivables.|معرفی محصول، تکت، هوتل، ویزه، بازپرداخت، اسناد حسابداری، سود و زیان، تراز آزمایشی و طلب‌ها را شرح می‌دهد.|د محصول پېژندنه ټکټونه، هوټلونه، ویزې، بېرته تادیات، مالي سندونه، ګټه او زیان، ازمایښتي بېلانس او طلبونه بیانوي.
+Product copy does not establish a tested accounting result or regulatory compliance.|معرفی محصول، نتیجه آزمایش حسابداری یا مطابقت مقررات را ثابت نمی‌کند.|د محصول پېژندنه د حسابدارۍ ازمویل شوې پایله یا مقرراتو سره مطابقت نه ثابتوي.
+Product listings, order handling, and cash-on-delivery fulfillment need a shared, consistent workflow.|فهرست محصول، مدیریت سفارش و تحویل نقدی به روند مشترک هماهنگ نیاز دارند.|د محصول لېستونه، د سپارښتنو اداره او نغدي سپارل ګډ او همغږي بهیر غواړي.
+Product/category loading failed during review.|محصول و دسته‌ها هنگام بررسی بارگذاری نشدند.|محصولات او برخې د کتنې پر مهال پورته نه شوې.
+Production efficiency, profit, stock accuracy, and live database reliability have not been independently measured.|کارایی تولید، سود، دقت موجودی و اطمینان دیتابیس زنده مستقل سنجیده نشده‌اند.|د تولید کارکردګي، ګټه، د زېرمې کره‌والی او د ژوندي ډیټابېس باور په خپلواکه توګه نه دي اندازه شوي.
+Products and raw materials|محصولات و مواد خام|محصولات او خام مواد
+Project-specific contributors not documented|همکاران مخصوص پروژه مستند نیستند|د پروژې ځانګړي همکاران نه دي ثبت شوي
+Promotional counts, ratings, testimonials, return guarantees, and delivery coverage are not verified outcomes.|شمارهای تبلیغاتی، امتیازها، نظرها، ضمانت برگشت و پوشش تحویل، نتایج تأییدشده نیستند.|اعلاني شمېرې، نمرې، نظرونه، د بېرته ستنولو ضمانت او د سپارلو پوښښ تایید شوې پایلې نه دي.
+Provide a clear pharmacy staff entry point.|ورود روشن برای کارکنان دواخانه فراهم کنید.|د درملتون کارکوونکو ته روښانه ننوتل ورکړئ.
+Provide a focused account entry for GPS operations.|ورود حساب مشخص برای عملیات GPS فراهم کنید.|د GPS عملیاتو لپاره ځانګړی حسابي ننوتل ورکړئ.
+Provide a shared overview of departmental activity.|نمای مشترک فعالیت بخش‌ها فراهم کنید.|د څانګو د فعالیت ګډ عمومي لید برابر کړئ.
+Provide separate sign-in, account recovery, and agency registration paths.|ورود، بازیابی حساب و ثبت آژانس را جدا کنید.|د ننوتلو، حساب رغولو او ادارې ثبت جلا لارې ورکړئ.
+Provider details are not supplied.|جزئیات ارائه‌کننده داده نشده است.|د خدمت جزئیات نه دي ورکړل شوي.
+Public copy describes customer relationships and fleet/GPS operations, and credits Rayan Tech Solutions.|معرفی عمومی، ارتباط مشتری و عملیات GPS وسایط را شرح می‌دهد و رایان را توسعه‌دهنده می‌نامد.|عامه پېژندنه د پېرودونکو اړیکې او د وسایطو GPS عملیات تشریح کوي او رایان پراختیاکوونکی بولي.
+Public copy explains pre-bookings and delivery tracking for customers and consignment/inventory workflows for branch staff.|معرفی عمومی، پیش‌رزرو و پیگیری تحویل مشتری و روند محموله و موجودی کارکنان شعبه را توضیح می‌دهد.|عامه پېژندنه د پېرودونکو مخکې ریزرف او د سپارلو تعقیب او د څانګې د کارکوونکو د بار او زېرمې بهیرونه بیانوي.
+Public demo|نمونه عمومی|عامه نمونه
+Public demonstration records;|سوابق نمایشی عمومی؛|عامه نمایشي ثبتونه؛
+Public interface|رابط عمومی|عامه رابط
+Public product description for customer and GPS operations|معرفی عمومی محصول برای مشتری و عملیات GPS|د پېرودونکو او GPS عملیاتو لپاره د محصول عامه پېژندنه
+Public visitors need a clear account entry, while live device, vehicle, and route workflows belong behind the operational access boundary.|بازدیدکننده به ورود روشن نیاز دارد؛ کار زنده دستگاه، وسیله و مسیر باید پشت دسترسی عملیاتی باشد.|عامه لیدونکي روښانه ننوتل غواړي؛ د وسیلې، موټر او لارې ژوندي بهیرونه باید د عملیاتي لاسرسي تر شا وي.
+Quantity units stay beside their values, separating raw stock from processed feed.|واحد مقدار کنار ارزش آن می‌ماند و موجودی خام از خوراک تولیدشده جدا است.|د مقدار واحدونه د شمېر ترڅنګ دي او خامه زېرمه له چمتو خوراکه جلا ده.
+Raw-material and processed-feed dashboard|داشبورد مواد خام و خوراک تولیدشده|د خامو موادو او چمتو خوراک ډشبورډ
+Rayan MediStore presents a dedicated access screen for medicine management, sales, and pharmacy accounting.|Rayan MediStore صفحه ورود اختصاصی برای مدیریت دوا، فروش و حسابداری دواخانه دارد.|Rayan MediStore د درملو مدیریت، پلور او د درملتون حسابدارۍ ته ځانګړې د ننوتلو پرده لري.
+Rayan MediStore: a pharmacy management project with a multilingual staff sign-in and a stated POS, stock, and accounting scope.|Rayan MediStore؛ پروژه مدیریت دواخانه با ورود چندزبانه کارکنان و محدوده معرفی‌شده فروشگاهی، موجودی و حسابداری.|Rayan MediStore؛ د درملتون پروژه چې څوژبیز ننوتل او د POS، زېرمې او حسابدارۍ بیان شوي حدود لري.
+Rayan Online Prescription|نسخه آنلاین رایان|د رایان آنلاین نسخه
+Rayan Solutions presents a travel-agency finance workspace at its public login route.|Rayan Solutions محیط مالی آژانس مسافرتی را در مسیر عمومی ورود معرفی می‌کند.|Rayan Solutions د سفر ادارې مالي چاپېریال په عامه ننوتلو کې معرفي کوي.
+Rayan Tech Company Website|ویب‌سایت شرکت رایان تک|د رایان ټېک شرکت وېبپاڼه
+Rayan Tech Solutions confirms this is a real project and supplied seven interface screenshots: administrator dashboard, students, classes, teachers, attendance, exams/results, and teacher dashboard.|شرکت واقعی بودن پروژه را تأیید کرده و هفت تصویر ارائه داده: داشبورد مدیر، شاگردان، صنف‌ها، معلمان، حاضری، امتحان و نتایج، و داشبورد معلم.|شرکت دا رښتینې پروژه تایید کړې او اووه سکرین‌شاټونه یې ورکړي: د مدیر ډشبورډ، زده کوونکي، ټولګي، ښوونکي، حاضري، ازموینې او پایلې او د ښوونکي ډشبورډ.
+Rayan Tech Solutions portfolio|مجموعه پروژه‌های رایان تک سولوشنز|د رایان ټېک سولوشنز د پروژو ټولګه
+React Router / static application|React Router / برنامه ثابت|React Router / ثابت اپلېکېشن
+React and a Supabase client are identifiable in the frontend bundle;|React و کلاینت Supabase در بسته رابط شناسایی می‌شوند؛|React او Supabase کلاینټ په فرنټېنډ کڅوړه کې پېژندل کېږي؛
+React and a Supabase client are present in the delivered frontend.|React و کلاینت Supabase در رابط ارائه‌شده موجودند.|React او Supabase کلاینټ په وړاندې شوي فرنټېنډ کې شته.
+React and a Supabase client are present in the delivered frontend;|React و کلاینت Supabase در رابط ارائه‌شده موجودند؛|React او Supabase کلاینټ په وړاندې شوي فرنټېنډ کې شته؛
+React and a Supabase client are present in the public frontend bundle.|React و کلاینت Supabase در بسته عمومی رابط موجودند.|React او Supabase کلاینټ د عامه فرنټېنډ په کڅوړه کې شته.
+React and local-storage usage are identifiable in the public bundle.|React و ذخیره محلی در بسته عمومی شناسایی می‌شوند.|React او محلي زېرمه په عامه کڅوړه کې پېژندل کېږي.
+React client with departmental workspace views|کلاینت React با نماهای محیط بخش‌ها|React کلاینټ د څانګو له کاري لیدونو سره
+React is identifiable in the delivered JavaScript.|React در جاواسکریپت ارائه‌شده شناسایی می‌شود.|React په وړاندې شوي JavaScript کې پېژندل کېږي.
+React is identifiable in the delivered JavaScript;|React در جاواسکریپت ارائه‌شده شناسایی می‌شود؛|React په وړاندې شوي JavaScript کې پېژندل کېږي؛
+React is identifiable in the delivered bundle.|React در بسته ارائه‌شده شناسایی می‌شود.|React په وړاندې شوې کڅوړه کې پېژندل کېږي.
+React is identifiable in the delivered bundle;|React در بسته ارائه‌شده شناسایی می‌شود؛|React په وړاندې شوې کڅوړه کې پېژندل کېږي؛
+React is identifiable in the delivered frontend.|React در رابط ارائه‌شده شناسایی می‌شود.|React په وړاندې شوي فرنټېنډ کې پېژندل کېږي.
+React is identifiable in the public JavaScript bundle.|React در بسته عمومی جاواسکریپت شناسایی می‌شود.|React د عامه JavaScript په کڅوړه کې پېژندل کېږي.
+React is identifiable in the public bundle;|React در بسته عمومی شناسایی می‌شود؛|React په عامه کڅوړه کې پېژندل کېږي؛
+React is its interface layer.|React لایه رابط آن است.|React یې د رابط پوړ دی.
+React is present in the frontend bundle.|React در بسته رابط موجود است.|React په فرنټېنډ کڅوړه کې شته.
+React production, stock, sales, and reporting workspaces|محیط‌های React برای تولید، موجودی، فروش و گزارش|د React د تولید، زېرمې، پلور او راپور چاپېریالونه
+React was identified in the public frontend;|React در رابط عمومی شناسایی شد؛|React په عامه فرنټېنډ کې وپېژندل شو؛
+Read-only review covered the stock/production dashboard, sales quantity units, payment balances, period reporting, and visible backup/restore controls.|بررسی فقط خواندنی، داشبورد موجودی و تولید، واحد فروش، مانده پرداخت، گزارش دوره‌ای و کنترل پشتیبان و بازیابی را پوشش داد.|یوازې لوستونکې ارزونه د زېرمې او تولید ډشبورډ، د پلور واحدونه، پاتې تادیات، دوریز راپورونه او شاتړ او رغول وکتل.
+Read-only walkthrough of the upload screen and its sidebar routes.|مرور فقط خواندنی صفحه بارگذاری و مسیرهای کناری.|د پورته کولو پردې او اړخیزو لارو یوازې لوستونکې کتنه.
+Real fulfillment speed, financial accuracy, and customer outcomes have not been measured.|سرعت واقعی تحویل، دقت مالی و نتایج مشتری سنجیده نشده‌اند.|د رښتیني سپارلو چټکتیا، مالي کره‌والی او د پېرودونکو پایلې نه دي اندازه شوي.
+Real interface images can be reviewed in the gallery when project screenshots are available.|در صورت موجود بودن تصاویر، رابط واقعی در گالری بررسی می‌شود.|که سکرین‌شاټونه موجود وي، د رابط اصلي انځورونه په ګالري کې کتل کېدای شي.
+Recommendation features|قابلیت‌های پیشنهاد|د وړاندیز ځانګړتیاوې
+Record attendance by class and date with clear present, absent, and late statuses.|حاضری را بر اساس صنف و تاریخ با وضعیت حاضر، غیرحاضر و ناوقت ثبت کنید.|حاضري د ټولګي او نېټې له مخې په حاضر، غیرحاضر او ناوخته حالتونو ثبت کړئ.
+Recorded in the existing committed portfolio.|در مجموعه ثبت‌شده قبلی موجود است.|په پخوانۍ ثبت شوې ټولګه کې شته.
+Records and reporting|سوابق و گزارش‌دهی|ثبتونه او راپورونه
+Recruitment teams need a consistent way to review uploaded CVs, relate them to job requirements, and inspect ranking suggestions before making human hiring decisions.|تیم استخدام به روش یکسان بررسی سوانح، تطبیق نیاز وظیفه و ارزیابی رتبه‌ها پیش از تصمیم انسانی نیاز دارد.|د ګمارنې ټیم د سوانحو د ارزونې، د دندې له اړتیاوو سره د برابرولو او له انساني پرېکړې مخکې د وړاندیز شوو درجو د کتنې همغږې لارې ته اړتیا لري.
+Remember-me control|گزینه به خاطر سپردن حساب|د حساب د یاد ساتلو کنټرول
+Removal methods and their effectiveness depend on the storage hardware and operating environment.|روش حذف و کارایی آن به سخت‌افزار ذخیره و محیط کار بستگی دارند.|د ړنګولو لارې او اغېز یې د زېرمې پر وسایلو او کاري چاپېریال پورې تړلي دي.
+Repeated document handling and information searches can take attention away from decisions.|کار تکراری اسناد و جستجوی اطلاعات، توجه را از تصمیم‌گیری می‌گیرد.|د اسنادو تکراري کار او معلوماتي لټون پام له پرېکړو اړولی شي.
+Reports and dashboard|گزارش و داشبورد|راپورونه او ډشبورډ
+Reports, roles, and audit history|گزارش، نقش‌ها و سابقه بررسی|راپورونه، دندې او د پلټنې تاریخچه
+Responsive navigation|فهرست سازگار با دستگاه‌ها|د بېلابېلو وسیلو لپاره مناسبه غورنۍ
+Restaurant teams need a clear handoff from an order to preparation and payment, while managers need an overview of ingredients and activity.|تیم رستورانت به انتقال روشن سفارش به آماده‌سازی و پرداخت نیاز دارد؛ مدیر باید مواد و فعالیت را ببیند.|د رستورانت ټیم د سپارښتنې، چمتو کولو او تادیې روښانه سپارل غواړي؛ مدیر د موادو او کار عمومي لید غواړي.
+Resume-dependent interview preparation screen|صفحه آمادگی مصاحبه وابسته به سوانح|د سوانحو پر بنسټ د مرکې د چمتووالي پرده
+Retail stores need sales and purchases to relate to the same product records.|فروشگاه باید فروش و خرید را به سوابق یکسان محصول وصل کند.|پرچون پلورنځي غواړي چې پلور او پېرود له هماغو محصولي ثبتونو سره تړلي وي.
+Retail workspace|محیط کاری پرچون|د پرچون کاري چاپېریال
+Retained from the committed portfolio.|از مجموعه ثبت‌شده حفظ شده است.|له ثبت شوې ټولګې ساتل شوی.
+Retained from the existing committed portfolio.|از مجموعه ثبت‌شده قبلی حفظ شده است.|له پخوانۍ ثبت شوې ټولګې ساتل شوی.
+Retained previously documented engineering details without claiming new interviews, purchase testing, or marketplace metrics.|جزئیات انجنیری قبلی حفظ شده، بدون ادعای مصاحبه جدید، آزمایش خرید یا آمار بازار.|پخواني انجنیري جزئیات ساتل شوي، د نویو مرکو، پېرود ازموینې یا د بازار د شمېرو له ادعا پرته.
+Review boundaries|حدود بررسی|د ارزونې حدود
+Reviewed navigation, patient filtering, appointment presentation, pharmacy batch/expiry columns, and invoice layout.|فهرست، فیلتر مریض، نوبت‌ها، ستون دسته و انقضای دوا و طرح فاکتور بررسی شدند.|غورنۍ، د ناروغانو چاڼ، وختونه، د درملو د بستې او پای نېټې ستنې او د بل ډیزاین وکتل شول.
+Reviewed the public introduction, account form, recovery and signup links, and language selection.|معرفی عمومی، فورم حساب، بازیابی، ثبت‌نام و زبان بررسی شدند.|عامه پېژندنه، د حساب فورمه، رغول، ګډون او د ژبې ټاکنه وکتل شول.
+Reviewed the public sign-in and its supplied demo access, then inspected the order dashboard and navigation.|ورود عمومی و حساب نمونه ارائه‌شده و سپس داشبورد سفارش و فهرست بررسی شدند.|عامه ننوتل او ورکړل شوی نمایشي لاسرسی او بیا د سپارښتنو ډشبورډ او غورنۍ وکتل شول.
+Reviewed the public storefront, search and category areas, shopping-flow explanation, account entry, and seller calls to action.|فروشگاه، جستجو و دسته‌ها، توضیح خرید، ورود حساب و دعوت فروشندگان بررسی شدند.|عامه پلورنځی، لټون او برخې، د پېرود تشریح، حسابي ننوتل او د پلورونکو بلنې وکتل شوې.
+Reviewed the public tracking page and both sign-in panels.|صفحه عمومی پیگیری و هر دو پنل ورود بررسی شدند.|د تعقیب عامه پاڼه او دواړه د ننوتلو پنلونه وکتل شول.
+Reviewed the resume upload, interview preparation, job-match, and history views through in-app navigation.|بارگذاری سوانح، آمادگی مصاحبه، تطبیق وظیفه و سابقه از فهرست برنامه بررسی شدند.|د سوانحو پورته کول، د مرکې چمتووالی، د دندې برابرول او تاریخچه د اپلېکېشن له غورنۍ وکتل شول.
+Reviewed the seven supplied interface screenshots alongside the public multilingual sign-in screen.|هفت تصویر ارائه‌شده همراه صفحه عمومی چندزبانه ورود بررسی شدند.|اووه ورکړل شوي سکرین‌شاټونه د څوژبیزې عامه ننوتلو پردې ترڅنګ وکتل شول.
+Rooms and reservations|اتاق‌ها و رزرو|خونې او ریزرف
+Routes and trips|مسیرها و سفرها|لارې او سفرونه
+Sales and customers|فروش و مشتریان|پلور او پېرودونکي
+Sales invoices with kilos, bags, and tons|فاکتور فروش با کیلو، بوجی و تُن|د پلور بلونه په کیلو، بوجۍ او ټن
+Sales pipeline and follow-ups|مراحل فروش و پیگیری‌ها|د پلور پړاوونه او تعقیبونه
+Sales views show quantity units, invoice amounts, cash, balances, and estimated profit.|نماهای فروش، واحد مقدار، مبلغ فاکتور، نقد، مانده و سود تخمینی را نشان می‌دهند.|د پلور لیدونه د مقدار واحدونه، د بل مقدار، نغدې، پاتې حساب او اټکلي ګټه ښيي.
+Sample figures, patient records, compliance labels, encryption claims, and clinical AI behavior are not independently verified.|ارقام نمونه، سوابق مریض، برچسب مطابقت، ادعای رمزگذاری و رفتار هوش مصنوعی صحی مستقل تأیید نشده‌اند.|نمونوي شمېرې، د ناروغ ثبتونه، د مطابقت نومونه، د کوډګذارۍ ادعاوې او روغتیايي ځیرک چلند په خپلواکه توګه نه دي تایید شوي.
+Sample quantities and financial totals are not verified company results.|مقدار و مجموع مالی نمونه، نتایج تأییدشده شرکت نیستند.|نمونوي مقدارونه او مالي مجموعې د شرکت تایید شوې پایلې نه دي.
+School staff need connected records and relevant access for each role.|کارکنان مکتب به سوابق متصل و دسترسی مناسب هر نقش نیاز دارند.|د ښوونځي کارکوونکي تړلو ثبتونو او د هرې دندې مناسب لاسرسي ته اړتیا لري.
+Screening pipeline|روند بررسی نامزدان|د نوماندانو د ارزونې بهیر
+Screenshot fallbacks and lightbox|جایگزین تصویر و نمایش بزرگ|د سکرین‌شاټ بدیلونه او لوی لید
+Screenshot records and figures are not business-impact metrics.|سوابق و ارقام تصویر، آمار اثر تجاری نیستند.|د سکرین‌شاټ ثبتونه او شمېرې د سوداګریز اغېز شمېرې نه دي.
+Screenshots establish interface scope, not authorization enforcement, database integrity, or production test coverage.|تصاویر محدوده رابط را نشان می‌دهند، نه اجرای مجوز، سلامت دیتابیس یا آزمایش تولید.|سکرین‌شاټونه د رابط حدود ښيي، د اجازو پلي کول، د ډیټابېس بشپړتیا یا تولیدي ازموینې نه ثابتوي.
+Screenshots show this actual entry screen rather than a fabricated live map.|تصاویر صفحه واقعی ورود را نشان می‌دهند، نه نقشه زنده ساختگی.|سکرین‌شاټونه د ننوتلو اصلي پرده ښيي، نه جوړه شوې ژوندۍ نقشه.
+Search and filters appear above directories, status badges distinguish active/inactive records and attendance states, and quick actions shorten common administration paths.|جستجو و فیلتر بالای فهرست‌اند؛ وضعیت فعال، غیرفعال و حاضری مشخص است و اقدامات سریع کار معمول اداره را کوتاه می‌کنند.|لټون او چاڼونه د لړلیکونو پورته دي؛ د فعال، غیرفعال او حاضرۍ حالتونه جلا دي او چټکې کړنې عام اداري کار لنډوي.
+Search, catalog sections, buyer/seller calls to action, and cash-on-delivery copy are visible.|جستجو، کاتالوگ، دعوت خریدار و فروشنده و توضیح پرداخت هنگام تحویل دیده می‌شوند.|لټون، کتالوګ، د پېرودونکي او پلورونکي بلنې او د نغدي سپارلو تشریح ښکاره دي.
+Searchable directories provide record details, assignments, status, and management actions.|فهرست‌های قابل جستجو، جزئیات، وظایف، وضعیت و اقدامات مدیریتی دارند.|د لټون وړ لړلیکونه د ثبت جزئیات، دندې، حالت او مدیریتي کړنې وړاندې کوي.
+Secure Data Sanitization Tool|ابزار پاک‌سازی امن داده|د معلوماتو د خوندي پاکولو وسیله
+See the repository for validation details.|جزئیات بررسی را در مخزن ببینید.|د ارزونې جزئیات په زېرمتون کې وګورئ.
+Sensitive data, backup needs, and access rules must be reviewed against the actual deployment.|داده حساس، نیاز پشتیبان و قواعد دسترسی باید مطابق استقرار واقعی بررسی شوند.|حساس معلومات، د شاتړ اړتیاوې او د لاسرسي اصول باید د رښتینې نسخې له مخې وکتل شي.
+Separate branch-terminal sign-in|ورود جداگانه ترمینال شعبه|د څانګې ترمینل ته جلا ننوتل
+Separate customer sign-in and registration entry|ورود و ثبت‌نام جداگانه مشتری|د پېرودونکي جلا ننوتل او ثبت
+Separate garment-order and retail-sale views|نماهای جداگانه سفارش لباس و فروش پرچون|د جامو د سپارښتنې او پرچون پلور جلا لیدونه
+Separate interview preparation from job-description comparison.|آمادگی مصاحبه را از مقایسه شرح وظیفه جدا کنید.|د مرکې چمتووالی د دندې د تشریح له پرتله جلا کړئ.
+Separate records make the relationship between inputs and outputs harder to understand.|سوابق پراکنده، ارتباط ورودی و خروجی را مبهم می‌کنند.|بېل ثبتونه د ورودي او پایلو اړیکه د پوهېدو لپاره ستونزمنوي.
+Separate verified interface observations from promotional claims and protected account behavior.|مشاهده تأییدشده رابط را از ادعای تبلیغاتی و عملکرد داخل حساب جدا کنید.|د رابط تایید شوې کتنې له اعلاني ادعاوو او د حساب له خوندي چلنده جلا کړئ.
+Separating these records makes an order difficult to follow.|جداسازی این سوابق، پیگیری سفارش را دشوار می‌کند.|د دې ثبتونو بېلوالی د سپارښتنې تعقیب ستونزمنوي.
+Shared resume context is described in the interface;|زمینه مشترک سوانح در رابط شرح داده شده؛|د سوانحو ګډ شالید په رابط کې بیان شوی؛
+Shared sidebar navigation connects school administration modules.|فهرست مشترک، بخش‌های مدیریت مکتب را وصل می‌کند.|ګډه اړخیزه غورنۍ د ښوونځي مدیریتي برخې سره تړي.
+Shop expense and reporting workspaces|محیط مصارف و گزارش دکان|د دوکان د لګښتونو او راپور چاپېریالونه
+Sidebar navigation between career tools|فهرست کناری ابزارهای کاریابی|د کارموندنې د وسایلو ترمنځ اړخیزه غورنۍ
+Sign-in preview|پیش‌نمایش ورود|د ننوتلو مخکتنه
+Sign-in, password-recovery, and signup entry points are public.|مسیر ورود، بازیابی رمز و ثبت‌نام عمومی‌اند.|د ننوتلو، پټنوم رغولو او ګډون لارې عامه دي.
+Software development by Rayan Tech Solutions|توسعه سافت‌ویر توسط رایان تک سولوشنز|د رایان ټېک سولوشنز له خوا د سافټویر پراختیا
+Staff and reporting|کارکنان و گزارش‌دهی|کارکوونکي او راپورونه
+Static HTML output;|خروجی ثابت HTML؛|ثابت HTML پایله؛
+Static site;|ویب‌سایت ثابت؛|ثابته وېبپاڼه؛
+Stock and invoice views use explicit quantity units;|نماهای موجودی و فاکتور واحدهای مقدار روشن دارند؛|د زېرمې او بل لیدونه څرګند مقداري واحدونه لري؛
+Stock threshold and low-stock presentation|حد موجودی و نمایش کمبود|د زېرمې حد او د کمښت ښودل
+Student directory with search, class/status filters, guardian details, and record actions|فهرست شاگرد با جستجو، فیلتر صنف و وضعیت، معلومات سرپرست و اقدامات|د زده کوونکو لړلیک د لټون، ټولګي او حالت چاڼ، د سرپرست معلوماتو او کړنو سره
+Student information, attendance sheets, grades, and parent communication are often maintained separately.|معلومات شاگرد، حاضری، نمرات و ارتباط والدین اغلب جدا نگهداری می‌شوند.|د زده کوونکو معلومات، حاضري، نمرې او د والدینو اړیکې ډېری وخت جلا ساتل کېږي.
+Supabase Auth account instruction|راهنمای حساب Supabase Auth|د Supabase Auth د حساب لارښوونه
+Supabase client library present in the delivered bundle;|کتابخانه کلاینت Supabase در بسته ارائه‌شده موجود است؛|د Supabase کلاینټ کتابتون په وړاندې شوې کڅوړه کې شته؛
+Supplier, customer, and expense navigation|فهرست تأمین‌کننده، مشتری و مصارف|د عرضه کوونکو، پېرودونکو او لګښتونو غورنۍ
+Suppliers and production|تأمین‌کنندگان و تولید|عرضه کوونکي او تولید
+Support English, Dari, and Pashto at sign-in.|در ورود از انگلیسی، دری و پشتو پشتیبانی کنید.|په ننوتلو کې د انګلیسي، دري او پښتو ملاتړ وکړئ.
+Support English, Dari, and Pashto choices.|از انتخاب انگلیسی، دری و پشتو پشتیبانی کنید.|د انګلیسي، دري او پښتو ټاکنو ملاتړ وکړئ.
+Support and course discovery must connect to the learning experience.|پشتیبانی و یافتن دوره باید به تجربه آموزشی وصل شوند.|ملاتړ او د کورس موندل باید له تعلیمي تجربې سره تړلي وي.
+Support teams need to organize incoming requests and review possible responses without losing control of the final message sent to a customer.|تیم پشتیبانی باید درخواست‌ها و پاسخ‌ها را تنظیم کند، با حفظ کنترل پیام نهایی مشتری.|د ملاتړ ټیم باید غوښتنې تنظیم او ځوابونه وګوري، د پېرودونکي د وروستي پیغام د کنټرول له لاسه ورکولو پرته.
+Support the product’s stated medicine, POS, stock, and accounting scope.|از محدوده معرفی‌شده دوا، فروشگاهی، موجودی و حسابداری پشتیبانی کنید.|د محصول د بیان شوو درملو، POS، زېرمې او حسابدارۍ حدودو ملاتړ وکړئ.
+Support the stated P&L, trial-balance, and receivable reporting scope.|از گزارش معرفی‌شده سود و زیان، تراز آزمایشی و طلب‌ها پشتیبانی کنید.|د بیان شوو ګټې او زیان، ازمایښتي بېلانس او طلبونو د راپور ملاتړ وکړئ.
+Tailoring order dashboard|داشبورد سفارش خیاطی|د خیاطۍ د سپارښتنو ډشبورډ
+Tailoring orders depend on precise measurements, design choices, promised dates, and the person assigned to make the garment.|سفارش خیاطی به اندازه دقیق، طرح، تاریخ وعده و شخص مسئول دوخت وابسته است.|د خیاطۍ سپارښتنې په کره اندازو، ډیزاین، منل شوو نېټو او ټاکل شوي ګنډونکي پورې تړلي دي.
+Tasks, notes, and communication history|وظایف، یادداشت‌ها و سابقه ارتباط|دندې، یادښتونه او د اړیکو تاریخچه
+Teacher dashboard with assigned-class, student, timetable, and pending-result summaries|داشبورد معلم با خلاصه صنف، شاگرد، تقسیم اوقات و نتایج باقی‌مانده|د ښوونکي ډشبورډ د ټاکل شوو ټولګیو، زده کوونکو، مهال‌وېش او پاتې پایلو له لنډیز سره
+Teacher directory with subjects, class assignments, status, and record actions|فهرست معلم با مضامین، صنف‌ها، وضعیت و اقدامات|د ښوونکو لړلیک له مضمونونو، ټاکل شوو ټولګیو، حالت او کړنو سره
+Teachers receive a separate workspace organized around their own daily assignments.|معلم محیط جداگانه مطابق وظایف روزانه خود دارد.|ښوونکي د خپلو ورځنیو دندو پر بنسټ جلا چاپېریال لري.
+Team profiles|معرفی اعضای تیم|د ټیم د غړو پېژندنې
+Teams need to connect triggers and actions while retaining visibility into execution history.|تیم‌ها باید محرک و اقدام را وصل کنند و سابقه اجرا را ببینند.|ټیمونه باید محرکونه او کړنې سره وتړي او د اجرا تاریخچه ښکاره وساتي.
+The Al-Makkah poultry-feed interface links production records with raw inventory, processed feed stock, sales, supplier/customer balances, and expenses.|رابط خوراک مرغداری المکه، سوابق تولید را به موجودی خام، خوراک تولیدشده، فروش، حساب تأمین‌کننده و مشتری و مصارف وصل می‌کند.|د المکه د چرګانو خوراک رابط تولیدي ثبتونه له خامې زېرمې، چمتو خوراک، پلور، د عرضه کوونکو او پېرودونکو حسابونو او لګښتونو سره تړي.
+The FreshMart public entry describes inventory, sales, analytics, and retail operations.|ورود عمومی FreshMart موجودی، فروش، تحلیل و عملیات پرچون را معرفی می‌کند.|د FreshMart عامه ننوتل زېرمه، پلور، شننه او پرچون عملیات معرفي کوي.
+The MediPulse interface brings several hospital workspaces into one navigation system.|رابط MediPulse چند محیط شفاخانه را در یک فهرست هماهنگ می‌کند.|د MediPulse رابط د روغتون څو چاپېریالونه په یوه غورنۍ کې یوځای کوي.
+The Mujeeb Afghan Tailor Shop demonstration combines tailoring orders with fabric retail activity.|نمونه خیاطی مجیب افغان، سفارش دوخت را با فروش پرچون پارچه یکجا می‌کند.|د مجیب افغان خیاطۍ نمونه د ګنډلو سپارښتنې د ټوکر له پرچون پلور سره یوځای کوي.
+The Rayan MediStore deployment serves a pharmacy sign-in screen with English, Dari, and Pashto controls.|نسخه Rayan MediStore صفحه ورود دواخانه با زبان انگلیسی، دری و پشتو ارائه می‌کند.|د Rayan MediStore نسخه د درملتون د ننوتلو پرده په انګلیسي، دري او پښتو وړاندې کوي.
+The administrator dashboard connects school records, attendance, fee collection, and examination entry points.|داشبورد مدیر، سوابق مکتب، حاضری، جمع‌آوری فیس و ورود امتحان را وصل می‌کند.|د مدیر ډشبورډ د ښوونځي ثبتونه، حاضري، د فیس راټولول او د ازموینو ثبت سره تړي.
+The agency workspace requires credentials that were not provided.|محیط آژانس به اطلاعات ورودی نیاز دارد که ارائه نشده است.|د ادارې چاپېریال د ننوتلو هغو معلوماتو ته اړتیا لري چې نه دي ورکړل شوي.
+The available evidence is the company-supplied project reference.|شاهد موجود، مرجع پروژه ارائه‌شده شرکت است.|موجود شواهد د شرکت ورکړل شوې د پروژې سرچینه ده.
+The available outcome is a defined concept brief;|نتیجه موجود، طرح مفهومی تعریف‌شده است؛|موجوده پایله ټاکل شوې مفکوروي طرحه ده؛
+The captured login avoids treating promotional figures as proof of marketplace scale.|تصویر ورود، ارقام تبلیغاتی را دلیل اندازه بازار معرفی نمی‌کند.|د ننوتلو انځور اعلاني شمېرې د بازار د کچې ثبوت نه ګڼي.
+The captured screens show the public demonstration and do not establish clinical suitability.|تصاویر، نمونه عمومی را نشان می‌دهند و مناسب‌بودن صحی را ثابت نمی‌کنند.|انځورونه عامه نمونه ښيي او روغتیايي مناسب‌والی نه ثابتوي.
+The cargo demonstration offers three distinct entry points: consignment-number tracking, customer access, and branch-terminal access.|نمونه باربری سه مسیر دارد: پیگیری شماره محموله، ورود مشتری و ترمینال شعبه.|د بار نمونه درې جلا لارې لري: د بار د شمېرې تعقیب، د پېرودونکي لاسرسی او د څانګې ترمینل.
+The case study combines that visible interface with the company’s earlier documented seller onboarding, OTP, dashboards, and order scope.|شرح پروژه، رابط مشاهده‌شده را با مستندات قبلی شرکت درباره ثبت فروشنده، رمز یک‌بارمصرف، داشبورد و سفارش یکجا می‌کند.|د پروژې تفصیل لیدل شوې رابط د شرکت له پخوانیو مستندو د پلورونکي ګډون، یو ځل کوډ، ډشبورډ او سپارښتنو سره یوځای کوي.
+The company supplied a prescription-related project reference.|شرکت مرجع پروژه مرتبط با نسخه را ارائه کرد.|شرکت د نسخې اړوند د پروژې سرچینه ورکړې ده.
+The company supplied this project reference;|شرکت این مرجع پروژه را ارائه کرده؛|شرکت د دې پروژې سرچینه ورکړې؛
+The company’s documented scope adds seller onboarding, OTP authentication, dashboards, order management, and cash-on-delivery handling.|محدوده مستند شرکت شامل ثبت فروشنده، احراز هویت یک‌بارمصرف، داشبورد، مدیریت سفارش و پرداخت هنگام تحویل است.|د شرکت مستند حدود د پلورونکي ګډون، د یو ځل کوډ هویت تایید، ډشبورډونه، د سپارښتنو مدیریت او د نغدي سپارلو اداره رانغاړي.
+The company’s own website, bringing services, team, and engineering work together.|ویب‌سایت خود شرکت که خدمات، تیم و کارهای انجنیری را یکجا معرفی می‌کند.|د شرکت خپله وېبپاڼه چې خدمات، ټیم او انجنیري کارونه یوځای معرفي کوي.
+The cover is a poultry-operations illustration, not a captured screenshot.|جلد، تصویر توضیحی مرغداری است، نه تصویر ثبت‌شده پروژه.|پوښ د چرګانو د عملیاتو تشریحي انځور دی، اصلي سکرین‌شاټ نه دی.
+The customer entry describes parcel pre-bookings;|ورود مشتری، پیش‌رزرو بسته‌ها را شرح می‌دهد؛|د پېرودونکي ننوتل د بستو مخکې ریزرف تشریح کوي؛
+The delivered HTML and frontend chunks identify Next.js;|HTML و بخش‌های رابط ارائه‌شده Next.js را نشان می‌دهند؛|وړاندې شوی HTML او فرنټېنډ برخې Next.js ښيي؛
+The demonstration presents tailoring orders and fabric retail activity within one workspace.|نمونه، سفارش خیاطی و فروش پارچه را در یک محیط ارائه می‌کند.|نمونه د خیاطۍ سپارښتنې او د ټوکر پرچون فعالیت په یوه چاپېریال کې ښيي.
+The displayed Afghan Panah name is product identity from the reference, not a verified client endorsement.|نام افغان پناه، هویت محصول در مرجع است، نه تأیید مشتری.|ښودل شوی افغان پناه نوم د سرچینې د محصول پېژندنه ده، د پېرودونکي تایید نه دی.
+The documented capabilities below are drawn from the company’s existing materials or this repository.|قابلیت‌های مستند زیر از مواد موجود شرکت یا این مخزن گرفته شده‌اند.|لاندې مستندې ځانګړتیاوې د شرکت له موجودو موادو یا دې زېرمتونه اخیستل شوې دي.
+The documented project provides the capabilities listed above.|پروژه مستند، قابلیت‌های فهرست‌شده بالا را ارائه می‌کند.|مستنده پروژه پورته لېست شوې ځانګړتیاوې وړاندې کوي.
+The documented solution brings file and folder removal, drive sanitization workflows, multiple overwrite patterns, live logs and statistics into a custom software experience.|راهکار مستند، حذف فایل و پوشه، پاک‌سازی درایو، بازنویسی چندگانه و ثبت و آمار زنده را در سافت‌ویر اختصاصی یکجا می‌کند.|مستنده حل لاره د فایل او پوښۍ ړنګول، د ډرایو پاکول، څو ځله بیا لیکل او ژوندي ثبتونه او شمېرې په ځانګړي سافټویر کې یوځای کوي.
+The documented solution brings multi-vendor course marketplace, ai customer support with intent classification, mentoring with zoom scheduling, recommendation features, jwt authentication and role-based access into a ai & automation experience.|راهکار مستند، بازار دوره‌های چندفروشنده، پشتیبانی هوشمند، راهنمایی با Zoom، پیشنهادها، احراز هویت JWT و دسترسی بر اساس نقش را یکجا می‌کند.|مستنده حل لاره د کورسونو بازار، ځیرک ملاتړ، د Zoom لارښوونې، وړاندیزونه، JWT هویت تایید او د دندې لاسرسی یوځای کوي.
+The documented solution brings responsive navigation, data-driven case studies, portfolio filters, team profiles, screenshot fallbacks and lightbox, accessible project inquiry form into a corporate websites experience.|راهکار مستند، فهرست سازگار، شرح پروژه، فیلترها، معرفی تیم، جایگزین و نمایش بزرگ تصویر و فورم دسترس‌پذیر درخواست را در ویب‌سایت شرکتی یکجا می‌کند.|مستنده حل لاره مناسبه غورنۍ، د پروژو تفصیل، چاڼونه، د ټیم پېژندنې، د انځور بدیل او لوی لید او د لاسرسي وړ غوښتنې فورمه په شرکتي وېبپاڼه کې یوځای کوي.
+The documented solution brings screening pipeline, dual ai provider routing, hybrid ranking engine, bulk cv upload and processing, token-based authentication into a ai & automation experience.|راهکار مستند، بررسی نامزد، مسیریابی دو مدل، رتبه‌بندی ترکیبی، پردازش گروهی سوانح و احراز هویت توکنی را یکجا می‌کند.|مستنده حل لاره د نوماندانو ارزونه، د دوو ځیرکو خدمتونو لوری ټاکل، ګډه درجه بندي، ډله‌ییز سوانح پروسس او ټوکن هویت تایید یوځای کوي.
+The documented solution brings ticket categorization, ai response generation, multiple ai providers, jwt authentication, analytics dashboard into a ai & automation experience.|راهکار مستند، دسته‌بندی درخواست، پاسخ هوشمند، چند ارائه‌کننده، احراز هویت JWT و داشبورد تحلیل را یکجا می‌کند.|مستنده حل لاره د غوښتنو ډلبندي، ځیرک ځواب، څو خدمتونه، JWT هویت تایید او تحلیلي ډشبورډ یوځای کوي.
+The documented solution brings visual workflow builder, webhook and form triggers, multiple ai providers, execution history, analytics dashboard into a ai & automation experience.|راهکار مستند، ساخت تصویری روند، محرک وب‌هوک و فورم، چند مدل، سابقه اجرا و داشبورد تحلیل را یکجا می‌کند.|مستنده حل لاره د بهیر بصري جوړوونکی، وېب‌هوک او فورمې محرکونه، څو ماډلونه، د اجرا تاریخچه او تحلیلي ډشبورډ یوځای کوي.
+The entry clearly identifies the retail operation and routes staff through account authentication.|صفحه ورود، فعالیت پرچون را مشخص و کارکنان را به احراز هویت هدایت می‌کند.|ننوتل پرچون کار څرګندوي او کارکوونکي د هویت تایید ته بیایي.
+The entry explicitly requires a Supabase Auth user, and a Supabase client is included in the public bundle.|ورود صریحاً کاربر Supabase Auth می‌خواهد و کلاینت آن در بسته عمومی موجود است.|ننوتل په څرګنده Supabase Auth کاروونکی غواړي او کلاینټ یې په عامه کڅوړه کې شته.
+The exact Rayan Cargo deployment supplied by the company returned HTTP 404 on October 10, 2026.|نسخه دقیق رایان کارگو در ۱۰ اکتوبر ۲۰۲۶ خطای HTTP 404 داد.|د رایان کارګو ورکړل شوې کره نسخه د ۲۰۲۶ د اکتوبر په ۱۰ د HTTP 404 تېروتنه ورکړه.
+The history page explicitly labels itself a static preview;|صفحه سابقه خود را پیش‌نمایش ثابت معرفی می‌کند؛|د تاریخچې پاڼه ځان په څرګنده ثابته مخکتنه بولي؛
+The history screen’s sample scores are not results from a verified user session.|نمرات نمونه صفحه سابقه، نتایج جلسه تأییدشده کاربر نیستند.|د تاریخچې نمونوي نمرې د تایید شوې کاروونکي ناستې پایلې نه دي.
+The host returned a missing-deployment response, so no interface, frontend stack, or operational workflow could be verified for this entry.|میزبان نبود نسخه را اعلام کرد؛ رابط، تکنالوژی کاربر یا روند عملیاتی این پروژه تأیید نشد.|کوربه د نسخې نشتون وښود؛ د دې پروژې رابط، فرنټېنډ ټکنالوژۍ او عملیاتي بهیر تایید نه شول.
+The inspected application reports Supabase disconnected and local database mode.|برنامه بررسی‌شده، قطع Supabase و حالت دیتابیس محلی را اعلام می‌کند.|کتل شوی اپلېکېشن د Supabase پرې کېدل او محلي ډیټابېس حالت ښيي.
+The interface addresses the coordination problem by keeping those workspaces within one hospital navigation structure.|رابط با نگه‌داشتن محیط‌ها در یک فهرست شفاخانه، هماهنگی را ساده می‌کند.|رابط د روغتون په یوه غورنۍ کې د چاپېریالونو په ساتلو د همغږۍ ستونزه حل کوي.
+The interface includes garment orders, payment status, customer records, fabric inventory, expenses, reporting, and settings.|رابط شامل سفارش لباس، وضعیت پرداخت، سوابق مشتری، موجودی پارچه، مصارف، گزارش و تنظیمات است.|رابط د جامو سپارښتنې، تادیه، د پېرودونکي ثبتونه، د ټوکر زېرمه، لګښتونه، راپورونه او تنظیمات لري.
+The interface is organized around distinct responsibilities and related records.|رابط بر اساس مسئولیت‌های جدا و سوابق مرتبط تنظیم شده است.|رابط د جلا دندو او تړلو ثبتونو پر بنسټ تنظیم شوی.
+The interface reports local database mode with Supabase disconnected.|رابط، حالت دیتابیس محلی و قطع Supabase را نشان می‌دهد.|رابط محلي ډیټابېس حالت او د Supabase پرې کېدل ښيي.
+The interface separates public lookup from customer and branch access through persistent navigation.|فهرست ثابت، جستجوی عمومی را از ورود مشتری و شعبه جدا می‌کند.|ثابته غورنۍ عامه لټون د پېرودونکي او څانګې له لاسرسي جلا کوي.
+The internal POS, product list, purchase flow, and reports remain uninspected.|بخش داخلی فروشگاهی، محصولات، خرید و گزارش بررسی نشده‌اند.|داخلي POS، د محصولاتو لېست، د پېرود بهیر او راپورونه نه دي کتل شوي.
+The linked deployment currently returns 404.|نسخه پیوندشده فعلاً خطای ۴۰۴ می‌دهد.|تړل شوې نسخه اوس ۴۰۴ تېروتنه ورکوي.
+The management workspace is behind email/password authentication.|محیط مدیریت پشت احراز هویت ایمیل و رمز است.|مدیریتي چاپېریال د برېښنالیک او پټنوم د تایید تر شا دی.
+The marketplace’s public shell and account entry are accessible.|محیط عمومی بازار و ورود حساب در دسترس‌اند.|د بازار عامه چاپېریال او حسابي ننوتل د لاسرسي وړ دي.
+The missing page prevented inspection of any prescription workflow.|نبود صفحه مانع بررسی روند نسخه شد.|د پاڼې نشتون د نسخې د هر بهیر کتنه بنده کړه.
+The next documentation step is to confirm its modules, user roles, data flows, and integrations from the actual application.|گام بعدی مستندسازی، تأیید بخش‌ها، نقش کاربران، جریان داده و اتصال‌ها از برنامه واقعی است.|د ثبت بل ګام له اصلي اپلېکېشنه د برخو، د کاروونکو دندو، معلوماتي بهیرونو او نښلونو تایید دی.
+The observed public catalog error is recorded as a review limitation rather than hidden as a successful transaction.|خطای کاتالوگ عمومی، محدودیت بررسی ثبت شده و به‌عنوان معامله موفق پنهان نمی‌شود.|د عامه کتالوګ تېروتنه د ارزونې محدودیت ثبت شوې، د بریالۍ معاملې په نوم نه پټېږي.
+The order dashboard exposes filtering and sorting controls.|داشبورد سفارش، کنترل فیلتر و ترتیب دارد.|د سپارښتنو ډشبورډ د چاڼ او ترتیب کنټرولونه لري.
+The order list places fulfillment and payment status close to the garment and promised dates.|فهرست سفارش، تحویل و پرداخت را کنار لباس و تاریخ وعده نشان می‌دهد.|د سپارښتنو لېست سپارل او تادیه د جامو او منل شوو نېټو ترڅنګ ښيي.
+The previous website buried useful work behind a fragmented dark interface.|ویب‌سایت قبلی کارهای مفید را پشت رابط تیره و پراکنده پنهان می‌کرد.|پخوانۍ وېبپاڼې ګټور کار د خپرې تیاره رابط تر شا پټاوه.
+The product introduction relates travel documents and booking types to accounting vouchers and financial reports.|معرفی محصول، اسناد سفر و انواع رزرو را با اسناد حسابداری و گزارش مالی مرتبط می‌کند.|د محصول پېژندنه سفري اسناد او د ریزرف ډولونه له مالي سندونو او راپورونو سره تړي.
+The project remains a company-supplied cargo reference.|پروژه همچنان مرجع باربری ارائه‌شده شرکت است.|پروژه د شرکت معرفي شوې د بار سرچینه پاتې ده.
+The project-specific requirements and implemented modules have not yet been supplied.|نیازهای مخصوص پروژه و بخش‌های اجراشده هنوز ارائه نشده‌اند.|د پروژې ځانګړې اړتیاوې او پلي شوې برخې لا نه دي ورکړل شوې.
+The proposed direction groups assistant and intelligent search concepts, workflow automation concepts, document processing and recommendations, data analysis and report assistance into a focused workspace.|طرح پیشنهادی، دستیار و جستجوی هوشمند، خودکارسازی، پردازش اسناد و پیشنهادها و تحلیل و گزارش را در یک محیط یکجا می‌کند.|وړاندیز شوې مفکوره ځیرک مرستیال او لټون، اتومات کول، د اسنادو پروسس او وړاندیزونه او شننه او راپور په یوه چاپېریال کې یوځای کوي.
+The proposed direction groups catalog, categories, and search, cart and checkout, customers and orders, inventory, cod, and administration into a focused workspace.|طرح پیشنهادی، کاتالوگ، دسته و جستجو، سبد و سفارش، مشتری، موجودی، پرداخت هنگام تحویل و مدیریت را یکجا می‌کند.|وړاندیز شوې مفکوره کتالوګ، برخې، لټون، د پېرود ټوکرۍ، سپارښتنې، پېرودونکي، زېرمه، نغدي سپارل او اداره یوځای کوي.
+The proposed direction groups customers and transactions, currencies and exchange-rate records, cash management and daily summaries, reports, roles, and audit history into a focused workspace.|طرح پیشنهادی، مشتری و معامله، اسعار و نرخ، مدیریت نقدی و خلاصه روزانه، گزارش، نقش و سابقه بررسی را یکجا می‌کند.|وړاندیز شوې مفکوره پېرودونکي، معاملې، اسعار، نرخونه، نغدي اداره، ورځني لنډیزونه، راپورونه، دندې او د پلټنې تاریخچه یوځای کوي.
+The proposed direction groups leads, customers, and contacts, sales pipeline and follow-ups, tasks, notes, and communication history, reports and dashboard into a focused workspace.|طرح پیشنهادی، سرنخ، مشتری و تماس، مراحل فروش و پیگیری، وظیفه و یادداشت، سابقه ارتباط، گزارش و داشبورد را یکجا می‌کند.|وړاندیز شوې مفکوره احتمالي پېرودونکي، اړیکې، د پلور پړاوونه، تعقیب، دندې، یادښتونه، د اړیکو تاریخچه، راپور او ډشبورډ یوځای کوي.
+The proposed direction groups menu and table orders, kitchen workflow, billing and inventory, customers, staff, and reports into a focused workspace.|طرح پیشنهادی، منو و سفارش میز، آشپزخانه، صورتحساب، موجودی، مشتری، کارکنان و گزارش را یکجا می‌کند.|وړاندیز شوې مفکوره مېنو، د مېز سپارښتنې، پخلنځی، بلونه، زېرمه، پېرودونکي، کارکوونکي او راپورونه یوځای کوي.
+The proposed direction groups patients and doctors, appointments, medical records and prescriptions, billing and reports into a focused workspace.|طرح پیشنهادی، مریض و داکتر، نوبت، سوابق صحی، نسخه، صورتحساب و گزارش را یکجا می‌کند.|وړاندیز شوې مفکوره ناروغان، ډاکټران، وختونه، روغتیايي ثبتونه، نسخې، بلونه او راپورونه یوځای کوي.
+The proposed direction groups phones, accessories, and device identifiers, inventory and suppliers, sales and customers, warranties, payments, and reporting into a focused workspace.|طرح پیشنهادی، موبایل و لوازم و شناسه، موجودی و تأمین‌کننده، فروش و مشتری، ضمانت، پرداخت و گزارش را یکجا می‌کند.|وړاندیز شوې مفکوره موبایلونه، لوازم، د وسیلو پېژندونه، زېرمه، عرضه کوونکي، پلور، پېرودونکي، ضمانت، تادیات او راپورونه یوځای کوي.
+The proposed direction groups products and raw materials, suppliers and production, inventory and employees, orders, expenses, and reports into a focused workspace.|طرح پیشنهادی، محصول و مواد خام، تأمین‌کننده و تولید، موجودی و کارکنان، سفارش، مصارف و گزارش را یکجا می‌کند.|وړاندیز شوې مفکوره محصولات، خام مواد، عرضه کوونکي، تولید، زېرمه، کارکوونکي، سپارښتنې، لګښتونه او راپورونه یوځای کوي.
+The proposed direction groups rooms and reservations, guests and check-in / check-out, payments and services, staff and reporting into a focused workspace.|طرح پیشنهادی، اتاق و رزرو، مهمان و ورود و خروج، پرداخت و خدمات، کارکنان و گزارش را یکجا می‌کند.|وړاندیز شوې مفکوره خونې، ریزرف، مېلمانه، راتګ او وتل، تادیات، خدمات، کارکوونکي او راپورونه یوځای کوي.
+The proposed direction groups vehicles and drivers, routes and trips, maintenance and fuel, expenses, customers, and reports into a focused workspace.|طرح پیشنهادی، وسیله و راننده، مسیر و سفر، نگهداری و تیل، مصارف، مشتری و گزارش را یکجا می‌کند.|وړاندیز شوې مفکوره وسایط، چلوونکي، لارې، سفرونه، ساتنه، تېل، لګښتونه، پېرودونکي او راپورونه یوځای کوي.
+The public career-tool interface separates PDF resume upload, interview preparation, and job-description comparison.|رابط عمومی کاریابی، بارگذاری PDF سوانح، آمادگی مصاحبه و مقایسه شرح وظیفه را جدا می‌کند.|د کارموندنې عامه رابط د PDF سوانحو پورته کول، د مرکې چمتووالی او د دندې تشریح پرتله جلا کوي.
+The public catalog returned a loading error during inspection.|کاتالوگ عمومی هنگام بررسی خطای بارگذاری داد.|عامه کتالوګ د کتنې پر مهال د پورته کولو تېروتنه ورکړه.
+The public copy connects inventory, sales processing, analytics, and store operations, while the authenticated application requires a Supabase Auth user.|معرفی عمومی، موجودی، فروش، تحلیل و عملیات فروشگاه را وصل می‌کند؛ برنامه به کاربر Supabase Auth نیاز دارد.|عامه پېژندنه زېرمه، پلور، شننه او پلورنځي عملیات سره تړي؛ اپلېکېشن Supabase Auth کاروونکی غواړي.
+The public copy names medicine, sales, stock, and accounting.|معرفی عمومی، دوا، فروش، موجودی و حسابداری را نام می‌برد.|عامه پېژندنه درمل، پلور، زېرمه او حسابداري یادوي.
+The public demo account was used only to inspect screens.|حساب نمونه عمومی فقط برای دیدن صفحه‌ها استفاده شد.|عامه نمایشي حساب یوازې د پردو د کتنې لپاره کارول شوی.
+The public demonstration includes an executive overview, electronic health record directory, appointment queue/calendar, outpatient consultation workspace, pharmacy stock, and invoice ledger.|نمونه عمومی شامل نمای مدیریت، سوابق الکترونیکی صحی، صف و تقویم نوبت، مشوره سرپایی، موجودی دواخانه و دفتر فاکتور است.|عامه نمونه مدیریتي لید، برېښنايي روغتیايي ثبتونه، د وختونو کتار او کلیزه، د بهرني ناروغ مشوره، د درملتون زېرمه او د بلونو دفتر لري.
+The public deployment communicates a travel-agency finance scope and provides distinct account entry paths.|نسخه عمومی، محدوده مالی آژانس مسافرتی و مسیرهای جداگانه ورود را ارائه می‌کند.|عامه نسخه د سفر ادارې مالي حدود او د حساب د ننوتلو جلا لارې وړاندې کوي.
+The public deployment provides a multilingual pharmacy sign-in interface.|نسخه عمومی، رابط چندزبانه ورود دواخانه ارائه می‌کند.|عامه نسخه د درملتون څوژبیزه د ننوتلو رابط وړاندې کوي.
+The public deployment provides distinct interfaces for shipment lookup and two account audiences.|نسخه عمومی برای پیگیری بار و دو گروه حساب، رابط‌های جدا دارد.|عامه نسخه د بار د لټون او د حساب د دوو ډلو لپاره جلا رابطې لري.
+The public entry explains how travel documents, voucher activity, and reports fit within one agency workspace.|ورود عمومی، هماهنگی اسناد سفر، اسناد مالی و گزارش را در محیط آژانس توضیح می‌دهد.|عامه ننوتل د سفر اسناد، مالي سندونه او راپورونه د ادارې په یوه چاپېریال کې تشریح کوي.
+The public frontend divides the career workflow into upload/analysis, interview preparation, job matching, and history.|رابط عمومی، کاریابی را به بارگذاری و تحلیل، آمادگی مصاحبه، تطبیق وظیفه و سابقه تقسیم می‌کند.|عامه فرنټېنډ د کارموندنې بهیر په پورته کولو او شننه، مرکې چمتووالي، دندې برابرولو او تاریخچه وېشي.
+The public interface demonstrates how several hospital administration workspaces can share a common navigation model.|رابط عمومی نشان می‌دهد چند محیط اداره شفاخانه چگونه فهرست مشترک دارند.|عامه رابط ښيي چې د روغتون څو مدیریتي چاپېریالونه څنګه ګډه غورنۍ لري.
+The public interface gives pharmacy staff a focused, multilingual sign-in to a product described as a combined POS and stock management system.|رابط عمومی، ورود مشخص چندزبانه برای کارکنان دواخانه به محصول معرفی‌شده فروشگاهی و موجودی دارد.|عامه رابط کارکوونکو ته د POS او زېرمې د مدیریت معرفي شوي محصول ته ځانګړی څوژبیز ننوتل ورکوي.
+The public interface identifies local database mode and includes JSON backup/restore controls.|رابط عمومی، حالت دیتابیس محلی و کنترل پشتیبان و بازیابی JSON را نشان می‌دهد.|عامه رابط محلي ډیټابېس حالت او د JSON شاتړ او رغولو کنټرول ښيي.
+The public interface reports Supabase disconnected;|رابط عمومی، قطع Supabase را نشان می‌دهد؛|عامه رابط د Supabase پرې کېدل ښيي؛
+The public page does not establish device integrations, live maps, location update behavior, or a tracking service provider.|صفحه عمومی، اتصال دستگاه، نقشه زنده، به‌روزرسانی موقعیت یا ارائه‌کننده پیگیری را ثابت نمی‌کند.|عامه پاڼه د وسیلو نښلونې، ژوندۍ نقشې، موقعیت تازه کول یا د تعقیب خدمت نه ثابتوي.
+The public storefront presents search, product/category sections, buyer and seller entry points, and a cash-on-delivery shopping flow.|فروشگاه عمومی، جستجو، محصول و دسته، ورود خریدار و فروشنده و روند خرید با پرداخت هنگام تحویل دارد.|عامه پلورنځی لټون، محصولات او برخې، د پېرودونکي او پلورونکي ننوتل او د نغدي سپارلو پېرود بهیر لري.
+The public “Encrypted” label does not independently verify encryption or security controls.|برچسب عمومی «رمزگذاری‌شده»، رمزگذاری یا امنیت را مستقل تأیید نمی‌کند.|عامه «کوډګذاري شوی» نوم په خپلواکه توګه کوډګذاري یا امنیت نه تاییدوي.
+The review did not enter patient, prescription, medicine, or transaction data.|در بررسی، داده مریض، نسخه، دوا یا معامله وارد نشد.|په ارزونه کې د ناروغ، نسخې، درملو یا معاملې معلومات نه دي داخل شوي.
+The review used a publicly supplied demonstration account, not a production staff account.|بررسی از حساب نمونه عمومی استفاده کرد، نه حساب عملیاتی کارکنان.|ارزونه په ورکړل شوي عامه نمایشي حساب شوې، نه د اصلي کارکوونکي په حساب.
+The same factory context persists across stock, sales, and reports.|زمینه یکسان فابریکه در موجودی، فروش و گزارش حفظ می‌شود.|د فابریکې یو شان شالید په زېرمه، پلور او راپورونو کې ساتل کېږي.
+The screenshot is the actual public sign-in interface and is not presented as a POS dashboard.|تصویر، رابط واقعی ورود عمومی است و داشبورد فروشگاهی معرفی نمی‌شود.|سکرین‌شاټ د عامه ننوتلو اصلي رابط ده، د POS ډشبورډ نه نومول کېږي.
+The separate Cargo Management Demo URL was inspected, but its features are not assumed to describe this deployment.|آدرس جداگانه نمونه مدیریت باربری بررسی شد؛ قابلیت‌های آن به این نسخه نسبت داده نمی‌شوند.|د بار مدیریت جلا نمایشي پته وکتل شوه؛ ځانګړتیاوې یې د دې نسخې د تشریح لپاره نه فرض کېږي.
+The sign-in keeps product identity and pharmacy scope beside one short form.|ورود، هویت محصول و محدوده دواخانه را کنار یک فورم کوتاه نگه می‌دارد.|ننوتل د محصول پېژندنه او د درملتون حدود د یوې لنډې فورمې ترڅنګ ساتي.
+The source of sample records and real operational performance are not verified.|منبع سوابق نمونه و عملکرد واقعی تأیید نشده‌اند.|د نمونوي ثبتونو سرچینه او رښتینې عملیاتي کارکردګي نه دي تایید شوې.
+The split layout uses short voucher and reporting descriptions beside a focused sign-in form.|طرح دو‌بخشی، شرح کوتاه اسناد مالی و گزارش را کنار فورم ورود قرار می‌دهد.|دوه برخیز ډیزاین د مالي سندونو او راپورونو لنډه تشریح د ننوتلو د فورمې ترڅنګ ږدي.
+The storefront groups search, categories, products, and shopping steps around buyer discovery, with seller entry kept in the header and calls to action.|فروشگاه جستجو، دسته، محصول و مراحل خرید را برای خریدار تنظیم کرده و ورود فروشنده را در سرصفحه نگه می‌دارد.|پلورنځی لټون، برخې، محصولات او د پېرود پړاوونه د پېرودونکي لپاره تنظیموي او د پلورونکي ننوتل په سر کې ساتي.
+The supplied Al Makkha Poultry deployment returned HTTP 404 on October 10, 2026.|نسخه ارائه‌شده مرغداری المکه در ۱۰ اکتوبر ۲۰۲۶ خطای HTTP 404 داد.|د المکه چرګانو ورکړل شوې نسخه د ۲۰۲۶ د اکتوبر په ۱۰ د HTTP 404 تېروتنه ورکړه.
+The supplied Sahil GPS URL opens an Afghan Panah GPS / RouteCore sign-in.|آدرس Sahil GPS، ورود افغان پناه GPS / RouteCore را باز می‌کند.|د Sahil GPS ورکړل شوې پته د افغان پناه GPS / RouteCore ننوتل پرانیزي.
+The supplied URL serves a branded GPS product sign-in and identifies Rayan Tech Solutions as its developer.|آدرس ارائه‌شده، ورود محصول GPS را نشان داده و رایان را توسعه‌دهنده معرفی می‌کند.|ورکړل شوې پته د GPS محصول ننوتل ښيي او رایان یې پراختیاکوونکی بولي.
+The supplied deployment exposes a connected feed-factory interface and read-only reporting views.|نسخه ارائه‌شده، رابط متصل فابریکه خوراک و نماهای فقط خواندنی گزارش دارد.|ورکړل شوې نسخه د خوراک فابریکې تړلې رابط او یوازې لوستونکي راپورونه ښيي.
+The supplied online-prescription URL returned HTTP 404 on October 10, 2026.|آدرس نسخه آنلاین در ۱۰ اکتوبر ۲۰۲۶ خطای HTTP 404 داد.|د آنلاین نسخې ورکړل شوې پته د ۲۰۲۶ د اکتوبر په ۱۰ د HTTP 404 تېروتنه ورکړه.
+The supplied project exposes distinct resume, interview, and job-match interfaces through client navigation.|پروژه، رابط‌های جداگانه سوانح، مصاحبه و تطبیق وظیفه را با فهرست کاربر ارائه می‌کند.|پروژه د کلاینټ غورنۍ له لارې د سوانحو، مرکې او دندې د برابرولو جلا رابطې ښيي.
+The supplied project name does not establish clinical capabilities, AI behavior, or medical validation.|نام پروژه، قابلیت صحی، رفتار هوش مصنوعی یا تأیید طبی را ثابت نمی‌کند.|د پروژې نوم روغتیايي ځانګړتیاوې، ځیرک چلند یا طبي تایید نه ثابتوي.
+The supplied project reference presents a dedicated account entry for Afghan Panah GPS.|مرجع پروژه، ورود حساب اختصاصی افغان پناه GPS را ارائه می‌کند.|د پروژې سرچینه د افغان پناه GPS ځانګړی حسابي ننوتل وړاندې کوي.
+The supplied reference identifies a healthcare project.|مرجع ارائه‌شده، پروژه خدمات صحی را معرفی می‌کند.|ورکړل شوې سرچینه روغتیايي پروژه معرفي کوي.
+The supplied reference identifies a manufacturing project.|مرجع ارائه‌شده، پروژه تولیدی را معرفی می‌کند.|ورکړل شوې سرچینه تولیدي پروژه معرفي کوي.
+The supplied reference identifies a transportation project.|مرجع ارائه‌شده، پروژه ترانسپورت را معرفی می‌کند.|ورکړل شوې سرچینه ترانسپورټي پروژه معرفي کوي.
+The supplied screenshots demonstrate separate administrator and teacher interfaces with connected record, attendance, and examination views.|تصاویر، رابط‌های جداگانه مدیر و معلم با نماهای متصل سوابق، حاضری و امتحان را نشان می‌دهند.|سکرین‌شاټونه د مدیر او ښوونکي جلا رابطې له تړلو ثبتونو، حاضرۍ او ازموینو سره ښيي.
+The teacher view separates personal assignments from the broader administrator workspace and explains empty assignment states.|نمای معلم، وظایف شخصی را از محیط عمومی مدیر جدا و حالت وظیفه خالی را توضیح می‌دهد.|د ښوونکي لید شخصي دندې د مدیر له پراخ چاپېریاله جلا کوي او تشې دندې تشریح کوي.
+The tracking form is the primary public action.|فورم پیگیری، اقدام اصلی عمومی است.|د تعقیب فورمه اصلي عامه کړنه ده.
+The tracking page accepts a consignment number;|صفحه پیگیری شماره محموله می‌گیرد؛|د تعقیب پاڼه د بار شمېره اخلي؛
+The two-column public layout pairs a concise fleet introduction with the account form.|طرح عمومی دو‌ستونی، معرفی کوتاه وسایط را کنار فورم حساب قرار می‌دهد.|دوه ستنې عامه ډیزاین د وسایطو لنډه پېژندنه د حساب له فورمې سره یوځای کوي.
+The workspace joins tailoring and fabric sales while keeping their workflows distinguishable.|محیط کاری، خیاطی و فروش پارچه را یکجا اما با روندهای متمایز نگه می‌دارد.|چاپېریال خیاطي او د ټوکر پلور یوځای کوي خو بهیرونه یې جلا ساتي.
+Their authenticated behavior and database access rules were not audited.|عملکرد داخل حساب و قواعد دیتابیس ممیزی نشدند.|د حساب دننه چلند او د ډیټابېس د لاسرسي اصول نه دي پلټل شوي.
+These are observed interface fields, not audited calculations.|این‌ها خانه‌های مشاهده‌شده رابط‌اند، نه محاسبات ممیزی‌شده.|دا لیدل شوي د رابط ځایونه دي، پلټل شوې محاسبې نه دي.
+These are proposed areas, not delivered capabilities.|این‌ها حوزه‌های پیشنهادی‌اند، نه قابلیت تحویل‌شده.|دا وړاندیز شوې برخې دي، سپارل شوې ځانګړتیاوې نه دي.
+These establish the visible workflows below.|این تصاویر روندهای قابل مشاهده زیر را نشان می‌دهند.|دا انځورونه لاندې ښکاره بهیرونه څرګندوي.
+These protected workflows remain publicly described scope.|این روندهای محافظت‌شده فقط محدوده معرفی‌شده عمومی‌اند.|دا خوندي بهیرونه یوازې په عامه ډول بیان شوي حدود پاتې دي.
+This case study records the project reference and the business context without assuming unverified functionality.|این شرح، مرجع و زمینه تجاری را بدون فرض قابلیت تأییدنشده ثبت می‌کند.|دا تفصیل د پروژې سرچینه او سوداګریز شالید د ناتایید شوو ځانګړتیاوو له فرض کولو پرته ثبتوي.
+This concept outlines a possible product direction, with delivery scope to be agreed before implementation.|این طرح مسیر احتمالی محصول را شرح می‌دهد و محدوده تحویل پیش از اجرا توافق می‌شود.|دا مفکوره د محصول احتمالي لوری بیانوي او د سپارلو حدود یې له پلي کولو مخکې منل کېږي.
+This documents visible navigation, directories, filters, attendance states, examination progress, and the teacher dashboard.|این اطلاعات، فهرست، سوابق، فیلترها، حاضری، پیشرفت امتحان و داشبورد معلم را مستند می‌کند.|دا معلومات ښکاره غورنۍ، لړلیکونه، چاڼونه، حاضري، د ازموینې پرمختګ او د ښوونکي ډشبورډ ثبتوي.
+This is a company-confirmed real project;|این پروژه واقعی تأییدشده شرکت است؛|دا د شرکت تایید شوې رښتینې پروژه ده؛
+This is a design direction rather than a claim of completed usability testing.|این جهت طراحی است، نه ادعای آزمایش تکمیل‌شده کاربری.|دا د ډیزاین لوری دی، د بشپړې کارونې د ازموینې ادعا نه ده.
+This page uses the company’s supplied project reference and available documentation.|این صفحه از مرجع پروژه و مستندات موجود شرکت استفاده می‌کند.|دا پاڼه د شرکت ورکړل شوې د پروژې سرچینه او موجود اسناد کاروي.
+This review covers a public demonstration, not a production clinical deployment.|بررسی مربوط نمونه عمومی است، نه نسخه عملیاتی صحی.|دا ارزونه عامه نمونه رانغاړي، اصلي روغتیايي نسخه نه.
+Ticket categorization|دسته‌بندی درخواست پشتیبانی|د ملاتړ د غوښتنو ډلبندي
+Tickets, hotels, visas, and refunds introduce different voucher contexts, while financial staff need consistent receivable and reporting views.|تکت، هوتل، ویزه و بازپرداخت اسناد مالی متفاوت دارند؛ کارکنان مالی به نمای یکسان طلب و گزارش نیاز دارند.|ټکټونه، هوټلونه، ویزې او بېرته تادیات جلا مالي سندونه غواړي؛ مالي کارکوونکي همغږي طلبونه او راپورونه غواړي.
+Token-based authentication|احراز هویت توکنی|د ټوکن پر بنسټ د هویت تایید
+Tools & integrations|ابزارها و اتصال‌ها|وسایل او نښلونې
+Travel documents and bookings need financial records that remain tied to the same agency operation.|اسناد سفر و رزرو به سوابق مالی مرتبط با همان آژانس نیاز دارند.|سفري اسناد او ریزرفونه له هماغې ادارې سره تړلي مالي ثبتونه غواړي.
+Unavailable reference|مرجع ناموجود|نشته سرچینه
+Upload and job-match screens start with clear empty states rather than fabricated personal analysis.|بارگذاری و تطبیق وظیفه با حالت خالی روشن آغاز می‌شوند، نه تحلیل شخصی ساختگی.|د پورته کولو او دندې برابرولو پردې په روښانو تشو بڼو پیلېږي، نه په جوړه شوې شخصي شننه.
+Used only the demo account explicitly displayed by the site and inspected the order dashboard without modifying any records.|فقط حساب نمونه آشکار ویب‌سایت استفاده شد و داشبورد سفارش بدون تغییر سابقه بررسی شد.|یوازې د وېبپاڼې په څرګنده ورکړل شوی حساب وکارول شو او د سپارښتنو ډشبورډ له بدلون پرته وکتل شو.
+Vehicles and drivers|وسایط و رانندگان|وسایط او چلوونکي
+Vercel deployment is recorded in the company profile;|استقرار Vercel در معرفی شرکت ثبت شده؛|د Vercel نسخه د شرکت په پېژندنه کې ثبت شوې؛
+Visual workflow builder|ابزار تصویری ساخت روند|د کاري بهیر بصري جوړوونکی
+Vite production build with static route output.|ساخت نهایی Vite با خروجی مسیرهای ثابت.|د Vite وروستی جوړښت د ثابتو لارو له پایلې سره.
+Voucher posting, financial calculations, report accuracy, and agency isolation were not audited.|ثبت سند، محاسبات مالی، دقت گزارش و جداسازی آژانس ممیزی نشدند.|د مالي سند ثبت، محاسبې، د راپور کره‌والی او د ادارې بېلوالی نه دي پلټل شوي.
+Warranties, payments, and reporting|ضمانت‌ها، پرداخت و گزارش|ضمانتونه، تادیات او راپورونه
+Webhook and form triggers|محرک‌های وب‌هوک و فورم|د وېب‌هوک او فورمې محرکونه
+Workflow automation concepts|طرح‌های خودکارسازی روند|د بهیر د اتومات کولو مفکورې
+Workflow review|بررسی روند کار|د کاري بهیر ارزونه
+appointment and invoice views expose status filters.|نماهای نوبت و فاکتور فیلتر وضعیت دارند.|د وختونو او بلونو لیدونه د حالت چاڼونه لري.
+authenticated accounting behavior was not tested.|عملکرد حسابداری داخل حساب آزمایش نشد.|د حساب دننه د حسابدارۍ چلند نه دی ازمویل شوی.
+authenticated tracking was not accessed.|پیگیری داخل حساب باز نشد.|د حساب دننه تعقیب ته لاسرسی نه دی شوی.
+client identities and measured outcomes are not supplied.|هویت مشتری و نتایج سنجیده ارائه نشده‌اند.|د پېرودونکو هویتونه او اندازه شوې پایلې نه دي ورکړل شوي.
+database policies and production authorization were not audited.|پالیسی دیتابیس و مجوز عملیاتی ممیزی نشدند.|د ډیټابېس تګلارې او عملیاتي اجازې نه دي پلټل شوې.
+each account entry explains the work available to its intended audience.|هر ورود حساب، کار موجود برای گروه مربوط را توضیح می‌دهد.|هر حسابي ننوتل د خپلې ډلې موجود کار تشریح کوي.
+hosting selected at deployment|میزبانی هنگام استقرار انتخاب می‌شود|کوربه‌توب د ځای پر ځای کولو پر مهال ټاکل کېږي
+implementation and technology choices are not confirmed.|اجرا و انتخاب تکنالوژی تأیید نشده‌اند.|پلي کول او د ټکنالوژۍ ټاکنه نه دي تایید شوي.
+implemented modules and operational outcomes require confirmation.|بخش‌های اجراشده و نتایج عملیاتی نیازمند تأیید هستند.|پلي شوې برخې او عملیاتي پایلې تایید غواړي.
+internal retail workflows were not accessed.|روندهای داخلی پرچون باز نشدند.|داخلي پرچون بهیرونو ته لاسرسی نه دی شوی.
+live database behavior not verified|رفتار دیتابیس زنده تأیید نشده|د ژوندي ډیټابېس چلند نه دی تایید شوی
+local-storage usage in the frontend bundle|استفاده ذخیره محلی در بسته رابط|په فرنټېنډ کڅوړه کې محلي زېرمه
+navigation switches the main factory workspace.|فهرست، محیط اصلی فابریکه را تغییر می‌دهد.|غورنۍ د فابریکې اصلي چاپېریال بدلوي.
+no completed purchase, seller count, customer count, or business growth metric is verified.|خرید تکمیل‌شده، شمار فروشنده و مشتری یا آمار رشد تأیید نشده است.|بشپړ پېرود، د پلورونکو او پېرودونکو شمېر یا د ودې کچه نه ده تایید شوې.
+no delivered product or measured impact is claimed.|محصول تحویل‌شده یا اثر سنجیده ادعا نمی‌شود.|سپارل شوی محصول یا اندازه شوی اغېز نه ادعا کېږي.
+no frontend framework is inferred from the URL.|چارچوب رابط از آدرس حدس زده نمی‌شود.|له پتې د فرنټېنډ چوکاټ نه اټکل کېږي.
+no live backend is claimed|سرور زنده ادعا نمی‌شود|د ژوندي بکېنډ ادعا نه کېږي
+no resume was uploaded and no AI accuracy or provider response was tested.|سوانح بارگذاری نشد و دقت مدل یا پاسخ ارائه‌کننده آزمایش نشد.|سوانح نه دي پورته شوي او د ځیرکتیا کره‌والی یا د خدمت ځواب نه دی ازمویل شوی.
+optional configured inquiry endpoint.|نقطه اختیاری تنظیم‌شده دریافت درخواست.|د غوښتنې اختیاري تنظیم شوی پای ټکی.
+persistence and production access policies require source review|ذخیره‌سازی و مجوز عملیاتی نیازمند بررسی منبع‌اند|ساتنه او عملیاتي لاسرسي تګلارې د سرچینې ارزونه غواړي
+production use and operational impact have not been independently measured.|استفاده عملیاتی و اثر آن مستقل سنجیده نشده‌اند.|اصلي کارونه او عملیاتي اغېز یې په خپلواکه توګه نه دي اندازه شوي.
+reports combine period sales and expense information while keeping local-data management visible.|گزارش‌ها فروش و مصارف دوره را یکجا کرده و مدیریت داده محلی را نشان می‌دهند.|راپورونه دوریز پلور او لګښتونه یوځای کوي او د محلي معلوماتو مدیریت ښکاره ساتي.
+separate navigation leads to customers, fabric inventory, expenses, reports, and configuration.|فهرست جدا به مشتری، موجودی پارچه، مصارف، گزارش و تنظیمات می‌رود.|جلا غورنۍ پېرودونکو، د ټوکر زېرمې، لګښتونو، راپورونو او تنظیماتو ته بیایي.
+server-side authentication enforcement was not reviewed.|اجرای احراز هویت در سرور بررسی نشد.|په سرور کې د هویت تایید پلي کول نه دي ارزول شوي.
+testing and infrastructure details are not supplied.|جزئیات آزمایش و زیربنا ارائه نشده‌اند.|د ازموینې او زیربنا جزئیات نه دي ورکړل شوي.
+the authenticated medicine and transaction screens require company-provided access.|صفحه‌های دوا و معامله داخل حساب به دسترسی شرکت نیاز دارند.|د حساب دننه د درملو او معاملې پردې د شرکت ورکړل شوي لاسرسي ته اړتیا لري.
+the branch entry describes inventory, consignments, and status updates.|ورود شعبه، موجودی، محموله و تغییر وضعیت را شرح می‌دهد.|د څانګې ننوتل زېرمه، بارونه او د حالت تازه کول تشریح کوي.
+the corresponding screens were reached through in-app navigation.|صفحه‌های مربوط از فهرست داخل برنامه باز شدند.|اړوندې پردې د اپلېکېشن له غورنۍ پرانیستل شوې.
+the cover is a healthcare illustration, not a real prescription screenshot.|جلد، تصویر توضیحی صحی است، نه تصویر واقعی نسخه.|پوښ روغتیايي تشریحي انځور دی، د نسخې اصلي سکرین‌شاټ نه دی.
+the cover is a related logistics illustration rather than a screenshot.|جلد، تصویر توضیحی لجستیکی است، نه تصویر پروژه.|پوښ اړوند لوژستیکي تشریحي انځور دی، سکرین‌شاټ نه دی.
+the deployment’s displayed product name is retained here without inventing a separate client relationship.|نام محصول نسخه حفظ شده، بدون ساختن رابطه مشتری جداگانه.|د نسخې ښودل شوی محصولي نوم ساتل شوی، د جلا پېرودونکي د اړیکې له جوړولو پرته.
+the earlier company-documented stack and seller/OTP scope are retained separately.|تکنالوژی و محدوده فروشنده و رمز یک‌بارمصرف قبلی شرکت جدا حفظ شده‌اند.|د شرکت پخوانۍ مستندې ټکنالوژۍ او د پلورونکي او یو ځل کوډ حدود جلا ساتل شوي.
+the empty states prevent the preview from implying that a resume has already been analyzed.|حالت خالی مانع این برداشت است که سوانح قبلاً تحلیل شده است.|تشې بڼې د دې ناسم برداشت مخه نیسي چې سوانح مخکې شنل شوي دي.
+the internal workflow must be reviewed with authorized staff access.|روند داخلی باید با دسترسی مجاز کارکنان بررسی شود.|داخلي بهیر باید د کارکوونکو په مجاز لاسرسي وکتل شي.
+the protected calculations and storage implementation remain unverified.|محاسبات محافظت‌شده و اجرای ذخیره تأیید نشده‌اند.|خوندي محاسبې او د زېرمې پلي کول ناتایید پاتې دي.
+the public interface changes workspaces without a full navigation reload.|رابط عمومی بدون بارگذاری کامل، محیط‌ها را تغییر می‌دهد.|عامه رابط د بشپړې بیا پورته کېدو پرته چاپېریالونه بدلوي.
+their authenticated workflows were not accessed.|روندهای داخل حساب باز نشدند.|د حساب دننه بهیرونو ته لاسرسی نه دی شوی.
+their destructive actions were not invoked.|اقدامات حذف و بازنشانی اجرا نشدند.|د ړنګولو او بیا تنظیم کړنې نه دي اجرا شوې.
+tracking and account entry panels were inspected.|پنل پیگیری و ورود حساب بررسی شدند.|د تعقیب او حسابي ننوتلو پنلونه وکتل شول.
+Client integration|اتصال کلاینت|د کلاینټ نښلول
+A connected record makes these decisions easier to review.|سوابق متصل، بررسی این تصمیم‌ها را آسان می‌کنند.|تړلی ثبت د دې پرېکړو ارزونه اسانه کوي.
+A shared record helps a team see the next action and its owner.|سابقه مشترک به تیم کمک می‌کند گام بعدی و مسئول آن را ببیند.|ګډ ثبت ټیم ته د بل ګام او مسئول په پېژندنه کې مرسته کوي.
+Dashboard|داشبورد|ډشبورډ
+Courses|دوره‌ها|کورسونه
+Mentoring|راهنمایی|لارښوونه
+Ai assistant|دستیار هوشمند|ځیرک مرستیال
+Candidates|نامزدان|نوماندان
+Screening|بررسی نامزدان|د نوماندانو ارزونه
+Reports|گزارش‌ها|راپورونه
+Resume upload|بارگذاری سوانح|د سوانحو پورته کول
+captured interface|تصویر ثبت‌شده رابط|د رابط اخیستل شوی انځور
+Analysis history|سابقه تحلیل|د شننې تاریخچه
+explicitly static preview|پیش‌نمایش صریحاً ثابت|په څرګنده ثابته مخکتنه
+Job-match form|فورم تطبیق وظیفه|د دندې د برابرولو فورمه
+no analysis performed|تحلیلی انجام نشده|شننه نه ده شوې
+Interview preparation|آمادگی مصاحبه|د مرکې چمتووالی
+no resume uploaded|سوانح بارگذاری نشده|سوانح نه دي پورته شوي
+Tickets|درخواست‌های پشتیبانی|د ملاتړ غوښتنې
+Responses|پاسخ‌ها|ځوابونه
+Analytics|تحلیل|شننه
+Workflow builder|ابزار ساخت روند|د بهیر جوړوونکی
+File selection|انتخاب فایل|د فایل ټاکل
+Logs|ثبت عملیات|د عملیاتو ثبتونه
+Seller onboarding|ثبت و آماده‌سازی فروشنده|د پلورونکي ګډون او چمتو کول
+Marketplace account entry|ورود حساب بازار|د بازار حساب ته ننوتل
+Marketplace homepage|صفحه اصلی بازار|د بازار کورپاڼه
+promotional figures unverified|ارقام تبلیغاتی تأیید نشده|اعلاني شمېرې نه دي تایید شوې
+Product details|جزئیات محصول|د محصول جزئیات
+Cart|سبد خرید|د پېرود ټوکرۍ
+Checkout|ثبت نهایی سفارش|د سپارښتنې وروستی ثبت
+Orders|سفارش‌ها|سپارښتنې
+Admin dashboard|داشبورد مدیر|د مدیر ډشبورډ
+Seller dashboard|داشبورد فروشنده|د پلورونکي ډشبورډ
+Administrator dashboard|داشبورد مدیر|د مدیر ډشبورډ
+company-supplied screenshot|تصویر ارائه‌شده شرکت|د شرکت ورکړل شوی سکرین‌شاټ
+Student directory|فهرست شاگردان|د زده کوونکو لړلیک
+Teacher directory|فهرست معلمان|د ښوونکو لړلیک
+Class attendance|حاضری صنف|د ټولګي حاضري
+Timetable|تقسیم اوقات|مهال‌وېش
+Fees|فیس‌ها|فیسونه
+Class management|مدیریت صنف|د ټولګي مدیریت
+Examinations and results|امتحان‌ها و نتایج|ازموینې او پایلې
+Teacher workspace|محیط معلم|د ښوونکي چاپېریال
+Hospital dashboard|داشبورد شفاخانه|د روغتون ډشبورډ
+public demonstration|نمونه عمومی|عامه نمایشي نمونه
+Patient directory|فهرست مریضان|د ناروغانو لړلیک
+Appointment calendar|تقویم نوبت‌ها|د وختونو کلیزه
+Doctors|داکتران|ډاکټران
+General physician workspace|محیط داکتر عمومی|د عمومي ډاکټر چاپېریال
+Billing interface|رابط صورتحساب|د بلونو رابط
+Pharmacy stock|موجودی دواخانه|د درملتون زېرمه
+MediStore sign-in|ورود MediStore|MediStore ته ننوتل
+captured public interface|تصویر ثبت‌شده رابط عمومی|د عامه رابط اخیستل شوی انځور
+Inventory|موجودی|زېرمه
+Medicines|دواها|درمل
+Sales|فروش|پلور
+Suppliers|تأمین‌کنندگان|عرضه کوونکي
+Expiry alerts|هشدارهای تاریخ انقضا|د پای نېټې خبرتیاوې
+Menu|منو|مېنو
+Tables|میزها|مېزونه
+Kitchen|آشپزخانه|پخلنځی
+Billing|صورتحساب|بلونه
+Captures come from the supplied demo account.|تصاویر از حساب نمونه ارائه‌شده گرفته شده‌اند.|انځورونه له ورکړل شوي نمایشي حسابه اخیستل شوي دي.
+supplied demo|نمونه ارائه‌شده|ورکړل شوې نمونه
+Customer workspace|محیط مشتری|د پېرودونکي چاپېریال
+Measurements|اندازه‌ها|اندازې
+Order dashboard|داشبورد سفارش|د سپارښتنو ډشبورډ
+Delivery|تحویل|سپارل
+Payments|پرداخت‌ها|تادیات
+Shop reports|گزارش‌های دکان|د دوکان راپورونه
+Fabric stock|موجودی پارچه|د ټوکر زېرمه
+FreshMart sign-in|ورود FreshMart|FreshMart ته ننوتل
+Pos|سیستم فروشگاهی|د پلور سیسټم
+Purchases|خریدها|پېرودونه
+Homepage|صفحه اصلی|کورپاڼه
+Patients|مریضان|ناروغان
+Prescriptions|نسخه‌ها|نسخې
+Vehicles|وسایط|وسایط
+Drivers|رانندگان|چلوونکي
+Routes|مسیرها|لارې
+Trips|سفرها|سفرونه
+Maintenance|نگهداری|ساتنه
+Customers|مشتریان|پېرودونکي
+Warranty|ضمانت|ضمانت
+Transactions|معاملات|معاملې
+Exchange rates|نرخ‌های تبادله|د تبادلې نرخونه
+Cash management|مدیریت نقدی|د نغدو مدیریت
+Raw materials|مواد خام|خام مواد
+Rooms|اتاق‌ها|خونې
+Reservations|رزروها|ریزرفونه
+Guests|مهمانان|مېلمانه
+Check in|ورود مهمان|د مېلمه راتګ
+Leads|مشتریان احتمالی|احتمالي پېرودونکي
+Pipeline|مراحل کار|کاري پړاوونه
+Tasks|وظایف|دندې
+Workflows|روندهای کار|کاري بهیرونه
+Automation|خودکارسازی|اتومات کول
+Feed factory dashboard|داشبورد فابریکه خوراک|د خوراک فابریکې ډشبورډ
+captured preview|پیش‌نمایش ثبت‌شده|اخیستل شوې مخکتنه
+Factory reports|گزارش فابریکه|د فابریکې راپورونه
+Raw-material stock|موجودی مواد خام|د خامو موادو زېرمه
+Sales invoice interface|رابط فاکتور فروش|د پلور د بل رابط
+Public cargo tracking interface|رابط عمومی پیگیری بار|د بار د عامه تعقیب رابط
+Customer portal entry|ورود پورتال مشتری|د پېرودونکي پورټل ته ننوتل
+Public shipment lookup|جستجوی عمومی محموله|د بار عامه لټون
+Customer portal sign-in|ورود پورتال مشتری|د پېرودونکي پورټل ته ننوتل
+Branch terminal sign-in|ورود ترمینال شعبه|د څانګې ترمینل ته ننوتل
+Shipments|محموله‌ها|بارونه
+Afghan Panah GPS sign-in|ورود GPS افغان پناه|د افغان پناه GPS ننوتل
+supplied Sahil GPS reference|مرجع ارائه‌شده Sahil GPS|د Sahil GPS ورکړل شوې سرچینه
+Tracking|پیگیری|تعقیب
+Travel-agency sign-in|ورود آژانس مسافرتی|د سفر ادارې ننوتل
+Accounts|حساب‌ها|حسابونه
+Team|تیم|ټیم

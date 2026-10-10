@@ -1,227 +1,324 @@
-import { motion } from 'framer-motion'
-import { Code2, Smartphone, ShoppingCart, Zap, Wrench, BarChart3, CheckCircle } from 'lucide-react'
-import { useTranslation } from 'react-i18next'
+import { localizeText, localizeContent } from '../lib/localization'
+import { useEffect, useState } from 'react'
+import {
+  ArrowDown,
+  ArrowUpRight,
+  Check,
+  Code2,
+  Compass,
+  Layers,
+  LifeBuoy,
+  PenTool,
+} from 'lucide-react'
+import { Link, useLocation } from 'react-router-dom'
+import { services } from '../config/catalog'
+import { CTA, Process } from '../components/Shared'
+import { serviceIcons } from '../config/design-icons'
+import { serviceTechnologies } from '../config/technology-logos'
+import EditorialVisual from '../components/EditorialVisual'
+import RotatingHeadline from '../components/RotatingHeadline'
+import TechnologyMark from '../components/TechnologyMark'
+
+const groups = [
+  { label: 'All services', slugs: services.map((service) => service.slug) },
+  {
+    label: 'Products & platforms',
+    slugs: [
+      'custom-software',
+      'web-applications',
+      'websites',
+      'mobile-apps',
+      'ecommerce',
+    ],
+  },
+  {
+    label: 'Operations & automation',
+    slugs: ['business-systems', 'ai-automation', 'backend'],
+  },
+  { label: 'Design & delivery', slugs: ['ui-ux', 'cloud', 'support'] },
+]
+const highlights = [
+  {
+    Icon: Compass,
+    title: 'Start with the business',
+    text: 'Understand the workflow before defining the solution.',
+  },
+  {
+    Icon: PenTool,
+    title: 'Make the experience clear',
+    text: 'Design around the people who will use the software.',
+  },
+  {
+    Icon: Layers,
+    title: 'Connect the right systems',
+    text: 'Build the interfaces, data, and integrations together.',
+  },
+  {
+    Icon: LifeBuoy,
+    title: 'Plan beyond the launch',
+    text: 'Agree on handover, maintenance, and future improvements.',
+  },
+]
+const featuredTechnologies = [
+  'React',
+  'Next.js',
+  'TypeScript',
+  'Python',
+  'Django',
+  'Node.js',
+  'PostgreSQL',
+  'Docker',
+]
 
 export default function Services() {
-  const { t } = useTranslation(['services', 'common'])
-  const packages = [
-    {
-      icon: Code2,
-      title: t('services:packages.basic.title'),
-      price: t('services:packages.basic.price'),
-      duration: t('services:packages.basic.duration'),
-      features: t('services:packages.basic.features', { returnObjects: true }) as any[],
-      description: t('services:packages.basic.description'),
-    },
-    {
-      icon: Zap,
-      title: t('services:packages.business.title'),
-      price: t('services:packages.business.price'),
-      duration: t('services:packages.business.duration'),
-      features: t('services:packages.business.features', { returnObjects: true }) as any[],
-      description: t('services:packages.business.description'),
-      featured: true,
-    },
-    {
-      icon: ShoppingCart,
-      title: t('services:packages.ecommerce.title'),
-      price: t('services:packages.ecommerce.price'),
-      duration: t('services:packages.ecommerce.duration'),
-      features: t('services:packages.ecommerce.features', { returnObjects: true }) as any[],
-      description: t('services:packages.ecommerce.description'),
-    },
-    {
-      icon: Code2,
-      title: t('services:packages.custom.title'),
-      price: t('services:packages.custom.price'),
-      duration: t('services:packages.custom.duration'),
-      features: t('services:packages.custom.features', { returnObjects: true }) as any[],
-      description: t('services:packages.custom.description'),
-    },
-  ]
-
-  const addOns = [
-    {
-      icon: BarChart3,
-      title: t('services:addOns.items.0.title'),
-      description: t('services:addOns.items.0.description'),
-    },
-    {
-      icon: Smartphone,
-      title: t('services:addOns.items.1.title'),
-      description: t('services:addOns.items.1.description'),
-    },
-    {
-      icon: Wrench,
-      title: t('services:addOns.items.2.title'),
-      description: t('services:addOns.items.2.description'),
-    },
-    {
-      icon: Zap,
-      title: t('services:addOns.items.3.title'),
-      description: t('services:addOns.items.3.description'),
-    },
-  ]
-
+  const [group, setGroup] = useState('All services')
+  const { hash } = useLocation()
+  useEffect(() => {
+    const target = decodeURIComponent(hash.slice(1))
+    if (!services.some((service) => service.slug === target)) return
+    setGroup((current) =>
+      groups.find((item) => item.label === current)!.slugs.includes(target)
+        ? current
+        : 'All services'
+    )
+  }, [hash])
+  const selected = groups.find((item) => item.label === group)!
   return (
-    <div className="pt-16">
-      {/* Hero Section */}
-      <section className="min-h-[32vh] bg-gradient-to-b from-black via-gray-900 to-black relative overflow-hidden flex items-end">
-        <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <div className="absolute top-0 left-1/4 w-96 h-96 bg-blue-500/8 rounded-full blur-3xl mix-blend-screen opacity-60"></div>
-          <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-purple-500/8 rounded-full blur-3xl mix-blend-screen opacity-60"></div>
-          <div className="absolute inset-0 bg-gradient-to-b from-transparent via-black/20 to-black" />
-          <div className="absolute inset-0 pointer-events-none">
-            <div className="absolute left-1/2 -translate-x-1/2 top-20 w-[520px] h-[520px] rounded-full bg-white/5 blur-2xl mix-blend-overlay opacity-40" />
+    <div className="container page-shell services-page">
+      <header className="services-hero">
+        <div className="services-hero-copy">
+          <span className="eyebrow">
+            <span className="eyebrow-rule" aria-hidden="true" />
+            {localizeText('SOFTWARE DEVELOPMENT SERVICES')}
+          </span>
+          <h1>
+            {localizeText('Software expertise.')}
+            <br />
+            {localizeText('Built around your')}
+            <RotatingHeadline
+              words={['business.', 'product.', 'next idea.']}
+              label="services headline animation"
+            />
+          </h1>
+          <p className="lead">
+            {localizeText(
+              'From the first workflow to the final release. We bring design, development, and long-term support together to build software your business can use.'
+            )}
+          </p>
+          <div className="hero-actions">
+            <Link className="button button-primary" to="/contact">
+              {localizeText('Let’s build your project ')}
+              <ArrowUpRight size={18} />
+            </Link>
+            <a className="text-link" href="#service-expertise">
+              {localizeText('Explore our expertise ')}
+              <ArrowDown size={17} />
+            </a>
           </div>
+          <p className="services-hero-note">
+            <Check size={15} aria-hidden="true" />{' '}
+            {localizeText(
+              ' Clear scope. Reviewable stages. Direct communication.'
+            )}
+          </p>
         </div>
-
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 py-6">
-          {/* Visual hero only — heading moved below to avoid duplication */}
+        <EditorialVisual kind="engineering" />
+      </header>
+      <section
+        className="service-toolkit"
+        aria-label={localizeText('Selected development technologies')}
+      >
+        <div>
+          <span className="eyebrow">
+            {localizeText('TOOLS WITH A PURPOSE')}
+          </span>
+          <Link className="text-link" to="/technologies">
+            {localizeText('Meet our technology stack ')}
+            <ArrowUpRight size={16} />
+          </Link>
+        </div>
+        <div className="service-toolkit-marks">
+          {localizeContent(
+            featuredTechnologies.map((name) => (
+              <TechnologyMark name={name} key={name} />
+            ))
+          )}
         </div>
       </section>
-
-      {/* Service Packages */}
-      <section className="py-12 bg-black">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <motion.div
-            initial={{ opacity: 0, y: 12 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.45 }}
-            className="text-center mb-8 mt-2"
-          >
-            <h2 className="text-4xl md:text-5xl font-extrabold mb-2">
-              <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-                {t('services:title')}
+      <section className="service-expertise section" id="service-expertise">
+        <div className="section-heading">
+          <div>
+            <span className="eyebrow">
+              {localizeText('WHAT DO YOU NEED TO BUILD?')}
+            </span>
+            <h2>
+              {localizeText('One team.')}
+              <br />
+              <span className="accent-word">
+                {localizeText('The right expertise.')}
               </span>
             </h2>
-            <p className="text-gray-400 text-base max-w-2xl mx-auto">{t('services:subtitle')}</p>
-          </motion.div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {packages.map((pkg, idx) => (
-              <motion.div
-                key={idx}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: idx * 0.1 }}
-                whileHover={{ translateY: -10 }}
-                className={`group relative rounded-2xl p-6 md:p-8 border transition-all overflow-hidden ${
-                  pkg.featured
-                    ? 'bg-gradient-to-br from-blue-900/30 to-purple-900/30 border-blue-400/70 shadow-2xl shadow-blue-500/20'
-                    : 'bg-gradient-to-br from-white/5 to-transparent border-white/10 hover:border-purple-400/60'
-                }`}
+          </div>
+          <p>
+            {localizeText(
+              'Explore the services that fit your next step. Each can be scoped on its own or combined into a complete delivery plan.'
+            )}
+          </p>
+        </div>
+        <div
+          className="service-category-filters"
+          role="group"
+          aria-label={localizeText('Filter services')}
+        >
+          {localizeContent(
+            groups.map((item) => (
+              <button
+                key={item.label}
+                aria-pressed={group === item.label}
+                onClick={() => setGroup(item.label)}
               >
-                {pkg.featured && (
-                  <div className="mb-4 inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full text-white text-xs font-semibold uppercase tracking-[0.2em]">
-                    {t('services:packages.business.popular')}
-                  </div>
-                )}
-                <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-purple-600 rounded-2xl flex items-center justify-center mb-4 group-hover:scale-105 transition-transform">
-                  <pkg.icon size={24} className="text-white" />
-                </div>
-                <h3 className="text-2xl font-semibold text-white mb-2">{pkg.title}</h3>
-                <p className="text-gray-300 text-sm mb-4 leading-relaxed">{pkg.description}</p>
-                <div className="mb-6 pb-6 border-b border-white/10">
-                  <p className="text-2xl font-bold text-blue-400">{pkg.price}</p>
-                  <p className="text-gray-400 text-sm">{t('services:delivery')}: {pkg.duration}</p>
-                </div>
-                <ul className="space-y-3 mb-8">
-                  {pkg.features.map((feature, fidx) => (
-                    <li key={fidx} className="flex items-start gap-3">
-                      <CheckCircle size={20} className="text-green-400 flex-shrink-0 mt-0.5" />
-                      <span className="text-gray-300 text-sm">{feature}</span>
-                    </li>
-                  ))}
-                </ul>
-                <button
-                  className={`w-full py-3 rounded-lg font-semibold transition-all ${
-                    pkg.featured
-                      ? 'bg-gradient-to-r from-blue-500 to-purple-600 text-white hover:shadow-lg hover:shadow-purple-500/50'
-                      : 'border border-white/20 text-white hover:border-white hover:bg-white/5'
-                  }`}
-                >
-                  {t('services:getStarted')}
-                </button>
-              </motion.div>
-            ))}
-          </div>
+                {localizeContent(item.label)}
+              </button>
+            ))
+          )}
         </div>
-      </section>
-
-      {/* Add-ons Section */}
-      <section className="py-12 bg-gradient-to-b from-gray-900 to-black">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
-            className="text-center mb-16"
-          >
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{t('services:addOns.title')}</h2>
-            <p className="text-gray-400 text-lg">{t('services:addOns.subtitle')}</p>
-          </motion.div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {addOns.map((addon, idx) => (
-              <motion.div
-                key={idx}
-                initial={{ opacity: 0, scale: 0.95 }}
-                whileInView={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 0.5, delay: idx * 0.1 }}
-                className="group rounded-2xl border border-white/10 bg-gradient-to-br from-white/5 to-transparent p-6 hover:border-purple-400/70 hover:shadow-lg hover:shadow-purple-500/10 transition-all text-left"
-              >
-                <div className="w-14 h-14 bg-gradient-to-r from-blue-500 to-purple-600 rounded-2xl flex items-center justify-center mb-4 group-hover:shadow-lg group-hover:shadow-purple-500/50 transition-all">
-                  <addon.icon size={28} className="text-white" />
-                </div>
-                <h3 className="text-xl font-semibold text-white mb-2">{addon.title}</h3>
-                <p className="text-gray-400 text-sm leading-relaxed">{addon.description}</p>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Process Section */}
-      <section className="py-12 bg-black">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
-            className="text-center mb-16"
-          >
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{t('services:process.title')}</h2>
-            <p className="text-gray-400 text-lg">{t('services:process.subtitle')}</p>
-          </motion.div>
-
-          <div className="relative">
-            <div className="absolute left-4 top-0 bottom-0 w-px bg-white/10 md:hidden"></div>
-            <div className="hidden md:block absolute left-0 right-0 top-1/2 h-px bg-white/10"></div>
-            <div className="grid grid-cols-1 md:grid-cols-5 gap-6">
-              {(t('services:process.steps', { returnObjects: true }) as any[]).map((step, idx) => (
-                <motion.div
-                  key={idx}
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.5, delay: idx * 0.1 }}
-                  className="relative"
-                >
-                  <div className="flex md:flex-col items-start md:items-center gap-4">
-                    <div className="relative z-10 w-12 h-12 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full flex items-center justify-center font-bold text-white">
-                      {idx + 1}
+        <nav
+          className="service-jump-links"
+          aria-label={localizeText('Service sections')}
+        >
+          {localizeContent(
+            services
+              .filter((service) => selected.slugs.includes(service.slug))
+              .map((service) => (
+                <a key={service.slug} href={'#' + service.slug}>
+                  {localizeContent(service.title)}
+                  <ArrowUpRight size={12} aria-hidden="true" />
+                </a>
+              ))
+          )}
+        </nav>
+        <p className="sr-only" role="status">
+          {localizeContent(selected.slugs.length)}{' '}
+          {localizeText(' services shown')}
+        </p>
+        <div className="service-list">
+          {localizeContent(
+            services
+              .filter((service) => selected.slugs.includes(service.slug))
+              .map((service) => {
+                const Icon = serviceIcons[service.slug] || Code2
+                return (
+                  <section
+                    className="service-row"
+                    id={service.slug}
+                    key={service.slug}
+                  >
+                    <div className="service-summary">
+                      <span className="service-symbol" aria-hidden="true">
+                        <Icon size={29} strokeWidth={1.4} />
+                      </span>
+                      <span className="eyebrow">
+                        {localizeContent(service.title)}
+                      </span>
+                      <h2>{localizeContent(service.short)}</h2>
+                      <p>{localizeContent(service.description)}</p>
+                      {localizeContent(
+                        (service.slug === 'ui-ux' ||
+                          service.slug === 'cloud') && (
+                          <EditorialVisual
+                            kind={
+                              service.slug === 'ui-ux'
+                                ? 'design'
+                                : 'infrastructure'
+                            }
+                            compact
+                          />
+                        )
+                      )}
+                      <Link
+                        className="text-link"
+                        to={
+                          '/contact?type=' + encodeURIComponent(service.title)
+                        }
+                      >
+                        {localizeText('Discuss this service ')}
+                        <ArrowUpRight size={17} />
+                      </Link>
                     </div>
-                    <div className="rounded-2xl border border-white/10 bg-gradient-to-br from-white/5 to-transparent p-4 text-left md:text-center w-full">
-                      <h3 className="text-lg font-semibold text-white">{step}</h3>
-                      <p className="text-xs text-gray-400 mt-2">Aligned milestones with clear delivery checkpoints.</p>
+                    <div className="service-detail">
+                      <h3>{localizeText('What we can deliver')}</h3>
+                      <ul className="check-list">
+                        {localizeContent(
+                          service.capabilities.map((item) => (
+                            <li key={item}>
+                              <Check size={17} aria-hidden="true" />
+                              {localizeContent(item)}
+                            </li>
+                          ))
+                        )}
+                      </ul>
+                      <div className="service-use-case">
+                        <span className="eyebrow">
+                          {localizeText('WHERE IT FITS')}
+                        </span>
+                        <p>{localizeContent(service.useCases)}</p>
+                      </div>
+                      <div className="service-stack">
+                        <h3>{localizeText('Technology approach')}</h3>
+                        {localizeContent(
+                          serviceTechnologies[service.slug] ? (
+                            <div className="service-brand-list">
+                              {localizeContent(
+                                serviceTechnologies[service.slug].map(
+                                  (name) => (
+                                    <TechnologyMark key={name} name={name} />
+                                  )
+                                )
+                              )}
+                            </div>
+                          ) : (
+                            <p>{localizeContent(service.technologies)}</p>
+                          )
+                        )}
+                      </div>
                     </div>
-                  </div>
-                </motion.div>
-              ))}
-            </div>
-          </div>
+                  </section>
+                )
+              })
+          )}
         </div>
       </section>
+      <section className="service-partnership">
+        <div>
+          <span className="eyebrow">
+            {localizeText('CONNECTED FROM THE START')}
+          </span>
+          <h2>
+            {localizeText('More than a list of services.')}
+            <br />
+            {localizeText('A considered way to build.')}
+          </h2>
+          <Link to="/portfolio" className="text-link">
+            {localizeText('See the thinking behind our projects ')}
+            <ArrowUpRight size={18} />
+          </Link>
+        </div>
+        <div className="service-principles">
+          {localizeContent(
+            highlights.map(({ Icon, title, text }) => (
+              <article key={title}>
+                <Icon size={25} strokeWidth={1.5} aria-hidden="true" />
+                <div>
+                  <h3>{localizeContent(title)}</h3>
+                  <p>{localizeContent(text)}</p>
+                </div>
+              </article>
+            ))
+          )}
+        </div>
+      </section>
+      <Process />
+      <CTA title={localizeText('Let’s find the right starting point.')} />
     </div>
   )
 }

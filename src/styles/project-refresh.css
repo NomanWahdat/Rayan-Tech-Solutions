@@ -1,0 +1,207 @@
+/* Branded dashboard covers and the supplied portrait hero photograph. */
+.project-card .project-image.has-dashboard {
+  aspect-ratio: 3 / 2;
+  background: #e8eef7;
+  padding: 10px;
+}
+.project-image.has-dashboard > img {
+  border-radius: 4px;
+  box-shadow: 0 3px 14px #16336318;
+  object-fit: contain;
+  transition: transform 0.35s ease;
+}
+.project-cover-link:hover .has-dashboard > img {
+  transform: scale(1.015);
+}
+.portfolio-preview-note {
+  max-width: 760px;
+  font-size: 12px;
+  margin-top: -25px;
+  margin-bottom: 35px;
+  color: var(--muted);
+}
+@media (prefers-reduced-motion: reduce) {
+  .project-image.has-dashboard > img {
+    transition: none;
+  }
+  .project-cover-link:hover .has-dashboard > img {
+    transform: none;
+  }
+}
+.hero-media {
+  left: 42%;
+}
+.hero-media img {
+  object-position: center 35%;
+}
+.hero-media:after {
+  background:
+    linear-gradient(
+      90deg,
+      #eeeeee 0%,
+      #eeeeeed9 14%,
+      #eeeeee55 36%,
+      #eeeeee00 62%
+    ),
+    linear-gradient(0deg, #eeeeee 0%, #eeeeee00 18%);
+}
+.hero[dir='rtl'] .hero-media {
+  left: 0;
+  right: 42%;
+}
+.hero[dir='rtl'] .hero-media:after {
+  background:
+    linear-gradient(
+      270deg,
+      #eeeeee 0%,
+      #eeeeeed9 14%,
+      #eeeeee55 36%,
+      #eeeeee00 62%
+    ),
+    linear-gradient(0deg, #eeeeee 0%, #eeeeee00 18%);
+}
+.inquiry-form fieldset.form-grid {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  min-width: 0;
+}
+.inquiry-form .inquiry-honeypot {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+.form-error .text-link {
+  display: flex;
+  width: fit-content;
+  margin-top: 12px;
+  color: inherit;
+  text-decoration: underline;
+}
+.inquiry-result {
+  animation: inquiry-result-enter 0.35s ease backwards;
+}
+.project-image.has-screenshot {
+  padding: 22px;
+  background: #dce7fb;
+}
+.project-image.has-screenshot > img {
+  border-radius: 5px;
+  box-shadow: 0 10px 24px #16336319;
+  background: #fff;
+  transition: transform 0.4s ease;
+}
+.project-cover-link:hover .has-screenshot > img {
+  transform: translateY(-3px) scale(1.025);
+}
+.project-image.has-illustration > img {
+  object-fit: cover;
+  background: #e4ecf9;
+}
+.project-image-label {
+  position: absolute;
+  left: 18px;
+  top: 15px;
+  padding: 6px 9px;
+  border: 1px solid #c6d5ec;
+  border-radius: 3px;
+  background: #fff;
+  color: #354b6b;
+  font-size: 10px;
+}
+.case-study > .project-image.has-screenshot {
+  padding: clamp(18px, 4vw, 55px);
+}
+.case-review {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 22px 0;
+  border-bottom: 1px solid var(--line);
+}
+.case-review > span {
+  flex-shrink: 0;
+  padding: 7px 10px;
+  border-radius: 4px;
+  background: #dae6fa;
+  color: #24436c;
+  font-size: 11px;
+  font-weight: 650;
+}
+.case-review p {
+  font-size: 12px;
+  max-width: 760px;
+}
+.gallery-unavailable {
+  display: flex;
+  align-items: flex-start;
+  gap: 22px;
+  padding: 28px;
+  background: #e3ebf8;
+  border: 1px solid #cfdbec;
+  border-radius: 6px;
+}
+.gallery-unavailable > svg {
+  color: var(--accent);
+  flex-shrink: 0;
+}
+.gallery-unavailable h3 {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+.gallery-unavailable p {
+  font-size: 14px;
+  max-width: 700px;
+}
+@keyframes inquiry-result-enter {
+  from {
+    opacity: 0.5;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@media (max-width: 800px) {
+  .project-image.has-screenshot {
+    padding: 14px;
+  }
+  .case-review {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+  .hero-media,
+  .hero[dir='rtl'] .hero-media {
+    inset: auto 0 0;
+  }
+  .hero-media img {
+    object-position: center 10%;
+  }
+  .hero-media:after,
+  .hero[dir='rtl'] .hero-media:after {
+    background: linear-gradient(
+      180deg,
+      #eeeeee 0%,
+      #eeeeee88 14%,
+      #eeeeee00 40%,
+      #eeeeee00 84%,
+      #eeeeee 100%
+    );
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .inquiry-result {
+    animation: none;
+  }
+  .project-image.has-screenshot > img {
+    transition: none;
+  }
+  .project-cover-link:hover .has-screenshot > img {
+    transform: none;
+  }
+}

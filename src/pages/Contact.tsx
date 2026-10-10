@@ -1,334 +1,570 @@
-import type { ChangeEvent, FormEvent } from 'react'
-import { useState } from 'react'
-import { motion } from 'framer-motion'
-import { Mail, Phone, MapPin, Send, Facebook, Linkedin, Instagram, Github } from 'lucide-react'
-import { useTranslation } from 'react-i18next'
-import { COMPANY_EMAIL, COMPANY_PHONE, COMPANY_ADDRESS, SOCIAL_LINKS } from '../config/company'
+import { localizeText, localizeContent } from '../lib/localization'
+import { useEffect, useRef, useState } from 'react'
+import { useSearchParams, Link } from 'react-router-dom'
+import {
+  ArrowUpRight,
+  Check,
+  Copy,
+  Mail,
+  MapPin,
+  MessageCircle,
+  Phone,
+} from 'lucide-react'
+import {
+  COMPANY_ADDRESS,
+  COMPANY_EMAIL,
+  COMPANY_PHONE,
+  SOCIAL_LINKS,
+} from '../config/company'
+import { industries, services } from '../config/catalog'
+import { PageIntro } from '../components/Shared'
+import EditorialVisual from '../components/EditorialVisual'
 
+type Inquiry = {
+  name: string
+  company: string
+  email: string
+  phone: string
+  type: string
+  industry: string
+  budget: string
+  description: string
+  method: string
+  website: string
+}
+const endpoint = import.meta.env?.VITE_CONTACT_ENDPOINT || '/api/inquiry'
 export default function Contact() {
-  const { t } = useTranslation(['contact', 'common'])
-  const [formData, setFormData] = useState({
+  const [params] = useSearchParams()
+  const [form, setForm] = useState<Inquiry>({
     name: '',
+    company: '',
     email: '',
     phone: '',
-    subject: '',
-    message: '',
+    type: '',
+    industry: '',
+    budget: '',
+    description: '',
+    method: 'Email',
+    website: '',
   })
-  const [isLoading, setIsLoading] = useState(false)
-
-  const handleChange = (e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value,
-    })
+  useEffect(() => {
+    setForm((current) => ({
+      ...current,
+      type: params.get('type') || '',
+      industry: params.get('industry') || '',
+    }))
+  }, [params])
+  const [error, setError] = useState('')
+  const [pending, setPending] = useState(false)
+  const [ready, setReady] = useState(false)
+  const [sent, setSent] = useState(false)
+  const [copied, setCopied] = useState(false)
+  const [copyError, setCopyError] = useState('')
+  const result = useRef<HTMLDivElement>(null)
+  function change(
+    event: React.ChangeEvent<
+      HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement
+    >
+  ) {
+    setForm((current) => ({
+      ...current,
+      [event.target.name]: event.target.value,
+    }))
+    setReady(false)
+    setSent(false)
+    setCopied(false)
+    setError('')
   }
-
-  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
-    e.preventDefault()
-    setIsLoading(true)
-
+  const text = [
+    localizeText('Project inquiry — Rayan Tech Solutions'),
+    localizeText('Name') + ': ' + form.name,
+    localizeText('Company') +
+      ': ' +
+      (form.company || localizeText('Not specified')),
+    localizeText('Email') + ': ' + form.email,
+    localizeText('Phone / WhatsApp') +
+      ': ' +
+      (form.phone || localizeText('Not specified')),
+    localizeText('Project type') + ': ' + localizeText(form.type),
+    localizeText('Industry') +
+      ': ' +
+      localizeText(form.industry || 'Not specified'),
+    localizeText('Budget') +
+      ': ' +
+      localizeText(form.budget || 'To be discussed'),
+    localizeText('Preferred contact') + ': ' + localizeText(form.method),
+    '',
+    localizeText('Project description') + ':',
+    form.description,
+  ].join('\n')
+  async function submit(event: React.FormEvent<HTMLFormElement>) {
+    event.preventDefault()
+    if (pending || sent) return
+    setError('')
+    if (!form.name.trim() || form.description.trim().length < 20) {
+      setError(
+        'Please add your name and at least 20 characters describing the project.'
+      )
+      return
+    }
+    if (form.method !== 'Email' && !form.phone.trim()) {
+      setError(
+        'Add your phone / WhatsApp number for your preferred contact method.'
+      )
+      return
+    }
+    if (form.method === 'WhatsApp') {
+      window.open(
+        SOCIAL_LINKS.whatsapp + '?text=' + encodeURIComponent(text),
+        '_blank',
+        'noopener,noreferrer'
+      )
+      setReady(true)
+      requestAnimationFrame(() => result.current?.focus())
+      return
+    }
+    setPending(true)
     try {
-      const response = await fetch('https://formspree.io/f/mgobepeb', {
+      const response = await fetch(endpoint, {
         method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          name: formData.name,
-          email: formData.email,
-          phone: formData.phone,
-          subject: formData.subject,
-          message: formData.message,
-        }),
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(form),
+        signal: AbortSignal.timeout(15000),
       })
-
-      if (response.ok) {
-        alert('Thank you for your message! We will get back to you soon.')
-        setFormData({ name: '', email: '', phone: '', subject: '', message: '' })
-      } else {
-        alert('Failed to send message. Please try again or contact us directly.')
-      }
+      const body = await response.json().catch(() => null)
+      if (!response.ok || body?.success !== true)
+        throw new Error(
+          body?.error ||
+            'Your inquiry could not be confirmed. Please retry or send it on WhatsApp.'
+        )
+      setSent(true)
+      setReady(true)
+      requestAnimationFrame(() => result.current?.focus())
     } catch (error) {
-      console.error('Form submission error:', error)
-      alert('Failed to send message. Please try again or contact us directly.')
+      setError(
+        error instanceof Error && error.name === 'TimeoutError'
+          ? 'The request timed out. Your details are still here. Please retry or contact us directly.'
+          : error instanceof Error
+            ? error.message
+            : 'We could not confirm your inquiry. Your details are still here. Please retry or contact us on WhatsApp.'
+      )
     } finally {
-      setIsLoading(false)
+      setPending(false)
     }
   }
-
-  const contactInfo = [
-    {
-      icon: Mail,
-      title: 'Email',
-      value: COMPANY_EMAIL,
-      href: `mailto:${COMPANY_EMAIL}`,
-    },
-    {
-      icon: Phone,
-      title: 'Phone',
-      value: COMPANY_PHONE,
-      href: `tel:${COMPANY_PHONE}`,
-    },
-    {
-      icon: MapPin,
-      title: 'Address',
-      value: COMPANY_ADDRESS,
-      href: '#',
-    },
+  async function copy() {
+    try {
+      await navigator.clipboard.writeText(text)
+      setCopied(true)
+      setCopyError('')
+    } catch {
+      setCopyError(
+        'Copy is unavailable in this browser. Select and copy the inquiry text below.'
+      )
+    }
+  }
+  const projectTypes = [
+    ...new Set([
+      ...services.map((service) => service.title),
+      ...(form.type ? [form.type] : []),
+    ]),
   ]
-
-  const socialLinks = [
-    { icon: Facebook, href: SOCIAL_LINKS.facebook, label: 'Facebook' },
-    { icon: Linkedin, href: SOCIAL_LINKS.linkedin, label: 'LinkedIn' },
-    { icon: Instagram, href: SOCIAL_LINKS.instagram, label: 'Instagram' },
-    { icon: Github, href: SOCIAL_LINKS.github, label: 'GitHub' },
-  ]
-
   return (
-    <div className="pt-16">
-      {/* Hero Section */}
-      <section className="min-h-[36vh] bg-gradient-to-b from-black via-gray-900 to-black relative overflow-hidden flex items-center">
-        <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <div className="absolute top-[-10%] left-1/4 w-80 h-80 bg-blue-500/8 rounded-full blur-3xl mix-blend-screen opacity-60"></div>
-          <div className="absolute bottom-[-8%] right-1/4 w-96 h-96 bg-purple-500/8 rounded-full blur-3xl mix-blend-screen opacity-60"></div>
-          <div className="absolute left-1/2 -translate-x-1/2 top-16 w-[420px] h-[420px] rounded-full bg-white/6 blur-2xl mix-blend-overlay opacity-30" />
-        </div>
-
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 py-8 text-center">
-          <motion.div
-            initial={{ opacity: 0, y: -18 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.7 }}
-          >
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-2 leading-tight">
-              <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-                {t('contact:hero.title')}
+    <div className="container page-shell">
+      <PageIntro
+        label="START A PROJECT"
+        title={localizeText('Tell us what needs to work better.')}
+        description="An idea, an existing product, or a daily workflow that needs a better system. Share the context, and we’ll help you define a practical next step."
+      />
+      <div className="contact-layout">
+        <div>
+          <form className="inquiry-form" onSubmit={submit}>
+            <div className="form-heading">
+              <span className="eyebrow">
+                {localizeText('YOUR PROJECT BRIEF')}
               </span>
-            </h1>
-            <p className="text-lg text-gray-400 max-w-2xl mx-auto">
-              {t('contact:hero.subtitle')}
+              <p>{localizeText('Fields marked * are required.')}</p>
+            </div>
+            <label className="inquiry-honeypot" aria-hidden="true">
+              {localizeText('Website')}
+              <input
+                name="website"
+                tabIndex={-1}
+                autoComplete="off"
+                value={form.website}
+                onChange={change}
+              />
+            </label>
+            <fieldset className="form-grid" disabled={pending}>
+              <legend className="sr-only">
+                {localizeText('Your project and contact details')}
+              </legend>
+              <label htmlFor="name">
+                {localizeText('Your name *')}
+                <input
+                  id="name"
+                  name="name"
+                  autoComplete="name"
+                  required
+                  maxLength={100}
+                  value={form.name}
+                  onChange={change}
+                  placeholder={localizeText('Full name')}
+                />
+              </label>
+              <label htmlFor="company">
+                {localizeText('Company')}
+                <input
+                  id="company"
+                  name="company"
+                  autoComplete="organization"
+                  maxLength={150}
+                  value={form.company}
+                  onChange={change}
+                  placeholder={localizeText('Company or organization')}
+                />
+              </label>
+              <label htmlFor="email">
+                {localizeText('Email address *')}
+                <input
+                  id="email"
+                  name="email"
+                  type="email"
+                  autoComplete="email"
+                  required
+                  maxLength={254}
+                  value={form.email}
+                  onChange={change}
+                  placeholder={localizeText('you@company.com')}
+                />
+              </label>
+              <label htmlFor="phone">
+                {localizeText('Phone / WhatsApp')}
+                {localizeContent(form.method !== 'Email' ? ' *' : '')}
+                <input
+                  id="phone"
+                  name="phone"
+                  type="tel"
+                  autoComplete="tel"
+                  required={form.method !== 'Email'}
+                  minLength={7}
+                  maxLength={40}
+                  value={form.phone}
+                  onChange={change}
+                  placeholder={localizeText('+93 …')}
+                />
+              </label>
+              <label htmlFor="type">
+                {localizeText('Project type *')}
+                <select
+                  id="type"
+                  name="type"
+                  required
+                  value={form.type}
+                  onChange={change}
+                >
+                  <option value="">
+                    {localizeText('Select a project type')}
+                  </option>
+                  {localizeContent(
+                    projectTypes.map((type) => (
+                      <option key={type} value={type}>
+                        {localizeContent(type)}
+                      </option>
+                    ))
+                  )}
+                  <option value={'Not sure yet — let’s discuss'}>
+                    {localizeText('Not sure yet — let’s discuss')}
+                  </option>
+                </select>
+              </label>
+              <label htmlFor="industry">
+                {localizeText('Industry')}
+                <select
+                  id="industry"
+                  name="industry"
+                  value={form.industry}
+                  onChange={change}
+                >
+                  <option value="">
+                    {localizeText('Select your industry')}
+                  </option>
+                  {localizeContent(
+                    [
+                      ...new Set([
+                        ...industries.map(([name]) => name),
+                        ...(form.industry ? [form.industry] : []),
+                      ]),
+                    ].map((name) => (
+                      <option key={name} value={name}>
+                        {localizeContent(name)}
+                      </option>
+                    ))
+                  )}
+                  <option value={'Other'}>{localizeText('Other')}</option>
+                </select>
+              </label>
+              <label htmlFor="budget">
+                {localizeText('Budget range')}
+                <select
+                  id="budget"
+                  name="budget"
+                  value={form.budget}
+                  onChange={change}
+                >
+                  <option value="">{localizeText('To be discussed')}</option>
+                  <option value={'Under $1,000 USD'}>
+                    {localizeText('Under $1,000 USD')}
+                  </option>
+                  <option value={'$1,000–$5,000 USD'}>
+                    {localizeText('$1,000–$5,000 USD')}
+                  </option>
+                  <option value={'$5,000–$15,000 USD'}>
+                    {localizeText('$5,000–$15,000 USD')}
+                  </option>
+                  <option value={'$15,000+ USD'}>
+                    {localizeText('$15,000+ USD')}
+                  </option>
+                </select>
+              </label>
+              <label htmlFor="method">
+                {localizeText('Preferred contact method')}
+                <select
+                  id="method"
+                  name="method"
+                  value={form.method}
+                  onChange={change}
+                >
+                  <option value={'Email'}>{localizeText('Email')}</option>
+                  <option value={'WhatsApp'}>{localizeText('WhatsApp')}</option>
+                  <option value={'Phone call'}>
+                    {localizeText('Phone call')}
+                  </option>
+                </select>
+              </label>
+              <label className="full-field" htmlFor="description">
+                {localizeText('Project description *')}
+                <textarea
+                  id="description"
+                  name="description"
+                  required
+                  minLength={20}
+                  maxLength={5000}
+                  rows={6}
+                  value={form.description}
+                  onChange={change}
+                  placeholder={localizeText(
+                    'What does your business do? What do you want to build or improve? Tell us about the people, processes, and important requirements.'
+                  )}
+                  aria-describedby="description-hint"
+                />
+                <small id="description-hint">
+                  {localizeText(
+                    'At least 20 characters. Please leave out passwords and sensitive records.'
+                  )}
+                </small>
+              </label>
+            </fieldset>
+            <p className="form-privacy">
+              {localizeText(
+                'Your details are used to discuss this project. Read our'
+              )}
+              {localizeContent(' ')}
+              <Link to="/privacy-policy">{localizeText('privacy policy')}</Link>
+              .
             </p>
-          </motion.div>
-        </div>
-      </section>
-
-      {/* Contact Section */}
-      <section className="py-12 bg-black">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
-            {/* Contact Info */}
-            <motion.div
-              initial={{ opacity: 0, x: -30 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.5 }}
-              className="space-y-6"
-            >
-              {contactInfo.map((info, idx) => (
-                <div key={idx} className="rounded-2xl p-4 bg-gradient-to-br from-white/4 to-transparent border border-white/6">
-                  <div className="flex items-center gap-4 mb-2">
-                    <div className="w-14 h-14 bg-gradient-to-r from-blue-500 to-purple-600 rounded-xl flex items-center justify-center shadow-md">
-                      <info.icon size={20} className="text-white" />
-                    </div>
-                    <h3 className="text-lg font-semibold text-white">{info.title}</h3>
-                  </div>
+            {localizeContent(
+              error && (
+                <div role="alert" className="form-error">
+                  {localizeContent(error)}
                   <a
-                    href={info.href}
-                    className="text-gray-300 hover:text-white transition-colors pl-2 block text-sm"
+                    className="text-link"
+                    href={
+                      SOCIAL_LINKS.whatsapp +
+                      '?text=' +
+                      encodeURIComponent(text)
+                    }
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
-                    {info.value}
+                    {localizeText('Send your brief on WhatsApp ')}
+                    <ArrowUpRight size={16} />
                   </a>
                 </div>
-              ))}
-
-              {/* Social Links */}
-              <div className="mt-2">
-                <h3 className="text-lg font-semibold text-white mb-3">Follow Us</h3>
-                <div className="flex gap-3">
-                  {socialLinks.map((social, idx) => (
-                    <a
-                      key={idx}
-                      href={social.href}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="w-11 h-11 bg-gray-900/40 rounded-lg flex items-center justify-center text-gray-300 hover:text-white hover:bg-gradient-to-r hover:from-blue-500 hover:to-purple-600 transition-all shadow-sm"
-                      title={social.label}
-                    >
-                      <social.icon size={18} />
-                    </a>
-                  ))}
-                </div>
-              </div>
-            </motion.div>
-
-            {/* Contact Form */}
-            <motion.form
-              initial={{ opacity: 0, x: 30 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.5 }}
-              onSubmit={handleSubmit}
-              className="lg:col-span-2 bg-gradient-to-br from-gray-900/60 to-gray-800/60 rounded-2xl p-8 border border-gray-700 backdrop-blur-sm"
+              )
+            )}
+            <button
+              className="button button-primary"
+              type="submit"
+              disabled={pending || sent}
             >
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
-                <div>
-                  <label className="block text-white font-medium mb-2">{t('contact:form.name')}</label>
-                  <input
-                    type="text"
-                    name="name"
-                    value={formData.name}
-                    onChange={handleChange}
-                    required
-                    className="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all"
-                    placeholder={t('contact:form.namePlaceholder')}
-                  />
-                </div>
-                <div>
-                  <label className="block text-white font-medium mb-2">{t('contact:form.email')}</label>
-                  <input
-                    type="email"
-                    name="email"
-                    value={formData.email}
-                    onChange={handleChange}
-                    required
-                    className="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all"
-                    placeholder={t('contact:form.emailPlaceholder')}
-                  />
-                </div>
-              </div>
-
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
-                <div>
-                  <label className="block text-white font-medium mb-2">{t('contact:form.phone')}</label>
-                  <input
-                    type="tel"
-                    name="phone"
-                    value={formData.phone}
-                    onChange={handleChange}
-                    className="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all"
-                    placeholder={t('contact:form.phonePlaceholder')}
-                  />
-                </div>
-                <div>
-                  <label className="block text-white font-medium mb-2">{t('contact:form.subject')}</label>
-                  <input
-                    type="text"
-                    name="subject"
-                    value={formData.subject}
-                    onChange={handleChange}
-                    required
-                    className="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all"
-                    placeholder={t('contact:form.subjectPlaceholder')}
-                  />
-                </div>
-              </div>
-
-              <div className="mb-6">
-                <label className="block text-white font-medium mb-2">{t('contact:form.message')}</label>
-                <textarea
-                  name="message"
-                  value={formData.message}
-                  onChange={handleChange}
-                  required
-                  rows={6}
-                  className="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all resize-none"
-                  placeholder={t('contact:form.messagePlaceholder')}
-                ></textarea>
-              </div>
-
-              <button
-                type="submit"
-                disabled={isLoading}
-                className="w-full px-6 py-3 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg text-white font-semibold hover:shadow-lg hover:shadow-purple-500/50 transition-all flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed"
+              {localizeContent(
+                pending
+                  ? 'Sending…'
+                  : sent
+                    ? 'Inquiry sent'
+                    : form.method === 'WhatsApp'
+                      ? 'Continue on WhatsApp'
+                      : 'Send project inquiry'
+              )}
+              <ArrowUpRight size={18} />
+            </button>
+            <p className="form-help">
+              {localizeContent(
+                form.method === 'WhatsApp'
+                  ? 'Opens your completed brief in WhatsApp. Tap Send there to finish.'
+                  : 'Send your brief directly from this form. We’ll reply using your contact details.'
+              )}
+            </p>
+          </form>
+          {localizeContent(
+            ready && (
+              <div
+                className="inquiry-result"
+                ref={result}
+                tabIndex={-1}
+                role="status"
               >
-                <Send size={20} /> {isLoading ? 'Sending...' : t('contact:form.send')}
-              </button>
-            </motion.form>
-          </div>
-        </div>
-      </section>
-
-      {/* Map Section */}
-      <section className="py-12 bg-gradient-to-b from-gray-900 to-black relative overflow-hidden">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
-            className="text-center mb-8"
-          >
-            <h2 className="text-3xl md:text-4xl font-extrabold mb-2">
-              <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-                {t('contact:location.title')}
-              </span>
-            </h2>
-            <p className="text-gray-400">{t('contact:location.subtitle')}</p>
-          </motion.div>
-
-          <motion.div
-            initial={{ opacity: 0, scale: 0.98 }}
-            whileInView={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.5 }}
-            className="relative bg-gradient-to-br from-gray-900 to-gray-800 rounded-2xl overflow-hidden border border-gray-700 h-80 shadow-lg"
-          >
-            <iframe
-              width="100%"
-              height="100%"
-              frameBorder="0"
-              title="Rayan Tech Solutions Location"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3367.0!2d69.2075!3d34.5553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38d16feb5e5e5e5e%3A0x5e5e5e5e5e5e5e5e!2sKabul%2C%20Afghanistan!5e0!3m2!1sen!2s!4v1234567890"
-              allowFullScreen={true}
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-              className="grayscale hover:grayscale-0 transition-all w-full h-full"
-            ></iframe>
-
-            <div className="absolute left-4 top-4 bg-black/60 rounded-lg p-3 border border-white/6 backdrop-blur-sm">
-              <h4 className="text-sm font-semibold text-white">Our Office</h4>
-              <p className="text-xs text-gray-300">{COMPANY_ADDRESS}</p>
-              <div className="mt-2 flex gap-2">
-                <a href={`mailto:${COMPANY_EMAIL}`} className="text-xs text-gray-300 hover:text-white">Email</a>
-                <span className="text-gray-600">•</span>
-                <a href={`tel:${COMPANY_PHONE}`} className="text-xs text-gray-300 hover:text-white">Call</a>
-              </div>
-            </div>
-          </motion.div>
-        </div>
-      </section>
-
-      {/* FAQ Section */}
-      <section className="py-12 bg-black">
-        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
-            className="text-center mb-16"
-          >
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">
-              <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-                {t('contact:faq.title')}
-              </span>
-            </h2>
-          </motion.div>
-
-          <div className="space-y-4">
-            {(t('contact:faq.questions', { returnObjects: true }) as any[])?.map((faq: any, idx: number) => (
-              <motion.div
-                key={idx}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: idx * 0.1 }}
-              >
-                <details className="group rounded-2xl border border-white/10 bg-gradient-to-br from-white/5 to-transparent p-6 open:border-blue-400/50 open:shadow-lg open:shadow-blue-500/10 transition-all">
-                  <summary className="cursor-pointer list-none text-lg font-semibold text-white flex items-center justify-between">
-                    <span>{faq.q}</span>
-                    <span className="ml-4 text-blue-300 transition-transform group-open:rotate-180">+</span>
-                  </summary>
-                  <p className="text-gray-400 mt-4 leading-relaxed">{faq.a}</p>
+                <span className="result-icon">
+                  <Check size={22} />
+                </span>
+                <h2>
+                  {localizeContent(
+                    sent
+                      ? 'Your project inquiry has been sent.'
+                      : 'Continue your inquiry on WhatsApp.'
+                  )}
+                </h2>
+                <p>
+                  {localizeContent(
+                    sent
+                      ? 'Your brief was accepted by our email service. We’ll follow up using the contact details you provided.'
+                      : 'WhatsApp opens with your completed brief. Review the message and tap Send. If it did not open, use the button below.'
+                  )}
+                </p>
+                {localizeContent(
+                  !sent && (
+                    <div className="hero-actions">
+                      <a
+                        className="button button-outline"
+                        href={
+                          SOCIAL_LINKS.whatsapp +
+                          '?text=' +
+                          encodeURIComponent(text)
+                        }
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <MessageCircle size={17} />
+                        {localizeText('Send via WhatsApp')}
+                      </a>
+                    </div>
+                  )
+                )}
+                <details>
+                  <summary>{localizeText('Review inquiry text')}</summary>
+                  <pre>{localizeContent(text)}</pre>
                 </details>
-              </motion.div>
-            ))}
-          </div>
+                <button className="text-link" onClick={copy}>
+                  <Copy size={15} />
+                  {localizeContent(
+                    copied ? 'Copied to clipboard' : 'Copy inquiry'
+                  )}
+                </button>
+                {localizeContent(
+                  copyError && <p role="alert">{localizeContent(copyError)}</p>
+                )}
+              </div>
+            )
+          )}
         </div>
+        <aside className="contact-aside">
+          <EditorialVisual kind="design" compact />
+          <h2>
+            {localizeText('Let’s start with')}
+            <br />
+            {localizeText('your business.')}
+          </h2>
+          <p>
+            {localizeText(
+              'No need for a finished specification. Tell us what you’re trying to achieve and where the work gets difficult.'
+            )}
+          </p>
+          <div className="contact-details">
+            <a href={'mailto:' + COMPANY_EMAIL}>
+              <Mail size={20} />
+              <span>
+                <small>{localizeText('Email')}</small>
+                {localizeContent(COMPANY_EMAIL)}
+              </span>
+            </a>
+            <a href={'tel:' + COMPANY_PHONE.replaceAll(' ', '')}>
+              <Phone size={20} />
+              <span>
+                <small>{localizeText('Phone / WhatsApp')}</small>
+                {localizeContent(COMPANY_PHONE)}
+              </span>
+            </a>
+            <div>
+              <MapPin size={20} />
+              <span>
+                <small>{localizeText('Based in')}</small>
+                {localizeContent(COMPANY_ADDRESS)}
+              </span>
+            </div>
+          </div>
+          <a
+            className="text-link"
+            href={SOCIAL_LINKS.whatsapp}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {localizeText('Start on WhatsApp ')}
+            <ArrowUpRight size={18} />
+          </a>
+          <div className="contact-expectations">
+            <h3>{localizeText('What happens next?')}</h3>
+            <ol>
+              <li>{localizeText('We review the business context.')}</li>
+              <li>{localizeText('We clarify requirements and priorities.')}</li>
+              <li>
+                {localizeText('We discuss scope and a delivery approach.')}
+              </li>
+            </ol>
+          </div>
+        </aside>
+      </div>
+      <section className="faq-section section">
+        <span className="eyebrow">{localizeText('BEFORE WE START')}</span>
+        <h2>{localizeText('A few useful answers.')}</h2>
+        {localizeContent(
+          [
+            [
+              'Do I need a complete project specification?',
+              'No. Start with the business problem and the people who will use the system. We can discuss workflows and priorities with you.',
+            ],
+            [
+              'How are cost and timeline determined?',
+              'Cost and delivery depend on scope, integrations, data requirements, and the agreed milestones. We discuss these after understanding the project.',
+            ],
+            [
+              'Can you improve existing software?',
+              'We can review the existing code, architecture, and workflows to identify a practical improvement plan.',
+            ],
+            [
+              'What happens after launch?',
+              'Maintenance, updates, monitoring, and technical support can be scoped as part of the project agreement.',
+            ],
+          ].map(([question, answer]) => (
+            <details key={question}>
+              <summary>
+                {localizeContent(question)}
+                <span aria-hidden="true">+</span>
+              </summary>
+              <p>{localizeContent(answer)}</p>
+            </details>
+          ))
+        )}
       </section>
     </div>
   )

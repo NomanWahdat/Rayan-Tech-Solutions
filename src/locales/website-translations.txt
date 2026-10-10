@@ -1,0 +1,689 @@
+# English source | Afghan Dari | Pashto
+Home|خانه|کور
+Services|خدمات|خدمات
+Solutions|راهکارها|حل لارې
+Industries|بخش‌های کاری|کاري برخې
+Portfolio|پروژه‌ها|پروژې
+Products|محصولات|محصولات
+Technologies|تکنالوژی‌ها|ټکنالوژۍ
+About|درباره ما|زموږ په اړه
+About us|درباره ما|زموږ په اړه
+Contact|تماس|اړیکه
+Start a project|پروژه خود را آغاز کنید|خپله پروژه پیل کړئ
+Explore our work|کارهای ما را ببینید|زموږ کارونه وګورئ
+Skip to main content|رفتن به محتوای اصلی|اصلي منځپانګې ته لاړ شئ
+Loading page…|صفحه در حال بارگذاری است…|پاڼه د پورته کېدو په حال کې ده…
+Website language|زبان ویب‌سایت|د وېبپاڼې ژبه
+Open navigation|باز کردن فهرست|غورنۍ پرانیزئ
+Close navigation|بستن فهرست|غورنۍ وتړئ
+Main navigation|فهرست اصلی|اصلي غورنۍ
+More company pages|صفحه‌های بیشتر شرکت|د شرکت نورې پاڼې
+Resume headline animation|ادامه حرکت عنوان|د سرلیک خوځښت بیا پیل کړئ
+Pause headline animation|توقف حرکت عنوان|د سرلیک خوځښت ودروئ
+Resume services headline animation|ادامه حرکت عنوان خدمات|د خدماتو د سرلیک خوځښت بیا پیل کړئ
+Pause services headline animation|توقف حرکت عنوان خدمات|د خدماتو د سرلیک خوځښت ودروئ
+SELECTED WORK / REAL BUSINESS CONTEXT|کارهای برگزیده / نیازهای واقعی کسب‌وکار|غوره شوي کارونه / د سوداګرۍ رښتینې اړتیاوې
+Software with a|سافت‌ویر با|د سافټویر جوړول د
+real business purpose.|هدف روشن تجاری.|سوداګرۍ د رښتینې اړتیا لپاره
+From marketplaces to management systems. Explore the context, scope, and thinking behind our projects. Dashboard covers introduce each product; real screenshots appear in its case study.|از بازارهای آنلاین تا سیستم‌های مدیریتی؛ زمینه، محدوده و رویکرد پروژه‌های ما را ببینید. تصویر داشبورد هر محصول را معرفی می‌کند و تصاویر واقعی در شرح پروژه آمده است.|له آنلاین بازارونو تر مدیریتي سیسټمونو؛ زموږ د پروژو شالید، کاري حدود او تګلاره وګورئ. د ډشبورډ انځور هر محصول معرفي کوي او اصلي سکرین‌شاټونه یې د پروژې په تفصیل کې دي.
+Explore the portfolio|پروژه‌های ما را ببینید|زموږ پروژې وګورئ
+WHAT WE DO|چه می‌سازیم|موږ څه جوړوو
+Software for the way|سافت‌ویر متناسب با|ستاسو د سوداګرۍ
+your business works.|روش کار شما.|له کاري بهیر سره سم سافټویر
+All services|همه خدمات|ټول خدمات
+Custom software|سافت‌ویر اختصاصی|ځانګړی سافټویر
+Web applications|برنامه‌های تحت وب|وېب اپلېکېشنونه
+Business systems|سیستم‌های تجاری|سوداګریز سیسټمونه
+Mobile applications|اپلیکیشن‌های موبایل|موبایل اپلېکېشنونه
+E-commerce|تجارت الکترونیکی|برېښنايي سوداګري
+AI & automation|هوش مصنوعی و خودکارسازی|مصنوعي ځیرکتیا او اتومات کول
+Purpose-built systems for the way your business works.|سیستم‌های اختصاصی مطابق روش کار کسب‌وکار شما.|ستاسو د سوداګرۍ د کاري بهیر لپاره ځانګړي سیسټمونه.
+Connected portals, platforms, and useful digital products.|پورتال‌ها، پلتفرم‌ها و محصولات دیجیتالی کاربردی و متصل.|تړلي پورټلونه، پلېټفارمونه او ګټور ډیجیټلي محصولات.
+Bring sales, stock, people, and operations together.|فروش، موجودی، کارکنان و عملیات را یکجا کنید.|پلور، زېرمه، کارکوونکي او عملیات سره یوځای کړئ.
+Clear, practical experiences for Android and iOS.|تجربه‌های ساده و کاربردی برای اندروید و iOS.|د Android او iOS لپاره روښانه او عملي تجربې.
+Connect products, sellers, customers, and orders.|محصولات، فروشندگان، مشتریان و سفارش‌ها را به هم وصل کنید.|محصولات، پلورونکي، پېرودونکي او سپارښتنې سره وتړئ.
+Thoughtful automation for repeated business tasks.|خودکارسازی سنجیده برای کارهای تکراری کسب‌وکار.|د سوداګرۍ د تکراري کارونو لپاره سنجول شوی اتومات بهیر.
+BUILT WITH INTENT|ساخته‌شده با هدف روشن|په روښانه موخه جوړ شوی
+Good software understands|سافت‌ویر خوب، نیازهای|ښه سافټویر د سوداګرۍ
+the business behind it.|کسب‌وکار را می‌شناسد.|اړتیاوې درک کوي
+Our approach|رویکرد ما|زموږ تګلاره
+Your workflow comes first|روش کار شما در اولویت است|ستاسو کاري بهیر لومړیتوب لري
+We start with the people, processes, and decisions the system needs to support.|از کاربران، روندها و تصمیم‌هایی آغاز می‌کنیم که سیستم باید پشتیبانی کند.|موږ له هغو کاروونکو، بهیرونو او پرېکړو پیلوو چې سیسټم یې باید ملاتړ وکړي.
+Clarity throughout delivery|شفافیت در تمام مراحل تحویل|د سپارلو په ټولو پړاوونو کې روڼتیا
+Defined scope, reviewable milestones, and direct communication keep the work understandable.|محدوده روشن، مراحل قابل بررسی و ارتباط مستقیم، کار را قابل فهم نگه می‌دارد.|روښانه کاري حدود، د ارزونې وړ پړاوونه او مستقیمې اړیکې کار د پوهېدو وړ ساتي.
+A foundation for the long term|بنیادی برای درازمدت|د اوږدې مودې لپاره بنسټ
+Maintainable code, deliberate access control, and a plan for ongoing support.|کُد قابل نگهداری، کنترل دسترسی سنجیده و برنامه پشتیبانی دوامدار.|د ساتنې وړ کوډ، سنجول شوی د لاسرسي کنټرول او د دوامدار ملاتړ پلان.
+FROM SEPARATE TASKS TO CONNECTED WORK|از کارهای پراکنده تا روندهای متصل|له بېلو دندو تر تړلي کاره
+One system.|یک سیستم.|یو سیسټم
+A clearer working day.|کار روزانه روشن‌تر.|روښانه ورځنی کار
+Your sales, inventory, people, and reporting should work together. We build the connections around your actual operation.|فروش، موجودی، کارکنان و گزارش‌دهی باید هماهنگ باشند. این ارتباط را مطابق عملیات واقعی شما می‌سازیم.|پلور، زېرمه، کارکوونکي او راپورونه باید یوځای کار وکړي. موږ دا اړیکې ستاسو د رښتینو عملیاتو پر بنسټ جوړوو.
+ACROSS INDUSTRIES|در بخش‌های مختلف|په بېلابېلو کاري برخو کې
+Different businesses.|کسب‌وکارهای متفاوت.|بېلابېلې سوداګرۍ
+Specific software.|سافت‌ویر متناسب.|ځانګړی سافټویر
+Explore industries|بخش‌های کاری را ببینید|کاري برخې وګورئ
+LET’S BUILD WHAT’S NEXT|برای گام بعدی بسازیم|د راتلونکي ګام لپاره یې جوړ کړو
+Tell us what you need to build.|بگویید چه می‌خواهید بسازید.|ووایئ څه جوړول غواړئ.
+Tell us what your business needs. We’ll help define the right next step.|نیاز کسب‌وکار خود را بگویید. در تعیین گام بعدی مناسب کمک می‌کنیم.|د خپلې سوداګرۍ اړتیا راته ووایئ. د مناسب بل ګام په ټاکلو کې مرسته کوو.
+HOW WE WORK|روش کار ما|زموږ کاري بهیر
+A clear path.|مسیر روشن.|روښانه لاره
+From idea to everyday use.|از ایده تا استفاده روزانه.|له مفکورې تر ورځني استعماله
+Understand the work first. Build in stages. Keep you involved at every step.|اول کار را می‌شناسیم، مرحله‌وار می‌سازیم و شما را در هر گام شریک می‌کنیم.|لومړی کار پېژنو، په پړاوونو کې یې جوړوو او تاسو په هر ګام کې شریک ساتو.
+THE PEOPLE BEHIND THE WORK|افراد پشت این کارها|د دې کار تر شا کسان
+Meet your engineering team.|با تیم انجنیری خود آشنا شوید.|له خپل انجنیري ټیم سره اشنا شئ.
+The people who turn your requirements into working software.|کسانی که نیازهای شما را به سافت‌ویر قابل استفاده تبدیل می‌کنند.|هغه کسان چې ستاسو اړتیاوې په کارېدونکي سافټویر بدلوي.
+Get to know Rayan|با رایان آشنا شوید|له رایان سره اشنا شئ
+Noman Wahdat|نعمان وحدت|نعمان وحدت
+Khoshal Amin|خوشحال امین|خوشحال امین
+Fazlullah Sardarkhil|فضل‌الله سردارخیل|فضل الله سردارخېل
+Akmal Stanikzai|اکمل ستانکزی|اکمل ستانکزی
+Full Stack Developer|توسعه‌دهنده فول‌استک|فول سټک پراختیاکوونکی
+Lead Backend Developer|مسئول توسعه بخش سرور|د بکېنډ د پراختیا مشر
+Architecture & Infrastructure|معماری و زیربنا|معماري او زیربنا
+Lead Frontend Developer|مسئول توسعه رابط کاربر|د فرنټېنډ د پراختیا مشر
+Kabul, Afghanistan|کابل، افغانستان|کابل، افغانستان
+IDEAS → CONNECTED SYSTEMS|ایده‌ها ← سیستم‌های متصل|مفکورې ← تړلي سیسټمونه
+Business workspace|محیط کاری کسب‌وکار|سوداګریز کاري چاپېریال
+CONNECTED OPERATIONS|عملیات متصل|تړلي عملیات
+A clearer way to work.|روشی روشن‌تر برای کار.|د کار کولو روښانه لاره.
+Operations|عملیات|عملیات
+Your data|داده‌های شما|ستاسو معلومات
+Integrations|اتصال سیستم‌ها|د سیسټمونو نښلول
+People|افراد|کسان
+Your system|سیستم شما|ستاسو سیسټم
+Decisions|تصمیم‌ها|پرېکړې
+Designed around your business|طراحی‌شده مطابق کسب‌وکار شما|ستاسو د سوداګرۍ پر بنسټ ډیزاین شوی
+Complexity, made workable.|پیچیدگی، قابل مدیریت می‌شود.|پېچلتیا د اداره کولو وړ کېږي.
+Design + engineering, together.|طراحی و انجنیری در کنار هم.|ډیزاین او انجنیري یوځای.
+Built to fit.|ساخته‌شده مطابق نیاز.|له اړتیا سره سم جوړ شوی.
+Ready to evolve.|آماده رشد.|ودې ته چمتو.
+SYSTEM DESIGN ILLUSTRATION|تصویر توضیحی طراحی سیستم|د سیسټم د ډیزاین تشریحي انځور
+From the first idea to a working product|از نخستین ایده تا محصول قابل استفاده|له لومړۍ مفکورې تر کارېدونکي محصوله
+FROM THE FIRST IDEA|از نخستین ایده|له لومړۍ مفکورې
+To a working|تا یک|تر یوه کارېدونکي
+product.|محصول|محصول
+Delivery stages|مراحل اجرای پروژه|د پروژې د پلي کولو پړاوونه
+Strategy|استراتژی|تګلاره
+Development|توسعه|پراختیا
+Long-term support|پشتیبانی درازمدت|اوږدمهاله ملاتړ
+Start with a clear direction.|با مسیر روشن آغاز کنید.|په روښانه لوري پیل وکړئ.
+Understand the workflow, define the priorities, and agree on what the software needs to achieve.|روند کار را بشناسیم، اولویت‌ها را تعیین کنیم و درباره هدف سافت‌ویر به توافق برسیم.|کاري بهیر وپېژنو، لومړیتوبونه وټاکو او د سافټویر پر موخو سلا شو.
+A shared brief and delivery plan|شرح مشترک پروژه و برنامه تحویل|د پروژې ګډه طرحه او د سپارلو پلان
+Make the important things intuitive.|کارهای مهم را ساده و قابل فهم بسازید.|مهم کارونه اسانه او د پوهېدو وړ کړئ.
+Turn requirements into practical journeys, clear interfaces, and a design that works across devices.|نیازها را به مسیرهای کاربردی، رابط‌های روشن و طراحی سازگار با دستگاه‌های مختلف تبدیل کنیم.|اړتیاوې په عملي بهیرونو، روښانه رابطو او د بېلابېلو وسیلو لپاره مناسب ډیزاین بدل کړو.
+Workflows and interfaces to review|روندها و رابط‌های قابل بررسی|د ارزونې لپاره کاري بهیرونه او رابطې
+Build a dependable foundation.|بنیادی قابل اعتماد بسازید.|باوري بنسټ جوړ کړئ.
+Develop in reviewable stages, connect your data, and test the workflows before release.|در مراحل قابل بررسی توسعه دهیم، داده‌ها را وصل کنیم و پیش از انتشار روندها را آزمایش کنیم.|په ارزول کېدونکو پړاوونو کې پراختیا وکړو، معلومات سره وتړو او له خپرولو مخکې بهیرونه وازمویو.
+Working software and a documented handover|سافت‌ویر قابل استفاده و تحویل مستند|کارېدونکی سافټویر او مستند سپارل
+Keep the system moving forward.|سیستم را رو به پیش نگه دارید.|سیسټم د پرمختګ پر لور روان وساتئ.
+Plan maintenance, resolve issues, and make considered improvements as your business changes.|نگهداری را برنامه‌ریزی کنیم، مشکلات را حل کنیم و همراه تغییر کسب‌وکار، بهبودهای سنجیده انجام دهیم.|د ساتنې پلان جوړ کړو، ستونزې حل کړو او د سوداګرۍ له بدلون سره سم سنجول شوي پرمختګونه وکړو.
+A plan for maintenance and improvements|برنامه نگهداری و بهبود|د ساتنې او ښه والي پلان
+Thoughtful design.|طراحی سنجیده.|سنجول شوی ډیزاین
+Dependable engineering.|انجنیری قابل اعتماد.|باوري انجنیري
+Software built around your business.|سافت‌ویر مطابق کسب‌وکار شما.|ستاسو د سوداګرۍ پر بنسټ جوړ شوی سافټویر
+Explore|ببینید|وګورئ
+What we build|چه می‌سازیم|موږ څه جوړوو
+Let’s talk|گفتگو کنیم|راځئ خبرې وکړو
+Message on WhatsApp|پیام در واتساپ|په واټس‌اپ پیغام
+Tell us about your project|درباره پروژه خود بگویید|د خپلې پروژې په اړه راته ووایئ
+Rayan Tech Solutions. All rights reserved.|رایان تک سولوشنز. تمامی حقوق محفوظ است.|رایان ټېک سولوشنز. ټول حقوق خوندي دي.
+Privacy policy|پالیسی حفظ حریم خصوصی|د محرمیت تګلاره
+Terms & conditions|شرایط و ضوابط|شرایط او مقررات
+Back to top ↑|بازگشت به بالا ↑|بېرته پورته ↑
+SOFTWARE DEVELOPMENT SERVICES|خدمات توسعه سافت‌ویر|د سافټویر د پراختیا خدمات
+Software expertise.|تخصص در سافت‌ویر.|د سافټویر تخصص
+Built around your|متناسب با|ستاسو اړتیاوو ته برابر
+business.|کسب‌وکار شما|سوداګریز سیسټمونه
+product.|محصول|محصول
+next idea.|ایده بعدی شما|راتلونکې مفکوره
+From the first workflow to the final release. We bring design, development, and long-term support together to build software your business can use.|از نخستین روند تا انتشار نهایی؛ طراحی، توسعه و پشتیبانی درازمدت را یکجا می‌کنیم تا سافت‌ویر کاربردی برای کسب‌وکار شما بسازیم.|له لومړي کاري بهیر تر وروستۍ خپرونې؛ ډیزاین، پراختیا او اوږدمهاله ملاتړ یوځای کوو، څو ستاسو سوداګرۍ ته ګټور سافټویر جوړ کړو.
+Let’s build your project|پروژه شما را بسازیم|راځئ ستاسو پروژه جوړه کړو
+Explore our capabilities|توانایی‌های ما را ببینید|زموږ وړتیاوې وګورئ
+OUR ENGINEERING CAPABILITIES|توانایی‌های انجنیری ما|زموږ انجنیري وړتیاوې
+Explore technologies|تکنالوژی‌ها را ببینید|ټکنالوژۍ وګورئ
+Choose your starting point.|نقطه آغاز خود را انتخاب کنید.|د پیل ځای وټاکئ.
+Products & platforms|محصولات و پلتفرم‌ها|محصولات او پلېټفارمونه
+Operations & automation|عملیات و خودکارسازی|عملیات او اتومات کول
+Design & delivery|طراحی و تحویل|ډیزاین او سپارل
+Discuss this service|درباره این خدمت گفتگو کنید|د دې خدمت په اړه خبرې وکړئ
+What we can deliver|چه می‌توانیم ارائه کنیم|څه وړاندې کولی شو
+WHERE IT FITS|موارد استفاده|د کارونې ځایونه
+Technology approach|رویکرد تکنالوژی|د ټکنالوژۍ تګلاره
+CONNECTED FROM THE START|متصل از آغاز|له پیله تړلي
+More than a list of services.|فراتر از یک فهرست خدمات.|د خدماتو له لېست څخه ډېر
+A considered way to build.|روشی سنجیده برای ساختن.|د جوړولو سنجول شوې تګلاره
+See the thinking behind our projects|رویکرد پروژه‌های ما را ببینید|زموږ د پروژو تګلاره وګورئ
+Start with the business|از کسب‌وکار آغاز کنید|له سوداګرۍ پیل وکړئ
+Understand the workflow before defining the solution.|پیش از تعیین راهکار، روند کار را بشناسید.|د حل لارې له ټاکلو مخکې کاري بهیر وپېژنئ.
+Make the experience clear|تجربه کاربری را روشن بسازید|د کارونې تجربه روښانه کړئ
+Design around the people who will use the software.|مطابق نیاز افرادی طراحی کنید که از سافت‌ویر استفاده می‌کنند.|ډیزاین د هغو کسانو د اړتیا پر بنسټ وکړئ چې سافټویر کاروي.
+Connect the right systems|سیستم‌های مناسب را وصل کنید|مناسب سیسټمونه سره وتړئ
+Build the interfaces, data, and integrations together.|رابط‌ها، داده‌ها و اتصال‌ها را یکجا بسازید.|رابطې، معلومات او نښلونې یوځای جوړې کړئ.
+Plan beyond the launch|برای پس از راه‌اندازی هم برنامه داشته باشید|له پیل وروسته وخت ته هم پلان جوړ کړئ
+Agree on handover, maintenance, and future improvements.|درباره تحویل، نگهداری و بهبودهای آینده توافق کنید.|د سپارلو، ساتنې او راتلونکو پرمختګونو په اړه سلا شئ.
+Let’s find the right starting point.|نقطه آغاز مناسب را پیدا کنیم.|راځئ د پیل مناسب ځای ومومو.
+THE ENGINEERING TOOLKIT|ابزارهای انجنیری|د انجنیري وسایل
+Your next product. The right technology.|محصول بعدی شما، با تکنالوژی مناسب.|ستاسو راتلونکی محصول، له مناسبې ټکنالوژۍ سره.
+Interfaces, data, infrastructure, and AI tools. Explore our documented capabilities, then choose a stack around the work your product needs to do.|رابط‌ها، داده‌ها، زیربنا و ابزارهای هوش مصنوعی؛ توانایی‌های مستند ما را ببینید و تکنالوژی را مطابق وظایف محصول خود انتخاب کنید.|رابطې، معلومات، زیربنا او د مصنوعي ځیرکتیا وسایل؛ زموږ مستندې وړتیاوې وګورئ او ټکنالوژي د خپل محصول د کار له مخې وټاکئ.
+Technology directory|فهرست تکنالوژی‌ها|د ټکنالوژیو لړلیک
+EXPLORE OUR EXPERTISE|تخصص ما را ببینید|زموږ تخصص وګورئ
+Find your technology.|تکنالوژی مناسب را پیدا کنید.|مناسبه ټکنالوژي ومومئ.
+Search technologies|جستجوی تکنالوژی‌ها|ټکنالوژۍ ولټوئ
+Search a technology…|جستجوی یک تکنالوژی…|ټکنالوژي ولټوئ…
+Filter technologies|فیلتر تکنالوژی‌ها|ټکنالوژۍ چاڼ کړئ
+All technologies|همه تکنالوژی‌ها|ټولې ټکنالوژۍ
+capability|توانایی|وړتیا
+capabilities|توانایی|وړتیاوې
+across the engineering toolkit|در مجموعه ابزارهای انجنیری|د انجنیري په وسایلو کې
+Clear filters|پاک کردن فیلترها|چاڼونه پاک کړئ
+No matching technology.|تکنالوژی مطابق جستجو یافت نشد.|له لټون سره برابره ټکنالوژي ونه موندل شوه.
+Try another name or clear the filters to see our full toolkit.|نام دیگری را جستجو کنید یا فیلترها را پاک کنید تا تمام ابزارها را ببینید.|بل نوم ولټوئ یا چاڼونه پاک کړئ، څو ټول وسایل وګورئ.
+Show all technologies|نمایش همه تکنالوژی‌ها|ټولې ټکنالوژۍ وښایئ
+THE STACK FOLLOWS THE PROBLEM|تکنالوژی مطابق مسئله انتخاب می‌شود|ټکنالوژي د ستونزې له مخې ټاکل کېږي
+Choose for the work.|مطابق کار انتخاب کنید.|د کار له مخې یې وټاکئ
+Build for what’s next.|برای نیازهای آینده بسازید.|د راتلونکو اړتیاوو لپاره یې جوړ کړئ
+Data requirements, deployment constraints, maintainability, and the people using the system shape the architecture. We discuss these before recommending a stack.|نیازهای داده، محدودیت‌های استقرار، نگهداری و کاربران، معماری را شکل می‌دهند. پیش از پیشنهاد تکنالوژی، این موارد را بررسی می‌کنیم.|د معلوماتو اړتیاوې، د ځای پر ځای کولو محدودیتونه، ساتنه او کاروونکي معماري ټاکي. د ټکنالوژۍ له وړاندیز مخکې پر دې مواردو خبرې کوو.
+These are company capabilities. Confirmed technologies for individual projects are documented in their case studies.|این‌ها توانایی‌های شرکت‌اند. تکنالوژی‌های تأییدشده هر پروژه در شرح همان پروژه آمده است.|دا د شرکت وړتیاوې دي. د هرې پروژې تایید شوې ټکنالوژۍ یې په تفصیل کې ثبت دي.
+Explore the engineering portfolio|پروژه‌های انجنیری را ببینید|انجنیري پروژې وګورئ
+Frontend|رابط کاربر|فرنټېنډ
+Backend|بخش سرور|بکېنډ
+Mobile|موبایل|موبایل
+Databases|دیتابیس‌ها|ډیټابېسونه
+Cloud|خدمات ابری|کلاوډ
+DevOps|توسعه و عملیات|پراختیا او عملیات
+AI|هوش مصنوعی|مصنوعي ځیرکتیا
+Tools & APIs|ابزارها و APIها|وسایل او API ګانې
+Cloud deployment|استقرار ابری|په کلاوډ کې ځای پر ځای کول
+Release workflows|روندهای انتشار|د خپرولو بهیرونه
+Python-based integrations|اتصال‌ها با پایتون|د Python پر بنسټ نښلونې
+JWT authentication|احراز هویت با JWT|د JWT له لارې د هویت تایید
+OTP workflows|روندهای رمز یک‌بارمصرف|د یو ځل کارېدونکي کوډ بهیرونه
+API integration|اتصال API|د API نښلول
+THE ENGINEERING PORTFOLIO|پروژه‌های انجنیری|انجنیري پروژې
+Real work. Clear thinking. Useful software.|کار واقعی، رویکرد روشن، سافت‌ویر کاربردی.|رښتینی کار، روښانه تګلاره، ګټور سافټویر.
+Explore the business context behind our software projects, alongside clearly labeled concepts for future solutions. Go beyond the interface: understand the problem, scope, and engineering approach.|زمینه تجاری پروژه‌های ما و طرح‌های مشخص‌شده برای راهکارهای آینده را ببینید. فراتر از ظاهر، مسئله، محدوده و رویکرد انجنیری را بشناسید.|زموږ د پروژو سوداګریز شالید او د راتلونکو حل لارو په څرګنده نومول شوې مفکورې وګورئ. له ظاهره وړاندې، ستونزه، حدود او انجنیري تګلاره وپېژنئ.
+Card images are designed dashboard previews. Available project screenshots and verified implementation details appear in each case study.|تصاویر کارت‌ها، پیش‌نمایش‌های طراحی‌شده داشبورد هستند. تصاویر واقعی موجود و جزئیات تأییدشده در شرح هر پروژه آمده‌اند.|د کارتونو انځورونه د ډشبورډ ډیزاین شوې مخکتنې دي. موجود اصلي سکرین‌شاټونه او تایید شوي جزئیات د هرې پروژې په تفصیل کې دي.
+Filter by project category|فیلتر بر اساس نوع پروژه|د پروژې د ډول له مخې چاڼ
+All work|همه پروژه‌ها|ټولې پروژې
+Search projects|جستجوی پروژه‌ها|پروژې ولټوئ
+Find a project…|جستجوی پروژه…|پروژه ولټوئ…
+Industry|بخش کاری|کاري برخه
+Technology|تکنالوژی|ټکنالوژي
+Project status|وضعیت پروژه|د پروژې حالت
+All industries|همه بخش‌ها|ټولې کاري برخې
+All project types|همه انواع پروژه|د پروژو ټول ډولونه
+Company projects|پروژه‌های شرکت|د شرکت پروژې
+Concept projects|طرح‌های مفهومی|مفکوروي پروژې
+project|پروژه|پروژه
+projects|پروژه|پروژې
+matching your filters|مطابق فیلترهای شما|ستاسو له چاڼونو سره برابرې
+· Company work and concept briefs|· پروژه‌های شرکت و طرح‌های مفهومی|· د شرکت کارونه او مفکوروي طرحې
+No projects match these filters.|پروژه‌ای مطابق این فیلترها یافت نشد.|له دې چاڼونو سره برابره پروژه ونه موندل شوه.
+Try a different search or explore all of our work.|جستجوی دیگری انجام دهید یا همه پروژه‌های ما را ببینید.|بل لټون وکړئ یا زموږ ټولې پروژې وګورئ.
+Show all projects|نمایش همه پروژه‌ها|ټولې پروژې وښایئ
+Have a similar business challenge?|با مشکل مشابه روبه‌رو هستید؟|له ورته سوداګریزې ستونزې سره مخ یاست؟
+Real Project|پروژه واقعی|رښتینې پروژه
+Portfolio Project|پروژه معرفی‌شده شرکت|د شرکت معرفي شوې پروژه
+Concept Project|طرح مفهومی|مفکوروي پروژه
+Prototype|نمونه آزمایشی|ازمایښتي نمونه
+Production|در حال بهره‌برداری|د کارونې په حال کې
+View case study|شرح پروژه را ببینید|د پروژې تفصیل وګورئ
+Case Study|شرح پروژه|د پروژې تفصیل
+generated dashboard preview with Rayan branding|پیش‌نمایش طراحی‌شده داشبورد با نشان رایان|د رایان په نښه د ډشبورډ ډیزاین شوې مخکتنه
+related software illustration, not a project screenshot|تصویر توضیحی مرتبط با سافت‌ویر؛ تصویر واقعی پروژه نیست|د سافټویر اړوند تشریحي انځور؛ د پروژې اصلي سکرین‌شاټ نه دی
+Concept illustration|تصویر طرح مفهومی|د مفکورې تشریحي انځور
+Project illustration|تصویر توضیحی پروژه|د پروژې تشریحي انځور
+Back to portfolio|بازگشت به پروژه‌ها|بېرته پروژو ته
+Read project overview|خواندن معرفی پروژه|د پروژې پېژندنه ولولئ
+INSIDE THE PROJECT|درون پروژه|د پروژې دننه
+Case study contents|فهرست شرح پروژه|د پروژې د تفصیل منځپانګه
+Overview|معرفی|پېژندنه
+Problem & goals|مسئله و اهداف|ستونزه او موخې
+Approach & solution|رویکرد و راهکار|تګلاره او حل لاره
+Engineering|انجنیری|انجنیري
+Project gallery|تصاویر پروژه|د پروژې انځورونه
+Outcome|نتیجه|پایله
+Project type|نوع پروژه|د پروژې ډول
+Status|وضعیت|حالت
+Role|نقش|دنده
+Project overview|معرفی پروژه|د پروژې پېژندنه
+Services / scope|خدمات / محدوده|خدمات / کاري حدود
+Contributors|همکاران پروژه|د پروژې همکاران
+The business problem|مسئله کسب‌وکار|سوداګریزه ستونزه
+Goals, requirements & constraints|اهداف، نیازها و محدودیت‌ها|موخې، اړتیاوې او محدودیتونه
+Working constraints|محدودیت‌های کار|کاري محدودیتونه
+Discovery & available context|بررسی اولیه و اطلاعات موجود|لومړنۍ څېړنه او موجود معلومات
+Proposed solution|راهکار پیشنهادی|وړاندیز شوې حل لاره
+Solution & documented scope|راهکار و محدوده مستند|حل لاره او مستند حدود
+Features & functional scope|قابلیت‌ها و محدوده عملکرد|ځانګړتیاوې او کاري حدود
+Proposed modules for this concept.|بخش‌های پیشنهادی این طرح مفهومی.|د دې مفکورې وړاندیز شوې برخې.
+Scope areas for review; implemented features have not yet been verified.|حوزه‌های نیازمند بررسی؛ قابلیت‌های اجراشده هنوز تأیید نشده‌اند.|د ارزونې برخې؛ پلي شوې ځانګړتیاوې لا تایید شوې نه دي.
+User experience & interface|تجربه کاربری و رابط|د کارونې تجربه او رابط
+System architecture|معماری سیستم|د سیسټم معماري
+Layers below show only the technology information currently documented for this project.|لایه‌های زیر فقط تکنالوژی‌های مستند فعلی این پروژه را نشان می‌دهند.|لاندې پوړونه یوازې د دې پروژې اوسني مستند ټکنالوژیک معلومات ښيي.
+Project architecture has not been supplied. The interface, application layer, database, and integrations will be documented when source information is available.|معماری پروژه ارائه نشده است. رابط، لایه برنامه، دیتابیس و اتصال‌ها پس از دریافت اطلاعات منبع مستند می‌شوند.|د پروژې معماري نه ده ورکړل شوې. رابط، د اپلېکېشن پوړ، ډیټابېس او نښلونې به د سرچینې د معلوماتو له ترلاسه کېدو وروسته ثبت شي.
+Technical implementation|اجرای تخنیکی|تخنیکي پلي کول
+Challenges & solutions|چالش‌ها و راهکارها|ستونزې او حل لارې
+A project-specific challenge log has not been provided. Technical incidents, tradeoffs, and their resolutions can be added here when verified.|فهرست چالش‌های این پروژه ارائه نشده است. رویدادهای تخنیکی، انتخاب‌ها و راهکارهای تأییدشده می‌توانند بعداً اضافه شوند.|د دې پروژې د ستونزو ثبت نه دی ورکړل شوی. تخنیکي پېښې، انتخابونه او تایید شوې حل لارې وروسته ورزیاتېدای شي.
+Results & outcome|نتایج و دستاورد|نتایج او پایله
+Inside the interface|درون رابط کاربر|د رابط دننه
+Captured interfaces are labeled with the screen and review context. Select an available screenshot to view it in detail.|تصاویر رابط با نام صفحه و زمینه بررسی مشخص شده‌اند. برای مشاهده جزئیات، یک تصویر موجود را انتخاب کنید.|د رابط انځورونه د پردې او ارزونې له معلوماتو سره نومول شوي دي. د تفصیل لپاره یو موجود سکرین‌شاټ وټاکئ.
+Technology stack|مجموعه تکنالوژی‌ها|د ټکنالوژیو مجموعه
+The technology stack is awaiting source confirmation. Hosting URLs are not used to infer frameworks or databases.|تکنالوژی‌ها نیازمند تأیید منبع هستند. از آدرس میزبانی، چارچوب یا دیتابیس حدس زده نمی‌شود.|ټکنالوژۍ د سرچینې تایید ته منتظرې دي. د کوربه‌توب له پتو چوکاټونه او ډیټابېسونه نه اټکل کېږي.
+Project links|پیوندهای پروژه|د پروژې لینکونه
+View live project|مشاهده پروژه آنلاین|ژوندۍ پروژه وګورئ
+View GitHub repository|مشاهده مخزن گیت‌هاب|د GitHub زېرمتون وګورئ
+Public project and repository links have not been added.|پیوندهای عمومی پروژه و مخزن اضافه نشده‌اند.|د پروژې او زېرمتون عامه لینکونه نه دي ورزیات شوي.
+A proposed solution direction, clearly distinguished from delivered work.|طرح پیشنهادی که از کار تحویل‌شده به‌روشنی جدا شده است.|وړاندیز شوې حل لاره چې له سپارل شوي کار څخه په څرګنده جلا ده.
+Production status recorded in the company profile; current operating details are not independently verified.|وضعیت بهره‌برداری در معرفی شرکت ثبت شده؛ جزئیات فعلی فعالیت به‌صورت مستقل تأیید نشده‌اند.|د کارونې حالت د شرکت په پېژندنه کې ثبت دی؛ اوسني عملیاتي جزئیات په خپلواکه توګه نه دي تایید شوي.
+A demonstration reference. Production use and final delivery are not claimed.|نمونه نمایشی؛ ادعای استفاده عملیاتی یا تحویل نهایی نمی‌شود.|یوه نمایشي نمونه؛ د عملي کارونې یا وروستي سپارلو ادعا نه کېږي.
+A company-supplied portfolio project. Delivery milestones and operational results are not documented.|پروژه معرفی‌شده شرکت؛ مراحل تحویل و نتایج عملیاتی مستند نیستند.|د شرکت معرفي شوې پروژه؛ د سپارلو پړاوونه او عملیاتي پایلې نه دي ثبت شوې.
+Explore related work|پروژه‌های مرتبط را ببینید|اړوندې پروژې وګورئ
+YOUR NEXT PROJECT|پروژه بعدی شما|ستاسو راتلونکې پروژه
+Reference inspected|مرجع بررسی‌شده در|سرچینه ارزول شوې په
+October 10, 2026|۱۰ اکتوبر ۲۰۲۶|۱۰ اکتوبر ۲۰۲۶
+. Screenshots show the available interface; sample records and figures are not verified operating results.|. تصاویر، رابط موجود را نشان می‌دهند؛ ارقام و سوابق نمونه، نتایج عملیاتی تأییدشده نیستند.|. سکرین‌شاټونه موجوده رابط ښيي؛ نمونوي ثبتونه او شمېرې تایید شوې عملیاتي پایلې نه دي.
+Close image preview|بستن پیش‌نمایش تصویر|د انځور مخکتنه وتړئ
+Previous image|تصویر قبلی|مخکینی انځور
+Next image|تصویر بعدی|راتلونکی انځور
+Screenshot to be added|تصویر بعداً اضافه می‌شود|سکرین‌شاټ به وروسته ورزیات شي
+Interface preview|پیش‌نمایش رابط|د رابط مخکتنه
+Real interface screenshots are not currently available for public review. The cover artwork illustrates this project’s domain.|تصاویر واقعی رابط فعلاً برای بررسی عمومی موجود نیستند. تصویر جلد، حوزه این پروژه را نشان می‌دهد.|د رابط اصلي سکرین‌شاټونه اوس د عامې ارزونې لپاره نشته. د پوښ انځور د پروژې کاري برخه څرګندوي.
+PRODUCTS & BUSINESS PLATFORMS|محصولات و پلتفرم‌های تجاری|محصولات او سوداګریز پلېټفارمونه
+A foundation for the next chapter.|بنیادی برای مرحله بعد.|د راتلونکي پړاو بنسټ.
+Explore software in our company portfolio. Each case study explains its documented scope and current status. Availability, licensing, customization, and support are discussed individually.|سافت‌ویرهای معرفی‌شده شرکت را ببینید. شرح هر پروژه، محدوده مستند و وضعیت فعلی آن را توضیح می‌دهد. دسترسی، جواز استفاده، اختصاصی‌سازی و پشتیبانی جداگانه بررسی می‌شوند.|د شرکت معرفي شوي سافټویرونه وګورئ. د هرې پروژې تفصیل یې مستند حدود او اوسنی حالت تشریح کوي. لاسرسی، جواز، ځانګړي کول او ملاتړ جلا بحث کېږي.
+Need a system adapted to your business?|سیستمی متناسب با کسب‌وکار خود نیاز دارید؟|ستاسو له سوداګرۍ سره برابر سیسټم ته اړتیا لرئ؟
+SOFTWARE FOR EVERYDAY OPERATIONS|سافت‌ویر برای عملیات روزانه|د ورځنیو عملیاتو لپاره سافټویر
+Your workflows. Better connected.|روندهای کاری شما، هماهنگ‌تر.|ستاسو کاري بهیرونه، لا ښه سره تړلي.
+Choose the business problem first. We can combine the right modules, permissions, and reporting into software that supports how your organization actually operates.|ابتدا مسئله کسب‌وکار را مشخص کنید. بخش‌ها، مجوزها و گزارش‌های مناسب را در سافت‌ویری ترکیب می‌کنیم که مطابق کار واقعی سازمان شما باشد.|لومړی سوداګریزه ستونزه وټاکئ. مناسبې برخې، اجازه‌لیکونه او راپورونه په داسې سافټویر کې یوځای کوو چې ستاسو د ادارې له رښتیني کار سره برابر وي.
+Your people|کارکنان شما|ستاسو کارکوونکي
+Clear roles and useful interfaces|نقش‌های روشن و رابط‌های کاربردی|روښانه دندې او ګټورې رابطې
+One connected workspace|یک محیط کاری متصل|یو تړلی کاري چاپېریال
+Shared records. Clear decisions.|سوابق مشترک، تصمیم‌های روشن.|ګډ ثبتونه، روښانه پرېکړې.
+Your operations|عملیات شما|ستاسو عملیات
+Workflows that fit the business|روندهای متناسب با کسب‌وکار|له سوداګرۍ سره برابر کاري بهیرونه
+Discuss your workflow|درباره روش کار خود گفتگو کنید|د خپل کاري بهیر په اړه خبرې وکړئ
+Start with what needs to work better.|از بخشی آغاز کنید که نیاز به بهبود دارد.|له هغه کاره پیل وکړئ چې ښه والي ته اړتیا لري.
+These are solution areas we can discuss and scope with you. Modules, integrations, security needs, and delivery plans are defined around each project.|این‌ها حوزه‌های راهکار هستند که با شما بررسی می‌کنیم. بخش‌ها، اتصال‌ها، نیازهای امنیتی و برنامه تحویل برای هر پروژه تعریف می‌شوند.|دا د حل لارو برخې دي چې له تاسو سره یې بحث او حدود ټاکو. برخې، نښلونې، امنیتي اړتیاوې او د سپارلو پلان د هرې پروژې له مخې ټاکل کېږي.
+Explore company projects and concepts|پروژه‌ها و طرح‌های شرکت را ببینید|د شرکت پروژې او مفکورې وګورئ
+BUSINESS CONTEXT COMES FIRST|زمینه کسب‌وکار در اولویت است|سوداګریز شالید لومړیتوب لري
+Different industries. Specific solutions.|بخش‌های متفاوت، راهکارهای اختصاصی.|بېلابېلې کاري برخې، ځانګړې حل لارې.
+A school, a pharmacy, and a cargo business all work differently. We shape software around the records, decisions, and responsibilities that matter in your industry.|روش کار مکتب، دواخانه و شرکت باربری متفاوت است. سافت‌ویر را مطابق سوابق، تصمیم‌ها و مسئولیت‌های مهم در بخش شما می‌سازیم.|د ښوونځي، درملتون او باروړونکي شرکت کار سره توپیر لري. سافټویر ستاسو د کاري برخې د مهمو ثبتونو، پرېکړو او دندو له مخې جوړوو.
+Explore relevant work|کارهای مرتبط را ببینید|اړوند کارونه وګورئ
+Discuss your industry|درباره بخش کاری خود گفتگو کنید|د خپلې کاري برخې په اړه خبرې وکړئ
+Let’s understand your operation.|عملیات شما را بشناسیم.|راځئ ستاسو عملیات وپېژنو.
+ABOUT RAYAN TECH SOLUTIONS|درباره رایان تک سولوشنز|د رایان ټېک سولوشنز په اړه
+Software built with|سافت‌ویر با درک|د سافټویر جوړول د
+business in mind.|نیاز کسب‌وکار.|سوداګرۍ د اړتیا پر بنسټ
+We are a software development company in Kabul, Afghanistan. We build custom business systems, web platforms, and digital products around the work our customers need to do.|ما یک شرکت توسعه سافت‌ویر در کابل، افغانستان هستیم. سیستم‌های تجاری اختصاصی، پلتفرم‌های وب و محصولات دیجیتالی را مطابق کار مورد نیاز مشتریان می‌سازیم.|موږ د افغانستان په کابل کې د سافټویر د پراختیا شرکت یو. ځانګړي سوداګریز سیسټمونه، وېب پلېټفارمونه او ډیجیټلي محصولات د پېرودونکو د اړتیا وړ کار پر بنسټ جوړوو.
+Work with us|با ما کار کنید|له موږ سره کار وکړئ
+Meet the team|با تیم آشنا شوید|له ټیم سره اشنا شئ
+Built in Kabul. Ready for your next chapter.|ساخته‌شده در کابل، آماده مرحله بعدی شما.|په کابل کې جوړ شوی، ستاسو راتلونکي پړاو ته چمتو.
+THE RAYAN APPROACH|رویکرد رایان|د رایان تګلاره
+Understand|شناخت|پېژندنه
+Your business sets the direction|کسب‌وکار شما مسیر را تعیین می‌کند|ستاسو سوداګري لوری ټاکي
+Give complex work a clear interface|برای کار پیچیده، رابط روشن بسازید|پېچلي کار ته روښانه رابط جوړه کړئ
+Build|ساختن|جوړول
+Engineer a foundation that can evolve|بنیادی بسازید که قابلیت رشد داشته باشد|د ودې وړ بنسټ جوړ کړئ
+Business, design, and engineering.|کسب‌وکار، طراحی و انجنیری.|سوداګري، ډیزاین او انجنیري
+One connected approach.|یک رویکرد هماهنگ.|یوه تړلې تګلاره
+OUR REASON FOR BUILDING|هدف ما از ساختن|زموږ د جوړولو موخه
+Technology should make your work|تکنالوژی باید کار شما را|ټکنالوژي باید ستاسو کار
+make sense.|روشن و قابل فهم کند.|روښانه او د پوهېدو وړ کړي
+When information is scattered and daily tasks depend on manual handoffs, software can help. The useful starting point is understanding the operation, rather than choosing a framework.|وقتی اطلاعات پراکنده و کارهای روزانه وابسته به انتقال دستی باشند، سافت‌ویر کمک می‌کند. نقطه آغاز مناسب، شناخت عملیات است، پیش از انتخاب چارچوب.|کله چې معلومات خپاره وي او ورځني کارونه په لاسي سپارلو پورې تړلي وي، سافټویر مرسته کولی شي. مناسب پیل د چوکاټ له ټاکلو مخکې د عملیاتو پېژندنه ده.
+We bring business requirements, interface design, and engineering into the same conversation. The aim is a system people can understand today and maintain tomorrow.|نیازهای تجاری، طراحی رابط و انجنیری را یکجا بررسی می‌کنیم. هدف، سیستمی است که امروز قابل فهم و فردا قابل نگهداری باشد.|سوداګریزې اړتیاوې، د رابط ډیزاین او انجنیري په یوه بحث کې یوځای کوو. موخه داسې سیسټم دی چې نن یې خلک وپېژني او سبا یې وساتلی شي.
+See how this takes shape|ببینید این رویکرد چگونه اجرا می‌شود|وګورئ دا تګلاره څنګه عملي کېږي
+Our mission and vision|مأموریت و چشم‌انداز ما|زموږ موخه او لیدلوری
+OUR MISSION|مأموریت ما|زموږ موخه
+Make everyday operations clearer.|عملیات روزانه را روشن‌تر بسازیم.|ورځني عملیات روښانه کړو.
+Build practical, maintainable software that connects information, reduces repeated work, and helps businesses operate with greater clarity.|سافت‌ویر کاربردی و قابل نگهداری بسازیم که اطلاعات را وصل کند، کار تکراری را کاهش دهد و به فعالیت روشن‌تر کسب‌وکارها کمک کند.|عملي او د ساتنې وړ سافټویر جوړ کړو چې معلومات سره وتړي، تکراري کار کم کړي او سوداګرۍ ته په روښانه فعالیت کې مرسته وکړي.
+OUR VISION|چشم‌انداز ما|زموږ لیدلوری
+Build lasting engineering partnerships.|همکاری‌های پایدار انجنیری بسازیم.|دوامدارې انجنیري همکارۍ جوړې کړو.
+Help businesses in Afghanistan and beyond develop dependable digital foundations, with thoughtful design and sustained technical support.|با طراحی سنجیده و پشتیبانی تخنیکی دوامدار، به کسب‌وکارهای افغانستان و فراتر از آن در ساخت زیربنای دیجیتالی قابل اعتماد کمک کنیم.|په سنجول شوي ډیزاین او دوامدار تخنیکي ملاتړ د افغانستان او نورو هېوادونو سوداګریو ته د باوري ډیجیټلي بنسټ په جوړولو کې مرسته وکړو.
+OUR ENGINEERING PHILOSOPHY|فلسفه انجنیری ما|زموږ انجنیري لید
+Standards that guide the work.|معیارهایی که کار را هدایت می‌کنند.|هغه معیارونه چې کار ته لارښوونه کوي.
+Clear decisions, useful interfaces, and a foundation that can evolve.|تصمیم‌های روشن، رابط‌های کاربردی و بنیادی قابل رشد.|روښانه پرېکړې، ګټورې رابطې او د ودې وړ بنسټ.
+Understand before building|پیش از ساختن، بشناسید|له جوړولو مخکې یې وپېژنئ
+Document workflows, priorities, and constraints before committing to a solution.|پیش از انتخاب راهکار، روندها، اولویت‌ها و محدودیت‌ها را ثبت کنید.|د حل لارې له ټاکلو مخکې بهیرونه، لومړیتوبونه او محدودیتونه ثبت کړئ.
+Design for the people using it|برای کاربران طراحی کنید|د کاروونکو لپاره ډیزاین وکړئ
+Make important actions clear and consider accessibility and mobile use from the beginning.|اقدامات مهم را روشن بسازید و از آغاز، دسترس‌پذیری و استفاده موبایل را در نظر بگیرید.|مهمې کړنې روښانه کړئ او له پیله د لاسرسي اسانتیا او موبایل کارونه په پام کې ونیسئ.
+Keep the foundation maintainable|بنیاد را قابل نگهداری نگه دارید|بنسټ د ساتنې وړ وساتئ
+Use readable code, explicit permissions, documented integrations, and reviewable releases.|از کُد خوانا، مجوزهای مشخص، اتصال‌های مستند و نسخه‌های قابل بررسی استفاده کنید.|د لوستلو وړ کوډ، څرګندې اجازې، مستندې نښلونې او د ارزونې وړ خپرونې وکاروئ.
+Communicate directly|مستقیم ارتباط بگیرید|مستقیمې اړیکې ونیسئ
+Explain progress, decisions, and tradeoffs in terms the whole project team can understand.|پیشرفت، تصمیم‌ها و انتخاب‌ها را به زبان قابل فهم برای تمام تیم پروژه توضیح دهید.|پرمختګ، پرېکړې او انتخابونه په داسې ژبه تشریح کړئ چې ټول ټیم پرې پوه شي.
+THE RIGHT TOOLS FOR THE JOB|ابزارهای مناسب برای کار|د کار لپاره مناسب وسایل
+Architecture follows the problem.|معماری مطابق مسئله شکل می‌گیرد.|معماري د ستونزې له مخې ټاکل کېږي.
+Our capabilities span web interfaces, backend systems, databases, mobile applications, and deployment.|توانایی‌های ما شامل رابط‌های وب، سیستم‌های سرور، دیتابیس‌ها، اپلیکیشن‌های موبایل و استقرار است.|زموږ وړتیاوې وېب رابطې، بکېنډ سیسټمونه، ډیټابېسونه، موبایل اپلېکېشنونه او ځای پر ځای کول رانغاړي.
+Explore our technologies|تکنالوژی‌های ما را ببینید|زموږ ټکنالوژۍ وګورئ
+Selected technologies|تکنالوژی‌های برگزیده|غوره شوې ټکنالوژۍ
+Custom software development|توسعه سافت‌ویر اختصاصی|د ځانګړي سافټویر پراختیا
+Software that fits your business.|سافت‌ویر متناسب با کسب‌وکار شما.|ستاسو له سوداګرۍ سره برابر سافټویر.
+Replace disconnected tools with a system built around your actual processes, people, and decisions.|ابزارهای پراکنده را با سیستمی مطابق روندها، کاربران و تصمیم‌های واقعی خود جایگزین کنید.|بېل وسایل په داسې سیسټم بدل کړئ چې ستاسو له رښتینو بهیرونو، کاروونکو او پرېکړو سره برابر وي.
+Workflow discovery & requirements|شناخت روند کار و نیازها|د کاري بهیر پېژندنه او اړتیاوې
+Custom modules and integrations|بخش‌ها و اتصال‌های اختصاصی|ځانګړې برخې او نښلونې
+Permissions and operational reporting|مجوزها و گزارش‌دهی عملیاتی|اجازې او عملیاتي راپورونه
+Internal tools, ERP platforms, and specialized operational software.|ابزارهای داخلی، پلتفرم‌های ERP و سافت‌ویر تخصصی عملیات.|داخلي وسایل، ERP پلېټفارمونه او ځانګړی عملیاتي سافټویر.
+Architecture selected around your requirements.|معماری مطابق نیازهای شما انتخاب می‌شود.|معماري ستاسو د اړتیاوو له مخې ټاکل کېږي.
+Web application development|توسعه برنامه‌های تحت وب|د وېب اپلېکېشنونو پراختیا
+Your operations, connected.|عملیات شما، هماهنگ.|ستاسو عملیات، سره تړلي.
+Give teams and customers a shared workspace accessible from the browser, with clear actions and dependable data.|برای تیم‌ها و مشتریان، محیط کاری مشترک در مرورگر با اقدامات روشن و داده‌های قابل اعتماد فراهم کنید.|ټیمونو او پېرودونکو ته په براوزر کې ګډ کاري چاپېریال، روښانه کړنې او باوري معلومات برابر کړئ.
+Dashboards, portals, and SaaS products|داشبوردها، پورتال‌ها و محصولات SaaS|ډشبورډونه، پورټلونه او SaaS محصولات
+APIs and third-party integrations|APIها و اتصال به خدمات بیرونی|API ګانې او له بهرنیو خدماتو سره نښلونې
+Authentication and access control|احراز هویت و کنترل دسترسی|د هویت تایید او د لاسرسي کنټرول
+Customer portals, administration systems, and subscription products.|پورتال‌های مشتری، سیستم‌های مدیریتی و محصولات اشتراکی.|د پېرودونکو پورټلونه، مدیریتي سیسټمونه او د ګډون محصولات.
+Website development|توسعه ویب‌سایت|د وېبپاڼې پراختیا
+A better first impression.|معرفی بهتر در نخستین نگاه.|په لومړي نظر کې ښه پېژندنه.
+Make your business easy to understand with a fast, accessible website that guides visitors toward the next step.|با ویب‌سایت سریع و دسترس‌پذیر، کسب‌وکار خود را روشن معرفی کنید و بازدیدکنندگان را به گام بعدی هدایت کنید.|په چټکه او د لاسرسي وړ وېبپاڼه خپله سوداګري روښانه معرفي کړئ او لیدونکي راتلونکي ګام ته بوځئ.
+Responsive corporate websites|ویب‌سایت‌های شرکتی سازگار با دستگاه‌ها|د بېلابېلو وسیلو لپاره مناسبې شرکتي وېبپاڼې
+Content structure and technical SEO|ساختار محتوا و سئوی تخنیکی|د منځپانګې جوړښت او تخنیکي SEO
+Performance and accessibility|عملکرد و دسترس‌پذیری|کارکردګي او د لاسرسي اسانتیا
+Company websites, product launches, and service businesses.|ویب‌سایت شرکت، معرفی محصولات و کسب‌وکارهای خدماتی.|د شرکت وېبپاڼې، د محصولاتو معرفي او خدماتي سوداګرۍ.
+Mobile app development|توسعه اپلیکیشن موبایل|د موبایل اپلېکېشن پراختیا
+Built for life on the move.|ساخته‌شده برای استفاده در حرکت.|په تګ راتګ کې د کارونې لپاره جوړ شوی.
+Put useful business workflows into an interface designed for smaller screens and everyday mobile use.|روندهای کاربردی کسب‌وکار را در رابطی برای صفحه‌های کوچک و استفاده روزانه موبایل قرار دهید.|ګټور سوداګریز بهیرونه په داسې رابط کې ځای کړئ چې د کوچنیو پردو او د موبایل ورځنۍ کارونې لپاره جوړه وي.
+Android and iOS applications|اپلیکیشن‌های اندروید و iOS|د Android او iOS اپلېکېشنونه
+Cross-platform product development|توسعه محصول برای چند پلتفرم|د څو پلېټفارمونو لپاره د محصول پراختیا
+API integration and mobile workflows|اتصال API و روندهای موبایل|د API نښلول او موبایل بهیرونه
+Field operations, customer apps, and mobile commerce.|عملیات ساحوی، اپلیکیشن مشتریان و تجارت موبایلی.|ساحوي عملیات، د پېرودونکو اپلېکېشنونه او موبایلي سوداګري.
+Business management systems|سیستم‌های مدیریت کسب‌وکار|د سوداګرۍ د مدیریت سیسټمونه
+Less scattered work. More clarity.|کار پراکنده کمتر، وضاحت بیشتر.|لږ خپور کار، ډېره روڼتیا.
+Connect sales, stock, customers, employees, and accounts so daily operations have one consistent source of information.|فروش، موجودی، مشتریان، کارکنان و حساب‌ها را وصل کنید تا عملیات روزانه یک منبع هماهنگ اطلاعات داشته باشد.|پلور، زېرمه، پېرودونکي، کارکوونکي او حسابونه سره وتړئ، څو ورځني عملیات یوه همغږې معلوماتي سرچینه ولري.
+Sales, inventory, and supplier records|سوابق فروش، موجودی و تأمین‌کنندگان|د پلور، زېرمې او عرضه کوونکو ثبتونه
+Employees, branches, and permissions|کارکنان، شعبه‌ها و مجوزها|کارکوونکي، څانګې او اجازې
+Payments, accounting, and reporting|پرداخت‌ها، حسابداری و گزارش‌دهی|تادیات، حسابداري او راپورونه
+Retail, schools, clinics, tailoring shops, and operational teams.|پرچون، مکاتب، کلینیک‌ها، خیاطی‌ها و تیم‌های عملیاتی.|پرچون، ښوونځي، کلینیکونه، خیاطۍ او عملیاتي ټیمونه.
+Database and backend selection follows discovery.|دیتابیس و بخش سرور پس از شناخت نیازها انتخاب می‌شوند.|ډیټابېس او بکېنډ د اړتیاوو له پېژندلو وروسته ټاکل کېږي.
+E-commerce solutions|راهکارهای تجارت الکترونیکی|د برېښنايي سوداګرۍ حل لارې
+From catalog to fulfilled order.|از کاتالوگ تا تحویل سفارش.|له کتالوګه تر سپارل شوې سپارښتنې.
+Bring products, customers, and fulfillment together in a storefront and administration experience.|محصولات، مشتریان و تحویل سفارش را در فروشگاه و بخش مدیریت هماهنگ کنید.|محصولات، پېرودونکي او د سپارښتنو سپارل په پلورنځي او مدیریتي برخه کې یوځای کړئ.
+Catalog, search, cart, and checkout|کاتالوگ، جستجو، سبد خرید و ثبت سفارش|کتالوګ، لټون، د پېرود ټوکرۍ او د سپارښتنې ثبت
+Order and inventory management|مدیریت سفارش و موجودی|د سپارښتنو او زېرمې مدیریت
+Payment or cash-on-delivery workflows|روند پرداخت یا پرداخت هنگام تحویل|د تادیې یا د سپارلو پر مهال د نغدي تادیې بهیرونه
+Online stores and multi-vendor marketplaces.|فروشگاه‌های آنلاین و بازارهای چندفروشنده.|آنلاین پلورنځي او د څو پلورونکو بازارونه.
+Less repetition. More useful work.|تکرار کمتر، کار مفید بیشتر.|لږ تکرار، ډېر ګټور کار.
+Explore focused automation where it can reduce repeated tasks. Define the data, review steps, and limitations before development.|خودکارسازی را در بخش‌هایی بررسی کنید که کار تکراری را کاهش می‌دهد. پیش از توسعه، داده‌ها، مراحل بررسی و محدودیت‌ها را تعریف کنید.|اتومات کول په هغو برخو کې وڅېړئ چې تکراري کار کموي. له پراختیا مخکې معلومات، د ارزونې پړاوونه او محدودیتونه وټاکئ.
+Workflow automation and integrations|خودکارسازی روندها و اتصال‌ها|د کاري بهیرونو اتومات کول او نښلونې
+Intelligent search and assistants|جستجوی هوشمند و دستیارها|ځیرک لټون او مرستیالان
+Document processing with human review|پردازش اسناد با بررسی انسانی|د انسان له ارزونې سره د اسنادو پروسس
+Knowledge tools, document workflows, and reporting assistance.|ابزارهای دانش، روندهای اسناد و کمک در گزارش‌دهی.|د پوهې وسایل، د اسنادو بهیرونه او د راپور جوړولو مرسته.
+Python, APIs; model selection depends on the use case.|پایتون و APIها؛ مدل مطابق کاربرد انتخاب می‌شود.|Python او API ګانې؛ ماډل د کارونې له مخې ټاکل کېږي.
+UI/UX design|طراحی رابط و تجربه کاربری|د رابط او د کارونې د تجربې ډیزاین
+Make complex tasks feel clear.|کارهای پیچیده را قابل فهم بسازید.|پېچلي کارونه د پوهېدو وړ کړئ.
+Turn product requirements into interfaces people can navigate, understand, and use with confidence.|نیازهای محصول را به رابط‌هایی تبدیل کنید که کاربران بتوانند با اطمینان در آن‌ها کار کنند.|د محصول اړتیاوې په داسې رابطو بدل کړئ چې خلک یې په ډاډ وپېژني او وکاروي.
+User flows and interactive prototypes|مسیرهای کاربر و نمونه‌های تعاملی|د کاروونکو بهیرونه او تعاملي نمونې
+Dashboards, forms, and mobile UI|داشبوردها، فورم‌ها و رابط موبایل|ډشبورډونه، فورمې او موبایل رابطې
+Design systems and accessible patterns|سیستم‌های طراحی و الگوهای دسترس‌پذیر|د ډیزاین سیسټمونه او د لاسرسي وړ بڼې
+New products, application redesigns, and internal tools.|محصولات جدید، بازطراحی برنامه‌ها و ابزارهای داخلی.|نوي محصولات، د اپلېکېشنونو بیا ډیزاین او داخلي وسایل.
+Figma, interface prototyping|فیگما و نمونه‌سازی رابط|Figma او د رابط نمونې جوړول
+Database & backend engineering|انجنیری دیتابیس و بخش سرور|د ډیټابېس او بکېنډ انجنیري
+A foundation you can build on.|بنیادی برای توسعه بیشتر.|د نورې پراختیا لپاره بنسټ.
+Organize business data and connect application features through APIs with deliberate access control.|داده‌های تجاری را تنظیم کنید و قابلیت‌های برنامه را با API و کنترل دسترسی سنجیده وصل کنید.|سوداګریز معلومات تنظیم کړئ او د اپلېکېشن ځانګړتیاوې د API او سنجول شوي لاسرسي کنټرول له لارې وتړئ.
+Database modeling and migrations|مدل‌سازی و انتقال دیتابیس|د ډیټابېس ماډل جوړول او لېږدونه
+APIs, authentication, and permissions|APIها، احراز هویت و مجوزها|API ګانې، د هویت تایید او اجازې
+Integrations and file handling|اتصال‌ها و مدیریت فایل‌ها|نښلونې او د فایلونو اداره
+Data-intensive applications and connected business systems.|برنامه‌های داده‌محور و سیستم‌های تجاری متصل.|پر معلوماتو ولاړ اپلېکېشنونه او تړلي سوداګریز سیسټمونه.
+Cloud & deployment|خدمات ابری و استقرار|کلاوډ او ځای پر ځای کول
+Ready for the real world.|آماده استفاده واقعی.|رښتینې کارونې ته چمتو.
+Plan how the application is released, monitored, backed up, and maintained throughout its life.|انتشار، نظارت، نسخه پشتیبان و نگهداری برنامه را در تمام عمر آن برنامه‌ریزی کنید.|د اپلېکېشن د ټول عمر لپاره خپرول، څارنه، شاتړ او ساتنه پلان کړئ.
+Hosting and release configuration|تنظیم میزبانی و انتشار|د کوربه‌توب او خپرولو تنظیم
+Monitoring and backup planning|برنامه نظارت و نسخه پشتیبان|د څارنې او شاتړ پلان
+Environment and scaling strategy|استراتژی محیط و توسعه ظرفیت|د چاپېریال او ظرفیت لوړولو تګلاره
+Product launches, platform migrations, and ongoing operations.|راه‌اندازی محصولات، انتقال پلتفرم و عملیات دوامدار.|د محصولاتو پیل، د پلېټفارم لېږد او دوامدار عملیات.
+Cloud deployment, Git-based release workflows|استقرار ابری و روند انتشار با گیت|په کلاوډ کې ځای پر ځای کول او د Git د خپرولو بهیرونه
+Maintenance & support|نگهداری و پشتیبانی|ساتنه او ملاتړ
+The launch is a beginning.|راه‌اندازی، آغاز کار است.|پیل د کار لومړی ګام دی.
+Keep the software useful as requirements change, with a defined approach to updates and technical support.|با روش مشخص به‌روزرسانی و پشتیبانی تخنیکی، سافت‌ویر را همراه تغییر نیازها کاربردی نگه دارید.|د تازه کولو او تخنیکي ملاتړ په ټاکلې تګلاره سافټویر د اړتیاوو له بدلون سره ګټور وساتئ.
+Bug fixes and dependency updates|رفع خطاها و به‌روزرسانی وابستگی‌ها|د تېروتنو سمول او د تړلو کڅوړو تازه کول
+Security and performance reviews|بررسی امنیت و عملکرد|د امنیت او کارکردګۍ ارزونه
+Feature improvements and maintenance|بهبود قابلیت‌ها و نگهداری|د ځانګړتیاوو ښه والی او ساتنه
+Existing products and long-term development partnerships.|محصولات موجود و همکاری‌های درازمدت توسعه.|موجود محصولات او اوږدمهاله پراختیایي همکارۍ.
+Aligned with the application’s existing stack.|هماهنگ با تکنالوژی‌های موجود برنامه.|د اپلېکېشن له موجودو ټکنالوژیو سره سم.
+Business management|مدیریت کسب‌وکار|د سوداګرۍ مدیریت
+Connect records, responsibilities, and reporting across departments.|سوابق، مسئولیت‌ها و گزارش‌دهی بخش‌ها را هماهنگ کنید.|د څانګو ثبتونه، دندې او راپورونه سره وتړئ.
+Inventory management|مدیریت موجودی|د زېرمې مدیریت
+Track stock, purchases, suppliers, and replenishment needs.|موجودی، خریدها، تأمین‌کنندگان و نیازهای تجدید موجودی را پیگیری کنید.|زېرمه، پېرود، عرضه کوونکي او د بیا پوره کولو اړتیاوې تعقیب کړئ.
+Sales & POS|فروش و سیستم فروشگاهی|پلور او POS
+Keep product sales, receipts, and daily reconciliation together.|فروش محصولات، رسیدها و تطبیق روزانه حساب‌ها را یکجا نگه دارید.|د محصولاتو پلور، رسیدونه او د ورځنیو حسابونو برابرول یوځای وساتئ.
+School management|مدیریت مکتب|د ښوونځي مدیریت
+Organize students, attendance, classes, fees, and results.|شاگردان، حاضری، صنف‌ها، فیس‌ها و نتایج را تنظیم کنید.|زده کوونکي، حاضري، ټولګي، فیسونه او پایلې تنظیم کړئ.
+Hospital management|مدیریت شفاخانه|د روغتون مدیریت
+Coordinate appointments, records, departments, and billing.|نوبت‌ها، سوابق، بخش‌ها و صورتحساب‌ها را هماهنگ کنید.|وختونه، ثبتونه، څانګې او بلونه همغږي کړئ.
+Pharmacy management|مدیریت دواخانه|د درملتون مدیریت
+Structure medicine stock, sales, suppliers, and expiry workflows.|موجودی دوا، فروش، تأمین‌کنندگان و روند تاریخ انقضا را تنظیم کنید.|د درملو زېرمه، پلور، عرضه کوونکي او د پای نېټې بهیرونه تنظیم کړئ.
+Restaurant management|مدیریت رستورانت|د رستورانت مدیریت
+Connect table orders, the kitchen, billing, and inventory.|سفارش میزها، آشپزخانه، صورتحساب و موجودی را وصل کنید.|د مېزونو سپارښتنې، پخلنځی، بلونه او زېرمه سره وتړئ.
+Tailoring management|مدیریت خیاطی|د خیاطۍ مدیریت
+Keep measurements, orders, assignments, and delivery dates connected.|اندازه‌ها، سفارش‌ها، وظایف و تاریخ‌های تحویل را هماهنگ نگه دارید.|اندازې، سپارښتنې، دندې او د سپارلو نېټې سره تړلې وساتئ.
+CRM systems|سیستم‌های مدیریت مشتریان|د پېرودونکو د مدیریت سیسټمونه
+Give leads, follow-ups, customers, and sales pipelines a shared home.|سرنخ‌ها، پیگیری‌ها، مشتریان و مراحل فروش را در یک محیط قرار دهید.|احتمالي پېرودونکي، تعقیبونه، پېرودونکي او د پلور پړاوونه په یوه چاپېریال کې وساتئ.
+Accounting & financial systems|سیستم‌های حسابداری و مالی|حسابداري او مالي سیسټمونه
+Structure transactions, expenses, summaries, and audit records.|معاملات، مصارف، خلاصه‌ها و سوابق بررسی را تنظیم کنید.|معاملې، لګښتونه، لنډیزونه او د پلټنې ثبتونه تنظیم کړئ.
+E-commerce platforms|پلتفرم‌های تجارت الکترونیکی|د برېښنايي سوداګرۍ پلېټفارمونه
+Unite storefronts, catalog management, orders, and fulfillment.|فروشگاه، مدیریت کاتالوگ، سفارش‌ها و تحویل را یکجا کنید.|پلورنځي، د کتالوګ مدیریت، سپارښتنې او سپارل یوځای کړئ.
+Employee management|مدیریت کارکنان|د کارکوونکو مدیریت
+Organize staff records, responsibilities, attendance, and permissions.|سوابق کارکنان، مسئولیت‌ها، حاضری و مجوزها را تنظیم کنید.|د کارکوونکو ثبتونه، دندې، حاضري او اجازې تنظیم کړئ.
+Reporting & analytics|گزارش‌دهی و تحلیل|راپورونه او شننه
+Turn operational data into understandable reports and decisions.|داده‌های عملیاتی را به گزارش‌ها و تصمیم‌های قابل فهم تبدیل کنید.|عملیاتي معلومات د پوهېدو وړ راپورونو او پرېکړو ته واړوئ.
+Custom ERP|سیستم ERP اختصاصی|ځانګړی ERP
+Bring several business functions into one connected platform.|چند بخش کاری را در یک پلتفرم متصل یکجا کنید.|بېلابېلې سوداګریزې دندې په یوه تړلي پلېټفارم کې یوځای کړئ.
+Workflow automation|خودکارسازی روند کار|د کاري بهیر اتومات کول
+Reduce repeated entry and connect routine business tasks.|ثبت تکراری را کاهش دهید و کارهای معمول تجاری را وصل کنید.|تکراري ثبت کم کړئ او عادي سوداګریز کارونه سره وتړئ.
+Education|آموزش|ښوونه او روزنه
+Healthcare|خدمات صحی|روغتیايي خدمات
+Pharmacies|دواخانه‌ها|درملتونونه
+Retail|پرچون‌فروشی|پرچون پلور
+Restaurants|رستورانت‌ها|رستورانتونه
+Clothing & Tailoring|پوشاک و خیاطی|جامې او خیاطي
+E-Commerce|تجارت الکترونیکی|برېښنايي سوداګري
+Transportation|ترانسپورت|ترانسپورټ
+Automotive|موتر و وسایط|موټر او وسایط
+Financial Services|خدمات مالی|مالي خدمات
+Manufacturing|تولید|تولید
+Professional Services|خدمات مسلکی|مسلکي خدمات
+Real Estate|املاک|املاک
+Hospitality|هوتلداری|هوټلونه او مېلمه پالنه
+NGOs / Organizations|مؤسسات و سازمان‌ها|مؤسسې او ادارې
+School administration, attendance, grading, and learning portals.|اداره مکتب، حاضری، نمرات و پورتال‌های آموزشی.|د ښوونځي اداره، حاضري، نمرې او تعلیمي پورټلونه.
+Patient records, appointment scheduling, prescriptions, and billing.|سوابق مریضان، نوبت‌دهی، نسخه‌ها و صورتحساب.|د ناروغانو ثبتونه، د وختونو ټاکل، نسخې او بلونه.
+Medicine inventory, supplier management, expiry tracking, and sales.|موجودی دوا، مدیریت تأمین‌کنندگان، پیگیری تاریخ انقضا و فروش.|د درملو زېرمه، د عرضه کوونکو مدیریت، د پای نېټې څارنه او پلور.
+POS systems, purchasing, stock control, and branch reporting.|سیستم فروشگاهی، خرید، کنترل موجودی و گزارش شعبه‌ها.|POS سیسټمونه، پېرود، د زېرمې کنټرول او د څانګو راپورونه.
+Table orders, kitchen coordination, menus, and daily reporting.|سفارش میزها، هماهنگی آشپزخانه، منو و گزارش روزانه.|د مېزونو سپارښتنې، د پخلنځي همغږي، مېنوګانې او ورځني راپورونه.
+Customer measurements, custom orders, assignments, and delivery tracking.|اندازه‌های مشتریان، سفارش اختصاصی، وظایف و پیگیری تحویل.|د پېرودونکو اندازې، ځانګړې سپارښتنې، دندې او د سپارلو تعقیب.
+Storefronts, seller dashboards, order administration, and fulfillment.|فروشگاه، داشبورد فروشندگان، مدیریت سفارش و تحویل.|پلورنځي، د پلورونکو ډشبورډونه، د سپارښتنو اداره او سپارل.
+Cargo operations, fleet records, route planning, and shipment tracking.|عملیات باربری، سوابق وسایط، برنامه مسیر و پیگیری محموله.|د بار عملیات، د وسایطو ثبتونه، د لارو پلان او د بار تعقیب.
+Vehicle records, parts inventory, service scheduling, and workshop operations.|سوابق وسایط، موجودی پرزه‌جات، برنامه خدمات و عملیات ورکشاپ.|د وسایطو ثبتونه، د پرزو زېرمه، د خدمت وختونه او د ورکشاپ عملیات.
+Transaction records, cash summaries, and money-exchange workflows.|سوابق معاملات، خلاصه نقدی و روندهای صرافی.|د معاملو ثبتونه، نغدي لنډیزونه او د صرافۍ بهیرونه.
+Production planning, raw materials, inventory, and supplier records.|برنامه تولید، مواد خام، موجودی و سوابق تأمین‌کنندگان.|د تولید پلان، خام مواد، زېرمه او د عرضه کوونکو ثبتونه.
+Customer portals, CRM, project workflows, and business reporting.|پورتال مشتریان، مدیریت مشتریان، روند پروژه و گزارش تجاری.|د پېرودونکو پورټلونه، CRM، د پروژو بهیرونه او سوداګریز راپورونه.
+Property listings, inquiries, document workflows, and customer records.|فهرست املاک، درخواست‌ها، روند اسناد و سوابق مشتریان.|د ملکیتونو لېستونه، غوښتنې، د اسنادو بهیرونه او د پېرودونکو ثبتونه.
+Reservations, room availability, guest records, and billing.|رزرو، اتاق‌های موجود، سوابق مهمانان و صورتحساب.|ریزرف، شته خونې، د مېلمنو ثبتونه او بلونه.
+Program records, internal workflows, reporting, and access permissions.|سوابق برنامه‌ها، روندهای داخلی، گزارش‌دهی و مجوز دسترسی.|د پروګرامونو ثبتونه، داخلي بهیرونه، راپورونه او د لاسرسي اجازې.
+Discover|شناخت|پېژندنه
+Understand the business, users, and the work that needs to improve.|کسب‌وکار، کاربران و کار نیازمند بهبود را بشناسید.|سوداګري، کاروونکي او د ښه والي اړمن کار وپېژنئ.
+Plan|برنامه‌ریزی|پلان
+Agree on scope, priorities, architecture, and delivery milestones.|درباره محدوده، اولویت‌ها، معماری و مراحل تحویل توافق کنید.|پر حدودو، لومړیتوبونو، معمارۍ او د سپارلو پړاوونو سلا شئ.
+Design|طراحی|ډیزاین
+Map the workflows and make the interface clear before development.|پیش از توسعه، روندها را مشخص و رابط را روشن کنید.|له پراختیا مخکې کاري بهیرونه وټاکئ او رابط روښانه کړئ.
+Develop|توسعه|پراختیا
+Build in reviewable stages, with regular feedback and clear progress.|با نظرخواهی منظم و پیشرفت روشن، در مراحل قابل بررسی بسازید.|په منظم نظر اخیستو او روښانه پرمختګ، په ارزول کېدونکو پړاوونو کې یې جوړ کړئ.
+Test|آزمایش|ازموینه
+Check functionality, access control, usability, and performance.|عملکرد، کنترل دسترسی، سهولت استفاده و سرعت را بررسی کنید.|ځانګړتیاوې، د لاسرسي کنټرول، د کارونې اسانتیا او کارکردګي وازمویئ.
+Deploy|استقرار|ځای پر ځای کول
+Prepare environments, release the product, and document the handover.|محیط‌ها را آماده، محصول را منتشر و تحویل را مستند کنید.|چاپېریالونه چمتو کړئ، محصول خپور کړئ او سپارل ثبت کړئ.
+Support|پشتیبانی|ملاتړ
+Maintain the system and plan improvements as the business evolves.|سیستم را نگهداری کنید و همراه رشد کسب‌وکار، بهبودها را برنامه‌ریزی کنید.|سیسټم وساتئ او د سوداګرۍ له ودې سره ښه والی پلان کړئ.
+START A PROJECT|آغاز یک پروژه|پروژه پیل کړئ
+Tell us what needs to work better.|بگویید کدام بخش نیاز به بهبود دارد.|ووایئ کوم کار ښه والي ته اړتیا لري.
+An idea, an existing product, or a daily workflow that needs a better system. Share the context, and we’ll help you define a practical next step.|یک ایده، محصول موجود یا روند روزانه که به سیستم بهتر نیاز دارد؛ زمینه را بگویید تا در تعیین گام عملی بعدی کمک کنیم.|مفکوره، موجود محصول یا ورځنی بهیر چې غوره سیسټم ته اړتیا لري؛ شالید راسره شریک کړئ، څو د عملي بل ګام په ټاکلو کې مرسته وکړو.
+YOUR PROJECT BRIEF|شرح پروژه شما|ستاسو د پروژې طرحه
+Fields marked * are required.|خانه‌های دارای * ضروری‌اند.|د * نښې لرونکي ځایونه اړین دي.
+Website|ویب‌سایت|وېبپاڼه
+Your project and contact details|جزئیات پروژه و تماس شما|ستاسو د پروژې او اړیکې معلومات
+Your name *|نام شما *|ستاسو نوم *
+Full name|نام مکمل|بشپړ نوم
+Company|شرکت|شرکت
+Company or organization|شرکت یا سازمان|شرکت یا اداره
+Email address *|آدرس ایمیل *|برېښنالیک *
+Phone / WhatsApp|شماره تماس / واتساپ|د اړیکې شمېره / واټس‌اپ
+Project type *|نوع پروژه *|د پروژې ډول *
+Select a project type|نوع پروژه را انتخاب کنید|د پروژې ډول وټاکئ
+Not sure yet — let’s discuss|هنوز مشخص نیست؛ گفتگو کنیم|لا ډاډه نه یم؛ خبرې وکړو
+Select your industry|بخش کاری خود را انتخاب کنید|خپله کاري برخه وټاکئ
+Other|سایر|نور
+Budget range|محدوده بودجه|د بودیجې اندازه
+To be discussed|قابل گفتگو|د بحث وړ
+Under $1,000 USD|کمتر از ۱٬۰۰۰ دالر امریکایی|له ۱٬۰۰۰ امریکايي ډالرو کم
+$1,000–$5,000 USD|۱٬۰۰۰ تا ۵٬۰۰۰ دالر امریکایی|له ۱٬۰۰۰ تر ۵٬۰۰۰ امریکايي ډالرو
+$5,000–$15,000 USD|۵٬۰۰۰ تا ۱۵٬۰۰۰ دالر امریکایی|له ۵٬۰۰۰ تر ۱۵٬۰۰۰ امریکايي ډالرو
+$15,000+ USD|بیشتر از ۱۵٬۰۰۰ دالر امریکایی|له ۱۵٬۰۰۰ امریکايي ډالرو ډېر
+Preferred contact method|روش تماس ترجیحی|د اړیکې غوره لاره
+Email|ایمیل|برېښنالیک
+Phone call|تماس تلفنی|ټیلیفوني اړیکه
+Project description *|توضیحات پروژه *|د پروژې تشریح *
+What does your business do? What do you want to build or improve? Tell us about the people, processes, and important requirements.|کسب‌وکار شما چه می‌کند؟ چه چیزی می‌خواهید بسازید یا بهتر کنید؟ درباره کاربران، روندها و نیازهای مهم بگویید.|ستاسو سوداګري څه کوي؟ څه جوړول یا ښه کول غواړئ؟ د کاروونکو، بهیرونو او مهمو اړتیاوو په اړه راته ووایئ.
+At least 20 characters. Please leave out passwords and sensitive records.|حداقل ۲۰ حرف. رمزها و اطلاعات حساس را درج نکنید.|لږ تر لږه ۲۰ توري. پټنومونه او حساس معلومات مه لیکئ.
+Your details are used to discuss this project. Read our|اطلاعات شما برای گفتگو درباره این پروژه استفاده می‌شود. بخوانید:|ستاسو معلومات د دې پروژې د بحث لپاره کارېږي. ولولئ:
+Please add your name and at least 20 characters describing the project.|نام خود و حداقل ۲۰ حرف درباره پروژه را وارد کنید.|خپل نوم او د پروژې لږ تر لږه ۲۰ توري تشریح ولیکئ.
+Add your phone / WhatsApp number for your preferred contact method.|شماره تماس یا واتساپ خود را برای روش تماس انتخاب‌شده وارد کنید.|د ټاکلې اړیکې لپاره خپل ټیلیفون یا واټس‌اپ شمېره ولیکئ.
+Your inquiry could not be confirmed. Please retry or send it on WhatsApp.|ارسال درخواست تأیید نشد. دوباره تلاش کنید یا آن را در واتساپ بفرستید.|ستاسو د غوښتنې تایید ونه شو. بیا هڅه وکړئ یا یې په واټس‌اپ واستوئ.
+The request timed out. Your details are still here. Please retry or contact us directly.|زمان درخواست به پایان رسید. اطلاعات شما حفظ شده است. دوباره تلاش کنید یا مستقیم تماس بگیرید.|د غوښتنې وخت پای ته ورسېد. ستاسو معلومات ساتل شوي دي. بیا هڅه وکړئ یا مستقیمه اړیکه ونیسئ.
+We could not confirm your inquiry. Your details are still here. Please retry or contact us on WhatsApp.|درخواست تأیید نشد. اطلاعات شما حفظ شده است. دوباره تلاش کنید یا در واتساپ تماس بگیرید.|د غوښتنې تایید ونه شو. ستاسو معلومات ساتل شوي دي. بیا هڅه وکړئ یا په واټس‌اپ اړیکه ونیسئ.
+Copy is unavailable in this browser. Select and copy the inquiry text below.|کاپی در این مرورگر ممکن نیست. متن درخواست را در پایین انتخاب و کاپی کنید.|په دې براوزر کې کاپي کول نشته. لاندې د غوښتنې متن وټاکئ او کاپي یې کړئ.
+Send your brief on WhatsApp|شرح پروژه را در واتساپ بفرستید|د پروژې طرحه په واټس‌اپ واستوئ
+Sending…|در حال ارسال…|د لېږلو په حال کې…
+Inquiry sent|درخواست ارسال شد|غوښتنه واستول شوه
+Continue on WhatsApp|ادامه در واتساپ|په واټس‌اپ کې دوام ورکړئ
+Send project inquiry|ارسال درخواست پروژه|د پروژې غوښتنه واستوئ
+Opens your completed brief in WhatsApp. Tap Send there to finish.|شرح تکمیل‌شده در واتساپ باز می‌شود. برای تکمیل ارسال، دکمه ارسال را آنجا بزنید.|ستاسو بشپړه طرحه په واټس‌اپ کې پرانیستل کېږي. د بشپړولو لپاره هلته د لېږلو تڼۍ کېکاږئ.
+Send your brief directly from this form. We’ll reply using your contact details.|شرح پروژه را مستقیم از این فورم بفرستید. با اطلاعات تماس شما پاسخ می‌دهیم.|خپله طرحه له دې فورمې مستقیمه واستوئ. ستاسو د اړیکې پر معلوماتو ځواب درکوو.
+Your project inquiry has been sent.|درخواست پروژه شما ارسال شد.|ستاسو د پروژې غوښتنه واستول شوه.
+Continue your inquiry on WhatsApp.|درخواست خود را در واتساپ ادامه دهید.|خپلې غوښتنې ته په واټس‌اپ کې دوام ورکړئ.
+Your brief was accepted by our email service. We’ll follow up using the contact details you provided.|خدمت ایمیل، شرح شما را پذیرفت. با اطلاعات تماسی که داده‌اید، پیگیری می‌کنیم.|زموږ د برېښنالیک خدمت ستاسو طرحه ومنله. ستاسو له ورکړل شوو اړیکو سره به یې تعقیب کړو.
+WhatsApp opens with your completed brief. Review the message and tap Send. If it did not open, use the button below.|واتساپ با شرح تکمیل‌شده باز می‌شود. پیام را بررسی و ارسال کنید. اگر باز نشد، از دکمه پایین استفاده کنید.|واټس‌اپ ستاسو له بشپړې طرحې سره پرانیستل کېږي. پیغام وګورئ او واستوئ. که پرانیستل نه شو، لاندې تڼۍ وکاروئ.
+Send via WhatsApp|ارسال از طریق واتساپ|د واټس‌اپ له لارې لېږل
+Review inquiry text|بررسی متن درخواست|د غوښتنې متن وګورئ
+Copied to clipboard|کاپی شد|کاپي شو
+Copy inquiry|کاپی درخواست|غوښتنه کاپي کړئ
+Let’s start with|آغاز کنیم با|راځئ پیل وکړو له
+your business.|کسب‌وکار شما|ستاسو سوداګرۍ
+No need for a finished specification. Tell us what you’re trying to achieve and where the work gets difficult.|به مشخصات نهایی نیاز نیست. بگویید چه هدفی دارید و کدام بخش کار دشوار است.|وروستیو مشخصاتو ته اړتیا نشته. ووایئ څه ترلاسه کول غواړئ او کوم کار ستونزمن دی.
+Based in|موقعیت|موقعیت
+Start on WhatsApp|آغاز در واتساپ|په واټس‌اپ پیل کړئ
+What happens next?|گام بعدی چیست؟|بل ګام څه دی؟
+We review the business context.|زمینه کسب‌وکار را بررسی می‌کنیم.|سوداګریز شالید ارزونه کوو.
+We clarify requirements and priorities.|نیازها و اولویت‌ها را روشن می‌کنیم.|اړتیاوې او لومړیتوبونه روښانه کوو.
+We discuss scope and a delivery approach.|درباره محدوده و روش تحویل گفتگو می‌کنیم.|پر کاري حدودو او د سپارلو پر تګلارې خبرې کوو.
+BEFORE WE START|پیش از آغاز|له پیل مخکې
+A few useful answers.|چند پاسخ مفید.|څو ګټور ځوابونه.
+Do I need a complete project specification?|آیا به مشخصات کامل پروژه نیاز دارم؟|ایا د پروژې بشپړو مشخصاتو ته اړتیا لرم؟
+No. Start with the business problem and the people who will use the system. We can discuss workflows and priorities with you.|خیر. از مسئله کسب‌وکار و کاربران سیستم آغاز کنید. روندها و اولویت‌ها را با شما بررسی می‌کنیم.|نه. له سوداګریزې ستونزې او د سیسټم له کاروونکو پیل وکړئ. کاري بهیرونه او لومړیتوبونه له تاسو سره بحث کوو.
+How are cost and timeline determined?|هزینه و زمان چگونه تعیین می‌شوند؟|لګښت او وخت څنګه ټاکل کېږي؟
+Cost and delivery depend on scope, integrations, data requirements, and the agreed milestones. We discuss these after understanding the project.|هزینه و تحویل به محدوده، اتصال‌ها، نیازهای داده و مراحل توافق‌شده بستگی دارند. پس از شناخت پروژه، این موارد را بررسی می‌کنیم.|لګښت او سپارل پر حدودو، نښلونو، معلوماتي اړتیاوو او منل شوو پړاوونو پورې تړلي دي. د پروژې له پېژندنې وروسته پرې خبرې کوو.
+Can you improve existing software?|آیا سافت‌ویر موجود را بهتر می‌کنید؟|ایا موجود سافټویر ښه کولی شئ؟
+We can review the existing code, architecture, and workflows to identify a practical improvement plan.|کُد، معماری و روندهای موجود را بررسی می‌کنیم تا برنامه عملی بهبود مشخص شود.|موجود کوډ، معماري او کاري بهیرونه ارزولی شو، څو د ښه والي عملي پلان وټاکو.
+What happens after launch?|پس از راه‌اندازی چه می‌شود؟|له پیل وروسته څه کېږي؟
+Maintenance, updates, monitoring, and technical support can be scoped as part of the project agreement.|نگهداری، به‌روزرسانی، نظارت و پشتیبانی تخنیکی می‌توانند در توافق پروژه تعریف شوند.|ساتنه، تازه کول، څارنه او تخنیکي ملاتړ د پروژې د تړون برخه کې ټاکل کېدای شي.
+WEBSITE INFORMATION|اطلاعات ویب‌سایت|د وېبپاڼې معلومات
+How this website handles information you choose to share.|نحوه استفاده این ویب‌سایت از اطلاعاتی که شریک می‌کنید.|دا وېبپاڼه ستاسو شریک شوي معلومات څنګه اداره کوي.
+The scope of this website and how project engagements are agreed.|محدوده این ویب‌سایت و روش توافق درباره پروژه‌ها.|د دې وېبپاڼې حدود او د پروژو د تړون څرنګوالی.
+Information you provide|اطلاعاتی که ارائه می‌کنید|هغه معلومات چې تاسو یې ورکوئ
+The project inquiry form asks for your name, company, email, optional phone number, project details, and contact preferences. Share only the information needed to discuss the project; do not include passwords or sensitive personal records.|فورم درخواست، نام، شرکت، ایمیل، شماره تماس اختیاری، جزئیات پروژه و روش تماس را می‌پرسد. فقط اطلاعات لازم برای گفتگو را شریک کنید؛ رمزها یا سوابق شخصی حساس را درج نکنید.|د غوښتنې فورمه ستاسو نوم، شرکت، برېښنالیک، اختیاري شمېره، د پروژې جزئیات او د اړیکې لاره غواړي. یوازې د بحث اړین معلومات شریک کړئ؛ پټنومونه او حساس شخصي ثبتونه مه ورکوئ.
+Sending an inquiry|ارسال درخواست|د غوښتنې لېږل
+Email inquiries are sent through our server-side submission service and email delivery provider. The form confirms sending only after the provider accepts the message. Selecting WhatsApp opens a message containing your brief; you review and send it in WhatsApp. If sending fails, your entered details remain on the page so you can retry.|درخواست‌های ایمیل از خدمت سرور و ارائه‌کننده ارسال ایمیل فرستاده می‌شوند. فورم فقط پس از پذیرش پیام توسط ارائه‌کننده، ارسال را تأیید می‌کند. انتخاب واتساپ، پیام شرح پروژه را باز می‌کند تا آن را بررسی و ارسال کنید. در صورت خطا، اطلاعات شما برای تلاش دوباره در صفحه باقی می‌ماند.|برېښنالیکي غوښتنې د سرور او د برېښنالیک د لېږلو د خدمت له لارې استول کېږي. فورمه یوازې د خدمت له منلو وروسته لېږل تاییدوي. د واټس‌اپ ټاکل ستاسو طرحه په پیغام کې پرانیزي چې ویې ګورئ او واستوئ. که لېږل ناکام شي، معلومات مو د بیا هڅې لپاره په پاڼه کې پاتې کېږي.
+Use of information|استفاده از اطلاعات|د معلوماتو کارونه
+Information received from an inquiry is used to respond, discuss requirements, and plan a possible project. For questions about your submitted information or to request its removal, contact|اطلاعات درخواست برای پاسخ، بررسی نیازها و برنامه‌ریزی پروژه احتمالی استفاده می‌شود. برای پرسش درباره اطلاعات ارسالی یا درخواست حذف آن، تماس بگیرید:|د غوښتنې معلومات د ځواب، د اړتیاوو د بحث او د احتمالي پروژې د پلان لپاره کارېږي. د خپلو استول شوو معلوماتو د پوښتنې یا حذف لپاره اړیکه ونیسئ:
+Browser storage and third parties|ذخیره مرورگر و خدمات بیرونی|د براوزر زېرمه او بهرني خدمات
+This implementation includes no advertising trackers or analytics scripts. Optional screenshots are served from this website. Email submission uses a third-party delivery service. Email and WhatsApp links open services with their own privacy policies. Hosting infrastructure may process routine request logs under its own policies.|این نسخه، ردیاب تبلیغاتی یا اسکریپت تحلیل ندارد. تصاویر اختیاری از همین ویب‌سایت ارائه می‌شوند. ارسال ایمیل از خدمت بیرونی استفاده می‌کند. لینک‌های ایمیل و واتساپ خدماتی با پالیسی‌های مستقل را باز می‌کنند. میزبان ممکن است سوابق عادی درخواست‌ها را مطابق پالیسی خود پردازش کند.|په دې نسخه کې اعلاني څارونکي او تحلیلي سکرېپټونه نشته. اختیاري سکرین‌شاټونه له همدې وېبپاڼې وړاندې کېږي. برېښنالیک بهرنی خدمت کاروي. د برېښنالیک او واټس‌اپ لینکونه د خپلو محرمیت تګلارو لرونکي خدمات پرانیزي. کوربه ښايي عادي غوښتنې د خپلې تګلارې له مخې ثبت او پروسس کړي.
+Website content|محتوای ویب‌سایت|د وېبپاڼې منځپانګه
+This website introduces Rayan Tech Solutions and its software capabilities. Portfolio entries distinguish company projects, prototypes, and concepts. Proposed modules are not promises of existing functionality. Unverified client information and performance metrics are not presented as results.|این ویب‌سایت رایان تک سولوشنز و توانایی‌های سافت‌ویری آن را معرفی می‌کند. پروژه‌های شرکت، نمونه‌ها و طرح‌ها جدا مشخص شده‌اند. بخش‌های پیشنهادی، وعده قابلیت موجود نیستند. اطلاعات مشتری و آمار تأییدنشده به‌عنوان نتیجه ارائه نمی‌شوند.|دا وېبپاڼه رایان ټېک سولوشنز او د سافټویر وړتیاوې یې معرفي کوي. د شرکت پروژې، نمونې او مفکورې جلا نومول شوې دي. وړاندیز شوې برخې د موجودو ځانګړتیاوو ژمنه نه ده. ناتایید شوي د پېرودونکو معلومات او شمېرې د پایلو په توګه نه وړاندې کېږي.
+Project agreements|توافق‌های پروژه|د پروژې تړونونه
+Submitting or preparing an inquiry does not create a development contract. Scope, delivery milestones, pricing, payments, ownership, support, and other project terms must be agreed separately in writing.|ارسال یا آماده‌سازی درخواست، قرارداد توسعه ایجاد نمی‌کند. محدوده، مراحل تحویل، قیمت، پرداخت‌ها، مالکیت، پشتیبانی و سایر شرایط باید جداگانه و کتبی توافق شوند.|د غوښتنې چمتو کول یا استول د پراختیا تړون نه جوړوي. حدود، د سپارلو پړاوونه، بیه، تادیات، مالکیت، ملاتړ او نور شرایط باید جلا په لیکلې بڼه ومنل شي.
+Portfolio materials|مواد معرفی پروژه‌ها|د پروژو د معرفۍ مواد
+Project descriptions and interface previews are provided to explain the work. A concept entry is not a publicly available product. Access, licensing, source-code availability, and customization are discussed individually.|توضیحات پروژه و پیش‌نمایش رابط برای تشریح کار ارائه می‌شوند. طرح مفهومی، محصول قابل دسترس عمومی نیست. دسترسی، جواز، کُد منبع و اختصاصی‌سازی جداگانه بررسی می‌شوند.|د پروژې تشریح او د رابط مخکتنې د کار د پېژندنې لپاره دي. مفکوروي پروژه عامو خلکو ته د لاسرسي وړ محصول نه دی. لاسرسی، جواز، سرچینې کوډ او ځانګړي کول جلا بحث کېږي.
+External services and updates|خدمات بیرونی و به‌روزرسانی‌ها|بهرني خدمات او تازه کول
+Third-party services and linked websites operate independently. Information may be updated as projects evolve. Contact us to confirm the details relevant to an engagement.|خدمات بیرونی و ویب‌سایت‌های پیوندشده مستقل فعالیت می‌کنند. اطلاعات با پیشرفت پروژه‌ها به‌روز می‌شود. برای تأیید جزئیات مرتبط با همکاری تماس بگیرید.|بهرني خدمات او تړلې وېبپاڼې خپلواک فعالیت کوي. معلومات د پروژو له پرمختګ سره تازه کېدای شي. د همکارۍ د اړوندو جزئیاتو د تایید لپاره اړیکه ونیسئ.
+For website or project questions,|برای پرسش‌های ویب‌سایت یا پروژه،|د وېبپاڼې یا پروژې د پوښتنو لپاره،
+start a conversation|گفتگو را آغاز کنید|خبرې پیل کړئ
+or email|یا ایمیل بفرستید|یا برېښنالیک واستوئ
+404 / PAGE NOT FOUND|۴۰۴ / صفحه یافت نشد|۴۰۴ / پاڼه ونه موندل شوه
+Let’s get you back on track.|به مسیر درست برگردیم.|راځئ بېرته سمې لارې ته لاړ شو.
+This page could not be found. Explore our work or return to the homepage.|این صفحه یافت نشد. کارهای ما را ببینید یا به صفحه اصلی برگردید.|دا پاڼه ونه موندل شوه. زموږ کارونه وګورئ یا کورپاڼې ته ستانه شئ.
+Back to home|بازگشت به خانه|کورپاڼې ته ستنېدل
+Rayan Tech Solutions home|صفحه اصلی رایان تک سولوشنز|د رایان ټېک سولوشنز کورپاڼه
+From requirements to working software|از نیازها تا سافت‌ویر کاربردی|له اړتیاوو تر کارېدونکي سافټویر
+Plan carefully. Build deliberately.|با دقت برنامه‌ریزی، با هدف روشن ساختن.|په دقت پلان، په روښانه موخه جوړول.
+Designed around real workflows|طراحی‌شده مطابق روندهای واقعی|د رښتینو کاري بهیرونو پر بنسټ ډیزاین
+Useful interfaces. Connected experiences.|رابط‌های کاربردی، تجربه‌های هماهنگ.|ګټورې رابطې، تړلې تجربې.
+A foundation that can evolve|بنیادی قابل رشد|د ودې وړ بنسټ
+Architecture. Data. Deployment.|معماری، داده، استقرار.|معماري، معلومات، ځای پر ځای کول.
+Business thinking meets engineering|دید تجاری در کنار انجنیری|سوداګریز لید له انجنیري سره
+Based in Kabul. Building for what’s next.|مستقر در کابل، برای نیازهای آینده می‌سازیم.|په کابل کې مېشت، د راتلونکو اړتیاوو لپاره جوړوو.
+Illustrative engineering workspace with a laptop, notebook, and blue ceramic cup|تصویر توضیحی محیط انجنیری با لپ‌تاپ، کتابچه و پیاله آبی|له لپټاپ، کتابچې او آبي پیالې سره د انجنیري چاپېریال تشریحي انځور
+Illustrative product design desk with interface sketches and a mobile device|تصویر توضیحی میز طراحی با طرح‌های رابط و موبایل|د رابط له طرحو او موبایل سره د ډیزاین د مېز تشریحي انځور
+Illustrative server infrastructure with organized equipment and network cables|تصویر توضیحی زیربنای سرور با تجهیزات و کیبل‌های شبکه|د منظمو وسایلو او شبکې له کیبلونو سره د سرور د زیربنا تشریحي انځور
+Rayan branded workspace illustration supplied by the company|تصویر محیط کاری با نشان رایان که شرکت ارائه کرده است|د رایان نښه لرونکی د کار انځور چې شرکت ورکړی دی
+Illustrative business workspace connecting interfaces, application logic, and data. This is a design illustration, not a project screenshot.|تصویر محیط کاری که رابط، منطق برنامه و داده‌ها را وصل می‌کند. این یک طرح توضیحی است، نه تصویر واقعی پروژه.|د کاري چاپېریال انځور چې رابطې، د اپلېکېشن منطق او معلومات سره تړي. دا تشریحي ډیزاین دی، د پروژې اصلي سکرین‌شاټ نه دی.
+Keep {{industry}} workflows understandable to the people who use them.|روندهای {{industry}} را برای کاربران قابل فهم نگه دارید.|د {{industry}} بهیرونه کاروونکو ته د پوهېدو وړ وساتئ.
+UX direction for {{industry}}.|رویکرد طراحی برای {{industry}}: روند اصلی را روشن نگه دارید، سوابق مرتبط را گروه‌بندی کنید، تغییر وضعیت را مشخص بسازید و فورم و فهرست را برای صفحه کوچک تنظیم کنید.|د {{industry}} د ډیزاین لوری: اصلي بهیر ښکاره وساتئ، تړلي ثبتونه یوځای کړئ، د حالت بدلون روښانه کړئ او فورمې او غورنۍ له کوچنیو پردو سره برابرې کړئ.
+View {{project}} case study|شرح پروژه {{project}} را ببینید|د {{project}} تفصیل وګورئ
+Enlarge {{caption}}|بزرگ‌نمایی {{caption}}|{{caption}} لوی کړئ
+{{project}} image gallery|تصاویر پروژه {{project}}|د {{project}} د انځورونو ګالري
+in {{group}}|در {{group}}|په {{group}} کې
+project interface|رابط پروژه|د پروژې رابط
+services shown|خدمت نمایش داده شده|خدمات ښودل شوي
+Service sections|بخش‌های خدمات|د خدماتو برخې
+Filter services|فیلتر خدمات|خدمات چاڼ کړئ
+WHAT DO YOU NEED TO BUILD?|چه چیزی می‌خواهید بسازید؟|څه جوړول غواړئ؟
+Each can be scoped on its own or combined into a complete delivery plan.|هر خدمت می‌تواند جداگانه تعریف شود یا در برنامه کامل تحویل یکجا گردد.|هر خدمت جلا ټاکل کېدای شي یا د سپارلو په بشپړ پلان کې یوځای کېدای شي.
+Explore the services that fit your next step.|خدمات متناسب با گام بعدی را ببینید.|د خپل راتلونکي ګام مناسب خدمات وګورئ.
+Find your industry|بخش کاری خود را پیدا کنید|خپله کاري برخه ومومئ
+TOOLS WITH A PURPOSE|ابزارهایی با هدف روشن|وسایل په روښانه موخه
+Meet our technology stack|با تکنالوژی‌های ما آشنا شوید|زموږ له ټکنالوژیو سره اشنا شئ
+Explore business solutions|راهکارهای تجاری را ببینید|سوداګریزې حل لارې وګورئ
+Selected development technologies|تکنالوژی‌های منتخب توسعه|د پراختیا غوره شوې ټکنالوژۍ
+Clear scope.|محدوده روشن.|روښانه حدود
+Direct communication.|ارتباط مستقیم.|مستقیمې اړیکې
+Reviewable stages.|مراحل قابل بررسی.|د ارزونې وړ پړاوونه
+The right expertise.|تخصص مناسب.|مناسب تخصص
+The right technology.|تکنالوژی مناسب.|مناسبه ټکنالوژي
+Specific challenges.|چالش‌های مشخص.|ځانګړې ستونزې
+One team.|یک تیم.|یو ټیم
+Privacy Policy|پالیسی حفظ حریم خصوصی|د محرمیت تګلاره
+Terms & Conditions|شرایط و ضوابط|شرایط او مقررات
+Custom Software & Business Systems in Kabul|سافت‌ویر اختصاصی و سیستم‌های تجاری در کابل|په کابل کې ځانګړی سافټویر او سوداګریز سیسټمونه
+Software Development Services|خدمات توسعه سافت‌ویر|د سافټویر د پراختیا خدمات
+Business Software Solutions|راهکارهای سافت‌ویر تجاری|د سوداګریز سافټویر حل لارې
+Software Solutions by Industry|راهکارهای سافت‌ویر مطابق بخش کاری|د کاري برخې له مخې د سافټویر حل لارې
+Software Projects & Engineering Case Studies|پروژه‌های سافت‌ویر و شرح انجنیری|د سافټویر پروژې او انجنیري تفصیل
+Products & Business Platforms|محصولات و پلتفرم‌های تجاری|محصولات او سوداګریز پلېټفارمونه
+Technologies & Engineering Capabilities|تکنالوژی‌ها و توانایی‌های انجنیری|ټکنالوژۍ او انجنیري وړتیاوې
+About Our Software Company in Kabul|درباره شرکت سافت‌ویر ما در کابل|په کابل کې زموږ د سافټویر شرکت په اړه
+Start a Software Project|آغاز پروژه سافت‌ویر|د سافټویر پروژه پیل کړئ
+Page Not Found|صفحه یافت نشد|پاڼه ونه موندل شوه
+Use the project inquiry form to send a request.|برای ارسال درخواست از فورم پروژه استفاده کنید.|د غوښتنې د لېږلو لپاره د پروژې فورمه وکاروئ.
+Please submit your inquiry from our website.|درخواست خود را از ویب‌سایت ما بفرستید.|خپله غوښتنه زموږ له وېبپاڼې واستوئ.
+Invalid inquiry format.|قالب درخواست درست نیست.|د غوښتنې بڼه سمه نه ده.
+Please shorten your project description.|توضیحات پروژه را کوتاه‌تر کنید.|د پروژې تشریح لنډه کړئ.
+Please check your project details and try again.|جزئیات پروژه را بررسی و دوباره تلاش کنید.|د پروژې معلومات وګورئ او بیا هڅه وکړئ.
+Your inquiry could not be submitted.|درخواست ارسال نشد.|غوښتنه ونه لېږل شوه.
+Could not load the language. Please try again.|زبان بارگذاری نشد. دوباره تلاش کنید.|ژبه پورته نه شوه. بیا هڅه وکړئ.
+Name|نام|نوم
+Not specified|مشخص نشده|نه دی ټاکل شوی
+Budget|بودجه|بودیجه
+Preferred contact|روش تماس|د اړیکې لاره
+Project description|توضیحات پروژه|د پروژې تشریح
+Project inquiry|درخواست پروژه|د پروژې غوښتنه
+Please provide a valid name, email, project type, and description. Include your phone number when requesting a call.|نام، ایمیل، نوع پروژه و توضیحات درست را وارد کنید. برای درخواست تماس، شماره خود را نیز بنویسید.|سم نوم، برېښنالیک، د پروژې ډول او تشریح ورکړئ. د ټیلیفوني اړیکې لپاره خپله شمېره هم ولیکئ.
+Email sending is temporarily unavailable. Your details are saved on this page; please try WhatsApp or retry later.|ارسال ایمیل موقتاً ممکن نیست. اطلاعات شما در این صفحه محفوظ است؛ از واتساپ استفاده کنید یا بعداً تلاش کنید.|د برېښنالیک لېږل اوس ممکن نه دي. معلومات مو په دې پاڼه کې ساتل شوي؛ واټس‌اپ وکاروئ یا وروسته بیا هڅه وکړئ.
+Email sending could not be confirmed. Please retry or send your brief on WhatsApp.|ارسال ایمیل تأیید نشد. دوباره تلاش کنید یا شرح پروژه را در واتساپ بفرستید.|د برېښنالیک لېږل تایید نه شول. بیا هڅه وکړئ یا طرحه په واټس‌اپ واستوئ.
+Rayan Tech Solutions is a software development company in Kabul, Afghanistan. Explore custom software, business systems, web applications, mobile apps, and e-commerce.|رایان تک سولوشنز شرکت توسعه سافت‌ویر در کابل است. سافت‌ویر اختصاصی، سیستم تجاری، برنامه وب، موبایل و تجارت الکترونیکی را ببینید.|رایان ټېک سولوشنز په کابل کې د سافټویر پراختیا شرکت دی. ځانګړی سافټویر، سوداګریز سیسټمونه، وېب، موبایل او برېښنايي سوداګري وګورئ.
+Custom software development, web development in Kabul, mobile applications, business systems, UI/UX, backend engineering, deployment, and ongoing support.|توسعه سافت‌ویر و وب در کابل، اپلیکیشن موبایل، سیستم تجاری، طراحی رابط، انجنیری سرور، استقرار و پشتیبانی دوامدار.|په کابل کې د سافټویر او وېب پراختیا، موبایل اپلېکېشنونه، سوداګریز سیسټمونه، د رابط ډیزاین، بکېنډ انجنیري، ځای پر ځای کول او دوامدار ملاتړ.
+Discuss custom business software for inventory, POS, schools, healthcare, CRM, ERP, accounting, and workflow automation in Afghanistan.|درباره سافت‌ویر اختصاصی موجودی، فروشگاهی، مکتب، خدمات صحی، مدیریت مشتری، ERP، حسابداری و خودکارسازی در افغانستان گفتگو کنید.|په افغانستان کې د زېرمې، POS، ښوونځي، روغتیا، CRM، ERP، حسابدارۍ او د بهیر اتومات کولو د ځانګړي سافټویر په اړه خبرې وکړئ.
+Explore software solution areas for education, healthcare, retail, transport, manufacturing, hospitality, and professional services.|راهکارهای سافت‌ویر آموزش، خدمات صحی، پرچون، ترانسپورت، تولید، هوتلداری و خدمات مسلکی را ببینید.|د ښوونې، روغتیا، پرچون، ترانسپورټ، تولید، مېلمه پالنې او مسلکي خدماتو د سافټویر حل لارې وګورئ.
+Explore BazarAF, school management, tailoring, cargo, healthcare, retail, and other Rayan Tech software projects with clearly labeled concept briefs.|پروژه‌های بازار AF، مکتب، خیاطی، باربری، خدمات صحی و پرچون رایان را همراه طرح‌های مفهومی مشخص‌شده ببینید.|د رایان د BazarAF، ښوونځي، خیاطۍ، بار، روغتیا او پرچون پروژې د څرګندو مفکوروي طرحو ترڅنګ وګورئ.
+Explore Rayan Tech Solutions company software, documented product scope, and customization opportunities.|سافت‌ویر شرکت رایان، محدوده مستند محصول و امکان اختصاصی‌سازی را ببینید.|د رایان شرکت سافټویر، مستند محصولي حدود او د ځانګړي کولو فرصتونه وګورئ.
+Explore Rayan Tech’s documented frontend, backend, mobile, database, cloud, and design capabilities. Technology choices follow the business problem.|توانایی‌های مستند رایان در رابط، سرور، موبایل، دیتابیس، خدمات ابری و طراحی را ببینید. تکنالوژی مطابق مسئله انتخاب می‌شود.|د رایان مستندې د فرنټېنډ، بکېنډ، موبایل، ډیټابېس، کلاوډ او ډیزاین وړتیاوې وګورئ. ټکنالوژي د سوداګریزې ستونزې له مخې ټاکل کېږي.
+Meet the Rayan Tech Solutions team and learn how we approach business requirements, software engineering, design, deployment, and long-term support.|با تیم رایان آشنا شوید و روش بررسی نیاز تجاری، انجنیری سافت‌ویر، طراحی، استقرار و پشتیبانی درازمدت را بشناسید.|له رایان ټیم سره اشنا شئ او د سوداګریزو اړتیاوو، انجنیري، ډیزاین، ځای پر ځای کولو او اوږدمهاله ملاتړ تګلاره وپېژنئ.
+Discuss your software project with Rayan Tech Solutions in Kabul. Tell us about your workflow, industry, requirements, and preferred way to connect.|درباره پروژه سافت‌ویر خود با رایان در کابل گفتگو کنید. روش کار، بخش کاری، نیازها و راه تماس را بگویید.|په کابل کې له رایان سره د خپلې سافټویر پروژې په اړه خبرې وکړئ. کاري بهیر، برخه، اړتیاوې او د اړیکې لاره راته ووایئ.
+How the Rayan Tech Solutions website handles project inquiry information and third-party services.|روش استفاده ویب‌سایت رایان از اطلاعات درخواست پروژه و خدمات بیرونی.|د رایان وېبپاڼه د پروژې د غوښتنې معلومات او بهرني خدمات څنګه اداره کوي.
+Website information, portfolio scope, project agreements, and terms for Rayan Tech Solutions.|اطلاعات ویب‌سایت، محدوده پروژه‌ها، توافق‌ها و شرایط رایان تک سولوشنز.|د رایان ټېک سولوشنز د وېبپاڼې معلومات، د پروژو حدود، تړونونه او شرایط.
+Explore its business context, documented scope, interface gallery, and engineering details.|زمینه تجاری، محدوده مستند، تصاویر رابط و جزئیات انجنیری آن را ببینید.|سوداګریز شالید، مستند حدود، د رابط انځورونه او انجنیري جزئیات یې وګورئ.

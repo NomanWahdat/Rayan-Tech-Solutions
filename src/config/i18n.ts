@@ -1,6 +1,7 @@
 import i18n from 'i18next'
 import { initReactI18next } from 'react-i18next'
 import LanguageDetector from 'i18next-browser-languagedetector'
+import { redesignTranslations } from './redesign-translations'
 
 import commonEn from '../locales/en/common.json'
 import homeEn from '../locales/en/home.json'
@@ -22,6 +23,7 @@ import contactFa from '../locales/fa/contact.json'
 
 const resources = {
   en: {
+    redesign: redesignTranslations.en,
     common: commonEn,
     home: homeEn,
     about: aboutEn,
@@ -29,6 +31,7 @@ const resources = {
     contact: contactEn,
   },
   ps: {
+    redesign: redesignTranslations.ps,
     common: commonPs,
     home: homePs,
     about: aboutPs,
@@ -36,6 +39,7 @@ const resources = {
     contact: contactPs,
   },
   fa: {
+    redesign: redesignTranslations.fa,
     common: commonFa,
     home: homeFa,
     about: aboutFa,
@@ -48,8 +52,11 @@ i18n
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
+    lng: 'en',
+    initAsync: false,
     resources,
     fallbackLng: 'en',
+    supportedLngs: ['en', 'fa', 'ps'],
     defaultNS: 'common',
     interpolation: {
       escapeValue: false,
@@ -60,4 +67,27 @@ i18n
     },
   })
 
+const pendingLanguages = new Map<string, Promise<void>>()
+/** Load detailed copy only for the chosen language; English needs no extra bundle. */
+export function loadWebsiteLanguage(language: string): Promise<void> {
+  if (language === 'en') return Promise.resolve()
+  if (language !== 'fa' && language !== 'ps')
+    return Promise.reject(new Error('Unsupported language'))
+  if (!pendingLanguages.has(language)) {
+    const loading = (
+      language === 'fa'
+        ? import('../locales/fa/website.json')
+        : import('../locales/ps/website.json')
+    )
+      .then((module) => {
+        i18n.addResourceBundle(language, 'website', module.default, true, true)
+      })
+      .catch((error) => {
+        pendingLanguages.delete(language)
+        throw error
+      })
+    pendingLanguages.set(language, loading)
+  }
+  return pendingLanguages.get(language)!
+}
 export default i18n

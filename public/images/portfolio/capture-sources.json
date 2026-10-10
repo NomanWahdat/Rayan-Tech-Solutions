@@ -1,0 +1,290 @@
+[
+  {
+    "slug": "ai-resume-analyzer",
+    "file": "/images/portfolio/ai-resume-analyzer/hero.webp",
+    "capture": "hero",
+    "reviewedOn": "2026-10-10",
+    "kind": "Captured public interface or explicitly supplied demo",
+    "bytes": 32484
+  },
+  {
+    "slug": "ai-resume-analyzer",
+    "file": "/images/portfolio/ai-resume-analyzer/interview.webp",
+    "capture": "interview",
+    "reviewedOn": "2026-10-10",
+    "kind": "Captured public interface or explicitly supplied demo",
+    "bytes": 12072
+  },
+  {
+    "slug": "ai-resume-analyzer",
+    "file": "/images/portfolio/ai-resume-analyzer/resume-analysis.webp",
+    "capture": "job-match",
+    "reviewedOn": "2026-10-10",
+    "kind": "Captured public interface or explicitly supplied demo",
+    "bytes": 34538
+  },
+  {
+    "slug": "ai-resume-analyzer",
+    "file": "/images/portfolio/ai-resume-analyzer/dashboard.webp",
+    "capture": "history",
+    "reviewedOn": "2026-10-10",
+    "kind": "Captured public interface or explicitly supplied demo",
+    "bytes": 27182
+  },
+  {
+    "slug": "bazaaraf",
+    "file": "/images/portfolio/bazaaraf/hero.webp",
+    "capture": "login",
+    "reviewedOn": "2026-10-10",
+    "kind": "Captured public interface or explicitly supplied demo",
+    "bytes": 20940
+  },
+  {
+    "slug": "bazaaraf",
+    "file": "/images/portfolio/bazaaraf/homepage.webp",
+    "capture": "hero",
+    "reviewedOn": "2026-10-10",
+    "kind": "Captured public interface or explicitly supplied demo",
+    "bytes": 61672
+  },
+  {
+    "slug": "school-management-system",
+    "file": "/images/portfolio/school-management-system/hero.webp",
+    "capture": "hero",
+    "reviewedOn": "2026-10-10",
+    "kind": "Captured public interface or explicitly supplied demo",
+    "bytes": 24402
+  },
+  {
+    "slug": "hospital-management-system",
+    "file": "/images/portfolio/hospital-management-system/hero.webp",
+    "capture": "hero",
+    "reviewedOn": "2026-10-10",
+    "kind": "Captured public interface or explicitly supplied demo",
+    "bytes": 118862
+  },
+  {
+    "slug": "hospital-management-system",
+    "file": "/images/portfolio/hospital-management-system/patients.webp",
+    "capture": "patients",
+    "reviewedOn": "2026-10-10",
+    "kind": "Captured public interface or explicitly supplied demo",
+    "bytes": 96974
+  },
+  {
+    "slug": "hospital-management-system",
+    "file": "/images/portfolio/hospital-management-system/appointments.webp",
+    "capture": "appointments",
+    "reviewedOn": "2026-10-10",
+    "kind": "Captured public interface or explicitly supplied demo",
+    "bytes": 96752
+  },
+  {
+    "slug": "hospital-management-system",
+    "file": "/images/portfolio/hospital-management-system/medical-records.webp",
+    "capture": "medical-records",
+    "reviewedOn": "2026-10-10",
+    "kind": "Captured public interface or explicitly supplied demo",
+    "bytes": 96042
+  },
+  {
+    "slug": "hospital-management-system",
+    "file": "/images/portfolio/hospital-management-system/billing.webp",
+    "capture": "billing",
+    "reviewedOn": "2026-10-10",
+    "kind": "Captured public interface or explicitly supplied demo",
+    "bytes": 98574
+  },
+  {
+    "slug": "hospital-management-system",
+    "file": "/images/portfolio/hospital-management-system/pharmacy-inventory.webp",
+    "capture": "inventory",
+    "reviewedOn": "2026-10-10",
+    "kind": "Captured public interface or explicitly supplied demo",
+    "bytes": 117820
+  },
+  {
+    "slug": "pharmacy-management-system",
+    "file": "/images/portfolio/pharmacy-management-system/hero.webp",
+    "capture": "hero",
+    "reviewedOn": "2026-10-10",
+    "kind": "Captured public interface or explicitly supplied demo",
+    "bytes": 20012
+  },
+  {
+    "slug": "tailoring-management-system",
+    "file": "/images/portfolio/tailoring-management-system/hero.webp",
+    "capture": "hero",
+    "reviewedOn": "2026-10-10",
+    "kind": "Captured public interface or explicitly supplied demo",
+    "bytes": 79394
+  },
+  {
+    "slug": "tailoring-management-system",
+    "file": "/images/portfolio/tailoring-management-system/customers.webp",
+    "capture": "customers",
+    "reviewedOn": "2026-10-10",
+    "kind": "Captured public interface or explicitly supplied demo",
+    "bytes": 41172
+  },
+  {
+    "slug": "tailoring-management-system",
+    "file": "/images/portfolio/tailoring-management-system/fabric-inventory.webp",
+    "capture": "inventory",
+    "reviewedOn": "2026-10-10",
+    "kind": "Captured public interface or explicitly supplied demo",
+    "bytes": 71108
+  },
+  {
+    "slug": "tailoring-management-system",
+    "file": "/images/portfolio/tailoring-management-system/reports.webp",
+    "capture": "reports",
+    "reviewedOn": "2026-10-10",
+    "kind": "Captured public interface or explicitly supplied demo",
+    "bytes": 96848
+  },
+  {
+    "slug": "supermarket-management-system",
+    "file": "/images/portfolio/supermarket-management-system/hero.webp",
+    "capture": "hero",
+    "reviewedOn": "2026-10-10",
+    "kind": "Captured public interface or explicitly supplied demo",
+    "bytes": 32364
+  },
+  {
+    "slug": "poultry-feed",
+    "file": "/images/portfolio/poultry-feed/hero.webp",
+    "capture": "hero",
+    "reviewedOn": "2026-10-10",
+    "kind": "Captured public interface or explicitly supplied demo",
+    "bytes": 93110
+  },
+  {
+    "slug": "poultry-feed",
+    "file": "/images/portfolio/poultry-feed/raw-stock.webp",
+    "capture": "inventory",
+    "reviewedOn": "2026-10-10",
+    "kind": "Captured public interface or explicitly supplied demo",
+    "bytes": 112906
+  },
+  {
+    "slug": "poultry-feed",
+    "file": "/images/portfolio/poultry-feed/feed-records.webp",
+    "capture": "feed-records",
+    "reviewedOn": "2026-10-10",
+    "kind": "Captured public interface or explicitly supplied demo",
+    "bytes": 106184
+  },
+  {
+    "slug": "poultry-feed",
+    "file": "/images/portfolio/poultry-feed/sales.webp",
+    "capture": "sales",
+    "reviewedOn": "2026-10-10",
+    "kind": "Captured public interface or explicitly supplied demo",
+    "bytes": 96388
+  },
+  {
+    "slug": "poultry-feed",
+    "file": "/images/portfolio/poultry-feed/reports.webp",
+    "capture": "reports",
+    "reviewedOn": "2026-10-10",
+    "kind": "Captured public interface or explicitly supplied demo",
+    "bytes": 82640
+  },
+  {
+    "slug": "cargo-management-demo",
+    "file": "/images/portfolio/cargo-management-demo/hero.webp",
+    "capture": "hero",
+    "reviewedOn": "2026-10-10",
+    "kind": "Captured public interface or explicitly supplied demo",
+    "bytes": 52356
+  },
+  {
+    "slug": "cargo-management-demo",
+    "file": "/images/portfolio/cargo-management-demo/customer-portal.webp",
+    "capture": "customer-portal",
+    "reviewedOn": "2026-10-10",
+    "kind": "Captured public interface or explicitly supplied demo",
+    "bytes": 36182
+  },
+  {
+    "slug": "cargo-management-demo",
+    "file": "/images/portfolio/cargo-management-demo/branch-access.webp",
+    "capture": "branch-access",
+    "reviewedOn": "2026-10-10",
+    "kind": "Captured public interface or explicitly supplied demo",
+    "bytes": 40030
+  },
+  {
+    "slug": "sahil-gps",
+    "file": "/images/portfolio/sahil-gps/hero.webp",
+    "capture": "hero",
+    "reviewedOn": "2026-10-10",
+    "kind": "Captured public interface or explicitly supplied demo",
+    "bytes": 40786
+  },
+  {
+    "slug": "travel-agency-accounting",
+    "file": "/images/portfolio/travel-agency-accounting/hero.webp",
+    "capture": "hero",
+    "reviewedOn": "2026-10-10",
+    "kind": "Captured public interface or explicitly supplied demo",
+    "bytes": 55834
+  },
+  {
+    "slug": "school-management-system",
+    "file": "/images/portfolio/school-management-system/dashboard.webp",
+    "capture": "Screenshot 2026-10-10 020652.png",
+    "reviewedOn": "2026-10-10",
+    "kind": "Owner-supplied screenshot, matched visually to chat attachment",
+    "bytes": 62546
+  },
+  {
+    "slug": "school-management-system",
+    "file": "/images/portfolio/school-management-system/students.webp",
+    "capture": "Screenshot 2026-10-10 021002.png",
+    "reviewedOn": "2026-10-10",
+    "kind": "Owner-supplied screenshot, matched visually to chat attachment",
+    "bytes": 92526
+  },
+  {
+    "slug": "school-management-system",
+    "file": "/images/portfolio/school-management-system/classes.webp",
+    "capture": "Screenshot 2026-10-10 021026.png",
+    "reviewedOn": "2026-10-10",
+    "kind": "Owner-supplied screenshot, matched visually to chat attachment",
+    "bytes": 49030
+  },
+  {
+    "slug": "school-management-system",
+    "file": "/images/portfolio/school-management-system/teachers.webp",
+    "capture": "Screenshot 2026-10-10 021040.png",
+    "reviewedOn": "2026-10-10",
+    "kind": "Owner-supplied screenshot, matched visually to chat attachment",
+    "bytes": 85246
+  },
+  {
+    "slug": "school-management-system",
+    "file": "/images/portfolio/school-management-system/attendance.webp",
+    "capture": "Screenshot 2026-10-10 021056.png",
+    "reviewedOn": "2026-10-10",
+    "kind": "Owner-supplied screenshot, matched visually to chat attachment",
+    "bytes": 48964
+  },
+  {
+    "slug": "school-management-system",
+    "file": "/images/portfolio/school-management-system/exams.webp",
+    "capture": "Screenshot 2026-10-10 021157.png",
+    "reviewedOn": "2026-10-10",
+    "kind": "Owner-supplied screenshot, matched visually to chat attachment",
+    "bytes": 79492
+  },
+  {
+    "slug": "school-management-system",
+    "file": "/images/portfolio/school-management-system/teacher-dashboard.webp",
+    "capture": "Screenshot 2026-10-10 021419.png",
+    "reviewedOn": "2026-10-10",
+    "kind": "Owner-supplied screenshot, matched visually to chat attachment",
+    "bytes": 54528
+  }
+]
